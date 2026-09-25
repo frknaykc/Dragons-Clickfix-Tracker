@@ -228,3 +228,6 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 20:46:08 UTC,ip,103.30.127[.]84,Injected Host IP,"ASN: METRABYTE-TH - 453 Ladplacout Jorakhaebua, TH",2026-09-25T20:23:06.482Z,https://urlscan.io/result/01a0da3b-d183-75cf-bed8-a4f205690423/
 2026-09-25 20:47:01 UTC,domain,ht-mart[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:57:31.507Z,https://urlscan.io/result/01a0da24-7c08-7109-a1d7-1114b37c4008/
 2026-09-25 20:47:01 UTC,ip,160.153.0[.]199,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-09-25T19:57:31.507Z,https://urlscan.io/result/01a0da24-7c08-7109-a1d7-1114b37c4008/
+2026-09-25 20:51:34 UTC,domain,rfcert[.]com[.]br,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:50:09.631Z,https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/
+2026-09-25 20:51:34 UTC,ip,192.185.213[.]102,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-09-25T20:50:09.631Z,https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/
+2026-09-25 20:51:34 UTC,payload_url,hxxp://ns[.]adobe[.]com/exif/1.0/,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25T20:50:09.631Z,rfcert.com.br

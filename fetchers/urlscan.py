@@ -1,6 +1,7 @@
 import os
 import requests
 import time
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -16,6 +17,26 @@ WHITELIST_DOMAINS = {
     "brew.sh", "docker.com", "rustup.rs", "cloudflare.com",
     "gitlab.com", "bitbucket.org", "mozilla.org", "stackoverflow.com"
 }
+
+def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
+    """
+    Extracts all resolved live C2 domains from the local database
+    to dynamically pivot and hunt for newly infected websites communicating with them.
+    """
+    c2s = set()
+    if os.path.exists(database_file):
+        try:
+            with open(database_file, "r", encoding="utf-8") as f:
+                db = json.load(f)
+                for item in db.values():
+                    c2_url = item.get("live_c2_url")
+                    if c2_url:
+                        clean_dom = c2_url.replace("https://", "").replace("http://", "").split("/")[0].split(":")[0].strip()
+                        if clean_dom and "." in clean_dom:
+                            c2s.add(clean_dom)
+        except Exception:
+            pass
+    return list(c2s)
 
 def search_scans(query: str, size: int = 50):
     """Searches urlscan.io for recent scans matching query"""
@@ -43,17 +64,23 @@ def get_dom(dom_url: str) -> str:
 
 def get_recent_candidates(time_window_minutes: int = 90):
     """
-    Gathers candidate scans using a sliding time window (default 90 minutes)
-    to ensure 100% gapless coverage even across longer intervals.
-    Deduplicates scans and filters whitelisted benign domains.
+    Gathers candidate scans using:
+    1. Global hunting tags (@clickfixhunter, clickfix)
+    2. Heuristic text lures (macOS Terminal, Windows Run)
+    3. Dynamic C2 pivoting (automatically searching for any domain contacting known C2s)
     """
     time_filter = f"date:>now-{time_window_minutes}m AND " if time_window_minutes else ""
 
     queries = [
         f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix")',
-        f'{time_filter}domain:idcool.codes',
         f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))'
     ]
+
+    # Dynamically pivot on active C2 domains extracted from smart contracts / deobfuscation
+    c2_domains = get_known_c2_domains()
+    if c2_domains:
+        c2_part = " OR ".join([f'"{d}"' for d in c2_domains[:5]])
+        queries.append(f'{time_filter}domain:({c2_part})')
 
     candidates = {}
     for q in queries:

@@ -1176,5 +1176,23 @@
     "live_c2_url": null,
     "delivery_url": null,
     "extracted_b64_urls": []
+  },
+  "01a0da54-fb74-7049-8cc3-4df76bd21113": {
+    "scan_id": "01a0da54-fb74-7049-8cc3-4df76bd21113",
+    "domain": "rfcert.com.br",
+    "url": "https://rfcert.com.br/",
+    "ip": "192.185.213.102",
+    "asn": "ORACLE-BMC-31898 - Oracle Corporation, US",
+    "country": "BR",
+    "report_url": "https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/",
+    "first_seen": "2026-09-25T20:50:09.631Z",
+    "is_clearfake": false,
+    "smart_contract": null,
+    "method_hash": null,
+    "live_c2_url": null,
+    "delivery_url": null,
+    "extracted_b64_urls": [
+      "http://ns.adobe.com/exif/1.0/"
+    ]
   }
 }
