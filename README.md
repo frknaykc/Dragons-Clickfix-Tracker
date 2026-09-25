@@ -17,6 +17,8 @@ An automated Cyber Threat Intelligence (CTI) engine that proactively tracks, deo
 
 * 📄 **[LATEST_REPORT.md](LATEST_REPORT.md):** Human-readable threat intelligence briefing of latest observed campaigns.
 * 🛡️ **[data/domains.txt](data/domains.txt):** Clean, deduplicated domain list ready for ingestion into Pi-hole, AdGuard Home, DNS firewalls, and proxy blocklists.
+* 📈 **[data/daily/](data/daily/):** Daily structured CSV exports (`YYYY-MM-DD.csv`) formatted with timestamp, type, indicator, threat type, and reference.
+* 📘 **[DETECTION_CATALOG.md](DETECTION_CATALOG.md):** Catalog of observed obfuscation methods, smart contract C2s, and attack lures.
 * 📦 **[data/iocs.json](data/iocs.json):** Full structured database containing scan UUIDs, timestamps, IPs, ASNs, contracts, and decoded payloads.
 
 ---
@@ -51,7 +53,7 @@ To run this pipeline autonomously:
 3. Add a new repository secret:
    * Name: `URLSCAN_API_KEY`
    * Value: `Your urlscan.io API Key`
-4. The workflow in `.github/workflows/hunter.yml` will run every hour, scan for new campaigns, deobfuscate payloads, and automatically commit the updated feeds!
+4. The workflow in `.github/workflows/hunter.yml` will run every 20 minutes, scan for new campaigns, deobfuscate payloads, and automatically commit the updated feeds!
 
 ---
 *Disclaimer: All indicators are provided strictly for defensive research, threat hunting, and educational purposes.*
