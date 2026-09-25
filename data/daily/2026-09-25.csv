@@ -330,3 +330,8 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 21:35:45 UTC,ip,46.30.215[.]118,Injected Host IP,ASN: AS51468 One.com A/S,2026-09-25T20:56:47.701Z,https://urlscan.io/result/01a0da5b-204c-763e-92c4-708e1b1cd57e/
 2026-09-25 21:35:45 UTC,domain,urdu69[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:45.481Z,https://urlscan.io/result/01a0da5b-15b7-72f6-bea8-615e2478addb/
 2026-09-25 21:35:45 UTC,ip,2a06:98c1:3120::3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-25T20:56:45.481Z,https://urlscan.io/result/01a0da5b-15b7-72f6-bea8-615e2478addb/
+2026-09-25 23:28:38 UTC,domain,idcool[.]codes,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T23:05:35.124Z,https://urlscan.io/result/01a0dad0-a8f5-715e-ad1f-314352ae6a55/
+2026-09-25 23:28:38 UTC,domain,vobemapolska[.]pl,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T22:56:49.595Z,https://urlscan.io/result/01a0dac8-fb63-75c1-ac0f-7ec814ba601c/
+2026-09-25 23:28:38 UTC,ip,185.208.164[.]129,Injected Host IP,ASN: AS41079 Cyber_Folks S.A.,2026-09-25T22:56:49.595Z,https://urlscan.io/result/01a0dac8-fb63-75c1-ac0f-7ec814ba601c/
+2026-09-25 23:28:38 UTC,domain,www[.]jedinstvopd[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T22:56:41.734Z,https://urlscan.io/result/01a0dac8-7095-766c-8b0f-40c5fd51098f/
+2026-09-25 23:28:38 UTC,ip,67.205.3[.]76,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-09-25T22:56:41.734Z,https://urlscan.io/result/01a0dac8-7095-766c-8b0f-40c5fd51098f/
