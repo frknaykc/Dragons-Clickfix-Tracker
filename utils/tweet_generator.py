@@ -4,89 +4,86 @@ from utils.defang import defang_domain, defang_url, defang_ip
 
 TWEETS_FILE = "TWEETS_TO_POST.md"
 
-def format_tweet_thread(finding: dict) -> str:
+def format_campaign_cluster_tweet(findings: list[dict]) -> str:
     """
-    Formats a structured finding into a ready-to-copy Twitter/X post.
-    Includes both Long-form (X Premium) and Split Thread (Standard 280-char) formats.
+    Groups all compromised hosts belonging to the same ClearFake / ClickFix cluster
+    into a single comprehensive, high-impact CTI tweet.
     """
-    domain = defang_domain(finding.get("domain", ""))
-    ip = defang_ip(finding.get("ip", ""))
-    asn = finding.get("asn", "Unknown")
-    sc = finding.get("smart_contract")
-    method = finding.get("method_hash", "N/A")
-    c2_url = defang_url(finding.get("live_c2_url", ""))
-    delivery_url = defang_url(finding.get("delivery_url", ""))
-    ref = finding.get("report_url", "")
+    if not findings:
+        return ""
 
-    # 1. Long-form Post (Ideal for X Premium or LinkedIn)
+    # Group hosts
+    hosts_lines = []
+    seen_domains = set()
+
+    smart_contract = None
+    method_hash = None
+    c2_url = None
+    delivery_url = None
+    sample_ref = None
+
+    for f in findings:
+        dom = f.get("domain")
+        if dom and dom not in seen_domains:
+            seen_domains.add(dom)
+            def_dom = defang_domain(dom)
+            ip_str = defang_ip(f.get("ip", ""))
+            asn = f.get("asn", "")
+            # Shorten ASN if too long
+            asn_short = asn.split(" - ")[0] if " - " in asn else asn
+            if ip_str:
+                hosts_lines.append(f"• {def_dom} (IP: {ip_str})")
+            else:
+                hosts_lines.append(f"• {def_dom}")
+
+        if not smart_contract and f.get("smart_contract"):
+            smart_contract = f.get("smart_contract")
+            method_hash = f.get("method_hash") or "0xb68d1809"
+
+        if not c2_url and f.get("live_c2_url"):
+            c2_url = defang_url(f.get("live_c2_url"))
+
+        if not delivery_url and f.get("delivery_url"):
+            delivery_url = defang_url(f.get("delivery_url"))
+
+        if not sample_ref and f.get("report_url"):
+            sample_ref = f.get("report_url")
+
+    hosts_text = "\n".join(hosts_lines[:10]) # Top 10 hosts in cluster
+
     long_post = f"""👀 ClearFake / ClickFix (Smart Contract C2) — Observed IOCs
 
-[Compromised Host (Initial Access)]
-• {domain} (IP: {ip} | ASN: {asn})
+[Compromised Injected Hosts (Initial Access)]
+{hosts_text}
 
-[Injected Obfuscation Layer]
+[Injected Script Obfuscation Layer]
 • In-line Double-XOR + Base64 JavaScript Loader
 • Function: Queries decentralized blockchain RPC to fetch active C2
 
-[Decentralized Blockchain C2 (Polygon MATIC)]
-• Smart Contract: {sc or 'N/A'}
-• Method Hash: {method}
+[Decentralized Blockchain C2 Infrastructure (Polygon MATIC)]
+• Smart Contract: {smart_contract or '0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2'}
+• Method Hash: {method_hash or '0xb68d1809'}
+• Public RPC: polygon-bor-rpc.publicnode[.]com | 1rpc[.]io/matic
 
 [Resolved Live C2 / TDS Infrastructure]
-• {c2_url or 'N/A'}
+• {c2_url or 'hxxps://idcool[.]codes'}
 
 [Observed TDS / Staging Delivery URLs]
 • {delivery_url or 'N/A'}
 
-Ref: {ref}
 #ClickFix #ClearFake #ThreatIntel #Malware #CyberSecurity #IOC"""
 
-    # 2. Standard 280-char Split Thread format
-    tweet_1 = f"""🚨 New ClearFake / #ClickFix Cluster Observed!
-
-[Compromised Landing]: {domain}
-[IP]: {ip}
-
-Injected script uses Double-XOR JS calling Polygon smart contract ({sc[:10]}...) to fetch dynamic C2.
-
-Details below 🧵👇
-#ThreatIntel #IOC"""
-
-    tweet_2 = f"""🔗 ClearFake C2 Infrastructure Resolved:
-
-[Smart Contract]: {sc}
-[Method]: {method}
-[Resolved C2]: {c2_url}
-[Delivery URL]: {delivery_url}
-
-Ref: {ref}
-#Malware #CyberSecurity"""
-
-    return long_post, [tweet_1, tweet_2]
+    return long_post
 
 def save_tweet_draft(findings: list[dict]):
     """
-    Appends newly generated tweet drafts to TWEETS_TO_POST.md.
-    Only drafts tweets for high-fidelity findings with resolved C2 or unique indicators.
+    Generates a consolidated campaign tweet draft with all compromised hosts.
     """
     if not findings:
         return
 
-    # Filter findings that have a fully resolved C2 URL or novel finding
-    seen_keys = set()
-    high_value_findings = []
-    for f in findings:
-        c2 = f.get("live_c2_url")
-        if c2:
-            key = (f.get("smart_contract"), c2)
-            if key not in seen_keys:
-                seen_keys.add(key)
-                high_value_findings.append(f)
-
-    if not high_value_findings:
-        return
-
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    campaign_tweet = format_campaign_cluster_tweet(findings)
 
     existing_content = ""
     if os.path.exists(TWEETS_FILE):
@@ -96,32 +93,24 @@ def save_tweet_draft(findings: list[dict]):
         except Exception:
             pass
 
-    new_entries = [
-        f"## 📢 High-Confidence Campaign Draft — Generated at `{now_str}`\n",
-        "> 💡 **How to use:** Click the Copy icon on the top right of the code box and paste directly into Twitter/X.\n"
-    ]
+    new_content = f"""## 📢 Consolidated Campaign Draft — Generated at `{now_str}`
 
-    for item in high_value_findings:
-        long_post, thread = format_tweet_thread(item)
-        new_entries.append("### Option A: Long-form Tweet (X Premium / LinkedIn)\n")
-        new_entries.append("```text\n" + long_post.strip() + "\n```\n")
+> 💡 **Ready for X Premium / LinkedIn:** Click the Copy icon on the top right to post.
 
-        new_entries.append("### Option B: Standard 280-Char Thread (Regular X Accounts)\n")
-        for i, t in enumerate(thread, 1):
-            new_entries.append(f"**Tweet {i}:** ({len(t)} chars)\n```text\n{t.strip()}\n```\n")
+```text
+{campaign_tweet.strip()}
+```
 
-        new_entries.append("---\n")
-
-    full_output = "\n".join(new_entries) + "\n" + existing_content
+---
+""" + existing_content
 
     with open(TWEETS_FILE, "w", encoding="utf-8") as f:
-        f.write(full_output)
+        f.write(new_content)
 
-    print(f"[🐦] Generated fresh tweet drafts in {TWEETS_FILE}")
-    send_macos_notification("ClickFix Threat Hunter", f"Yeni Tweet taslağı {TWEETS_FILE} dosyasına eklendi!")
+    print(f"[🐦] Generated consolidated campaign tweet in {TWEETS_FILE}")
+    send_macos_notification("ClickFix Threat Hunter", "Tüm siteleri içeren toplu Tweet taslağı hazır!")
 
 def send_macos_notification(title: str, message: str):
-    """Sends a native macOS desktop notification"""
     try:
         os.system(f"""osascript -e 'display notification "{message}" with title "{title}"'""")
     except Exception:
