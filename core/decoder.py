@@ -101,8 +101,8 @@ class PayloadDecoder:
 
             # Extract smart contract (0x...) and method
             contract_match = re.search(r'(0x[a-fA-F0-9]{40})', deobfuscated_js)
-            method_match = re.search(r'_rfoqt\s*=\s*[\'"]([a-fA-F0-9]{8})[\'"]', deobfuscated_js)
-            secret_match = re.search(r'_muqfku\s*=\s*[\'"]([a-fA-F0-9]+)[\'"]', deobfuscated_js)
+            method_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{8})[\'"]', deobfuscated_js)
+            secret_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{32,64})[\'"]', deobfuscated_js)
 
             if contract_match:
                 result["smart_contract"] = contract_match.group(1)
