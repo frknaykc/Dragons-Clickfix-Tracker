@@ -1,7 +1,10 @@
 import os
 import json
+import socket
 from datetime import datetime, timezone
 from fetchers.urlscan import get_recent_candidates, get_dom
+from fetchers.urlhaus import fetch_urlhaus_recent
+from enrichers.geoip import GeoIPEnricher
 from core.decoder import PayloadDecoder
 from core.catalog import DetectionCatalog
 from utils.defang import defang_url, defang_domain, defang_ip
@@ -54,7 +57,14 @@ def generate_markdown_report(new_findings):
     for item in new_findings:
         defanged_dom = defang_domain(item.get("domain", ""))
         defanged_ip_str = defang_ip(item.get("ip", ""))
-        report.append(f"* `{defanged_dom}` *(IP: {defanged_ip_str} | ASN: {item.get('asn', 'Unknown')})*")
+        location_parts = []
+        if item.get("city"):
+            location_parts.append(item["city"])
+        if item.get("country"):
+            location_parts.append(item["country"])
+        loc_str = ", ".join(location_parts) if location_parts else "Unknown"
+
+        report.append(f"* `{defanged_dom}` *(IP: {defanged_ip_str} | Loc: {loc_str} | ASN: {item.get('asn', 'Unknown')})*")
 
     smart_contracts = set()
     c2_urls = set()
@@ -102,23 +112,43 @@ def generate_markdown_report(new_findings):
 
 def run_pipeline():
     print("[*] Starting ClickFix Hunting Pipeline...")
-    # Initialize / refresh technique catalog
     DetectionCatalog.save_catalog(DetectionCatalog.load_catalog())
 
     db = load_database()
     candidates = get_recent_candidates()
-    print(f"[+] Total candidates fetched: {len(candidates)}")
+    print(f"[+] URLScan candidates fetched: {len(candidates)}")
 
+    # 1. Fetch from URLhaus (abuse.ch)
+    print("[*] Querying URLhaus (abuse.ch) recent feed...")
+    urlhaus_candidates = fetch_urlhaus_recent(limit=30)
+    print(f"[+] URLhaus candidates fetched: {len(urlhaus_candidates)}")
+
+    all_candidates = candidates + urlhaus_candidates
     new_findings = []
 
-    for c in candidates:
+    for c in all_candidates:
         scan_id = c["scan_id"]
         domain = c["domain"]
 
-        if scan_id in db:
+        if scan_id in db or (domain and any(item.get("domain") == domain for item in db.values())):
             continue
 
-        print(f"[*] Analyzing scan: {domain} ({scan_id})...")
+        ip = c.get("ip")
+        # Resolve IP if missing
+        if not ip and domain:
+            try:
+                ip = socket.gethostbyname(domain)
+            except Exception:
+                pass
+
+        # Enrich with GeoIP (ip-api.com)
+        geo = GeoIPEnricher.enrich_ip(ip) if ip else {}
+        city = geo.get("city")
+        country = geo.get("country") or c.get("country")
+        isp = geo.get("isp")
+        asn = geo.get("as") or c.get("asn")
+
+        print(f"[*] Analyzing candidate: {domain} ({scan_id})...")
         dom_url = c.get("dom_url")
         dom = get_dom(dom_url) if dom_url else ""
 
@@ -128,16 +158,23 @@ def run_pipeline():
         ps_urls = PayloadDecoder.decode_powershell(dom) if dom else []
 
         extracted_urls = list(set(b64_urls + ps_urls))
+        # If candidate came from URLhaus, include its payload URL
+        if c.get("source") == "abuse.ch (URLhaus)" and c.get("url"):
+            extracted_urls.append(c["url"])
 
         finding = {
             "scan_id": scan_id,
             "domain": domain,
             "url": c.get("url"),
-            "ip": c.get("ip"),
-            "asn": c.get("asn"),
-            "country": c.get("country"),
+            "ip": ip,
+            "city": city,
+            "country": country,
+            "isp": isp,
+            "asn": asn,
+            "source": c.get("source", "urlscan.io"),
+            "threat_type": c.get("threat_type", "Compromised Host / Lure Page"),
             "report_url": c.get("report_url"),
-            "first_seen": c.get("time"),
+            "first_seen": c.get("first_seen") or c.get("time"),
             "is_clearfake": clearfake_res.get("is_clearfake", False),
             "smart_contract": clearfake_res.get("smart_contract"),
             "method_hash": clearfake_res.get("method_hash"),

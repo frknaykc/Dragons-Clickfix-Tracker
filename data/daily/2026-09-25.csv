@@ -231,3 +231,64 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 20:51:34 UTC,domain,rfcert[.]com[.]br,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:50:09.631Z,https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/
 2026-09-25 20:51:34 UTC,ip,192.185.213[.]102,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-09-25T20:50:09.631Z,https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/
 2026-09-25 20:51:34 UTC,payload_url,hxxp://ns[.]adobe[.]com/exif/1.0/,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25T20:50:09.631Z,rfcert.com.br
+2026-09-25 20:56:05 UTC,domain,94[.]154[.]43[.]253,Compromised Host / Lure Page,urlscan telemetry,2026-09-25 13:30:22,https://urlhaus.abuse.ch/url/3922607/
+2026-09-25 20:56:05 UTC,ip,94.154.43[.]253,Injected Host IP,ASN: AS219502 Storm Industries LLC,2026-09-25 13:30:22,https://urlhaus.abuse.ch/url/3922607/
+2026-09-25 20:56:05 UTC,payload_url,hxxp://94[.]154[.]43[.]253/bot_x86.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25 13:30:22,94.154.43.253
+2026-09-25 20:56:05 UTC,domain,github[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25 06:23:21,https://urlhaus.abuse.ch/url/3922446/
+2026-09-25 20:56:05 UTC,ip,140.82.121[.]4,Injected Host IP,"ASN: AS36459 GitHub, Inc.",2026-09-25 06:23:21,https://urlhaus.abuse.ch/url/3922446/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://github[.]com/indirect-syscall/test/releases/download/2134252/over32.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25 06:23:21,github.com
+2026-09-25 20:56:05 UTC,domain,sail[.]autolabsouthgate[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25 06:23:15,https://urlhaus.abuse.ch/url/3922441/
+2026-09-25 20:56:05 UTC,ip,104.21.51[.]96,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-25 06:23:15,https://urlhaus.abuse.ch/url/3922441/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://sail[.]autolabsouthgate[.]com/update.ps1,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25 06:23:15,sail.autolabsouthgate.com
+2026-09-25 20:56:05 UTC,domain,nordertextil[.]de,Compromised Host / Lure Page,urlscan telemetry,2026-09-25 06:23:13,https://urlhaus.abuse.ch/url/3922429/
+2026-09-25 20:56:05 UTC,ip,94.156.152[.]24,Injected Host IP,ASN: AS214209 Internet Magnate (Pty) Ltd,2026-09-25 06:23:13,https://urlhaus.abuse.ch/url/3922429/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://nordertextil[.]de/room,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25 06:23:13,nordertextil.de
+2026-09-25 20:56:05 UTC,domain,fastsrunners[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-24 11:51:22,https://urlhaus.abuse.ch/url/3922048/
+2026-09-25 20:56:05 UTC,ip,198.54.115[.]158,Injected Host IP,"ASN: AS22612 Namecheap, Inc.",2026-09-24 11:51:22,https://urlhaus.abuse.ch/url/3922048/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://fastsrunners[.]com/SecondRunner.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-24 11:51:22,fastsrunners.com
+2026-09-25 20:56:05 UTC,domain,fullinstall[.]sbs,Compromised Host / Lure Page,urlscan telemetry,2026-09-24 06:03:16,https://urlhaus.abuse.ch/url/3921925/
+2026-09-25 20:56:05 UTC,ip,104.21.96[.]57,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-24 06:03:16,https://urlhaus.abuse.ch/url/3921925/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://fullinstall[.]sbs/0924.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-24 06:03:16,fullinstall.sbs
+2026-09-25 20:56:05 UTC,domain,letsupconfig[.]sbs,Compromised Host / Lure Page,urlscan telemetry,2026-09-23 22:01:20,https://urlhaus.abuse.ch/url/3921767/
+2026-09-25 20:56:05 UTC,ip,172.67.222[.]250,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-23 22:01:20,https://urlhaus.abuse.ch/url/3921767/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://letsupconfig[.]sbs/0921.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-23 22:01:20,letsupconfig.sbs
+2026-09-25 20:56:05 UTC,domain,kupunasvolpiano[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-23 17:06:19,https://urlhaus.abuse.ch/url/3921684/
+2026-09-25 20:56:05 UTC,ip,77.37.50[.]242,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-09-23 17:06:19,https://urlhaus.abuse.ch/url/3921684/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://kupunasvolpiano[.]com/g/static/s/cinzel/v23/Taskforce.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-23 17:06:19,kupunasvolpiano.com
+2026-09-25 20:56:05 UTC,domain,journeylake11[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-23 15:49:29,https://urlhaus.abuse.ch/url/3921672/
+2026-09-25 20:56:05 UTC,ip,172.67.214[.]147,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-23 15:49:29,https://urlhaus.abuse.ch/url/3921672/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://journeylake11[.]com/curl/fh3ddf2xv6k/hilhg0wgie4tsjo9vi.txt,Second Stage Payload,Base64 / PowerShell decoding,2026-09-23 15:49:29,journeylake11.com
+2026-09-25 20:56:05 UTC,domain,spitandmalachite[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-23 07:22:14,https://urlhaus.abuse.ch/url/3921350/
+2026-09-25 20:56:05 UTC,ip,100.56.237[.]146,Injected Host IP,"ASN: AS14618 Amazon.com, Inc.",2026-09-23 07:22:14,https://urlhaus.abuse.ch/url/3921350/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://spitandmalachite[.]com/rqs,Second Stage Payload,Base64 / PowerShell decoding,2026-09-23 07:22:14,spitandmalachite.com
+2026-09-25 20:56:05 UTC,domain,193[.]178[.]158[.]107,Compromised Host / Lure Page,urlscan telemetry,2026-09-23 00:02:16,https://urlhaus.abuse.ch/url/3921213/
+2026-09-25 20:56:05 UTC,ip,193.178.158[.]107,Injected Host IP,ASN: AS201738 UFO TECHNOLOGIES LIMITED,2026-09-23 00:02:16,https://urlhaus.abuse.ch/url/3921213/
+2026-09-25 20:56:05 UTC,payload_url,hxxp://193[.]178[.]158[.]107/bin/1f1974ee5c566e5a_1.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-23 00:02:16,193.178.158.107
+2026-09-25 20:56:05 UTC,domain,zaluposs[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-22 13:44:25,https://urlhaus.abuse.ch/url/3920933/
+2026-09-25 20:56:05 UTC,ip,104.21.79[.]203,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-22 13:44:25,https://urlhaus.abuse.ch/url/3920933/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://zaluposs[.]com/check/update.ps1,Second Stage Payload,Base64 / PowerShell decoding,2026-09-22 13:44:25,zaluposs.com
+2026-09-25 20:56:05 UTC,domain,basequill9[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-22 05:11:19,https://urlhaus.abuse.ch/url/3920459/
+2026-09-25 20:56:05 UTC,ip,172.67.156[.]243,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-22 05:11:19,https://urlhaus.abuse.ch/url/3920459/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://basequill9[.]com/curl/av6t87xg9gon/ahlg4goj9kfsh1itrutp47.dat,Second Stage Payload,Base64 / PowerShell decoding,2026-09-22 05:11:19,basequill9.com
+2026-09-25 20:56:05 UTC,domain,yoauction[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-22 05:04:14,https://urlhaus.abuse.ch/url/3920437/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://yoauction[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e,Second Stage Payload,Base64 / PowerShell decoding,2026-09-22 05:04:14,yoauction.com
+2026-09-25 20:56:05 UTC,domain,zanderrealestate[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-22 05:04:12,https://urlhaus.abuse.ch/url/3920436/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://zanderrealestate[.]com/curl/85cb26206d920216eee0c5f67e8de516b4d55bd1752025bb3c08a069a44fdbdf,Second Stage Payload,Base64 / PowerShell decoding,2026-09-22 05:04:12,zanderrealestate.com
+2026-09-25 20:56:05 UTC,domain,91[.]92[.]242[.]236,Compromised Host / Lure Page,urlscan telemetry,2026-09-21 13:00:18,https://urlhaus.abuse.ch/url/3919985/
+2026-09-25 20:56:05 UTC,ip,91.92.242[.]236,Injected Host IP,ASN: AS202412 Omegatech LTD,2026-09-21 13:00:18,https://urlhaus.abuse.ch/url/3919985/
+2026-09-25 20:56:05 UTC,payload_url,hxxp://91[.]92[.]242[.]236/files-129312398/files/file_1532c81514d47461.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-21 13:00:18,91.92.242.236
+2026-09-25 20:56:05 UTC,domain,entry-code-cdn[.]codes,Compromised Host / Lure Page,urlscan telemetry,2026-09-21 11:15:35,https://urlhaus.abuse.ch/url/3919946/
+2026-09-25 20:56:05 UTC,ip,178.16.52[.]101,Injected Host IP,ASN: AS202412 Omegatech LTD,2026-09-21 11:15:35,https://urlhaus.abuse.ch/url/3919946/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://entry-code-cdn[.]codes/9e6a18e1d27bc17d,Second Stage Payload,Base64 / PowerShell decoding,2026-09-21 11:15:35,entry-code-cdn.codes
+2026-09-25 20:56:05 UTC,domain,proalamir[.]dz,Compromised Host / Lure Page,urlscan telemetry,2026-09-21 07:07:27,https://urlhaus.abuse.ch/url/3919763/
+2026-09-25 20:56:05 UTC,ip,80.96.109[.]8,Injected Host IP,ASN: AS48753 AVA HOST SRL,2026-09-21 07:07:27,https://urlhaus.abuse.ch/url/3919763/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://proalamir[.]dz/dl/dA2otSYgVZRH.7z,Second Stage Payload,Base64 / PowerShell decoding,2026-09-21 07:07:27,proalamir.dz
+2026-09-25 20:56:05 UTC,domain,kineticlenz[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-21 07:07:19,https://urlhaus.abuse.ch/url/3919757/
+2026-09-25 20:56:05 UTC,ip,1.1.1[.]1,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-21 07:07:19,https://urlhaus.abuse.ch/url/3919757/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://kineticlenz[.]com/gg.ps1,Second Stage Payload,Base64 / PowerShell decoding,2026-09-21 07:07:19,kineticlenz.com
+2026-09-25 20:56:05 UTC,domain,the[.]earth[.]li,Compromised Host / Lure Page,urlscan telemetry,2026-09-20 05:32:11,https://urlhaus.abuse.ch/url/3919197/
+2026-09-25 20:56:05 UTC,ip,93.93.131[.]124,Injected Host IP,ASN: AS44684 Mythic Beasts Ltd,2026-09-20 05:32:11,https://urlhaus.abuse.ch/url/3919197/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://the[.]earth[.]li/~sgtatham/putty/0.85/w64/putty.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-20 05:32:11,the.earth.li
+2026-09-25 20:56:05 UTC,domain,forgewillow[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-20 05:32:10,https://urlhaus.abuse.ch/url/3919196/
+2026-09-25 20:56:05 UTC,ip,104.21.24[.]183,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-20 05:32:10,https://urlhaus.abuse.ch/url/3919196/
+2026-09-25 20:56:05 UTC,payload_url,hxxps://forgewillow[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update,Second Stage Payload,Base64 / PowerShell decoding,2026-09-20 05:32:10,forgewillow.com
