@@ -1,5 +1,5 @@
 # 👀 ClickFix / ClearFake Intelligence Feed
-**Last Updated:** `2026-09-25 17:45:27 UTC`
+**Last Updated:** `2026-09-25 17:48:05 UTC`
 
 ---
 ### [Compromised Injected Hosts (Initial Access)]
@@ -29,7 +29,6 @@
 
 ---
 ### [Decoded Payload / Download URLs]
-* `hxxp://www[.]w3[.]org/2000/svg`
 * `hxxps://ucc-tr[.]com:443`
 
 ---

@@ -95,9 +95,7 @@
     "method_hash": null,
     "live_c2_url": null,
     "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://www.w3.org/2000/svg"
-    ]
+    "extracted_b64_urls": []
   },
   "01a0d980-d7df-7385-983d-4e573d3cc66f": {
     "scan_id": "01a0d980-d7df-7385-983d-4e573d3cc66f",
@@ -145,9 +143,7 @@
     "method_hash": null,
     "live_c2_url": null,
     "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://www.w3.org/2000/svg"
-    ]
+    "extracted_b64_urls": []
   },
   "01a0d980-b47d-7564-b439-c6b6930ad511": {
     "scan_id": "01a0d980-b47d-7564-b439-c6b6930ad511",

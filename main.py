@@ -1,9 +1,11 @@
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from fetchers.urlscan import get_recent_candidates, get_dom
 from core.decoder import PayloadDecoder
+from core.catalog import DetectionCatalog
 from utils.defang import defang_url, defang_domain, defang_ip
+from utils.csv_exporter import export_to_daily_csv
 
 DATABASE_FILE = "data/iocs.json"
 DOMAINS_FILE = "data/domains.txt"
@@ -41,7 +43,6 @@ def generate_markdown_report(new_findings):
     if not new_findings:
         return
 
-    from datetime import timezone
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     report = [
         f"# 👀 ClickFix / ClearFake Intelligence Feed",
@@ -101,6 +102,9 @@ def generate_markdown_report(new_findings):
 
 def run_pipeline():
     print("[*] Starting ClickFix Hunting Pipeline...")
+    # Initialize / refresh technique catalog
+    DetectionCatalog.save_catalog(DetectionCatalog.load_catalog())
+
     db = load_database()
     candidates = get_recent_candidates()
     print(f"[+] Total candidates fetched: {len(candidates)}")
@@ -142,6 +146,20 @@ def run_pipeline():
             "extracted_b64_urls": extracted_urls
         }
 
+        # Check if finding reveals a new contract or technique to catalog
+        if clearfake_res.get("smart_contract"):
+            sc = clearfake_res["smart_contract"]
+            m = clearfake_res.get("method_hash", "unknown")
+            tech_id = f"contract_{sc.lower()[:10]}_{m}"
+            DetectionCatalog.register_technique(
+                tech_id=tech_id,
+                category="Blockchain C2",
+                name=f"Smart Contract Instance: {sc[:12]}...",
+                signature=f"Contract: {sc} (Method: {m})",
+                sample=domain,
+                description=f"Active Polygon smart contract observed resolving live C2 {clearfake_res.get('live_c2_url')}."
+            )
+
         db[scan_id] = finding
         new_findings.append(finding)
 
@@ -151,7 +169,12 @@ def run_pipeline():
     save_database(db)
     update_domains_list(db)
     generate_markdown_report(list(db.values()))
-    print(f"[+] Done! Processed {len(new_findings)} new findings. Reports updated.")
+
+    # Export newly discovered findings into daily CSV
+    if new_findings:
+        export_to_daily_csv(new_findings)
+
+    print(f"[+] Done! Processed {len(new_findings)} new findings. Daily CSV and Reports updated.")
 
 if __name__ == "__main__":
     run_pipeline()

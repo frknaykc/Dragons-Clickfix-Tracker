@@ -1,0 +1,65 @@
+[
+  {
+    "id": "query_clickfixhunter_tag",
+    "category": "Hunting Trigger",
+    "name": "URLScan Telemetry Tag: @clickfixhunter",
+    "signature": "task.tags:\"@clickfixhunter\"",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "ucc-tr.com",
+    "description": "Public threat hunting telemetry tracking in-the-wild compromised WordPress/corporate sites serving ClickFix."
+  },
+  {
+    "id": "clearfake_double_xor",
+    "category": "Obfuscation",
+    "name": "ClearFake Double-XOR + Base64 JS Loader",
+    "signature": "fromCharCode(arr[i] ^ key1) -> atob -> charCodeAt(i) ^ key2 -> (new Function(code))()",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "ucc-tr.com",
+    "description": "Injected JavaScript unpacks via double XOR operations with dynamically assigned integer keys to evade static AV."
+  },
+  {
+    "id": "polygon_smart_contract_c2",
+    "category": "Blockchain C2",
+    "name": "Polygon (MATIC) Smart Contract eth_call C2 Resolver",
+    "signature": "eth_call to 0x... with 4-byte method hash (e.g. 0xb68d1809)",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2",
+    "description": "Threat actors host the current active C2/TDS domain in EVM smart contract storage to survive domain take-downs."
+  },
+  {
+    "id": "base64_url_signature",
+    "category": "Payload Encoding",
+    "name": "Base64 Universal HTTP/HTTPS Signature",
+    "signature": "aHR0cHM6Ly (https://) or aHR0cDov (http://)",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "Various",
+    "description": "Extracts raw download/payload links obfuscated in base64 within scripts, clipboard buffers, or HTML elements."
+  },
+  {
+    "id": "macos_bash_terminal_lure",
+    "category": "Social Engineering",
+    "name": "macOS Spotlight + Terminal Installation Lure",
+    "signature": "Command (⌘) + Space -> Terminal -> curl -s ... | bash",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "fileonyxzone.com / filecobaltgate.com",
+    "description": "Fakes GitHub/software release page, instructing Mac users to run curl piped into bash to infect macOS."
+  },
+  {
+    "id": "contract_0xb6bc9e1d_0xb68d1809",
+    "category": "Blockchain C2",
+    "name": "Smart Contract Instance: 0xB6bC9e1D0b...",
+    "signature": "Contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 (Method: 0xb68d1809)",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "ucc-tr.com",
+    "description": "Active Polygon smart contract observed resolving live C2 https://idcool.codes."
+  },
+  {
+    "id": "contract_0xb6bc9e1d_None",
+    "category": "Blockchain C2",
+    "name": "Smart Contract Instance: 0xB6bC9e1D0b...",
+    "signature": "Contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 (Method: None)",
+    "first_observed": "2026-09-25",
+    "sample_indicator": "uberrichinfatcity.com",
+    "description": "Active Polygon smart contract observed resolving live C2 None."
+  }
+]

@@ -1,0 +1,25 @@
+timestamp,type,indicator,threat_type,detection_method,first_seen,reference
+2026-09-25 17:48:05 UTC,domain,ucc-tr[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:43.638Z,https://urlscan.io/result/01a0d980-cbce-7238-a47d-e2023785a21a/
+2026-09-25 17:48:05 UTC,ip,160.153.0[.]62,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-09-25T16:58:43.638Z,https://urlscan.io/result/01a0d980-cbce-7238-a47d-e2023785a21a/
+2026-09-25 17:48:05 UTC,smart_contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Decentralized C2 (Polygon),ClearFake Double-XOR (Method: 0xb68d1809),2026-09-25T16:58:43.638Z,ucc-tr.com
+2026-09-25 17:48:05 UTC,c2_url,hxxps://idcool[.]codes,Resolved ClearFake C2,Blockchain eth_call extraction,2026-09-25T16:58:43.638Z,ucc-tr.com
+2026-09-25 17:48:05 UTC,delivery_url,hxxps://idcool[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2,TDS Staging Script,ClearFake Secret extraction,2026-09-25T16:58:43.638Z,ucc-tr.com
+2026-09-25 17:48:05 UTC,payload_url,hxxps://ucc-tr[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25T16:58:43.638Z,ucc-tr.com
+2026-09-25 17:48:05 UTC,domain,uberrichinfatcity[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:36.455Z,https://urlscan.io/result/01a0d980-c596-72a9-8fc6-1b5be21a5f76/
+2026-09-25 17:48:05 UTC,ip,159.203.141[.]19,Injected Host IP,"ASN: DIGITALOCEAN-ASN - DigitalOcean, LLC, US",2026-09-25T16:58:36.455Z,https://urlscan.io/result/01a0d980-c596-72a9-8fc6-1b5be21a5f76/
+2026-09-25 17:48:05 UTC,domain,unicarsistem[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:28.092Z,https://urlscan.io/result/01a0d980-e484-74de-baf5-e291708ef99a/
+2026-09-25 17:48:05 UTC,ip,5.79.120[.]154,Injected Host IP,"ASN: LEASEWEB-NL-AMS-01 LeaseWeb Netherlands B.V., NL",2026-09-25T16:58:28.092Z,https://urlscan.io/result/01a0d980-e484-74de-baf5-e291708ef99a/
+2026-09-25 17:48:05 UTC,domain,umojn[.]edu[.]ni,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:26.435Z,https://urlscan.io/result/01a0d980-e9f6-709a-b384-00bd323c926c/
+2026-09-25 17:48:05 UTC,ip,144.126.133[.]133,Injected Host IP,"ASN: CONTABO-40021 - Contabo Inc., US",2026-09-25T16:58:26.435Z,https://urlscan.io/result/01a0d980-e9f6-709a-b384-00bd323c926c/
+2026-09-25 17:48:05 UTC,domain,unitedmovingusa[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:26.100Z,https://urlscan.io/result/01a0d980-de42-74ca-81e9-e3ad05fc826b/
+2026-09-25 17:48:05 UTC,ip,162.241.217[.]117,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-09-25T16:58:26.100Z,https://urlscan.io/result/01a0d980-de42-74ca-81e9-e3ad05fc826b/
+2026-09-25 17:48:05 UTC,domain,ubgeneraltrading[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:25.775Z,https://urlscan.io/result/01a0d980-c152-70cf-94a0-d6c685a1c1cc/
+2026-09-25 17:48:05 UTC,ip,162.241.216[.]86,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-09-25T16:58:25.775Z,https://urlscan.io/result/01a0d980-c152-70cf-94a0-d6c685a1c1cc/
+2026-09-25 17:48:05 UTC,domain,unitedpowerprojects[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:23.633Z,https://urlscan.io/result/01a0d980-d7df-7385-983d-4e573d3cc66f/
+2026-09-25 17:48:05 UTC,ip,82.25.127[.]247,Injected Host IP,"ASN: AS-HOSTINGER Hostinger International Limited, CY",2026-09-25T16:58:23.633Z,https://urlscan.io/result/01a0d980-d7df-7385-983d-4e573d3cc66f/
+2026-09-25 17:48:05 UTC,domain,unitedtransport[.]co[.]in,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:22.604Z,https://urlscan.io/result/01a0d980-d1ba-72e3-b6d9-987d9afcbf50/
+2026-09-25 17:48:05 UTC,ip,2a02:4780:11:1427:0:236d:9f44:10,Injected Host IP,"ASN: AS-HOSTINGER Hostinger International Limited, CY",2026-09-25T16:58:22.604Z,https://urlscan.io/result/01a0d980-d1ba-72e3-b6d9-987d9afcbf50/
+2026-09-25 17:48:05 UTC,domain,www[.]vault55[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:19.857Z,https://urlscan.io/result/01a0d980-a350-75e1-b0b3-caf7f6612f51/
+2026-09-25 17:48:05 UTC,ip,69.163.179[.]165,Injected Host IP,"ASN: DREAMHOST-AS - New Dream Network, LLC, US",2026-09-25T16:58:19.857Z,https://urlscan.io/result/01a0d980-a350-75e1-b0b3-caf7f6612f51/
+2026-09-25 17:48:05 UTC,domain,vbbs[.]edu[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T16:58:18.977Z,https://urlscan.io/result/01a0d980-b47d-7564-b439-c6b6930ad511/
+2026-09-25 17:48:05 UTC,ip,103.90.233[.]81,Injected Host IP,"ASN: WEBPANDA-AS-VN - Cong ty TNHH Web Panda, VN",2026-09-25T16:58:18.977Z,https://urlscan.io/result/01a0d980-b47d-7564-b439-c6b6930ad511/
