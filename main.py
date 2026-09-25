@@ -6,7 +6,6 @@ from core.decoder import PayloadDecoder
 from core.catalog import DetectionCatalog
 from utils.defang import defang_url, defang_domain, defang_ip
 from utils.csv_exporter import export_to_daily_csv
-from utils.tweet_generator import save_tweet_draft
 
 DATABASE_FILE = "data/iocs.json"
 DOMAINS_FILE = "data/domains.txt"
@@ -171,12 +170,11 @@ def run_pipeline():
     update_domains_list(db)
     generate_markdown_report(list(db.values()))
 
-    # Export newly discovered findings into daily CSV and Tweet drafts
+    # Export newly discovered findings into daily CSV
     if new_findings:
         export_to_daily_csv(new_findings)
-        save_tweet_draft(new_findings)
 
-    print(f"[+] Done! Processed {len(new_findings)} new findings. Daily CSV, Tweets, and Reports updated.")
+    print(f"[+] Done! Processed {len(new_findings)} new findings. Daily CSV and Reports updated.")
 
 if __name__ == "__main__":
     run_pipeline()
