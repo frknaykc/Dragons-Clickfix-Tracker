@@ -292,3 +292,41 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 20:56:05 UTC,domain,forgewillow[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-20 05:32:10,https://urlhaus.abuse.ch/url/3919196/
 2026-09-25 20:56:05 UTC,ip,104.21.24[.]183,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-20 05:32:10,https://urlhaus.abuse.ch/url/3919196/
 2026-09-25 20:56:05 UTC,payload_url,hxxps://forgewillow[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update,Second Stage Payload,Base64 / PowerShell decoding,2026-09-20 05:32:10,forgewillow.com
+2026-09-25 21:35:45 UTC,domain,weinbausuchel[.]at,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:58:20.841Z,https://urlscan.io/result/01a0da5c-806f-7435-99d9-ed736c187802/
+2026-09-25 21:35:45 UTC,ip,2a03:f80:ad15:91:227:205:222:1,Injected Host IP,ASN: AS57169 EDIS GmbH,2026-09-25T20:58:20.841Z,https://urlscan.io/result/01a0da5c-806f-7435-99d9-ed736c187802/
+2026-09-25 21:35:45 UTC,domain,wasiisports[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:28.872Z,https://urlscan.io/result/01a0da5a-ea4e-7329-9f13-b487d56e0427/
+2026-09-25 21:35:45 UTC,ip,192.185.191[.]242,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-09-25T20:57:28.872Z,https://urlscan.io/result/01a0da5a-ea4e-7329-9f13-b487d56e0427/
+2026-09-25 21:35:45 UTC,domain,visabi[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:27.651Z,https://urlscan.io/result/01a0da5b-9248-731b-be74-162239124a00/
+2026-09-25 21:35:45 UTC,domain,web[.]cervanties[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:16.462Z,https://urlscan.io/result/01a0da5b-840a-71af-8b6d-f8eb65f4b02b/
+2026-09-25 21:35:45 UTC,ip,2001:41d0:301:4::27,Injected Host IP,ASN: AS16276 OVH SAS,2026-09-25T20:57:16.462Z,https://urlscan.io/result/01a0da5b-840a-71af-8b6d-f8eb65f4b02b/
+2026-09-25 21:35:45 UTC,domain,wcuglobaledu[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:12.472Z,https://urlscan.io/result/01a0da5b-7d2f-729b-9766-d5125c11ba8f/
+2026-09-25 21:35:45 UTC,ip,131.153.147[.]186,Injected Host IP,ASN: AS19437 SECURED SERVERS LLC,2026-09-25T20:57:12.472Z,https://urlscan.io/result/01a0da5b-7d2f-729b-9766-d5125c11ba8f/
+2026-09-25 21:35:45 UTC,domain,visabalan[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:11.492Z,https://urlscan.io/result/01a0da5b-7747-7789-9696-f0c6ee539f42/
+2026-09-25 21:35:45 UTC,domain,visaireland[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:09.740Z,https://urlscan.io/result/01a0da5b-647e-732f-b88a-0bbdbff8f161/
+2026-09-25 21:35:45 UTC,domain,veedav[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:09.641Z,https://urlscan.io/result/01a0da5b-6aab-73ab-ac7d-7948ff7b46d6/
+2026-09-25 21:35:45 UTC,ip,188.114.97[.]3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-25T20:57:09.641Z,https://urlscan.io/result/01a0da5b-6aab-73ab-ac7d-7948ff7b46d6/
+2026-09-25 21:35:45 UTC,domain,visahongkong[.]com[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:04.885Z,https://urlscan.io/result/01a0da5b-4f1d-774a-8a17-533dae80b7c6/
+2026-09-25 21:35:45 UTC,domain,visamy[.]org,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:57:01.360Z,https://urlscan.io/result/01a0da5b-457d-75e8-a4e5-81adb203873b/
+2026-09-25 21:35:45 UTC,ip,103.104.122[.]79,Injected Host IP,ASN: AS135932 Viet Storage Technology Joint Stock Company,2026-09-25T20:57:01.360Z,https://urlscan.io/result/01a0da5b-457d-75e8-a4e5-81adb203873b/
+2026-09-25 21:35:45 UTC,domain,virtualopticamedellin[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:58.107Z,https://urlscan.io/result/01a0da5b-34f9-72ca-96fd-fa4801763d17/
+2026-09-25 21:35:45 UTC,ip,216.246.46[.]74,Injected Host IP,ASN: AS23352 DEFT.COM,2026-09-25T20:56:58.107Z,https://urlscan.io/result/01a0da5b-34f9-72ca-96fd-fa4801763d17/
+2026-09-25 21:35:45 UTC,delivery_url,hxxps://idcool[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db,TDS Staging Script,ClearFake Secret extraction,2026-09-25T20:56:58.107Z,virtualopticamedellin.com
+2026-09-25 21:35:45 UTC,domain,vinayweb[.]tech,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:56.114Z,https://urlscan.io/result/01a0da5b-3c67-721b-85fc-2fd136ea6ba6/
+2026-09-25 21:35:45 UTC,ip,217.21.87[.]66,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-09-25T20:56:56.114Z,https://urlscan.io/result/01a0da5b-3c67-721b-85fc-2fd136ea6ba6/
+2026-09-25 21:35:45 UTC,domain,usa-stakebet[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T21:33:54.467Z,https://urlscan.io/result/01a0da7d-21c7-7399-bd47-dcfa984e2e5e/
+2026-09-25 21:35:45 UTC,ip,92.113.16[.]75,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-09-25T21:33:54.467Z,https://urlscan.io/result/01a0da7d-21c7-7399-bd47-dcfa984e2e5e/
+2026-09-25 21:35:45 UTC,domain,resiliencychallenge[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T21:19:47.819Z,https://urlscan.io/result/01a0da70-3471-741a-a532-39a343413ed2/
+2026-09-25 21:35:45 UTC,domain,parfumerie-elegance[.]tn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T21:13:15.453Z,https://urlscan.io/result/01a0da69-ccad-724e-8eab-687cfeea2bc5/
+2026-09-25 21:35:45 UTC,ip,188.165.0[.]143,Injected Host IP,ASN: AS16276 OVH SAS,2026-09-25T21:13:15.453Z,https://urlscan.io/result/01a0da69-ccad-724e-8eab-687cfeea2bc5/
+2026-09-25 21:35:45 UTC,domain,neurowellcounseling[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T21:04:11.155Z,https://urlscan.io/result/01a0da61-73e7-747b-8cd6-572faab4cae4/
+2026-09-25 21:35:45 UTC,ip,2607:f1c0:100f:f000::2eb,Injected Host IP,ASN: AS8560 IONOS SE,2026-09-25T21:04:11.155Z,https://urlscan.io/result/01a0da61-73e7-747b-8cd6-572faab4cae4/
+2026-09-25 21:35:45 UTC,payload_url,hxxps://neurowellcounseling[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-09-25T21:04:11.155Z,neurowellcounseling.com
+2026-09-25 21:35:45 UTC,domain,visanga[.]vn,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:55.382Z,https://urlscan.io/result/01a0da5b-2e1e-772f-b596-7b7fc415556f/
+2026-09-25 21:35:45 UTC,ip,103.104.122[.]93,Injected Host IP,ASN: AS135932 Viet Storage Technology Joint Stock Company,2026-09-25T20:56:55.382Z,https://urlscan.io/result/01a0da5b-2e1e-772f-b596-7b7fc415556f/
+2026-09-25 21:35:45 UTC,domain,urdustoryclub[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:48.605Z,https://urlscan.io/result/01a0da5b-1abe-75db-8269-69d1e626b3b6/
+2026-09-25 21:35:45 UTC,domain,vaao[.]lv,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:48.569Z,https://urlscan.io/result/01a0da5b-2607-7328-bf92-3cb7f2118fb6/
+2026-09-25 21:35:45 UTC,ip,2001:41d0:301:11::28,Injected Host IP,ASN: AS16276 OVH SAS,2026-09-25T20:56:48.569Z,https://urlscan.io/result/01a0da5b-2607-7328-bf92-3cb7f2118fb6/
+2026-09-25 21:35:45 UTC,domain,v-b-t[.]se,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:47.701Z,https://urlscan.io/result/01a0da5b-204c-763e-92c4-708e1b1cd57e/
+2026-09-25 21:35:45 UTC,ip,46.30.215[.]118,Injected Host IP,ASN: AS51468 One.com A/S,2026-09-25T20:56:47.701Z,https://urlscan.io/result/01a0da5b-204c-763e-92c4-708e1b1cd57e/
+2026-09-25 21:35:45 UTC,domain,urdu69[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:56:45.481Z,https://urlscan.io/result/01a0da5b-15b7-72f6-bea8-615e2478addb/
+2026-09-25 21:35:45 UTC,ip,2a06:98c1:3120::3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-25T20:56:45.481Z,https://urlscan.io/result/01a0da5b-15b7-72f6-bea8-615e2478addb/
