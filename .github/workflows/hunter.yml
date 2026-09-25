@@ -1,0 +1,44 @@
+name: Automated ClickFix Threat Hunter
+
+on:
+  schedule:
+    # Runs every 60 minutes
+    - cron: '*/60 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run ClickFix Pipeline
+        env:
+          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
+        run: |
+          python main.py
+
+      - name: Commit and Push Updated IOCs & Reports
+        run: |
+          git config --global user.name "ClickFix Hunter Bot"
+          git config --global user.email "bot@clickfix-tracker.local"
+          git add data/ LATEST_REPORT.md
+          if git diff --staged --quiet; then
+            echo "No new findings to commit."
+          else
+            git commit -m "Auto-update IOCs & CTI Report [skip ci]"
+            git push
+          fi
