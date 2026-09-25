@@ -215,3 +215,6 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 19:13:01 UTC,ip,66.96.149[.]29,Injected Host IP,"ASN: BIZLAND-SD - Newfold Digital, Inc., US",2026-09-25T18:57:10.137Z,https://urlscan.io/result/01a0d9ed-955c-73a8-9260-95bcd7c89b0d/
 2026-09-25 19:13:01 UTC,domain,webkinn[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T18:57:05.344Z,https://urlscan.io/result/01a0d9ed-6151-7389-8996-4b4a147001c1/
 2026-09-25 19:13:01 UTC,ip,145.223.77[.]109,Injected Host IP,"ASN: AS-HOSTINGER Hostinger International Limited, CY",2026-09-25T18:57:05.344Z,https://urlscan.io/result/01a0d9ed-6151-7389-8996-4b4a147001c1/
+2026-09-25 19:48:56 UTC,domain,entbd[.]org,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:12:41.299Z,https://urlscan.io/result/01a0d9fb-6160-720c-a28d-83b009cd3ed1/
+2026-09-25 19:48:56 UTC,domain,effectsaesthetics[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:06:04.317Z,https://urlscan.io/result/01a0d9f5-579f-755c-b8e7-6db5eb0cd184/
+2026-09-25 19:48:56 UTC,ip,160.153.0[.]94,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-09-25T19:06:04.317Z,https://urlscan.io/result/01a0d9f5-579f-755c-b8e7-6db5eb0cd184/

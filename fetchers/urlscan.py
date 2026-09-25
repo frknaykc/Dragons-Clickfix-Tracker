@@ -51,6 +51,7 @@ def get_recent_candidates(time_window_minutes: int = 45):
 
     queries = [
         f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix")',
+        f'{time_filter}domain:idcool.codes',
         f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))'
     ]
 

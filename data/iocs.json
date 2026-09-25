@@ -1064,5 +1064,37 @@
     "live_c2_url": "https://idcool.codes",
     "delivery_url": "https://idcool.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
     "extracted_b64_urls": []
+  },
+  "01a0d9fb-6160-720c-a28d-83b009cd3ed1": {
+    "scan_id": "01a0d9fb-6160-720c-a28d-83b009cd3ed1",
+    "domain": "entbd.org",
+    "url": "https://entbd.org/",
+    "ip": "188.114.96.3",
+    "asn": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "country": null,
+    "report_url": "https://urlscan.io/result/01a0d9fb-6160-720c-a28d-83b009cd3ed1/",
+    "first_seen": "2026-09-25T19:12:41.299Z",
+    "is_clearfake": false,
+    "smart_contract": null,
+    "method_hash": null,
+    "live_c2_url": null,
+    "delivery_url": null,
+    "extracted_b64_urls": []
+  },
+  "01a0d9f5-579f-755c-b8e7-6db5eb0cd184": {
+    "scan_id": "01a0d9f5-579f-755c-b8e7-6db5eb0cd184",
+    "domain": "effectsaesthetics.com",
+    "url": "https://effectsaesthetics.com/",
+    "ip": "160.153.0.94",
+    "asn": "CLOUDFLARESPECTRUM Cloudflare London, LLC, US",
+    "country": "US",
+    "report_url": "https://urlscan.io/result/01a0d9f5-579f-755c-b8e7-6db5eb0cd184/",
+    "first_seen": "2026-09-25T19:06:04.317Z",
+    "is_clearfake": false,
+    "smart_contract": null,
+    "method_hash": null,
+    "live_c2_url": null,
+    "delivery_url": null,
+    "extracted_b64_urls": []
   }
 }
