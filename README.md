@@ -44,16 +44,4 @@ python main.py
 ```
 
 ---
-
-## 🤖 24/7 GitHub Actions Setup
-
-To run this pipeline autonomously:
-1. Push this repository to GitHub.
-2. Go to **Settings > Secrets and variables > Actions**.
-3. Add a new repository secret:
-   * Name: `URLSCAN_API_KEY`
-   * Value: `Your urlscan.io API Key`
-4. The workflow in `.github/workflows/hunter.yml` will run every 20 minutes, scan for new campaigns, deobfuscate payloads, and automatically commit the updated feeds!
-
----
 *Disclaimer: All indicators are provided strictly for defensive research, threat hunting, and educational purposes.*
