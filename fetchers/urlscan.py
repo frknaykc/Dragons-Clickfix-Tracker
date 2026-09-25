@@ -17,15 +17,15 @@ WHITELIST_DOMAINS = {
     "gitlab.com", "bitbucket.org", "mozilla.org", "stackoverflow.com"
 }
 
-def search_scans(query: str, size: int = 15):
+def search_scans(query: str, size: int = 50):
     """Searches urlscan.io for recent scans matching query"""
     url = f"https://urlscan.io/api/v1/search/?q={query}&size={size}"
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=10)
+        resp = requests.get(url, headers=HEADERS, timeout=12)
         if resp.status_code == 200:
             return resp.json().get("results", [])
         elif resp.status_code == 429:
-            print("[!] Rate limited by urlscan.io, waiting...")
+            print("[!] Rate limited by urlscan.io, waiting 5 seconds...")
             time.sleep(5)
     except Exception as e:
         print(f"[!] Error querying urlscan: {e}")
@@ -41,21 +41,24 @@ def get_dom(dom_url: str) -> str:
         pass
     return ""
 
-def get_recent_candidates():
+def get_recent_candidates(time_window_minutes: int = 45):
     """
-    Gathers fresh candidate scans from high-yield ClickFix hunting queries.
-    Deduplicates by scan UUID and filters out benign whitelisted domains.
+    Gathers candidate scans using a sliding time window (default 45 minutes)
+    to ensure 100% gapless coverage when running every 20 minutes.
+    Deduplicates scans and filters whitelisted benign domains.
     """
+    time_filter = f"date:>now-{time_window_minutes}m AND " if time_window_minutes else ""
+
     queries = [
-        'task.tags:"@clickfixhunter"',
-        'task.tags:"clickfix"',
-        'page.text:("Download for macOS" AND "Terminal")'
+        f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix")',
+        f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))'
     ]
 
     candidates = {}
     for q in queries:
-        print(f"[*] Querying: {q}...")
-        results = search_scans(q, size=10)
+        print(f"[*] Querying (Window: {time_window_minutes}m): {q}...")
+        results = search_scans(q, size=50)
+        print(f"    -> Found {len(results)} scans.")
         for r in results:
             scan_id = r.get("_id")
             page = r.get("page", {})
