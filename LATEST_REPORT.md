@@ -1,5 +1,5 @@
 # 👀 ClickFix / ClearFake Intelligence Feed
-**Last Updated:** `2026-09-25 17:56:03 UTC`
+**Last Updated:** `2026-09-25 18:13:30 UTC`
 
 ---
 ### [Compromised Injected Hosts (Initial Access)]

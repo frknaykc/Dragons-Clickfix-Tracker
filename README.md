@@ -27,8 +27,8 @@ An automated Cyber Threat Intelligence (CTI) engine that proactively tracks, deo
 
 ### 1. Clone & Setup
 ```bash
-git clone https://github.com/<your-username>/clickfix-tracker.git
-cd clickfix-tracker
+git clone https://github.com/frknaykc/Dragons-Clickfix-Tracker.git
+cd Dragons-Clickfix-Tracker
 pip install -r requirements.txt
 ```
 
