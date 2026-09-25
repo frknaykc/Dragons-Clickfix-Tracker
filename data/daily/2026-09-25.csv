@@ -218,3 +218,13 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-25 19:48:56 UTC,domain,entbd[.]org,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:12:41.299Z,https://urlscan.io/result/01a0d9fb-6160-720c-a28d-83b009cd3ed1/
 2026-09-25 19:48:56 UTC,domain,effectsaesthetics[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:06:04.317Z,https://urlscan.io/result/01a0d9f5-579f-755c-b8e7-6db5eb0cd184/
 2026-09-25 19:48:56 UTC,ip,160.153.0[.]94,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-09-25T19:06:04.317Z,https://urlscan.io/result/01a0d9f5-579f-755c-b8e7-6db5eb0cd184/
+2026-09-25 20:46:08 UTC,domain,martindigitalgroup[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:41:07.030Z,https://urlscan.io/result/01a0da4c-c39b-7243-9d7c-b54c90553c43/
+2026-09-25 20:46:08 UTC,ip,162.144.178[.]220,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-09-25T20:41:07.030Z,https://urlscan.io/result/01a0da4c-c39b-7243-9d7c-b54c90553c43/
+2026-09-25 20:46:08 UTC,domain,lichsuvanhoa[.]net,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:31:01.818Z,https://urlscan.io/result/01a0da43-011d-72d8-9cf9-2b995fdd605d/
+2026-09-25 20:46:08 UTC,ip,14.177.232[.]31,Injected Host IP,"ASN: VNPT-AS-VN - VNPT Corp, VN",2026-09-25T20:31:01.818Z,https://urlscan.io/result/01a0da43-011d-72d8-9cf9-2b995fdd605d/
+2026-09-25 20:46:08 UTC,domain,legale-mischung[.]net,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:28:43.304Z,https://urlscan.io/result/01a0da41-5ae5-76f9-9a21-b28521d29250/
+2026-09-25 20:46:08 UTC,ip,172.67.144[.]87,Injected Host IP,"ASN: CLOUDFLARENET - Cloudflare, Inc., US",2026-09-25T20:28:43.304Z,https://urlscan.io/result/01a0da41-5ae5-76f9-9a21-b28521d29250/
+2026-09-25 20:46:08 UTC,domain,diabetescareth[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T20:23:06.482Z,https://urlscan.io/result/01a0da3b-d183-75cf-bed8-a4f205690423/
+2026-09-25 20:46:08 UTC,ip,103.30.127[.]84,Injected Host IP,"ASN: METRABYTE-TH - 453 Ladplacout Jorakhaebua, TH",2026-09-25T20:23:06.482Z,https://urlscan.io/result/01a0da3b-d183-75cf-bed8-a4f205690423/
+2026-09-25 20:47:01 UTC,domain,ht-mart[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-25T19:57:31.507Z,https://urlscan.io/result/01a0da24-7c08-7109-a1d7-1114b37c4008/
+2026-09-25 20:47:01 UTC,ip,160.153.0[.]199,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-09-25T19:57:31.507Z,https://urlscan.io/result/01a0da24-7c08-7109-a1d7-1114b37c4008/

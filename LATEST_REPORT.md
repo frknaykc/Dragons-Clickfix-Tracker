@@ -1,5 +1,5 @@
 # 👀 ClickFix / ClearFake Intelligence Feed
-**Last Updated:** `2026-09-25 19:48:56 UTC`
+**Last Updated:** `2026-09-25 20:47:01 UTC`
 
 ---
 ### [Compromised Injected Hosts (Initial Access)]
@@ -65,11 +65,16 @@
 * `webkinn[.]com` *(IP: 145.223.77[.]109 | ASN: AS-HOSTINGER Hostinger International Limited, CY)*
 * `entbd[.]org` *(IP: 188.114.96[.]3 | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `effectsaesthetics[.]com` *(IP: 160.153.0[.]94 | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
+* `martindigitalgroup[.]com` *(IP: 162.144.178[.]220 | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
+* `lichsuvanhoa[.]net` *(IP: 14.177.232[.]31 | ASN: VNPT-AS-VN - VNPT Corp, VN)*
+* `legale-mischung[.]net` *(IP: 172.67.144[.]87 | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
+* `diabetescareth[.]com` *(IP: 103.30.127[.]84 | ASN: METRABYTE-TH - 453 Ladplacout Jorakhaebua, TH)*
+* `ht-mart[.]com` *(IP: 160.153.0[.]199 | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 
 ---
 ### [Decentralized Blockchain C2 Infrastructure (Polygon MATIC)]
-* Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `0xb68d1809`)
 * Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `None`)
+* Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `0xb68d1809`)
 
 ---
 ### [Resolved Live C2 / TDS Infrastructure]
@@ -77,115 +82,115 @@
 
 ---
 ### [Observed TDS / Staging Delivery URLs]
+* `hxxps://idcool[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
+* `hxxps://idcool[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
 * `hxxps://idcool[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
 * `hxxps://idcool[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
 * `hxxps://idcool[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
 * `hxxps://idcool[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
-* `hxxps://idcool[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
 * `hxxps://idcool[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
 * `hxxps://idcool[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
-* `hxxps://idcool[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
 
 ---
 ### [Decoded Payload / Download URLs]
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-se-registruji-hraci-v-casino-lab/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/erwin-casino-ein-blick-auf-die-besten-promotions/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-werkt-het-loyaliteitsprogramma-van-vegashero-casino/`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjV5rl7xwTsGOS6cVRa6pAE-4ZGWxY6Nrb2_mltvJy1r2YTpo1Nm=w40-h40-c-rp-mo-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/xon-bet-casino-tips-voor-verantwoord-gokken/`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocLM7tqashkYF8gqdXDVb_ViI_GJuQPu7kRSUj-J1_KDjLd-Pg=w40-h40-c-rp-mo-ba3-br100`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjVTn7p4E5ZIz4dTPMRbWuqmQk32VQgSu9Wpt9DU1Vbvj16cF6fi8Q=w40-h40-c-rp-mo-ba6-br100`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJQJpit7bt4Cwt3RmwyFQoCxkF5DwJ9bUMvU5qLlWCYto-K9Q=w40-h40-c-rp-mo-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/gransino-casino-jouw-gids-voor-een-veilige-registratie/`
-* `hxxps://open[.]kakao[.]com/o/scEaZ1fh`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-2048x1536.jpg`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-fatpirate-casino-veilig-om-te-spelen/`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocKBBUvFytZrZOon-q9uXD0jHzEm4avvBirKmyyr4rIB293BkQ=w40-h40-c-rp-mo-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wildsino-casino-co-hraci-rikaji-o-jeho-vyhodach/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/pourquoi-les-utilisateurs-recommandent-millioner-casino/`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJBikOt2QYFJ6KoaeHyxgaddFH3qDoO3kgs6MSc4C0-boXq7w=w40-h40-c-rp-mo-ba3-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/os-pagamentos-do-bet-andreas-casino-sao-rapidos/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/casino-lab-jak-se-orientovat-v-jeho-nabidce/`
-* `hxxps://wiltonstamebudgies[.]com/wp-admin/admin-ajax.php`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/por-que-escolher-o-cleobetra-casino-para-jogar-online/`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjWFsSYwmdLmS2yPSrog0x-J87Syn95dfOdCtv0EvQRVgNIVCrj6=w40-h40-c-rp-mo-ba5-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-akce-probihaji-v-betonred-casino-tento-mesic/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/nieuws-over-instant-casino-wat-je-niet-mag-missen/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-bonusy-ma-lizaro-casino-pro-stale-hrace/`
-* `hxxps://ucc-tr[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-hry-vam-pelican-casino-nabizi/`
-* `hxxps://whatsoninreddeer[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/nv-casino-ein-blick-hinter-die-kulissen-des-anbieters/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/highflybet-casino-uma-imersao-no-universo-das-apostas-online/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/gorilla-casino-co-rikate-na-jeho-mobilni-aplikaci/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-300x225.jpg`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-768x576.jpg`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/moosh-casino-e-a-diversidade-de-jogos-disponiveis/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/explorando-o-ambiente-do-winstler-casino-o-que-esperar/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-um-ponto-de-encontro-para-apostadores/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-vielfalt-der-spiele-im-voodoo-casino-ein-uberblick/`
-* `hxxps://우정살롱[.]com`
-* `hxxps://blog[.]naver[.]com/ssoyeon_p/223534068644`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spieleprofile-was-bietet-nova-dreams-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/o-vernostnich-bonusech-ve-spinit-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-como-funciona-a-evolucao-dos-jogos/`
-* `hxxp://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/de-aantrekkingskracht-van-cazeus-casinos-spelomgeving/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinit-casino-jake-moznosti-odvodu-penez-nabizi/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/myempire-casino-como-a-plataforma-se-compara-a-outros/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/magius-casino-osobni-zkusenosti-hracu-s-platformou/`
-* `hxxps://yelloweasel[.]com/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-724x1024.png`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/warum-casoola-casino-eine-gute-wahl-ist/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/billionaire-spin-casino-vydelejte-penize-s-vasim-talentem/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/frumzi-casino-jake-bonusy-vam-mohou-prinest-stesti/`
-* `hxxps://www[.]google[.]com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3541743136257!2d106.74404151140098!3d10.784162389320691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525006cc10df7%3A0x36f66c89b8270a5b!2zV09PIEpVTkcgU0FMT04g7Jqw7KCVIOydtOuwnOyGjA!5e0!3m2!1sko!2s!4v1739217695898!5m2!1sko!2s`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-212x300.png`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/quais-novidades-esperar-no-winbay-casino-em-2024/`
-* `hxxps://wiltonstamebudgies[.]com`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/analyse-van-de-uitbetalingspercentages-bij-winaura-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1536x1152.jpg`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/waarom-spelers-de-eerste-keer-kiezen-voor-winaura-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-o-godofcoins-se-estabeleceu-no-cenario-dos-casinos/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/presentes-de-fidelidade-para-jogadores-do-bet-andreas-casino/`
-* `hxxps://wienflower[.]at:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308.jpg`
-* `hxxps://www[.]trustindex[.]io/?a=sys&amp;c=wp-verified-badge&amp;url=/the-trustindex-verified-badge/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-navegar-na-plataforma-do-rokubet-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/dragonia-casino-um-novo-lider-em-jogos-online/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-768x1087.png`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-log-je-in-bij-betonred-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/ktere-hry-prinaseji-nejvetsi-vyhry-v-gorilla-casinu/`
-* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/icon.svg`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjXJkYzltDPgcNdVLC-9AWk3It_bCZn0T75df9uNdbzjV74ex5-N=w40-h40-c-rp-mo-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/vse-co-potrebujete-vedet-o-bezpecnosti-ve-spinit-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1024x768.jpg`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-funguje-vernostni-program-na-glorion-casino/`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJBikOt2QYFJ6KoaeHyxgaddFH3qDoO3kgs6MSc4C0-boXq7w=w40-h40-c-rp-mo-ba3-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-fatpirate-casino-veilig-om-te-spelen/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/quais-novidades-esperar-no-winbay-casino-em-2024/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/spinline-casino-todos-os-bonus-e-ofertas-atuais/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-instant-casino-de-juiste-keuze-voor-ervaren-spelers/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/les-gains-a-grande-echelle-au-friday-roll-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-e-a-trajetoria-do-yep-casino-no-mercado/`
-* `hxxps://www[.]youtube[.]com/embed/58tG07XYBxA?feature=oembed`
-* `hxxps://websitedesigncharlotte[.]com/wp-admin/admin-ajax.php`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-spiele-bei-realz-casino-ein-uberblick/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/was-bieten-die-vip-vorteile-im-realz-casino/`
-* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/star/f.svg`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱.webp`
-* `hxxps://zocity[.]nl:443`
-* `hxxps://cdn[.]trustindex[.]io/loader.js?wp-widget`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-2048x1536.jpg`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/como-funciona-a-oferta-de-torneios-no-jokery-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/trustindex-google-widget.css?1787135686`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/champion-casino-jak-hodnotit-herni-zazitek/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/programa-de-fidelidade-do-ivibet-casino-vale-a-pena/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/desvendando-os-mitos-sobre-o-spinline-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-1086x1536.png`
-* `hxxps://www[.]youtube[.]com/watch?v=58tG07XYBxA`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/erwin-casino-ein-blick-auf-die-besten-promotions/`
+* `hxxps://우정살롱[.]com`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/gorilla-casino-co-rikate-na-jeho-mobilni-aplikaci/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/allyspin-casino-jaka-je-jeho-reputace/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱-300x200.webp`
+* `hxxps://wiltonstamebudgies[.]com`
+* `hxxps://open[.]kakao[.]com/o/scEaZ1fh`
+* `hxxps://websitedesigncharlotte[.]com/wp-admin/admin-ajax.php`
+* `hxxps://wiltonstamebudgies[.]com/wp-admin/admin-ajax.php`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinit-casino-jake-moznosti-odvodu-penez-nabizi/`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocLM7tqashkYF8gqdXDVb_ViI_GJuQPu7kRSUj-J1_KDjLd-Pg=w40-h40-c-rp-mo-ba3-br100`
+* `hxxp://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1536x1152.jpg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-e-a-trajetoria-do-yep-casino-no-mercado/`
+* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/icon.svg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/moosh-casino-e-a-diversidade-de-jogos-disponiveis/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-spiele-bei-realz-casino-ein-uberblick/`
+* `hxxps://www[.]youtube[.]com/embed/58tG07XYBxA?feature=oembed`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-instant-casino-de-juiste-keuze-voor-ervaren-spelers/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-tipps-fur-das-spielen-im-freshbet-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-1086x1536.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-768x1087.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/programa-de-fidelidade-do-ivibet-casino-vale-a-pena/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱.webp`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/pourquoi-les-utilisateurs-recommandent-millioner-casino/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/spinmama-casino-um-mergulho-na-diversidade-de-jogos-de-slots/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/vse-co-potrebujete-vedet-o-bezpecnosti-ve-spinit-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-212x300.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-um-ponto-de-encontro-para-apostadores/`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocKBBUvFytZrZOon-q9uXD0jHzEm4avvBirKmyyr4rIB293BkQ=w40-h40-c-rp-mo-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-log-je-in-bij-betonred-casino/`
+* `hxxps://www[.]google[.]com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3541743136257!2d106.74404151140098!3d10.784162389320691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525006cc10df7%3A0x36f66c89b8270a5b!2zV09PIEpVTkcgU0FMT04g7Jqw7KCVIOydtOuwnOyGjA!5e0!3m2!1sko!2s!4v1739217695898!5m2!1sko!2s`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱-300x200.webp`
+* `hxxps://whatsoninreddeer[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/myempire-casino-como-a-plataforma-se-compara-a-outros/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-724x1024.png`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjWFsSYwmdLmS2yPSrog0x-J87Syn95dfOdCtv0EvQRVgNIVCrj6=w40-h40-c-rp-mo-ba5-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/presentes-de-fidelidade-para-jogadores-do-bet-andreas-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308.jpg`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjVTn7p4E5ZIz4dTPMRbWuqmQk32VQgSu9Wpt9DU1Vbvj16cF6fi8Q=w40-h40-c-rp-mo-ba6-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-bonusy-ma-lizaro-casino-pro-stale-hrace/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/nieuws-over-instant-casino-wat-je-niet-mag-missen/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/analyse-van-de-uitbetalingspercentages-bij-winaura-casino/`
+* `hxxps://ucc-tr[.]com:443`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJQJpit7bt4Cwt3RmwyFQoCxkF5DwJ9bUMvU5qLlWCYto-K9Q=w40-h40-c-rp-mo-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spieleprofile-was-bietet-nova-dreams-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-vielfalt-der-spiele-im-voodoo-casino-ein-uberblick/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/magius-casino-osobni-zkusenosti-hracu-s-platformou/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wildsino-casino-co-hraci-rikaji-o-jeho-vyhodach/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/por-que-escolher-o-cleobetra-casino-para-jogar-online/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-akce-probihaji-v-betonred-casino-tento-mesic/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-o-melhor-metodo-de-pagamento-no-slotoro-casino/`
+* `hxxps://yelloweasel[.]com/`
+* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/star/f.svg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/champion-casino-jak-hodnotit-herni-zazitek/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/trustindex-google-widget.css?1787135686`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjXJkYzltDPgcNdVLC-9AWk3It_bCZn0T75df9uNdbzjV74ex5-N=w40-h40-c-rp-mo-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/de-aantrekkingskracht-van-cazeus-casinos-spelomgeving/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1024x768.jpg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/waarom-spelers-de-eerste-keer-kiezen-voor-winaura-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/casino-lab-jak-se-orientovat-v-jeho-nabidce/`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjV5rl7xwTsGOS6cVRa6pAE-4ZGWxY6Nrb2_mltvJy1r2YTpo1Nm=w40-h40-c-rp-mo-br100`
+* `hxxps://blog[.]naver[.]com/ssoyeon_p/223534068644`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-como-funciona-a-evolucao-dos-jogos/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-se-registruji-hraci-v-casino-lab/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-navegar-na-plataforma-do-rokubet-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/was-bieten-die-vip-vorteile-im-realz-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/xon-bet-casino-tips-voor-verantwoord-gokken/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/warum-casoola-casino-eine-gute-wahl-ist/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/o-vernostnich-bonusech-ve-spinit-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/os-pagamentos-do-bet-andreas-casino-sao-rapidos/`
+* `hxxps://wienflower[.]at:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-hry-vam-pelican-casino-nabizi/`
+* `hxxps://zocity[.]nl:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/explorando-o-ambiente-do-winstler-casino-o-que-esperar/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
+* `hxxps://www[.]trustindex[.]io/?a=sys&amp;c=wp-verified-badge&amp;url=/the-trustindex-verified-badge/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-o-godofcoins-se-estabeleceu-no-cenario-dos-casinos/`
+* `hxxps://www[.]youtube[.]com/watch?v=58tG07XYBxA`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/les-gains-a-grande-echelle-au-friday-roll-casino/`
+* `hxxps://cdn[.]trustindex[.]io/loader.js?wp-widget`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/highflybet-casino-uma-imersao-no-universo-das-apostas-online/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/ktere-hry-prinaseji-nejvetsi-vyhry-v-gorilla-casinu/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-768x576.jpg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/billionaire-spin-casino-vydelejte-penize-s-vasim-talentem/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/nv-casino-ein-blick-hinter-die-kulissen-des-anbieters/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/gransino-casino-jouw-gids-voor-een-veilige-registratie/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/desvendando-os-mitos-sobre-o-spinline-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-300x225.jpg`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-werkt-het-loyaliteitsprogramma-van-vegashero-casino/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/dragonia-casino-um-novo-lider-em-jogos-online/`
 
 ---
 *Auto-generated by ClickFix-Tracker.*

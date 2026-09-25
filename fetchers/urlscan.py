@@ -41,10 +41,10 @@ def get_dom(dom_url: str) -> str:
         pass
     return ""
 
-def get_recent_candidates(time_window_minutes: int = 45):
+def get_recent_candidates(time_window_minutes: int = 90):
     """
-    Gathers candidate scans using a sliding time window (default 45 minutes)
-    to ensure 100% gapless coverage when running every 20 minutes.
+    Gathers candidate scans using a sliding time window (default 90 minutes)
+    to ensure 100% gapless coverage even across longer intervals.
     Deduplicates scans and filters whitelisted benign domains.
     """
     time_filter = f"date:>now-{time_window_minutes}m AND " if time_window_minutes else ""
