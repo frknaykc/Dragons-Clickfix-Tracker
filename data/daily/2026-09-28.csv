@@ -478,3 +478,19 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-28 10:39:24 UTC,payload_url,hxxps://escapeai[.]live/loader_v2.sh?build=lom&owner=ekm,Second Stage Payload,Base64 / PowerShell decoding,2026-09-28T07:16:26.543Z,www.beiamdress.com
 2026-09-28 10:39:24 UTC,domain,www[.]sketchworks[.]co[.]za,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T06:36:43.565Z,https://urlscan.io/result/01a0e6ba-b988-7098-87c3-b096ddfa02dc/
 2026-09-28 10:39:24 UTC,ip,154.0.171[.]165,Injected Host IP,ASN: AS37611 AFRIHOST SP (PTY) LTD,2026-09-28T06:36:43.565Z,https://urlscan.io/result/01a0e6ba-b988-7098-87c3-b096ddfa02dc/
+2026-09-28 12:25:33 UTC,domain,anntherapy[.]co[.]uk,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T12:20:31.634Z,https://urlscan.io/result/01a0e7f5-7d21-75d1-9ca4-c010265873c4/
+2026-09-28 12:25:33 UTC,ip,217.160.0[.]82,Injected Host IP,ASN: AS8560 IONOS SE,2026-09-28T12:20:31.634Z,https://urlscan.io/result/01a0e7f5-7d21-75d1-9ca4-c010265873c4/
+2026-09-28 12:25:33 UTC,domain,ameriscapesaz[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T12:09:06.595Z,https://urlscan.io/result/01a0e7eb-126d-77a4-84f0-9fce8965ed81/
+2026-09-28 12:25:33 UTC,ip,63.250.43[.]13,Injected Host IP,"ASN: AS22612 Namecheap, Inc.",2026-09-28T12:09:06.595Z,https://urlscan.io/result/01a0e7eb-126d-77a4-84f0-9fce8965ed81/
+2026-09-28 12:25:33 UTC,domain,alcaldiaeloyalfaro[.]gob[.]ec,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:47:39.685Z,https://urlscan.io/result/01a0e7d7-664d-742f-a045-bcac46e3f1dd/
+2026-09-28 12:25:33 UTC,ip,195.26.251[.]81,Injected Host IP,ASN: AS40021 Contabo Inc.,2026-09-28T11:47:39.685Z,https://urlscan.io/result/01a0e7d7-664d-742f-a045-bcac46e3f1dd/
+2026-09-28 12:25:33 UTC,domain,alakoz[.]kz,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:46:21.418Z,https://urlscan.io/result/01a0e7d6-36c1-7169-bbc3-eb0ec355707d/
+2026-09-28 12:25:33 UTC,ip,195.210.46[.]33,Injected Host IP,ASN: AS48716 PS Internet Company LLP,2026-09-28T11:46:21.418Z,https://urlscan.io/result/01a0e7d6-36c1-7169-bbc3-eb0ec355707d/
+2026-09-28 12:25:33 UTC,domain,agapehomechoice[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:35:35.980Z,https://urlscan.io/result/01a0e7cc-5b08-7398-886e-1b4512ca8053/
+2026-09-28 12:25:33 UTC,ip,197.221.12[.]241,Injected Host IP,ASN: AS37153 Xneelo (Pty) Ltd,2026-09-28T11:35:35.980Z,https://urlscan.io/result/01a0e7cc-5b08-7398-886e-1b4512ca8053/
+2026-09-28 12:25:33 UTC,domain,academicpipelinedatabase[.]net,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:17:26.306Z,https://urlscan.io/result/01a0e7bb-bdf4-773b-97e2-031f318efd79/
+2026-09-28 12:25:33 UTC,ip,141.193.213[.]11,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-09-28T11:17:26.306Z,https://urlscan.io/result/01a0e7bb-bdf4-773b-97e2-031f318efd79/
+2026-09-28 12:25:33 UTC,payload_url,hxxps://academicpipelinedatabase[.]net:443,Second Stage Payload,Base64 / PowerShell decoding,2026-09-28T11:17:26.306Z,academicpipelinedatabase.net
+2026-09-28 12:25:33 UTC,domain,bookernesto[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:05:27.842Z,https://urlscan.io/result/01a0e7b0-bff6-762e-bb8a-5cf7d7e332f8/
+2026-09-28 12:25:33 UTC,ip,192.254.187[.]133,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-09-28T11:05:27.842Z,https://urlscan.io/result/01a0e7b0-bff6-762e-bb8a-5cf7d7e332f8/
+2026-09-28 12:25:33 UTC,domain,360careeradvice[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-28T11:04:37.484Z,https://urlscan.io/result/01a0e7b0-094b-75f8-9896-1f6203dd41f5/

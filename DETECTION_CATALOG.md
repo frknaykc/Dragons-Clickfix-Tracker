@@ -1,5 +1,5 @@
 # 📘 Detection Techniques & Pattern Catalog
-**Last Updated:** `2026-09-28 10:38:53 UTC`
+**Last Updated:** `2026-09-28 12:25:20 UTC`
 
 This catalog tracks every unique hunting query, obfuscation technique, C2 mechanism, and lure pattern observed by ClickFix-Tracker. Use this catalog to inspect newly evolving threat behaviors and write targeted decoders.
 
