@@ -120,7 +120,7 @@ def run_pipeline():
 
     # 1. Fetch from URLhaus (abuse.ch)
     print("[*] Querying URLhaus (abuse.ch) recent feed...")
-    urlhaus_candidates = fetch_urlhaus_recent(limit=30)
+    urlhaus_candidates = fetch_urlhaus_recent(limit=100)
     print(f"[+] URLhaus candidates fetched: {len(urlhaus_candidates)}")
 
     all_candidates = candidates + urlhaus_candidates

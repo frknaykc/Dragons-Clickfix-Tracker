@@ -73,53 +73,62 @@ class PayloadDecoder:
         }
 
         # Check for ClearFake XOR signature
-        if "String.fromCharCode" not in dom_or_js or "atob" not in dom_or_js:
-            return result
+        has_xor = "String.fromCharCode" in dom_or_js and "atob" in dom_or_js
+        if has_xor:
+            try:
+                arr_m = re.search(r'\[([0-9, ]{100,})\]', dom_or_js)
+                k1_var_m = re.search(r'fromCharCode\([^)]*\^\s*([a-zA-Z0-9_$]+)\)', dom_or_js)
+                k2_var_m = re.search(r'charCodeAt\([^)]*\)\s*\^\s*([a-zA-Z0-9_$]+)', dom_or_js)
 
-        try:
-            arr_m = re.search(r'\[([0-9, ]{100,})\]', dom_or_js)
-            k1_var_m = re.search(r'fromCharCode\([^)]*\^\s*([a-zA-Z0-9_$]+)\)', dom_or_js)
-            k2_var_m = re.search(r'charCodeAt\([^)]*\)\s*\^\s*([a-zA-Z0-9_$]+)', dom_or_js)
+                if arr_m and k1_var_m and k2_var_m:
+                    k1_var = k1_var_m.group(1)
+                    k2_var = k2_var_m.group(1)
 
-            if not (arr_m and k1_var_m and k2_var_m):
-                return result
+                    k1_val = int(re.search(rf'{re.escape(k1_var)}\s*=\s*([0-9]+)', dom_or_js).group(1))
+                    k2_val = int(re.search(rf'{re.escape(k2_var)}\s*=\s*([0-9]+)', dom_or_js).group(1))
 
-            k1_var = k1_var_m.group(1)
-            k2_var = k2_var_m.group(1)
+                    arr = [int(x.strip()) for x in arr_m.group(1).split(',')]
 
-            k1_val = int(re.search(rf'{re.escape(k1_var)}\s*=\s*([0-9]+)', dom_or_js).group(1))
-            k2_val = int(re.search(rf'{re.escape(k2_var)}\s*=\s*([0-9]+)', dom_or_js).group(1))
+                    # Deobfuscate layer 1 (XOR) -> layer 2 (Base64) -> layer 3 (XOR)
+                    s1 = ''.join([chr(x ^ k1_val) for x in arr])
+                    s2 = base64.b64decode(s1)
+                    deobfuscated_js = ''.join([chr(b ^ k2_val) for b in s2])
 
-            arr = [int(x.strip()) for x in arr_m.group(1).split(',')]
+                    result["is_clearfake"] = True
 
-            # Deobfuscate layer 1 (XOR) -> layer 2 (Base64) -> layer 3 (XOR)
-            s1 = ''.join([chr(x ^ k1_val) for x in arr])
-            s2 = base64.b64decode(s1)
-            deobfuscated_js = ''.join([chr(b ^ k2_val) for b in s2])
+                    # Extract smart contract (0x...) and method
+                    contract_match = re.search(r'(0x[a-fA-F0-9]{40})', deobfuscated_js)
+                    method_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{8})[\'"]', deobfuscated_js)
+                    secret_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{32,64})[\'"]', deobfuscated_js)
 
+                    if contract_match:
+                        result["smart_contract"] = contract_match.group(1)
+                    if method_match:
+                        result["method_hash"] = f"0x{method_match.group(1)}"
+
+                    # Resolve live C2 from blockchain
+                    if result["smart_contract"] and result["method_hash"]:
+                        live_c2 = cls.resolve_blockchain_c2(result["smart_contract"], result["method_hash"])
+                        if live_c2:
+                            result["live_c2_url"] = live_c2
+                            if secret_match:
+                                secret = secret_match.group(1)
+                                result["delivery_url"] = f"{live_c2}/api.php?s={secret}"
+
+            except Exception:
+                pass
+
+        # Check if injected C2 script tag is already rendered in the DOM
+        api_match = re.search(r'(https?://([a-zA-Z0-9.-]+)/api\.php\?s=([a-f0-9]+))', dom_or_js)
+        if api_match:
             result["is_clearfake"] = True
-
-            # Extract smart contract (0x...) and method
-            contract_match = re.search(r'(0x[a-fA-F0-9]{40})', deobfuscated_js)
-            method_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{8})[\'"]', deobfuscated_js)
-            secret_match = re.search(r'=\s*[\'"]([a-fA-F0-9]{32,64})[\'"]', deobfuscated_js)
-
-            if contract_match:
-                result["smart_contract"] = contract_match.group(1)
-            if method_match:
-                result["method_hash"] = f"0x{method_match.group(1)}"
-
-            # Resolve live C2 from blockchain
-            if result["smart_contract"] and result["method_hash"]:
-                live_c2 = cls.resolve_blockchain_c2(result["smart_contract"], result["method_hash"])
-                if live_c2:
-                    result["live_c2_url"] = live_c2
-                    if secret_match:
-                        secret = secret_match.group(1)
-                        result["delivery_url"] = f"{live_c2}/api.php?s={secret}"
-
-        except Exception:
-            pass
+            delivery_url = api_match.group(1)
+            c2_host = api_match.group(2)
+            c2_base = f"https://{c2_host}"
+            if not result.get("live_c2_url"):
+                result["live_c2_url"] = c2_base
+            if not result.get("delivery_url"):
+                result["delivery_url"] = delivery_url
 
         return result
 

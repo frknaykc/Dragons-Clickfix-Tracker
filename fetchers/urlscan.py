@@ -21,9 +21,11 @@ WHITELIST_DOMAINS = {
 def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
     """
     Extracts all resolved live C2 domains from the local database
-    to dynamically pivot and hunt for newly infected websites communicating with them.
+    plus live blockchain smart contracts to dynamically pivot and hunt.
     """
-    c2s = set()
+    c2s = {"idcool.codes", "entry-verifed-cdn.codes", "makeverizyjar.info"}
+    
+    # 1. Check local database
     if os.path.exists(database_file):
         try:
             with open(database_file, "r", encoding="utf-8") as f:
@@ -36,9 +38,21 @@ def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
                             c2s.add(clean_dom)
         except Exception:
             pass
+
+    # 2. Query active Polygon Smart Contract directly for current live C2
+    try:
+        from core.decoder import PayloadDecoder
+        live_sc_c2 = PayloadDecoder.resolve_blockchain_c2("0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2", "0xb68d1809")
+        if live_sc_c2:
+            sc_dom = live_sc_c2.replace("https://", "").replace("http://", "").split("/")[0].split(":")[0].strip()
+            if sc_dom and "." in sc_dom:
+                c2s.add(sc_dom)
+    except Exception:
+        pass
+
     return list(c2s)
 
-def search_scans(query: str, size: int = 50):
+def search_scans(query: str, size: int = 100):
     """Searches urlscan.io for recent scans matching query"""
     url = f"https://urlscan.io/api/v1/search/?q={query}&size={size}"
     try:
@@ -62,7 +76,7 @@ def get_dom(dom_url: str) -> str:
         pass
     return ""
 
-def get_recent_candidates(time_window_minutes: int = 90):
+def get_recent_candidates(time_window_minutes: int = 4320):
     """
     Gathers candidate scans using:
     1. Global hunting tags (@clickfixhunter, clickfix)
@@ -79,13 +93,15 @@ def get_recent_candidates(time_window_minutes: int = 90):
     # Dynamically pivot on active C2 domains extracted from smart contracts / deobfuscation
     c2_domains = get_known_c2_domains()
     if c2_domains:
-        c2_part = " OR ".join([f'"{d}"' for d in c2_domains[:5]])
-        queries.append(f'{time_filter}domain:({c2_part})')
+        for i in range(0, min(len(c2_domains), 20), 5):
+            batch = c2_domains[i:i+5]
+            c2_part = " OR ".join([f'"{d}"' for d in batch])
+            queries.append(f'{time_filter}domain:({c2_part})')
 
     candidates = {}
     for q in queries:
         print(f"[*] Querying (Window: {time_window_minutes}m): {q}...")
-        results = search_scans(q, size=50)
+        results = search_scans(q, size=100)
         print(f"    -> Found {len(results)} scans.")
         for r in results:
             scan_id = r.get("_id")
