@@ -466,3 +466,21 @@ timestamp,type,indicator,threat_type,detection_method,first_seen,reference
 2026-09-29 21:54:36 UTC,domain,bmrentcars[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T16:27:35.463Z,https://urlscan.io/result/01a0edfe-162e-70ec-a867-381025658eb3/
 2026-09-29 21:54:36 UTC,ip,2a02:4780:44:9c39:7289:57aa:bc83:3689,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-09-29T16:27:35.463Z,https://urlscan.io/result/01a0edfe-162e-70ec-a867-381025658eb3/
 2026-09-29 21:54:36 UTC,delivery_url,hxxps://entry-verifed-cdn[.]codes/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646,TDS Staging Script,ClearFake Secret extraction,2026-09-29T16:27:35.463Z,bmrentcars.com
+2026-09-29 22:47:31 UTC,domain,oceanbix[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:41:53.918Z,https://urlscan.io/result/01a0ef54-caf9-778a-b647-b93c48c55014/
+2026-09-29 22:47:31 UTC,ip,2.239.97[.]147,Injected Host IP,ASN: AS12874 Fastweb SpA,2026-09-29T22:41:53.918Z,https://urlscan.io/result/01a0ef54-caf9-778a-b647-b93c48c55014/
+2026-09-29 22:47:31 UTC,domain,www[.]depannage-porte-sectionnelle[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:41:37.383Z,https://urlscan.io/result/01a0ef54-6548-747a-a80e-14e5c4135ac9/
+2026-09-29 22:47:31 UTC,ip,146.88.236[.]123,Injected Host IP,ASN: AS53589 PlanetHoster,2026-09-29T22:41:37.383Z,https://urlscan.io/result/01a0ef54-6548-747a-a80e-14e5c4135ac9/
+2026-09-29 22:47:31 UTC,domain,gentlecosmetictattoo[.]com[.]au,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:25:55.553Z,https://urlscan.io/result/01a0ef46-14a7-744d-afa2-41119512f898/
+2026-09-29 22:47:31 UTC,ip,172.67.220[.]233,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-09-29T22:25:55.553Z,https://urlscan.io/result/01a0ef46-14a7-744d-afa2-41119512f898/
+2026-09-29 22:47:31 UTC,payload_url,hxxps://gentlecosmetictattoo[.]com[.]au:443,Second Stage Payload,Base64 / PowerShell decoding,2026-09-29T22:25:55.553Z,gentlecosmetictattoo.com.au
+2026-09-29 22:47:31 UTC,domain,gerhard-trede[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:22:01.178Z,https://urlscan.io/result/01a0ef42-8ac1-76ec-8303-d21376287414/
+2026-09-29 22:47:31 UTC,ip,81.169.145[.]66,Injected Host IP,ASN: AS6724 Strato GmbH,2026-09-29T22:22:01.178Z,https://urlscan.io/result/01a0ef42-8ac1-76ec-8303-d21376287414/
+2026-09-29 22:47:31 UTC,domain,awatoz[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:18:52.130Z,https://urlscan.io/result/01a0ef3f-accd-779c-8be3-ede9c63fd204/
+2026-09-29 22:47:31 UTC,ip,160.153.0[.]137,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-09-29T22:18:52.130Z,https://urlscan.io/result/01a0ef3f-accd-779c-8be3-ede9c63fd204/
+2026-09-29 22:47:31 UTC,domain,www[.]darebinsulation[.]co[.]uk,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T22:07:52.659Z,https://urlscan.io/result/01a0ef35-a43a-73f8-b057-b7a12983c930/
+2026-09-29 22:47:31 UTC,ip,82.208.23[.]196,Injected Host IP,ASN: AS51167 Contabo GmbH,2026-09-29T22:07:52.659Z,https://urlscan.io/result/01a0ef35-a43a-73f8-b057-b7a12983c930/
+2026-09-29 22:47:31 UTC,domain,www[.]cadmvservices[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-09-29T21:54:25.761Z,https://urlscan.io/result/01a0ef29-430d-742f-b9b9-bad417c56c2d/
+2026-09-29 22:47:31 UTC,ip,23.235.209[.]121,Injected Host IP,"ASN: AS22611 InMotion Hosting, Inc.",2026-09-29T21:54:25.761Z,https://urlscan.io/result/01a0ef29-430d-742f-b9b9-bad417c56c2d/
+2026-09-29 22:47:31 UTC,domain,185[.]166[.]155[.]221,Compromised Host / Lure Page,urlscan telemetry,2026-09-29 22:01:17,https://urlhaus.abuse.ch/url/3925150/
+2026-09-29 22:47:31 UTC,ip,185.166.155[.]221,Injected Host IP,ASN: AS212171 Local NCC Ltd.,2026-09-29 22:01:17,https://urlhaus.abuse.ch/url/3925150/
+2026-09-29 22:47:31 UTC,payload_url,hxxp://185[.]166[.]155[.]221/grab.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-09-29 22:01:17,185.166.155.221
