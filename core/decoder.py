@@ -34,7 +34,7 @@ class PayloadDecoder:
                 decoded = base64.b64decode(b64).decode('utf-8', errors='ignore')
                 urls = re.findall(r'https?://[^\s\'"<>]+', decoded)
                 for u in urls:
-                    if not any(b in u.lower() for b in ["w3.org", "schema.org", "google.com/recaptcha"]):
+                    if not any(b in u.lower() for b in ["w3.org", "schema.org", "google.com/recaptcha", "adobe.com/xap", "xml.org", "openxmlformats", "purl.org", "xmlns.com"]):
                         found_urls.append(u)
             except Exception:
                 pass

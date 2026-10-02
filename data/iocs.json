@@ -969,24 +969,6 @@
     "delivery_url": "https://idcool.codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716",
     "extracted_b64_urls": []
   },
-  "01a0da54-fb74-7049-8cc3-4df76bd21113": {
-    "scan_id": "01a0da54-fb74-7049-8cc3-4df76bd21113",
-    "domain": "rfcert.com.br",
-    "url": "https://rfcert.com.br/",
-    "ip": "192.185.213.102",
-    "asn": "ORACLE-BMC-31898 - Oracle Corporation, US",
-    "country": "BR",
-    "report_url": "https://urlscan.io/result/01a0da54-fb74-7049-8cc3-4df76bd21113/",
-    "first_seen": "2026-09-25T20:50:09.631Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://ns.adobe.com/exif/1.0/"
-    ]
-  },
   "urlhaus_3922607": {
     "scan_id": "urlhaus_3922607",
     "domain": "94.154.43.253",
@@ -1851,64 +1833,6 @@
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
     "extracted_b64_urls": []
   },
-  "01a0e6ce-0821-706d-a787-6a7286279355": {
-    "scan_id": "01a0e6ce-0821-706d-a787-6a7286279355",
-    "domain": "www.amparofabra.com",
-    "url": "https://www.amparofabra.com/",
-    "ip": "212.63.110.118",
-    "city": "Madrid",
-    "country": "Spain",
-    "isp": "Soluciones web on line s.l.",
-    "asn": "AS201446 Soluciones web on line s.l.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6ce-0821-706d-a787-6a7286279355/",
-    "first_seen": "2026-09-28T06:57:46.271Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://mytds102938",
-      "https://data-seed-prebsc-2-s1.binance.org:8545/",
-      "https://data-seed-prebsc-1-s1.bnbchain.org:8545/",
-      "https://bnb-testnet.api.onfinality.io/public"
-    ]
-  },
-  "01a0e6ce-01e5-739c-8e08-0d17424647b9": {
-    "scan_id": "01a0e6ce-01e5-739c-8e08-0d17424647b9",
-    "domain": "dispensaserrande.it",
-    "url": "https://dispensaserrande.it/",
-    "ip": "86.107.32.87",
-    "city": "Cassino",
-    "country": "Italy",
-    "isp": "Server Plan S.r.l.",
-    "asn": "AS52030 Server Plan S.r.l.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6ce-01e5-739c-8e08-0d17424647b9/",
-    "first_seen": "2026-09-28T06:57:42.067Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://data-seed-prebsc-2-s1.binance.org:8545/",
-      "https://bsc-testnet-dataseed.bnbchain.org/",
-      "https://dispensaserrande.it:443",
-      "https://dispensaserrande.it?lcl_canon=",
-      "https://data-seed-prebsc-2-s2.binance.org:8545/",
-      "https://bsc-testnet.drpc.org/",
-      "https://data-seed-prebsc-1-s1.binance.org:8545/",
-      "https://data-seed-prebsc-1-s1.bnbchain.org:8545/",
-      "https://dispensaserrande.it/wp-content/plugins/global-gallery/classes/easy_wp_thumbs.php?src=%URL%&w=%W%&h=%H%&q=80",
-      "https://www.googletagmanager.com/gtm.js?id=",
-      "https://bnb-testnet.api.onfinality.io/public",
-      "https://bsc-testnet-rpc.publicnode.com/"
-    ]
-  },
   "01a0e6cd-f56b-76ab-8bc3-95d766bef151": {
     "scan_id": "01a0e6cd-f56b-76ab-8bc3-95d766bef151",
     "domain": "cleanafrica.org",
@@ -1929,28 +1853,6 @@
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c",
     "extracted_b64_urls": []
   },
-  "01a0e6cd-c4d3-7298-ad3e-6eb9de0c4e2b": {
-    "scan_id": "01a0e6cd-c4d3-7298-ad3e-6eb9de0c4e2b",
-    "domain": "ausgreensolar.com.au",
-    "url": "https://ausgreensolar.com.au/",
-    "ip": "184.168.103.215",
-    "city": "Singapore",
-    "country": "Singapore",
-    "isp": "GoDaddy.com, LLC",
-    "asn": "AS26496 GoDaddy.com, LLC",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cd-c4d3-7298-ad3e-6eb9de0c4e2b/",
-    "first_seen": "2026-09-28T06:57:38.375Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://ausgreensolar.com.au:443"
-    ]
-  },
   "01a0e6cd-7e97-72bb-8d7e-e6f435ce7b0f": {
     "scan_id": "01a0e6cd-7e97-72bb-8d7e-e6f435ce7b0f",
     "domain": "lauraforcitycouncil.com",
@@ -1970,50 +1872,6 @@
     "live_c2_url": "https://entry-verifed-cdn.codes",
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
     "extracted_b64_urls": []
-  },
-  "01a0e6cd-be48-74ba-8ceb-1f03c87ff91e": {
-    "scan_id": "01a0e6cd-be48-74ba-8ceb-1f03c87ff91e",
-    "domain": "www.cartoontjes.nl",
-    "url": "https://www.cartoontjes.nl/",
-    "ip": "87.236.102.163",
-    "city": "Spijkenisse",
-    "country": "The Netherlands",
-    "isp": "TODAYISP",
-    "asn": "AS60781 LeaseWeb Netherlands B.V.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cd-be48-74ba-8ceb-1f03c87ff91e/",
-    "first_seen": "2026-09-28T06:57:23.980Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.cartoontjes.nl:443"
-    ]
-  },
-  "01a0e6cd-6214-73f2-99ff-1afba9e31ca8": {
-    "scan_id": "01a0e6cd-6214-73f2-99ff-1afba9e31ca8",
-    "domain": "interpretationaudiosupport.com",
-    "url": "https://interpretationaudiosupport.com/",
-    "ip": "162.241.252.26",
-    "city": "Phoenix",
-    "country": "United States",
-    "isp": "Unified Layer",
-    "asn": "AS31898 Oracle Corporation",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cd-6214-73f2-99ff-1afba9e31ca8/",
-    "first_seen": "2026-09-28T06:57:02.813Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://interpretationaudiosupport.com:443"
-    ]
   },
   "01a0e6cd-563b-721e-91ad-7be64f288105": {
     "scan_id": "01a0e6cd-563b-721e-91ad-7be64f288105",
@@ -2054,72 +1912,6 @@
     "live_c2_url": "https://entry-verifed-cdn.codes",
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
     "extracted_b64_urls": []
-  },
-  "01a0e6cc-fc8d-761e-84e6-b9d0251d23e6": {
-    "scan_id": "01a0e6cc-fc8d-761e-84e6-b9d0251d23e6",
-    "domain": "azanintl.com",
-    "url": "https://azanintl.com/",
-    "ip": "2a02:4780:1:1130:0:2ccd:abb6:10",
-    "city": "Asheville",
-    "country": "United States",
-    "isp": "HOSTINGER US",
-    "asn": "AS47583 Hostinger International Limited",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cc-fc8d-761e-84e6-b9d0251d23e6/",
-    "first_seen": "2026-09-28T06:56:47.540Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://azanintl.com/"
-    ]
-  },
-  "01a0e6cd-0b95-77ce-92be-496991c7c3d3": {
-    "scan_id": "01a0e6cd-0b95-77ce-92be-496991c7c3d3",
-    "domain": "hunteroc.com",
-    "url": "https://hunteroc.com/",
-    "ip": "160.153.0.141",
-    "city": "Tempe",
-    "country": "United States",
-    "isp": "Cloudflare London, LLC",
-    "asn": "AS209242 Cloudflare London, LLC",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cd-0b95-77ce-92be-496991c7c3d3/",
-    "first_seen": "2026-09-28T06:56:45.255Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://hunteroc.com/wp-admin/admin-ajax.php"
-    ]
-  },
-  "01a0e6cc-9dac-751e-a129-fc34026a21c4": {
-    "scan_id": "01a0e6cc-9dac-751e-a129-fc34026a21c4",
-    "domain": "foundersunfound.com",
-    "url": "https://foundersunfound.com/",
-    "ip": "216.194.167.35",
-    "city": "Los Angeles",
-    "country": "United States",
-    "isp": "InMotion Hosting, Inc.",
-    "asn": "AS22611 InMotion Hosting, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e6cc-9dac-751e-a129-fc34026a21c4/",
-    "first_seen": "2026-09-28T06:56:15.367Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://feed.pippa.io/public/shows/5c92c88b5e222bd90980d1fc"
-    ]
   },
   "01a0e6f4-abbf-727c-b708-6eee68991694": {
     "scan_id": "01a0e6f4-abbf-727c-b708-6eee68991694",
@@ -2607,36 +2399,6 @@
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
     "extracted_b64_urls": []
   },
-  "01a0e619-6542-718c-8725-4a51b96033f6": {
-    "scan_id": "01a0e619-6542-718c-8725-4a51b96033f6",
-    "domain": "www.morganaorvokki.com",
-    "url": "https://www.morganaorvokki.com/",
-    "ip": "46.30.213.186",
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "isp": "One.com A/S",
-    "asn": "AS51468 One.com A/S",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e619-6542-718c-8725-4a51b96033f6/",
-    "first_seen": "2026-09-28T03:40:50.771Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://polygon-public.nodies.app",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://1rpc.io/matic",
-      "https://polygon.drpc.org",
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://script-six-tawny.vercel.app",
-      "https://polygon.gateway.tenderly.co"
-    ]
-  },
   "01a0e606-23e4-752c-93ef-1dc6e94087e5": {
     "scan_id": "01a0e606-23e4-752c-93ef-1dc6e94087e5",
     "domain": "rohrsupport.de",
@@ -2716,36 +2478,6 @@
     "live_c2_url": "https://entry-verifed-cdn.codes",
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
     "extracted_b64_urls": []
-  },
-  "01a0e5f4-ddc1-75b6-942e-eb3e07f5b1b9": {
-    "scan_id": "01a0e5f4-ddc1-75b6-942e-eb3e07f5b1b9",
-    "domain": "www.findmyperfecthome.co.uk",
-    "url": "https://www.findmyperfecthome.co.uk/",
-    "ip": "188.114.96.3",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e5f4-ddc1-75b6-942e-eb3e07f5b1b9/",
-    "first_seen": "2026-09-28T03:00:35.602Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://polygon-public.nodies.app",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://1rpc.io/matic",
-      "https://polygon.drpc.org",
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://script-six-tawny.vercel.app",
-      "https://polygon.gateway.tenderly.co"
-    ]
   },
   "01a0e5f1-97d6-741d-9f70-dc138151f7f0": {
     "scan_id": "01a0e5f1-97d6-741d-9f70-dc138151f7f0",
@@ -3428,36 +3160,6 @@
     "live_c2_url": "https://entry-verifed-cdn.codes",
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
     "extracted_b64_urls": []
-  },
-  "01a0e5ca-8617-7311-a6c1-cd707dfa0992": {
-    "scan_id": "01a0e5ca-8617-7311-a6c1-cd707dfa0992",
-    "domain": "www.adamconsultings.com",
-    "url": "https://www.adamconsultings.com/",
-    "ip": "46.30.213.130",
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "isp": "One.com A/S",
-    "asn": "AS51468 One.com A/S",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e5ca-8617-7311-a6c1-cd707dfa0992/",
-    "first_seen": "2026-09-28T02:14:16.013Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://polygon-public.nodies.app",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://1rpc.io/matic",
-      "https://polygon.drpc.org",
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://script-six-tawny.vercel.app",
-      "https://polygon.gateway.tenderly.co"
-    ]
   },
   "01a0e5c8-4205-746c-b23b-580fa4ecce1d": {
     "scan_id": "01a0e5c8-4205-746c-b23b-580fa4ecce1d",
@@ -6071,36 +5773,6 @@
     "live_c2_url": "https://entry-verifed-cdn.codes",
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb",
     "extracted_b64_urls": []
-  },
-  "01a0e985-ca34-71cd-9c2e-5d44b9addec8": {
-    "scan_id": "01a0e985-ca34-71cd-9c2e-5d44b9addec8",
-    "domain": "les-manufactures.ch",
-    "url": "https://les-manufactures.ch/",
-    "ip": "2001:1600:4:13:1a66:daff:fe5c:a6f8",
-    "city": "Geneva",
-    "country": "Switzerland",
-    "isp": "Infomaniak Network SA",
-    "asn": "AS29222 Infomaniak",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0e985-ca34-71cd-9c2e-5d44b9addec8/",
-    "first_seen": "2026-09-28T19:37:42.235Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://polygon.drpc.org",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://script-six-tawny.vercel.app",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://polygon-public.nodies.app",
-      "https://polygon.gateway.tenderly.co",
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://1rpc.io/matic"
-    ]
   },
   "01a0e985-1862-72bb-9463-36edfc78be0f": {
     "scan_id": "01a0e985-1862-72bb-9463-36edfc78be0f",
@@ -11103,36 +10775,6 @@
     "delivery_url": "https://entry-verifed-cdn.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b",
     "extracted_b64_urls": []
   },
-  "01a0f15e-3018-749d-8db2-c800a352a963": {
-    "scan_id": "01a0f15e-3018-749d-8db2-c800a352a963",
-    "domain": "a2mcconsult.com.br",
-    "url": "https://a2mcconsult.com.br/",
-    "ip": "2a02:4780:13:1941:0:251f:cf3d:3",
-    "city": "São Paulo",
-    "country": "Brazil",
-    "isp": "Hostinger International Limited",
-    "asn": "AS47583 Hostinger International Limited",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0f15e-3018-749d-8db2-c800a352a963/",
-    "first_seen": "2026-09-30T08:11:24.604Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://1rpc.io/matic",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-public.nodies.app",
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://script-six-tawny.vercel.app",
-      "https://polygon.drpc.org",
-      "https://polygon.gateway.tenderly.co",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://polygon-mainnet.public.blastapi.io"
-    ]
-  },
   "01a0f15e-044f-7065-9186-26f0649578ff": {
     "scan_id": "01a0f15e-044f-7065-9186-26f0649578ff",
     "domain": "lbcls.com",
@@ -12468,28 +12110,6 @@
     "live_c2_url": "https://makeverizyjar.info",
     "delivery_url": "https://makeverizyjar.info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7",
     "extracted_b64_urls": []
-  },
-  "01a0edd6-dbd7-731b-bffe-daecd70e1cfe": {
-    "scan_id": "01a0edd6-dbd7-731b-bffe-daecd70e1cfe",
-    "domain": "thadadev.com",
-    "url": "https://thadadev.com/",
-    "ip": "103.86.51.69",
-    "city": "Bangkok",
-    "country": "Thailand",
-    "isp": "Bangmod Enterprise Co., Ltd.",
-    "asn": "AS58955 Bangmod Enterprise Co., Ltd.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0edd6-dbd7-731b-bffe-daecd70e1cfe/",
-    "first_seen": "2026-09-29T15:44:49.928Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://mytds102938"
-    ]
   },
   "01a0ed93-c811-77de-b876-50cb9be0287f": {
     "scan_id": "01a0ed93-c811-77de-b876-50cb9be0287f",
@@ -14539,73 +14159,6 @@
     "extracted_b64_urls": [
       "https://cocuktekstil.com/r",
       "https://cocuktekstil.com/g.php"
-    ]
-  },
-  "01a0f535-de32-70bb-9cf2-e6846ebbc19e": {
-    "scan_id": "01a0f535-de32-70bb-9cf2-e6846ebbc19e",
-    "domain": "www.natural-health-news.com",
-    "url": "https://www.natural-health-news.com/Verify.msi?I",
-    "ip": "65.108.76.228",
-    "city": "Helsinki",
-    "country": "Finland",
-    "isp": "Hetzner Online GmbH",
-    "asn": "AS24940 Hetzner Online GmbH",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0f535-de32-70bb-9cf2-e6846ebbc19e/",
-    "first_seen": "2026-10-01T02:05:51.533Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.natural-health-news.com/Verify.msi"
-    ]
-  },
-  "01a0f4ca-cc1d-71d2-9ebc-e5b271822b6c": {
-    "scan_id": "01a0f4ca-cc1d-71d2-9ebc-e5b271822b6c",
-    "domain": "sonyarafferty.com",
-    "url": "https://sonyarafferty.com/",
-    "ip": "54.149.49.246",
-    "city": "Boardman",
-    "country": "United States",
-    "isp": "Amazon.com, Inc.",
-    "asn": "AS16509 Amazon.com, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0f4ca-cc1d-71d2-9ebc-e5b271822b6c/",
-    "first_seen": "2026-10-01T00:09:05.222Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.psychologytoday.com/api/verified-seal/seals/[BADGE]/profile/[PROFILE_ID]?callback=sxcallback"
-    ]
-  },
-  "01a0f4c9-29d7-72bb-9a67-1aff62079bca": {
-    "scan_id": "01a0f4c9-29d7-72bb-9a67-1aff62079bca",
-    "domain": "razzledazzlejewelrystore.com",
-    "url": "https://razzledazzlejewelrystore.com/",
-    "ip": "44.231.35.23",
-    "city": "Boardman",
-    "country": "United States",
-    "isp": "Amazon.com, Inc.",
-    "asn": "AS16509 Amazon.com, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0f4c9-29d7-72bb-9a67-1aff62079bca/",
-    "first_seen": "2026-10-01T00:07:10.706Z",
-    "is_clearfake": false,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://razzledazzlejewelrystore.com/checkout/cart/add/uenc/aHR0cHM6Ly9yYXp6bGVkYXp6bGVqZXdlbHJ5c3RvcmUuY29tLw",
-      "https://razzledazzlejewelrystore.com/"
     ]
   },
   "01a0f74d-413e-75e9-a27f-7714f4b9e530": {
@@ -17858,32 +17411,6 @@
       "https://interseq.at/lom/a"
     ]
   },
-  "01a0fa1e-9f5c-72fa-8c6d-bdb2256a64a4": {
-    "scan_id": "01a0fa1e-9f5c-72fa-8c6d-bdb2256a64a4",
-    "domain": "cnadl.ro",
-    "url": "https://cnadl.ro/",
-    "ip": "188.241.222.91",
-    "city": "Sighetu Marmaţiei",
-    "country": "Romania",
-    "isp": "GTS Telecom",
-    "asn": "AS5606 GTS Telecom SRL",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1e-9f5c-72fa-8c6d-bdb2256a64a4/",
-    "first_seen": "2026-10-02T00:58:34.119Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://cnadl.ro/wp-includes/",
-      "https://cnadl.ro/wp-content"
-    ]
-  },
   "01a0fa1e-8883-7027-a7b2-4456819b70ab": {
     "scan_id": "01a0fa1e-8883-7027-a7b2-4456819b70ab",
     "domain": "cgageauthor.com",
@@ -17910,31 +17437,6 @@
       "https://securityalertcaptchacheck.com/lom/a",
       "https://copiose.org/lom/62a9405c9735a1a7",
       "https://interseq.at/lom/a"
-    ]
-  },
-  "01a0fa1e-8270-771a-971f-5d58616696b2": {
-    "scan_id": "01a0fa1e-8270-771a-971f-5d58616696b2",
-    "domain": "clinicamasbermejo.com",
-    "url": "https://clinicamasbermejo.com/",
-    "ip": "84.247.164.48",
-    "city": "Düsseldorf",
-    "country": "Germany",
-    "isp": "Contabo GmbH",
-    "asn": "AS51167 Contabo GmbH",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1e-8270-771a-971f-5d58616696b2/",
-    "first_seen": "2026-10-02T00:58:27.084Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://vecta.io/nano"
     ]
   },
   "01a0fa1e-75b5-73e4-850d-5297a61c9261": {
@@ -18150,32 +17652,6 @@
       "https://interseq.at/lom/a"
     ]
   },
-  "01a0fa1d-d76c-7459-b305-00e2e1e503fe": {
-    "scan_id": "01a0fa1d-d76c-7459-b305-00e2e1e503fe",
-    "domain": "loyaltyaviation.com",
-    "url": "https://loyaltyaviation.com/",
-    "ip": "68.66.226.102",
-    "city": "Phoenix",
-    "country": "United States",
-    "isp": "A2 Hosting, Inc.",
-    "asn": "AS55293 A2 Hosting, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-d76c-7459-b305-00e2e1e503fe/",
-    "first_seen": "2026-10-02T00:57:46.168Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://www.bohemiancoding.com/sketch/ns",
-      "https://loyaltyaviation.com:443"
-    ]
-  },
   "01a0fa1c-7396-7107-8f77-360fd1a4943e": {
     "scan_id": "01a0fa1c-7396-7107-8f77-360fd1a4943e",
     "domain": "tomowell2020.com",
@@ -18365,131 +17841,6 @@
       "https://securityalertcaptchacheck.com/lom/a"
     ]
   },
-  "01a0fa1d-757b-73d2-a360-d7bf0423b96b": {
-    "scan_id": "01a0fa1d-757b-73d2-a360-d7bf0423b96b",
-    "domain": "www.henfactory.com",
-    "url": "https://www.henfactory.com/",
-    "ip": "192.185.146.73",
-    "city": null,
-    "country": "US",
-    "isp": null,
-    "asn": "ORACLE-BMC-31898 - Oracle Corporation, US",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-757b-73d2-a360-d7bf0423b96b/",
-    "first_seen": "2026-10-02T00:57:20.479Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.henfactory.com:443"
-    ]
-  },
-  "01a0fa1d-6464-7539-bad7-9d71178016a1": {
-    "scan_id": "01a0fa1d-6464-7539-bad7-9d71178016a1",
-    "domain": "forteristorante.com",
-    "url": "https://forteristorante.com/",
-    "ip": "141.193.213.11",
-    "city": "Austin",
-    "country": "United States",
-    "isp": "Cloudflare London, LLC",
-    "asn": "AS209242 Cloudflare London, LLC",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-6464-7539-bad7-9d71178016a1/",
-    "first_seen": "2026-10-02T00:57:14.420Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://forteristorante.com:443"
-    ]
-  },
-  "01a0fa1d-0e4b-77c5-9a5a-810f4beefed0": {
-    "scan_id": "01a0fa1d-0e4b-77c5-9a5a-810f4beefed0",
-    "domain": "vosgi.in",
-    "url": "https://vosgi.in/",
-    "ip": "188.114.97.3",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-0e4b-77c5-9a5a-810f4beefed0/",
-    "first_seen": "2026-10-02T00:57:07.252Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://vosgi.in:443"
-    ]
-  },
-  "01a0fa1d-16f9-71f7-b612-8c1c99250496": {
-    "scan_id": "01a0fa1d-16f9-71f7-b612-8c1c99250496",
-    "domain": "smkdbcld28.sch.id",
-    "url": "https://smkdbcld28.sch.id/",
-    "ip": "112.109.21.251",
-    "city": "Gubengairlangga",
-    "country": "Indonesia",
-    "isp": "DATAUTAMANET",
-    "asn": "AS24521 PT. DATA Utama Dinamika",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-16f9-71f7-b612-8c1c99250496/",
-    "first_seen": "2026-10-02T00:56:59.252Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.instagram.com/smkdwibhakti_cldg/"
-    ]
-  },
-  "01a0fa1d-1d11-778b-9223-99a5d33c5da9": {
-    "scan_id": "01a0fa1d-1d11-778b-9223-99a5d33c5da9",
-    "domain": "aderent.ro",
-    "url": "https://aderent.ro/",
-    "ip": "2a00:ece1:0:18::232",
-    "city": "Sighetu Marmaţiei",
-    "country": "Romania",
-    "isp": "GTS Telecom SRL",
-    "asn": "AS5606 GTS Telecom SRL",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1d-1d11-778b-9223-99a5d33c5da9/",
-    "first_seen": "2026-10-02T00:56:58.228Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://aderent.ro:443"
-    ]
-  },
   "01a0fa1d-028d-7625-99d1-f0c1fc67cf58": {
     "scan_id": "01a0fa1d-028d-7625-99d1-f0c1fc67cf58",
     "domain": "webfeenix.com",
@@ -18567,31 +17918,6 @@
     "delivery_url": null,
     "extracted_b64_urls": [
       "https://www.spirakiservice.gr:443"
-    ]
-  },
-  "01a0fa1c-d498-764d-b419-ddc7eb2d944e": {
-    "scan_id": "01a0fa1c-d498-764d-b419-ddc7eb2d944e",
-    "domain": "prazofinal.com",
-    "url": "https://prazofinal.com/",
-    "ip": "188.114.96.3",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1c-d498-764d-b419-ddc7eb2d944e/",
-    "first_seen": "2026-10-02T00:56:36.889Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://prazofinal.com/"
     ]
   },
   "01a0fa1c-bb6e-7568-a1a9-e0f5b4953ac1": {
@@ -18703,56 +18029,6 @@
       "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
       "https://copiose.org/lom/62a9405c9735a1a7",
       "http://ns.adobe.com/xap/1.0/mm/"
-    ]
-  },
-  "01a0fa1c-97e5-70fb-9fe8-22ae30addcde": {
-    "scan_id": "01a0fa1c-97e5-70fb-9fe8-22ae30addcde",
-    "domain": "www.incele.web.tr",
-    "url": "https://www.incele.web.tr/",
-    "ip": "104.21.32.212",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1c-97e5-70fb-9fe8-22ae30addcde/",
-    "first_seen": "2026-10-02T00:56:21.659Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.incele.web.tr/"
-    ]
-  },
-  "01a0fa1c-8c51-73ed-93a9-d5e52ab59941": {
-    "scan_id": "01a0fa1c-8c51-73ed-93a9-d5e52ab59941",
-    "domain": "zomabeauty.com.au",
-    "url": "https://zomabeauty.com.au/",
-    "ip": "175.45.125.220",
-    "city": "Melbourne",
-    "country": "Australia",
-    "isp": "Vocus PTY LTD",
-    "asn": "AS4826 Vocus Connect International Backbone",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa1c-8c51-73ed-93a9-d5e52ab59941/",
-    "first_seen": "2026-10-02T00:56:18.433Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://zomabeauty.com.au/"
     ]
   },
   "01a0fa1c-7ee2-72de-b220-3322ba1aa980": {
@@ -18925,39 +18201,6 @@
       "https://interseq.at/lom_p2/api?_v=29848260"
     ]
   },
-  "01a0fa25-d565-77bc-a55c-d0f460955f7e": {
-    "scan_id": "01a0fa25-d565-77bc-a55c-d0f460955f7e",
-    "domain": "www.yundatabox.com",
-    "url": "https://www.yundatabox.com/KL.zip",
-    "ip": "104.21.67.220",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "ClickFix (Fake Cloudflare / Multi-Stage Batch Dropper)",
-    "report_url": "https://urlscan.io/result/01a0fa25-d565-77bc-a55c-d0f460955f7e/",
-    "first_seen": "2026-10-02T01:06:50.928Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.yundatabox.com/KL.bat",
-      "https://www.yundatabox.com/KL.zip",
-      "https://www.yundatabox.com/verify-page.js"
-    ],
-    "payload_hashes": {
-      "KL.bat": "ee7faafad6a7adec0c23f21c4b53027eef5c3d6035869a551447d52655a85810",
-      "KL.zip": "70a787b2b0d59b8abf14019f674fbc70e9e2d01b6ed844821d9708ebd3c3ce4e",
-      "KL.exe": "f51ecc147223a00881b9e32bf8eb8fc11599769ee4ea6c9778472cb4bc112612"
-    },
-    "notes": "CurrentUser ExecutionPolicy bypass downloading KL.bat, %TEMP%\\myapp creation, KL.zip extract & KL.exe execution."
-  },
   "01a0fa3e-1e7c-76c7-b7a5-de1e8e3f8373": {
     "scan_id": "01a0fa3e-1e7c-76c7-b7a5-de1e8e3f8373",
     "domain": "myauroracare.com",
@@ -18984,31 +18227,6 @@
       "https://securityalertcaptchacheck.com/lom/a",
       "https://copiose.org/lom/62a9405c9735a1a7",
       "https://interseq.at/lom/a"
-    ]
-  },
-  "01a0fa38-b472-778f-abec-56cd7e3c18f4": {
-    "scan_id": "01a0fa38-b472-778f-abec-56cd7e3c18f4",
-    "domain": "bizlogist.com",
-    "url": "https://bizlogist.com/",
-    "ip": "66.29.148.182",
-    "city": "Los Angeles",
-    "country": "United States",
-    "isp": "Namecheap, Inc.",
-    "asn": "AS22612 Namecheap, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa38-b472-778f-abec-56cd7e3c18f4/",
-    "first_seen": "2026-10-02T01:27:03.610Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://91.92.43.250"
     ]
   },
   "01a0fa37-5b84-709d-b7e1-744de1600e4f": {
@@ -19040,38 +18258,6 @@
       "https://copiose.org/lom/62a9405c9735a1a7"
     ]
   },
-  "01a0fa21-9985-733d-8543-ca8b89f2efc6": {
-    "scan_id": "01a0fa21-9985-733d-8543-ca8b89f2efc6",
-    "domain": "theaffinitysalon.com",
-    "url": "https://theaffinitysalon.com/",
-    "ip": "63.141.242.205",
-    "city": "Kansas City",
-    "country": "United States",
-    "isp": "Nocix, LLC",
-    "asn": "AS33387 Nocix, LLC",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa21-9985-733d-8543-ca8b89f2efc6/",
-    "first_seen": "2026-10-02T01:02:02.170Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://data-seed-prebsc-2-s2.binance.org:8545/",
-      "https://bsc-testnet-rpc.publicnode.com/",
-      "https://bsc-testnet.drpc.org/",
-      "https://data-seed-prebsc-1-s1.binance.org:8545/",
-      "https://bsc-testnet-dataseed.bnbchain.org/",
-      "https://data-seed-prebsc-1-s1.bnbchain.org:8545/",
-      "https://data-seed-prebsc-2-s1.binance.org:8545/",
-      "https://bnb-testnet.api.onfinality.io/public"
-    ]
-  },
   "01a0fa1d-8e0e-71e6-bee5-2be008190e00": {
     "scan_id": "01a0fa1d-8e0e-71e6-bee5-2be008190e00",
     "domain": "calaismetonne.fr",
@@ -19099,40 +18285,6 @@
       "https://escapeai.live/loader_v2.sh?build=lom&owner=ekm",
       "https://securityalertcaptchacheck.com/lom/a",
       "https://copiose.org/lom/62a9405c9735a1a7"
-    ]
-  },
-  "01a0fa3e-7bc3-700b-9dff-d9ea3caa990b": {
-    "scan_id": "01a0fa3e-7bc3-700b-9dff-d9ea3caa990b",
-    "domain": "nhakhoataysaigon.com",
-    "url": "https://nhakhoataysaigon.com/",
-    "ip": "160.191.88.102",
-    "city": "Go Vap",
-    "country": "Vietnam",
-    "isp": "GOLDEN",
-    "asn": "AS151858 INTERDIGI JOINT STOCK COMPANY",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0fa3e-7bc3-700b-9dff-d9ea3caa990b/",
-    "first_seen": "2026-10-02T01:33:41.231Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://rpc-mainnet.matic.quiknode.pro",
-      "https://polygon.drpc.org",
-      "https://script-six-tawny.vercel.app",
-      "https://rpc.ankr.com/polygon",
-      "https://polygon-bor-rpc.publicnode.com",
-      "https://mytds102938",
-      "https://1rpc.io/matic",
-      "https://polygon-mainnet.public.blastapi.io",
-      "https://polygon-public.nodies.app",
-      "https://polygon.gateway.tenderly.co"
     ]
   },
   "01a0fa37-de3b-776c-929c-7f4f096aafd7": {
@@ -24459,59 +23611,6 @@
     "delivery_url": "https://browseid.codes/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf",
     "extracted_b64_urls": []
   },
-  "01a0faa7-c178-739b-b2b6-3088fadbca00": {
-    "scan_id": "01a0faa7-c178-739b-b2b6-3088fadbca00",
-    "domain": "item.rakuten.co.jp",
-    "url": "https://item.rakuten.co.jp/matsubara0505/rdj500-bl1830b-2p-cdq/?cto_pld=H165BBauAABXuvmWqg57XA&ifd=146777&variantId=RDJ500&scid=al_ich_ppp_31076&iasid=07rpp_31076___&cs=666596",
-    "ip": "23.32.39.135",
-    "city": "Singapore",
-    "country": "Singapore",
-    "isp": "Akamai International B.V.",
-    "asn": "AS20940 Akamai International B.V.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa7-c178-739b-b2b6-3088fadbca00/",
-    "first_seen": "2026-10-02T03:28:35.727Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://rd.rakuten.co.jp/rat?R2=https://network.mobile.rakuten.co.jp/campaign/card-mobile-majitoku/%3Fscid%3Dwi_ich_rmb_mkdiv_header_pitari_kasou_item_pc_new-alluser-webcx_card-mobile-majitoku4_20260928&acc=1312&aid=1&etype=click&ssc=crossuse_campaign&pgn=/matsubara0505/rdj500-bl1830b-2p-cdq/&ref=https://item.rakuten.co.jp/matsubara0505/rdj500-bl1830b-2p-cdq/&target_ele=new-alluser-webcx_card-mobile-majitoku4_20260928",
-      "https://item.rakuten.co.jp"
-    ]
-  },
-  "01a0faa7-cea7-746d-9fa0-b997a4781c3f": {
-    "scan_id": "01a0faa7-cea7-746d-9fa0-b997a4781c3f",
-    "domain": "charteredcertifications.com",
-    "url": "https://charteredcertifications.com/learning/courses/strait-of-hormuz",
-    "ip": "2606:4700:20::ac43:497a",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa7-cea7-746d-9fa0-b997a4781c3f/",
-    "first_seen": "2026-10-02T03:28:27.037Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://charteredcertifications.com:443"
-    ]
-  },
   "01a0faa7-5740-7797-8af8-d05755d7c036": {
     "scan_id": "01a0faa7-5740-7797-8af8-d05755d7c036",
     "domain": "4starhealth.com",
@@ -24535,272 +23634,6 @@
     "live_c2_url": "https://lovezramexar.info",
     "delivery_url": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b",
     "extracted_b64_urls": []
-  },
-  "01a0faa4-b4cb-718b-b88d-7a5cc1ced2ac": {
-    "scan_id": "01a0faa4-b4cb-718b-b88d-7a5cc1ced2ac",
-    "domain": "marissacollections.com",
-    "url": "https://marissacollections.com/",
-    "ip": "23.227.38.65",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-b4cb-718b-b88d-7a5cc1ced2ac/",
-    "first_seen": "2026-10-02T03:27:26.405Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://cdn-assets.affirm.com/upfunnel/assets/zero_percent_badge_icon_black.svg\\",
-      "https://cdn-assets.affirm.com/upfunnel/assets/zero_percent_badge_icon_indigo.svg\\"
-    ]
-  },
-  "01a0faa5-183a-715f-8fc6-b971f53033e2": {
-    "scan_id": "01a0faa5-183a-715f-8fc6-b971f53033e2",
-    "domain": "momcozy.com",
-    "url": "https://momcozy.com/",
-    "ip": "23.227.38.65",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa5-183a-715f-8fc6-b971f53033e2/",
-    "first_seen": "2026-10-02T03:27:15.583Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://momcozy.com"
-    ]
-  },
-  "01a0faa4-ea53-76ef-8357-c1d273c968e0": {
-    "scan_id": "01a0faa4-ea53-76ef-8357-c1d273c968e0",
-    "domain": "mikucare.com",
-    "url": "https://mikucare.com/",
-    "ip": "23.227.38.32",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-ea53-76ef-8357-c1d273c968e0/",
-    "first_seen": "2026-10-02T03:26:50.098Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://cdn-assets.affirm.com/upfunnel/assets/zero_percent_badge_icon_black.svg\\",
-      "https://cdn-assets.affirm.com/upfunnel/assets/zero_percent_badge_icon_indigo.svg\\"
-    ]
-  },
-  "01a0faa5-7a2d-77c8-8e8c-cb38124ab2f8": {
-    "scan_id": "01a0faa5-7a2d-77c8-8e8c-cb38124ab2f8",
-    "domain": "newstate.pubg.com",
-    "url": "https://newstate.pubg.com/",
-    "ip": "18.66.147.3",
-    "city": "Frankfurt am Main",
-    "country": "Germany",
-    "isp": "Amazon.com, Inc.",
-    "asn": "AS16509 Amazon.com, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa5-7a2d-77c8-8e8c-cb38124ab2f8/",
-    "first_seen": "2026-10-02T03:25:51.116Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "http://ns.adobe.com/xap/1.0/",
-      "http://ns.adobe.com/xap/1.0/mm/",
-      "http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-    ]
-  },
-  "01a0faa4-c2d6-744a-992c-f00b209a5110": {
-    "scan_id": "01a0faa4-c2d6-744a-992c-f00b209a5110",
-    "domain": "materialkitchen.com",
-    "url": "https://materialkitchen.com/",
-    "ip": "23.227.38.32",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-c2d6-744a-992c-f00b209a5110/",
-    "first_seen": "2026-10-02T03:25:48.745Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://shdid.me"
-    ]
-  },
-  "01a0faa4-b2a3-7170-906a-7eefd308a600": {
-    "scan_id": "01a0faa4-b2a3-7170-906a-7eefd308a600",
-    "domain": "www.marinelayer.com",
-    "url": "https://www.marinelayer.com/",
-    "ip": "23.227.38.74",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-b2a3-7170-906a-7eefd308a600/",
-    "first_seen": "2026-10-02T03:25:42.111Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://www.marinelayer.com:443"
-    ]
-  },
-  "01a0faa5-2ea4-76e5-9f77-abd27482afeb": {
-    "scan_id": "01a0faa5-2ea4-76e5-9f77-abd27482afeb",
-    "domain": "postage-solutions.co.uk",
-    "url": "https://postage-solutions.co.uk/",
-    "ip": "172.67.69.87",
-    "city": "Toronto",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa5-2ea4-76e5-9f77-abd27482afeb/",
-    "first_seen": "2026-10-02T03:25:33.889Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://postage-solutions.co.uk:443"
-    ]
-  },
-  "01a0faa4-af40-7590-b3b2-838b437221e3": {
-    "scan_id": "01a0faa4-af40-7590-b3b2-838b437221e3",
-    "domain": "www.marieveronique.com",
-    "url": "https://www.marieveronique.com/",
-    "ip": "23.227.38.65",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-af40-7590-b3b2-838b437221e3/",
-    "first_seen": "2026-10-02T03:25:29.646Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://shdid.me"
-    ]
-  },
-  "01a0faa4-88f4-7549-afb5-06650da693da": {
-    "scan_id": "01a0faa4-88f4-7549-afb5-06650da693da",
-    "domain": "www.mackage.ca",
-    "url": "https://www.mackage.ca/",
-    "ip": "23.227.38.74",
-    "city": "Ottawa",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-88f4-7549-afb5-06650da693da/",
-    "first_seen": "2026-10-02T03:25:15.581Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://bugs.webkit.org/show_bug.cgi?id=185940\\n",
-      "https://github.com/ampproject/amphtml/issues/11133\\n#hero-iframe-container",
-      "https://meyerweb.com/eric/tools/css/reset/\\n#hero-iframe-container"
-    ]
-  },
-  "01a0faa4-67d2-7378-b234-11cc79f66332": {
-    "scan_id": "01a0faa4-67d2-7378-b234-11cc79f66332",
-    "domain": "betimate.com",
-    "url": "https://betimate.com/",
-    "ip": "2606:4700:3108::ac42:2870",
-    "city": "Montreal",
-    "country": "Canada",
-    "isp": "Cloudflare, Inc.",
-    "asn": "AS13335 Cloudflare, Inc.",
-    "source": "urlscan.io",
-    "threat_type": "Compromised Host / Lure Page",
-    "report_url": "https://urlscan.io/result/01a0faa4-67d2-7378-b234-11cc79f66332/",
-    "first_seen": "2026-10-02T03:25:04.447Z",
-    "is_clearfake": false,
-    "is_cfmd": false,
-    "is_mshta": false,
-    "cfmd_lure": null,
-    "wua_token": null,
-    "smart_contract": null,
-    "method_hash": null,
-    "live_c2_url": null,
-    "delivery_url": null,
-    "extracted_b64_urls": [
-      "https://betimate.com/"
-    ]
   },
   "01a0faa4-8bdc-7429-8791-b4783def982a": {
     "scan_id": "01a0faa4-8bdc-7429-8791-b4783def982a",
