@@ -83,12 +83,13 @@ def get_dom(dom_url: str) -> str:
         pass
     return ""
 
-def get_recent_candidates(time_window_minutes: int = 4320):
+def get_recent_candidates(time_window_minutes: int = 1440):
     """
     Gathers candidate scans using:
     1. Global hunting tags (@clickfixhunter, clickfix, threatfox)
     2. Heuristic text lures (macOS Terminal, Windows Run, Win+X, Microsoft/Cloudflare verification)
     3. Dynamic C2 pivoting (automatically searching for any domain contacting known C2s)
+    Default window: 1440m (24h) sorted newest first for fresh campaigns.
     """
     time_filter = f"date:>now-{time_window_minutes}m AND " if time_window_minutes else ""
 

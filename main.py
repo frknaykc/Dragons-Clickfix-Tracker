@@ -28,15 +28,27 @@ def save_database(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 def update_domains_list(db):
+    from fetchers.urlscan import WHITELIST_DOMAINS
     domains = set()
     for item in db.values():
+        has_hit = (
+            item.get("is_clearfake") or 
+            item.get("is_cfmd") or 
+            item.get("is_mshta") or 
+            bool(item.get("live_c2_url")) or 
+            bool(item.get("delivery_url")) or 
+            len(item.get("extracted_b64_urls", [])) > 0 or 
+            item.get("source") == "abuse.ch (URLhaus)"
+        )
+        if not has_hit:
+            continue
         dom = item.get("domain")
-        if dom:
+        if dom and not any(w in dom.lower() for w in WHITELIST_DOMAINS):
             domains.add(dom)
         c2 = item.get("live_c2_url")
         if c2:
-            c2_dom = c2.replace("https://", "").replace("http://", "").split("/")[0]
-            if c2_dom:
+            c2_dom = c2.replace("https://", "").replace("http://", "").split("/")[0].split(":")[0]
+            if c2_dom and not any(w in c2_dom.lower() for w in WHITELIST_DOMAINS):
                 domains.add(c2_dom)
     with open(DOMAINS_FILE, "w", encoding="utf-8") as f:
         for d in sorted(domains):
@@ -110,13 +122,13 @@ def generate_markdown_report(new_findings):
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(report))
 
-def run_pipeline():
-    print("[*] Starting ClickFix Hunting Pipeline...")
+def run_pipeline(time_window_minutes: int = 1440):
+    print(f"[*] Starting ClickFix Hunting Pipeline (Fresh Window: {time_window_minutes}m / {time_window_minutes//60}h)...")
     DetectionCatalog.save_catalog(DetectionCatalog.load_catalog())
 
     db = load_database()
-    candidates = get_recent_candidates()
-    print(f"[+] URLScan candidates fetched: {len(candidates)}")
+    candidates = get_recent_candidates(time_window_minutes=time_window_minutes)
+    print(f"[+] URLScan fresh candidates fetched: {len(candidates)}")
 
     # 1. Fetch from URLhaus (abuse.ch)
     print("[*] Querying URLhaus (abuse.ch) recent feed...")
@@ -124,6 +136,8 @@ def run_pipeline():
     print(f"[+] URLhaus candidates fetched: {len(urlhaus_candidates)}")
 
     all_candidates = candidates + urlhaus_candidates
+    # Sort descending by timestamp so the freshest campaigns are processed first
+    all_candidates.sort(key=lambda x: str(x.get("time") or x.get("first_seen") or ""), reverse=True)
     new_findings = []
 
     for c in all_candidates:
@@ -173,6 +187,18 @@ def run_pipeline():
             threat_type = f"ClickFix ({cfmd_res.get('lure_type', 'Verification Dialog')})"
         elif clearfake_res.get("is_clearfake"):
             threat_type = "ClearFake / ClickFix Lure Page"
+
+        has_hit = (
+            clearfake_res.get("is_clearfake") or 
+            cfmd_res.get("is_cfmd") or 
+            mshta_res.get("is_mshta") or 
+            bool(live_c2) or 
+            bool(delivery_url) or 
+            len(extracted_urls) > 0 or 
+            c.get("source") == "abuse.ch (URLhaus)"
+        )
+        if not has_hit:
+            continue
 
         finding = {
             "scan_id": scan_id,
@@ -254,4 +280,6 @@ def run_pipeline():
     print(f"[+] Done! Processed {len(new_findings)} new findings. Daily CSV and Reports updated.")
 
 if __name__ == "__main__":
-    run_pipeline()
+    import sys
+    window = int(sys.argv[1]) if len(sys.argv) > 1 else 1440
+    run_pipeline(time_window_minutes=window)

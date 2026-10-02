@@ -1,19 +1,17 @@
 # 👀 ClickFix / ClearFake Intelligence Feed
-**Last Updated:** `2026-10-02 01:46:49 UTC`
+**Last Updated:** `2026-10-02 03:33:04 UTC`
 
 ---
 ### [Compromised Injected Hosts (Initial Access)]
 * `ucc-tr[.]com` *(IP: 160.153.0[.]62 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 * `uberrichinfatcity[.]com` *(IP: 159.203.141[.]19 | Loc: US | ASN: DIGITALOCEAN-ASN - DigitalOcean, LLC, US)*
 * `unicarsistem[.]com` *(IP: 5.79.120[.]154 | Loc: NL | ASN: LEASEWEB-NL-AMS-01 LeaseWeb Netherlands B.V., NL)*
-* `umojn[.]edu[.]ni` *(IP: 144.126.133[.]133 | Loc: US | ASN: CONTABO-40021 - Contabo Inc., US)*
 * `unitedmovingusa[.]com` *(IP: 162.241.217[.]117 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
 * `ubgeneraltrading[.]com` *(IP: 162.241.216[.]86 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
 * `unitedpowerprojects[.]com` *(IP: 82.25.127[.]247 | Loc: IN | ASN: AS-HOSTINGER Hostinger International Limited, CY)*
 * `unitedtransport[.]co[.]in` *(IP: 2a02:4780:11:1427:0:236d:9f44:10 | Loc: IN | ASN: AS-HOSTINGER Hostinger International Limited, CY)*
 * `www[.]vault55[.]com` *(IP: 69.163.179[.]165 | Loc: US | ASN: DREAMHOST-AS - New Dream Network, LLC, US)*
 * `vbbs[.]edu[.]vn` *(IP: 103.90.233[.]81 | Loc: VN | ASN: WEBPANDA-AS-VN - Cong ty TNHH Web Panda, VN)*
-* `whominds[.]com` *(IP:  | Loc: Unknown | ASN: None)*
 * `wiltonstamebudgies[.]com` *(IP: 104.21.24[.]117 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `weslinc[.]com` *(IP: 66.29.156[.]250 | Loc: US | ASN: NAMECHEAP-NET - Namecheap, Inc., US)*
 * `www[.]wendyvonsosen[.]com` *(IP: 162.241.216[.]152 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
@@ -37,15 +35,12 @@
 * `yellowtreecs[.]com` *(IP: 50.87.168[.]231 | Loc: US | ASN: UNIFIEDLAYER-AS-1 - Unified Layer, US)*
 * `yeet[.]company` *(IP: 81.88.52[.]10 | Loc: IT | ASN: REGISTER-AS REGISTER S.P.A., IT)*
 * `zim-h2[.]com` *(IP: 109.235.174[.]3 | Loc: SE | ASN: LOOPIA3 Loopia AB, SE)*
-* `zabava-artes[.]cz` *(IP:  | Loc: Unknown | ASN: None)*
 * `xaynhatrongoitphcm[.]vn` *(IP: 103.57.221[.]79 | Loc: VN | ASN: VNPT-AS-VN - VIETNAM POSTS AND TELECOMMUNICATIONS GROUP, VN)*
 * `xn----3mci2aha3gqbzb[.]com` *(IP: 172.67.135[.]8 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `wtadelden[.]nl` *(IP: 2a01:7c8:f0:1152:0:2:ee7:8a29 | Loc: NL | ASN: COMBELL-AS Combell NV, BE)*
-* `zesanenterprises[.]com` *(IP:  | Loc: Unknown | ASN: None)*
 * `work-skills-global[.]com` *(IP: 141.193.213[.]10 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 * `work-source[.]app` *(IP: 74.208.90[.]153 | Loc: US | ASN: IONOS-AS IONOS SE, DE)*
 * `wowwatch[.]nl` *(IP: 2a00:1630:127:2::10 | Loc: NL | ASN: i3Dnet i3D.net B.V, NL)*
-* `wordpress[.]soulapp[.]me` *(IP: 124.243.145[.]161 | Loc: SG | ASN: HWCLOUDS-AS-AP - HUAWEI CLOUDS, HK)*
 * `uberrichinfatcity[.]com` *(IP: 159.203.141[.]19 | Loc: US | ASN: DIGITALOCEAN-ASN - DigitalOcean, LLC, US)*
 * `wordpress-zakelijk[.]strijbosch[.]nl` *(IP: 93.119.12[.]246 | Loc: NL | ASN: TRANSIP-AS Signet B.V., NL)*
 * `ubgeneraltrading[.]com` *(IP: 162.241.216[.]86 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
@@ -57,19 +52,11 @@
 * `zendogzz[.]com` *(IP: 102.215.239[.]115 | Loc: ZA | ASN: Web Squad Connect (Pty) Ltd - Web Squad Connect (Pty) Ltd, ZA)*
 * `visaphanlan[.]com` *(IP: 103.104.122[.]124 | Loc: VN | ASN: VNDATA-AS-VN - Viet Storage Technology Joint Stock Company, VN)*
 * `zucchinicru[.]com` *(IP: 135.181.170[.]201 | Loc: FI | ASN: HETZNER-AS Hetzner Online GmbH, DE)*
-* `mesa-zaimmuen[.]life` *(IP: 45.152.202[.]72 | Loc: SC | ASN: NetCraftersOU NetCrafters OU, EE)*
 * `zocity[.]nl` *(IP: 2a00:1630:127:2::10 | Loc: NL | ASN: i3Dnet i3D.net B.V, NL)*
 * `unicarsistem[.]com` *(IP: 5.79.120[.]154 | Loc: NL | ASN: LEASEWEB-NL-AMS-01 LeaseWeb Netherlands B.V., NL)*
 * `vc[.]sa` *(IP: 66.96.149[.]29 | Loc: US | ASN: BIZLAND-SD - Newfold Digital, Inc., US)*
-* `unitedmovingusa[.]com` *(IP:  | Loc: Unknown | ASN: None)*
 * `webkinn[.]com` *(IP: 145.223.77[.]109 | Loc: US | ASN: AS-HOSTINGER Hostinger International Limited, CY)*
-* `entbd[.]org` *(IP: 188.114.96[.]3 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
-* `effectsaesthetics[.]com` *(IP: 160.153.0[.]94 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
-* `martindigitalgroup[.]com` *(IP: 162.144.178[.]220 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
-* `lichsuvanhoa[.]net` *(IP: 14.177.232[.]31 | Loc: VN | ASN: VNPT-AS-VN - VNPT Corp, VN)*
-* `legale-mischung[.]net` *(IP: 172.67.144[.]87 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `diabetescareth[.]com` *(IP: 103.30.127[.]84 | Loc: TH | ASN: METRABYTE-TH - 453 Ladplacout Jorakhaebua, TH)*
-* `ht-mart[.]com` *(IP: 160.153.0[.]199 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 * `rfcert[.]com[.]br` *(IP: 192.185.213[.]102 | Loc: BR | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
 * `94[.]154[.]43[.]253` *(IP: 94.154.43[.]253 | Loc: Amsterdam, The Netherlands | ASN: AS219502 Storm Industries LLC)*
 * `github[.]com` *(IP: 140.82.121[.]4 | Loc: Frankfurt am Main, Germany | ASN: AS36459 GitHub, Inc.)*
@@ -93,7 +80,6 @@
 * `the[.]earth[.]li` *(IP: 93.93.131[.]124 | Loc: London, United Kingdom | ASN: AS44684 Mythic Beasts Ltd)*
 * `forgewillow[.]com` *(IP: 104.21.24[.]183 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `weinbausuchel[.]at` *(IP: 2a03:f80:ad15:91:227:205:222:1 | Loc: Vienna, Austria | ASN: AS57169 EDIS GmbH)*
-* `wasiisports[.]com` *(IP: 192.185.191[.]242 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
 * `visabi[.]vn` *(IP: 103.104.122[.]124 | Loc: Quận Tân Phú, Vietnam | ASN: AS135932 Viet Storage Technology Joint Stock Company)*
 * `web[.]cervanties[.]com` *(IP: 2001:41d0:301:4::27 | Loc: Madrid, Spain | ASN: AS16276 OVH SAS)*
 * `wcuglobaledu[.]com` *(IP: 131.153.147[.]186 | Loc: Ashburn, United States | ASN: AS19437 SECURED SERVERS LLC)*
@@ -104,90 +90,27 @@
 * `visamy[.]org` *(IP: 103.104.122[.]79 | Loc: Quận Tân Phú, Vietnam | ASN: AS135932 Viet Storage Technology Joint Stock Company)*
 * `virtualopticamedellin[.]com` *(IP: 216.246.46[.]74 | Loc: Chicago, United States | ASN: AS23352 DEFT.COM)*
 * `vinayweb[.]tech` *(IP: 217.21.87[.]66 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
-* `usa-stakebet[.]com` *(IP: 92.113.16[.]75 | Loc: Frankfurt am Main, Germany | ASN: AS47583 Hostinger International Limited)*
-* `resiliencychallenge[.]com` *(IP: 141.193.213[.]10 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `parfumerie-elegance[.]tn` *(IP: 188.165.0[.]143 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
 * `neurowellcounseling[.]com` *(IP: 2607:f1c0:100f:f000::2eb | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
 * `visanga[.]vn` *(IP: 103.104.122[.]93 | Loc: Quận Tân Phú, Vietnam | ASN: AS135932 Viet Storage Technology Joint Stock Company)*
 * `urdustoryclub[.]com` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `vaao[.]lv` *(IP: 2001:41d0:301:11::28 | Loc: Milan, Italy | ASN: AS16276 OVH SAS)*
 * `v-b-t[.]se` *(IP: 46.30.215[.]118 | Loc: Copenhagen, Denmark | ASN: AS51468 One.com A/S)*
 * `urdu69[.]com` *(IP: 2a06:98c1:3120::3 | Loc: London, United Kingdom | ASN: AS13335 Cloudflare, Inc.)*
-* `idcool[.]codes` *(IP: 178.16.52[.]101 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
 * `vobemapolska[.]pl` *(IP: 185.208.164[.]129 | Loc: Krakow, Poland | ASN: AS41079 Cyber_Folks S.A.)*
 * `www[.]jedinstvopd[.]com` *(IP: 67.205.3[.]76 | Loc: Ashburn, United States | ASN: AS26347 New Dream Network, LLC)*
-* `vivid-orbit-fjord-gaie[.]life` *(IP: 89.208.103[.]221 | Loc: Frankfurt am Main, Germany | ASN: AS210644 AEZA GROUP LLC)*
 * `ibnuzubair[.]com` *(IP: 2a07:7800::194 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
-* `www[.]bilisimzamani[.]net` *(IP: 104.21.58[.]216 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `www[.]amparofabra[.]com` *(IP: 212.63.110[.]118 | Loc: Madrid, Spain | ASN: AS201446 Soluciones web on line s.l.)*
-* `www[.]frenteplural[.]com[.]ar` *(IP: 34.73.35[.]213 | Loc: North Charleston, United States | ASN: AS396982 Google LLC)*
 * `dispensaserrande[.]it` *(IP: 86.107.32[.]87 | Loc: Cassino, Italy | ASN: AS52030 Server Plan S.r.l.)*
 * `cleanafrica[.]org` *(IP: 2001:8d8:100f:f000::235 | Loc: Frankfurt am Main, Germany | ASN: AS8560 IONOS SE)*
 * `ausgreensolar[.]com[.]au` *(IP: 184.168.103[.]215 | Loc: Singapore, Singapore | ASN: AS26496 GoDaddy.com, LLC)*
-* `glacial-bloom-wren-croaon[.]life` *(IP: 45.152.202[.]114 | Loc: Vienna, Austria | ASN: NetCraftersOU NetCrafters OU, EE)*
-* `mam-les-ptits-anges[.]fr` *(IP: 2001:8d8:100f:f000::200 | Loc: Frankfurt am Main, Germany | ASN: AS8560 IONOS SE)*
-* `vivid-roam-cove-gleon[.]life` *(IP: 45.118.249[.]84 | Loc: Chicago, United States | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `brand-accord[.]com` *(IP: 185.151.30[.]189 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
-* `caracrepair[.]ae` *(IP: 108.181.242[.]139 | Loc: Dallas, United States | ASN: AS40676 Psychz Networks)*
-* `alipackfast[.]kz` *(IP: 89.35.125[.]34 | Loc: Astana, Kazakhstan | ASN: AS207333 Hoster.KZ - Astana)*
 * `lauraforcitycouncil[.]com` *(IP: 162.241.24[.]77 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `calibray[.]in` *(IP: 89.117.157[.]136 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
-* `xingyaotec[.]com` *(IP: 103.138.106[.]47 | Loc: Taipei, Taiwan | ASN: AS17408 AboveNet Communications Taiwan)*
-* `www[.]hatimarahs[.]edu[.]bd` *(IP: 103.169.161[.]66 | Loc: Dhaka, Bangladesh | ASN: AS148993 Diana Host Ltd)*
 * `www[.]cartoontjes[.]nl` *(IP: 87.236.102[.]163 | Loc: Spijkenisse, The Netherlands | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `krstravel[.]com[.]my` *(IP: 117.53.155[.]21 | Loc: Bayan Lepas, Malaysia | ASN: AS46015 Exa Bytes Network Sdn.Bhd.)*
-* `touchbearersacademy[.]com` *(IP: 185.151.30[.]190 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
-* `www[.]somcaregt[.]com` *(IP: 185.151.30[.]144 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
-* `ticket-zero[.]com` *(IP: 185.146.167[.]196 | Loc: Washington, United States | ASN: AS48254 20i Limited)*
-* `xgbalear[.]com` *(IP: 81.88.52[.]171 | Loc: Bergamo, Italy | ASN: AS39729 REGISTER S.P.A.)*
-* `timsouthwell[.]co[.]uk` *(IP: 185.151.30[.]221 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
-* `revitaceutical[.]com` *(IP: 50.87.179[.]84 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
-* `internetandcableservicesatgadget[.]com` *(IP: 50.6.43[.]246 | Loc: Mumbai, India | ASN: AS31898 Oracle Corporation)*
-* `intval[.]com` *(IP: 50.63.142[.]110 | Loc: Tempe, United States | ASN: AS398101 GoDaddy.com, LLC)*
 * `interpretationaudiosupport[.]com` *(IP: 162.241.252[.]26 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `kazmitailorsandclothdraper[.]com` *(IP: 185.151.30[.]200 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
 * `housedesignideas[.]net` *(IP: 63.250.43[.]9 | Loc: Los Angeles, United States | ASN: AS22612 Namecheap, Inc.)*
-* `communicationmagicwithmen[.]com` *(IP: 45.40.148[.]206 | Loc: Tempe, United States | ASN: AS398787 GoDaddy.com, LLC)*
-* `servicestatlab[.]com` *(IP: 94.23.162[.]163 | Loc: Saarbrücken, Germany | ASN: AS16276 OVH SAS)*
-* `ant[.]bergamonerazzurra[.]com` *(IP: 188.114.96[.]12 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `ivoryfable[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `entry-verifed-cdn[.]codes` *(IP: 178.16.52[.]101 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
-* `cdn-beer[.]com` *(IP: 172.67.191[.]232 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `marblehorizon[.]com` *(IP: 172.67.203[.]43 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `fonixlife[.]hu` *(IP: 195.228.152[.]223 | Loc: Budapest, Hungary | ASN: AS5483 Magyar Telekom Plc.)*
-* `golosknig[.]org` *(IP: 62.113.118[.]194 | Loc: Moscow, Russia | ASN: AS48282 Hosting technology LTD)*
 * `azanintl[.]com` *(IP: 2a02:4780:1:1130:0:2ccd:abb6:10 | Loc: Asheville, United States | ASN: AS47583 Hostinger International Limited)*
-* `authshipup[.]net` *(IP: 94.23.162[.]163 | Loc: Saarbrücken, Germany | ASN: AS16276 OVH SAS)*
 * `hunteroc[.]com` *(IP: 160.153.0[.]141 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `152[.]42[.]143[.]45` *(IP: 152.42.143[.]45 | Loc: Amsterdam, The Netherlands | ASN: AS14061 DigitalOcean, LLC)*
-* `kostaschristides[.]com` *(IP: 172.67.130[.]104 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `runtimerailbit[.]com` *(IP: 54.38.220[.]85 | Loc: Limburg an der Lahn, Germany | ASN: AS16276 OVH SAS)*
-* `info-u[.]net` *(IP: 202.172.28[.]182 | Loc: JP | ASN: DIGIROCK - DigiRock, Inc., JP)*
-* `www[.]zmqh[.]com` *(IP: 47.98.99[.]190 | Loc: CN | ASN: ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN)*
-* `build[.]polysupport[.]team` *(IP: 104.36.83[.]153 | Loc: US | ASN: CRUNCHBITS - Redoubt Networks, US)*
-* `213[.]109[.]203[.]104` *(IP: 213.109.203[.]104 | Loc: RU | ASN: BV-EU-AS BlueVPS OU, EE)*
-* `metricsdataway[.]com` *(IP: 149.56.205[.]18 | Loc: CA | ASN: OVH OVH SAS, FR)*
-* `pulsepathnet[.]com` *(IP: 213.109.203[.]104 | Loc: RU | ASN: BV-EU-AS BlueVPS OU, EE)*
-* `www[.]clearvoice1[.]com` *(IP: 131.153.171[.]250 | Loc: Unknown | ASN: None)*
-* `googltagmanager[.]online` *(IP: 144.124.225[.]171 | Loc: Amsterdam, The Netherlands | ASN: AS216071 SERVERS TECH FZCO)*
-* `techeducate[.]com` *(IP: 2a02:4780:4d:9209:9d82:2ca8:dfb4:f181 | Loc: Boston, United States | ASN: AS47583 Hostinger International Limited)*
-* `voidravencitadel[.]com` *(IP: 172.67.190[.]202 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `foundersunfound[.]com` *(IP: 216.194.167[.]35 | Loc: Los Angeles, United States | ASN: AS22611 InMotion Hosting, Inc.)*
-* `mossparlor[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `oapi[.]polysupport[.]team` *(IP: 104.36.83[.]153 | Loc: Liberty Lake, United States | ASN: AS400304 Redoubt Networks)*
-* `biobkliaum[.]live` *(IP: 2.56.122[.]219 | Loc: Frankfurt am Main, Germany | ASN: AS203273 NetCrafters OU)*
-* `ochre-quill-buindbaio[.]icu` *(IP: 45.158.185[.]73 | Loc: Frankfurt am Main, Germany | ASN: None)*
-* `www[.]letsdiskuss[.]com` *(IP: 104.21.20[.]139 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `lute[.]bowlinggreenwinnelsonco[.]com` *(IP: 172.67.182[.]201 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `modulefeedsky[.]com` *(IP: 91.210.108[.]104 | Loc: Amsterdam, Netherlands | ASN: AS62005 BlueVPS OU)*
-* `bagueie[.]xyz` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `mssecurityinc[.]com` *(IP: 69.195.112[.]33 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `joschool-online[.]com` *(IP: 216.172.184[.]136 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
-* `shopguoerve[.]pro` *(IP: 2606:4700:3030::6815:4ae6 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `196[.]251[.]107[.]171` *(IP: 196.251.107[.]171 | Loc: Frankfurt am Main, Germany | ASN: AS214351 FEMO IT SOLUTIONS LIMITED)*
-* `dfsjfisafosdikfos[.]info` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `isosissisisossfiof[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `lewokodwqko[.]icu` *(IP: 172.67.188[.]1 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `przestworze[.]pl` *(IP: 2.57.138[.]61 | Loc: Częstochowa, Poland | ASN: AS31229 Beyond.pl sp. z o.o.)*
 * `takeactioncanada[.]ca` *(IP: 66.102.128[.]60 | Loc: Toronto, Canada | ASN: AS40092 HostPapa)*
 * `obranuevaenvigo[.]com` *(IP: 185.23.119[.]86 | Loc: Madrid, Spain | ASN: AS201446 Soluciones web on line s.l.)*
@@ -291,8 +214,6 @@
 * `globalsupportupdate[.]top` *(IP:  | Loc: Unknown | ASN: None)*
 * `hip-hop-comms[.]com` *(IP: 167.86.123[.]58 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
 * `loop-lumen[.]com` *(IP: 104.21.68[.]158 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `swiftenv[.]io` *(IP: 172.67.152[.]131 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `178[.]16[.]54[.]55` *(IP: 178.16.54[.]55 | Loc: Amsterdam, The Netherlands | ASN: AS202412 Omegatech LTD)*
 * `www[.]xella[.]pipp[.]is` *(IP: 185.112.145[.]171 | Loc: Reykjavik, Iceland | ASN: AS44925 1984 ehf)*
 * `www[.]archinatura[.]it` *(IP: 86.107.36[.]36 | Loc: Cassino, Italy | ASN: AS52030 Server Plan S.r.l.)*
 * `istanbul[.]turing[.]tr` *(IP: 178.157.14[.]225 | Loc: Istanbul, Turkey | ASN: AS42807 CIZGI TELEKOMUNIKASYON ANONIM SIRKETI)*
@@ -331,11 +252,6 @@
 * `academicpipelinedatabase[.]net` *(IP: 141.193.213[.]11 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `bookernesto[.]com` *(IP: 192.254.187[.]133 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `360careeradvice[.]com` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `test[.]poptribe[.]com` *(IP: 137.184.108[.]14 | Loc: North Bergen, United States | ASN: AS14061 DigitalOcean, LLC)*
-* `cloud[.]edns-server[.]cfd` *(IP: 178.16.52[.]101 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
-* `cove-koi-hk753[.]xyz` *(IP: 193.58.108[.]64 | Loc: Paris, France | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `zenzenzendrnzenzenzenzen[.]xyz` *(IP: 172.67.212[.]118 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `allowcheckd3[.]cc` *(IP: 172.67.206[.]20 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `onlineriddles[.]co[.]uk` *(IP: 191.96.144[.]19 | Loc: Asheville, United States | ASN: AS47583 Hostinger International Limited)*
 * `worldwise-hub[.]com` *(IP: 2001:41d0:301::100 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
 * `theblockchaincouncil[.]io` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
@@ -383,9 +299,6 @@
 * `mutualamba[.]com` *(IP: 66.97.37[.]209 | Loc: Rosario, Argentina | ASN: AS27823 Dattatec.com)*
 * `askgeoffrey[.]ai` *(IP: 63.250.43[.]12 | Loc: US | ASN: NAMECHEAP-NET - Namecheap, Inc., US)*
 * `arthurcampelo[.]vet[.]br` *(IP: 162.241.63[.]72 | Loc: BR | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
-* `zmqh[.]com` *(IP: 47.98.99[.]190 | Loc: Hangzhou, China | ASN: AS37963 Hangzhou Alibaba Advertising Co.,Ltd.)*
-* `104[.]238[.]57[.]221` *(IP: 104.238.57[.]221 | Loc: Los Angeles, United States | ASN: AS199959 GWY IT PTY LTD)*
-* `clearvoice1[.]com` *(IP: 131.153.171[.]250 | Loc: Ashburn, United States | ASN: AS19437 SECURED SERVERS LLC)*
 * `les-manufactures[.]ch` *(IP: 2001:1600:4:13:1a66:daff:fe5c:a6f8 | Loc: Geneva, Switzerland | ASN: AS29222 Infomaniak)*
 * `dorsaroofandbuild[.]com` *(IP: 160.153.0[.]195 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `www[.]prontointerventosocialedss17[.]com` *(IP: 89.46.110[.]20 | Loc: Arezzo, Italy | ASN: AS31034 Aruba S.p.A.)*
@@ -412,17 +325,6 @@
 * `tlu[.]htw[.]temporary[.]site` *(IP: 50.116.93[.]78 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `www[.]incekarakuruyemis[.]com[.]tr` *(IP: 185.87.252[.]36 | Loc: Pendik, Turkey | ASN: AS42868 Niobe Bilisim Ltd. Sti.)*
 * `guinchocarmodoparanaiba[.]com[.]br` *(IP: 186.209.113[.]157 | Loc: Brooklin, Brazil | ASN: AS53107 EVEO S.A.)*
-* `capt-stash[.]beer` *(IP: 94.156.170[.]157 | Loc: Frankfurt am Main, Germany | ASN: AS215439 PLAY2GO INTERNATIONAL LIMITED)*
-* `45[.]140[.]205[.]28` *(IP: 45.140.205[.]28 | Loc: Zurich, Switzerland | ASN: AS215540 GLOBAL CONNECTIVITY SOLUTIONS LLP)*
-* `tofartinthesummer[.]com` *(IP: 172.67.213[.]85 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `wetsockclub[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `nevertiredflowers[.]lol` *(IP: 41.216.188[.]82 | Loc: Düsseldorf, Germany | ASN: AS30823 aurologic GmbH)*
-* `bigflopenergy[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `chekcms432[.]cc` *(IP: 172.67.156[.]174 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `nonprofitrole[.]com` *(IP: 91.92.43[.]250 | Loc: Frankfurt am Main, Germany | ASN: AS207043 DEDIK SERVICES LIMITED)*
-* `lustkliondruara[.]space` *(IP: 45.139.85[.]139 | Loc: Amsterdam, The Netherlands | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `webpagehelp[.]online` *(IP:  | Loc: Unknown | ASN: None)*
-* `simplecheck[.]online` *(IP: 213.109.192[.]25 | Loc: Palermo, Italy | ASN: AS62005 BlueVPS OU)*
 * `carolinepeyton[.]com` *(IP: 199.16.173[.]73 | Loc: San Francisco, United States | ASN: AS2635 Automattic, Inc)*
 * `www[.]izancreations[.]fr` *(IP: 51.91.236[.]193 | Loc: Paris, France | ASN: AS16276 OVH SAS)*
 * `vancouvertopautosales[.]com` *(IP: 185.164.108[.]35 | Loc: Phoenix, United States | ASN: AS47583 Hostinger International Limited)*
@@ -487,32 +389,9 @@
 * `www[.]guillembaches[.]com` *(IP: 217.160.158[.]123 | Loc: Madrid, Spain | ASN: AS8560 IONOS SE)*
 * `www[.]tjeg[.]com` *(IP: 185.151.30[.]219 | Loc: London, United Kingdom | ASN: AS48254 20i Limited)*
 * `www[.]archpowered[.]com` *(IP: 162.159.135[.]42 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `salvusassurance[.]com` *(IP: 217.21.90[.]150 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
 * `www[.]arengumrukleme[.]com[.]tr` *(IP: 45.151.251[.]6 | Loc: Izmir, Türkiye | ASN: AS209853 Veridyen Bilisim Teknolojileri Sanayi ve Ticaret Limited Sirketi)*
 * `demo[.]79mplus[.]com` *(IP: 128.199.245[.]23 | Loc: Singapore, Singapore | ASN: AS14061 DigitalOcean, LLC)*
 * `86[.]109[.]75[.]7` *(IP: 86.109.75[.]7 | Loc: Los Angeles, United States | ASN: AS53850 GorillaServers, Inc.)*
-* `maalaitimes[.]com` *(IP: 160.153.0[.]145 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `volanteomaleta[.]cl` *(IP: 87.58.201[.]134 | Loc: Amsterdam, The Netherlands | ASN: AS218731 Andris Jakovlevs)*
-* `fortuna-qwont[.]club` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `fringliaencobalt[.]ink` *(IP: 45.139.85[.]202 | Loc: Amsterdam, The Netherlands | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `167[.]99[.]0[.]131` *(IP: 167.99.0[.]131 | Loc: North Bergen, United States | ASN: AS14061 DigitalOcean, LLC)*
-* `172[.]232[.]114[.]51` *(IP: 172.232.114[.]51 | Loc: Chennai, India | ASN: AS63949 Akamai Connected Cloud)*
-* `165[.]22[.]255[.]138` *(IP: 165.22.255[.]138 | Loc: Singapore, Singapore | ASN: AS14061 DigitalOcean, LLC)*
-* `167[.]71[.]110[.]80` *(IP: 167.71.110[.]80 | Loc: Clifton, United States | ASN: AS14061 DigitalOcean, LLC)*
-* `169[.]51[.]48[.]11` *(IP: 169.51.48[.]11 | Loc: Armonk, United States | ASN: AS36351 IBM Cloud)*
-* `162[.]240[.]96[.]107` *(IP: 162.240.96[.]107 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
-* `164[.]160[.]41[.]10` *(IP: 164.160.41[.]10 | Loc: Abidjan, Ivory Coast | ASN: AS328193 SOCIETE NATIONALE DE DEVELOPPEMENT INFORMATIQUE)*
-* `159[.]89[.]93[.]96` *(IP: 159.89.93[.]96 | Loc: North Bergen, United States | ASN: AS14061 DigitalOcean, LLC)*
-* `159[.]223[.]94[.]233` *(IP: 159.223.94[.]233 | Loc: Singapore, Singapore | ASN: AS14061 DigitalOcean, LLC)*
-* `162[.]240[.]31[.]67` *(IP: 162.240.31[.]67 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
-* `retailo[.]net` *(IP: 161.35.17[.]65 | Loc: Frankfurt am Main, Germany | ASN: AS14061 DigitalOcean, LLC)*
-* `159[.]223[.]105[.]127` *(IP: 159.223.105[.]127 | Loc: North Bergen, United States | ASN: AS14061 DigitalOcean, LLC)*
-* `15[.]236[.]37[.]248` *(IP: 15.236.37[.]248 | Loc: Paris, France | ASN: AS16509 Amazon.com, Inc.)*
-* `157[.]230[.]192[.]229` *(IP: 157.230.192[.]229 | Loc: Singapore, Singapore | ASN: AS14061 DigitalOcean, LLC)*
-* `150[.]241[.]124[.]218` *(IP: 150.241.124[.]218 | Loc: Frankfurt am Main, Germany | ASN: AS218731 Andris Jakovlevs)*
-* `144[.]208[.]73[.]31` *(IP: 144.208.73[.]31 | Loc: Reston, United States | ASN: AS54641 InMotion Hosting, Inc.)*
-* `www[.]101group[.]com` *(IP: 192.124.249[.]105 | Loc: Menifee, United States | ASN: AS30148 Sucuri)*
-* `147[.]135[.]254[.]49` *(IP: 147.135.254[.]49 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
 * `garyandlisa[.]com` *(IP: 195.179.237[.]99 | Loc: Phoenix, United States | ASN: AS47583 Hostinger International Limited)*
 * `www[.]fullacceso[.]cl` *(IP: 66.235.175[.]220 | Loc: Dallas, United States | ASN: AS397423 Tier.Net Technologies LLC)*
 * `ftransformation[.]com` *(IP: 160.153.0[.]254 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
@@ -578,11 +457,6 @@
 * `whitesborodental[.]com` *(IP: 160.153.0[.]8 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `www[.]marinelabworld[.]com` *(IP: 89.46.108[.]54 | Loc: Arezzo, Italy | ASN: AS31034 Aruba S.p.A.)*
 * `pevrix[.]com` *(IP:  | Loc: Unknown | ASN: None)*
-* `aidentyx[.]com` *(IP: 72.167.135[.]243 | Loc: Tempe, United States | ASN: AS398101 GoDaddy.com, LLC)*
-* `dog[.]caspers66[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `interseq[.]at` *(IP: 104.21.3[.]152 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `untraceableit[.]com` *(IP: 34.195.185[.]113 | Loc: Ashburn, United States | ASN: AS14618 Amazon.com, Inc.)*
-* `43[.]135[.]162[.]33` *(IP: 43.135.162[.]33 | Loc: Santa Clara, United States | ASN: AS132203 Tencent Building, Kejizhongyi Avenue)*
 * `commercialcleaningequipmentfinance[.]com[.]au` *(IP: 103.146.112[.]105 | Loc: Melbourne, Australia | ASN: AS136557 Host Universal Pty Ltd)*
 * `eastmont[.]net` *(IP: 143.110.184[.]229 | Loc: Bengaluru, India | ASN: AS14061 DigitalOcean, LLC)*
 * `blankwhitepaper[.]com` *(IP: 103.82.65[.]12 | Loc: Sydney, Australia | ASN: AS38220 Amaze Intelligence)*
@@ -629,54 +503,6 @@
 * `www[.]darebinsulation[.]co[.]uk` *(IP: 82.208.23[.]196 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
 * `www[.]cadmvservices[.]com` *(IP: 23.235.209[.]121 | Loc: Los Angeles, United States | ASN: AS22611 InMotion Hosting, Inc.)*
 * `185[.]166[.]155[.]221` *(IP: 185.166.155[.]221 | Loc: Vienna, Austria | ASN: AS212171 Local NCC Ltd.)*
-* `lunar-arc-birch-caum[.]icu` *(IP: 2.56.123[.]55 | Loc: Nicosia, Cyprus | ASN: AS203273 NetCrafters OU)*
-* `hahah1101[.]mom` *(IP: 104.21.68[.]138 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `frameworkservice[.]online` *(IP: 89.124.123[.]27 | Loc: Amsterdam, The Netherlands | ASN: AS216071 SERVERS TECH FZCO)*
-* `lospls[.]com` *(IP: 2606:4700:3031::6815:5daf | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `maccloudvault[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `innov8league[.]com` *(IP: 95.111.225[.]5 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
-* `invoiceguru[.]co[.]za` *(IP: 197.189.208[.]84 | Loc: Johannesburg, South Africa | ASN: AS37153 Xneelo (Pty) Ltd)*
-* `imaziner[.]com` *(IP: 162.43.101[.]108 | Loc: Chiyoda City, Japan | ASN: AS131965 XServer Cloud Inc.)*
-* `ieclearbra[.]com` *(IP: 127.0.0[.]1 | Loc: Unknown | ASN: None)*
-* `breakneckridgefarm[.]com` *(IP: 104.21.69[.]110 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `www[.]adapadske[.]org` *(IP: 78.128.60[.]222 | Loc: Sofia, Bulgaria | ASN: AS57344 Telehouse EAD)*
-* `44384f75[.]roxymigurdia[.]wiki` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `77[.]246[.]147[.]92` *(IP: 77.246.147[.]92 | Loc: Moscow, Russia | ASN: AS29182 JSC IOT)*
-* `78[.]46[.]240[.]128` *(IP: 78.46.240[.]128 | Loc: Nuremberg, Germany | ASN: AS24940 Hetzner Online GmbH)*
-* `74[.]50[.]99[.]45` *(IP: 74.50.99[.]45 | Loc: New York, United States | ASN: AS29802 HIVELOCITY, Inc.)*
-* `74[.]48[.]114[.]55` *(IP: 74.48.114[.]55 | Loc: Los Angeles, United States | ASN: None)*
-* `80[.]71[.]229[.]25` *(IP: 80.71.229[.]25 | Loc: London, United Kingdom | ASN: AS210734 IPHOSTER OU)*
-* `74[.]48[.]108[.]236` *(IP: 74.48.108[.]236 | Loc: Los Angeles, United States | ASN: None)*
-* `77[.]237[.]247[.]182` *(IP: 77.237.247[.]182 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
-* `72[.]167[.]134[.]175` *(IP: 72.167.134[.]175 | Loc: Tempe, United States | ASN: AS398101 GoDaddy.com, LLC)*
-* `69[.]164[.]207[.]137` *(IP: 69.164.207[.]137 | Loc: Richardson, United States | ASN: AS63949 Akamai Connected Cloud)*
-* `65[.]49[.]82[.]3` *(IP: 65.49.82[.]3 | Loc: Southlake, United States | ASN: AS6939 Hurricane Electric LLC)*
-* `aulavirtual[.]morelia[.]tecnm[.]mx` *(IP: 74.208.210[.]81 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
-* `kayndrexsphere[.]net` *(IP: 192.0.78[.]24 | Loc: San Francisco, United States | ASN: AS2635 Automattic, Inc)*
-* `69[.]57[.]163[.]151` *(IP: 69.57.163[.]151 | Loc: Los Angeles, United States | ASN: AS22612 Namecheap, Inc.)*
-* `64[.]227[.]129[.]58` *(IP: 64.227.129[.]58 | Loc: Bengaluru, India | ASN: AS14061 DigitalOcean, LLC)*
-* `54[.]39[.]68[.]142` *(IP: 54.39.68[.]142 | Loc: Beauharnois, Canada | ASN: AS16276 OVH SAS)*
-* `www[.]skillseekers[.]ca` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `66[.]39[.]79[.]68` *(IP: 66.39.79[.]68 | Loc: Pittsburgh, United States | ASN: AS7859 pair Networks)*
-* `54[.]197[.]245[.]249` *(IP: 54.197.245[.]249 | Loc: Ashburn, United States | ASN: AS14618 Amazon.com, Inc.)*
-* `54[.]173[.]170[.]130` *(IP: 54.173.170[.]130 | Loc: Ashburn, United States | ASN: AS14618 Amazon.com, Inc.)*
-* `62[.]133[.]62[.]176` *(IP: 62.133.62[.]176 | Loc: Paris, France | ASN: AS215540 GLOBAL CONNECTIVITY SOLUTIONS LLP)*
-* `52[.]76[.]43[.]213` *(IP: 52.76.43[.]213 | Loc: Singapore, Singapore | ASN: AS16509 Amazon.com, Inc.)*
-* `54[.]76[.]13[.]162` *(IP: 54.76.13[.]162 | Loc: Dublin, Ireland | ASN: AS16509 Amazon.com, Inc.)*
-* `52[.]23[.]9[.]8` *(IP: 52.23.9[.]8 | Loc: Ashburn, United States | ASN: AS14618 Amazon.com, Inc.)*
-* `52[.]21[.]159[.]183` *(IP: 52.21.159[.]183 | Loc: Ashburn, United States | ASN: AS14618 Amazon.com, Inc.)*
-* `45[.]79[.]202[.]83` *(IP: 45.79.202[.]83 | Loc: Atlanta, United States | ASN: AS63949 Akamai Connected Cloud)*
-* `35[.]154[.]224[.]78` *(IP: 35.154.224[.]78 | Loc: Mumbai, India | ASN: AS16509 Amazon.com, Inc.)*
-* `51[.]79[.]204[.]217` *(IP: 51.79.204[.]217 | Loc: Singapore, Singapore | ASN: AS16276 OVH SAS)*
-* `5[.]63[.]157[.]201` *(IP: 5.63.157[.]201 | Loc: London, United Kingdom | ASN: AS197695 Domain names registrar REG.RU, Ltd)*
-* `45[.]8[.]93[.]168` *(IP: 45.8.93[.]168 | Loc: Stockholm, Sweden | ASN: AS215439 PLAY2GO INTERNATIONAL LIMITED)*
-* `share[.]dovgertz[.]com` *(IP: 172.67.143[.]235 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `daleeby[.]com` *(IP: 89.34.90[.]217 | Loc: Frankfurt am Main, Germany | ASN: AS207043 DEDIK SERVICES LIMITED)*
-* `bapak178[.]org` *(IP: 104.21.39[.]179 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `173[.]231[.]196[.]249` *(IP: 173.231.196[.]249 | Loc: Los Angeles, United States | ASN: AS22611 InMotion Hosting, Inc.)*
-* `31[.]147[.]204[.]35` *(IP: 31.147.204[.]35 | Loc: Križevci, Croatia | ASN: AS2108 Croatian Academic and Research Network)*
-* `210[.]245[.]90[.]206` *(IP: 210.245.90[.]206 | Loc: VN | ASN: FPT-VN - FPT Telecom Company, VN)*
-* `198[.]199[.]84[.]181` *(IP: 198.199.84[.]181 | Loc: US | ASN: DIGITALOCEAN-ASN - DigitalOcean, LLC, US)*
 * `www[.]milanbike[.]it` *(IP: 89.46.108[.]60 | Loc: IT | ASN: ARUBA-ASN Aruba S.p.A., IT)*
 * `horkyboty[.]cz` *(IP: 83.167.244[.]201 | Loc: CZ | ASN: MASTER-AS MasterDC s.r.o., CZ)*
 * `pantherchile[.]com` *(IP: 200.24.13[.]63 | Loc: CL | ASN: AS262256 - Servicios Informaticos Hostname Ltda, CL)*
@@ -713,7 +539,6 @@
 * `www[.]thewidowerskitchen[.]com` *(IP: 77.68.64[.]13 | Loc: Worcester, United Kingdom | ASN: AS8560 IONOS SE)*
 * `www[.]rideaux-metalliques-strasbourg[.]com` *(IP: 185.221.182[.]242 | Loc: Paris, France | ASN: AS53589 PlanetHoster)*
 * `instantsport[.]info` *(IP: 84.46.242[.]228 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
-* `lovezramexar[.]info` *(IP: 158.94.208[.]87 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
 * `prudenceflores[.]com` *(IP: 162.241.226[.]160 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `metropolio[.]pl` *(IP: 178.32.149[.]185 | Loc: Wroclaw, Poland | ASN: AS16276 OVH SAS)*
 * `cestmonterrey[.]edu[.]mx` *(IP: 50.116.93[.]192 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
@@ -769,11 +594,7 @@
 * `aussizeducationandtraining[.]net` *(IP: 102.218.215[.]36 | Loc: Cape Town, South Africa | ASN: AS329184 Host Africa (Pty) Ltd)*
 * `askyourfitnessquestion[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `arra-btp[.]com` *(IP: 2a00:7ee0:8:0:3:3277:0:40 | Loc: Golbey, France | ASN: AS210403 Groupe LWS SARL)*
-* `hugg1ngvx[.]top` *(IP: 172.67.208[.]187 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `wealtcomllc[.]com` *(IP: 91.92.43[.]250 | Loc: Frankfurt am Main, Germany | ASN: AS207043 DEDIK SERVICES LIMITED)*
-* `browscheck[.]codes` *(IP: 178.16.52[.]101 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
 * `claudedevz[.]net` *(IP: 104.21.51[.]46 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `amber-ridge-bruixsioi[.]pro` *(IP: 45.151.100[.]143 | Loc: Warsaw, Poland | ASN: AS60781 LeaseWeb Netherlands B.V.)*
 * `lucienbordes[.]com` *(IP: 2001:41d0:301::21 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
 * `www[.]stradiotto[.]in` *(IP: 198.38.88[.]207 | Loc: Navi Mumbai, India | ASN: AS199404 WHG Hosting Services Ltd)*
 * `profstone[.]com` *(IP: 50.6.3[.]157 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
@@ -796,7 +617,6 @@
 * `www[.]teresariba[.]com` *(IP: 46.16.58[.]47 | Loc: Malgrat de Mar, Spain | ASN: AS197712 10dencehispahard, S.L.)*
 * `mikeandersonjubilee[.]com` *(IP: 50.6.156[.]120 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
 * `dentema[.]mdma[.]digital` *(IP: 62.109.150[.]233 | Loc: Prague, Czechia | ASN: AS29134 Webglobe, s.r.o.)*
-* `www[.]mail[.]wpt-8gek[.]162-215-130-152[.]cpanel[.]site` *(IP: 162.215.130[.]152 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
 * `www[.]5a71[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `www[.]bravoycia[.]es` *(IP: 37.59.249[.]32 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
 * `bouhachem-motos[.]tn` *(IP: 5.135.23[.]164 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
@@ -890,43 +710,10 @@
 * `artbyatoussa[.]com` *(IP: 160.153.0[.]146 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `anotheronesweepsthedust[.]com` *(IP: 162.241.226[.]106 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `africanhagykosafaris[.]co[.]ke` *(IP: 102.219.23[.]52 | Loc: Nairobi, Kenya | ASN: AS328978 Dew CIS Solutions Limited)*
-* `zenterprise2026[.]com` *(IP: 95.129.234[.]18 | Loc: Rostov-on-Don, Russia | ASN: AS57724 DDOS-GUARD LTD)*
-* `nomaiei[.]sbs` *(IP: 172.67.171[.]165 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `browseid[.]codes` *(IP: 178.16.52[.]101 | Loc: Frankfurt am Main, Germany | ASN: AS202412 Omegatech LTD)*
-* `camilagazola[.]com[.]br` *(IP: 186.234.81[.]13 | Loc: Rio de Janeiro, Brazil | ASN: AS7162 Universo Online S.A.)*
-* `tantrikashaman[.]com` *(IP: 160.153.0[.]37 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `jet[.]bowlinggreenwinnelsonco[.]com` *(IP: 172.67.182[.]201 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `flyhighsmokeshop[.]com` *(IP: 136.243.33[.]166 | Loc: Falkenstein, Germany | ASN: AS24940 Hetzner Online GmbH)*
 * `cocuktekstil[.]com` *(IP: 172.67.209[.]92 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `hobsmedia[.]com` *(IP: 162.0.232[.]104 | Loc: Los Angeles, United States | ASN: AS22612 Namecheap, Inc.)*
-* `notzen[.]xyz` *(IP: 172.67.192[.]115 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `bloomglow9[.]com` *(IP: 172.67.219[.]105 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `www[.]dog-villa-portal[.]com` *(IP: 36.53.1[.]8 | Loc: Osaka, Japan | ASN: AS9370 SAKURA Internet Inc.)*
-* `api-metrics-6258[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `cp-caren[.]com` *(IP: 202.254.238[.]6 | Loc: Chiyoda City, Japan | ASN: AS131965 XServer Cloud Inc.)*
-* `cashforclutter[.]online` *(IP: 69.163.186[.]39 | Loc: Hillsboro, United States | ASN: AS26347 New Dream Network, LLC)*
-* `astrologie-ruddeck[.]de` *(IP: 2a00:1169:103:a920:: | Loc: Strasbourg, France | ASN: AS21499 Host Europe GmbH)*
-* `www[.]anupammills[.]com` *(IP: 68.178.238[.]23 | Loc: Singapore, Singapore | ASN: AS26496 GoDaddy.com, LLC)*
-* `babydiapersinturkey[.]com` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `93[.]152[.]223[.]30` *(IP: 93.152.223[.]30 | Loc: Frankfurt am Main, Germany | ASN: AS135388 RMP Protection Limited)*
-* `193[.]233[.]19[.]134` *(IP: 193.233.19[.]134 | Loc: Amsterdam, The Netherlands | ASN: AS63023 GTHost)*
 * `www[.]natural-health-news[.]com` *(IP: 65.108.76[.]228 | Loc: Helsinki, Finland | ASN: AS24940 Hetzner Online GmbH)*
-* `6controller[.]ru` *(IP: 162.244.35[.]169 | Loc: Santa Clara, United States | ASN: AS14576 Hosting Solution Ltd.)*
-* `83[.]229[.]85[.]197` *(IP: 83.229.85[.]197 | Loc: Frankfurt, Germany | ASN: AS204548 Kamatera Inc)*
-* `91[.]134[.]176[.]227` *(IP: 91.134.176[.]227 | Loc: Milan, Italy | ASN: AS16276 OVH SAS)*
-* `84[.]16[.]239[.]214` *(IP: 84.16.239[.]214 | Loc: Frankfurt am Main, Germany | ASN: AS28753 Leaseweb Deutschland GmbH)*
-* `82[.]146[.]58[.]204` *(IP: 82.146.58[.]204 | Loc: Moscow, Russia | ASN: AS29182 JSC IOT)*
-* `tizambia[.]org[.]zm` *(IP: 50.6.226[.]209 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
 * `sonyarafferty[.]com` *(IP: 54.149.49[.]246 | Loc: Boardman, United States | ASN: AS16509 Amazon.com, Inc.)*
-* `sellmeyourbiz[.]com` *(IP: 162.252.174[.]67 | Loc: New York, United States | ASN: AS9009 M247 Europe SRL)*
-* `shell-node-7uxe[.]vercel[.]app` *(IP: 216.198.79[.]3 | Loc: Atlanta, United States | ASN: AS16509 Amazon.com, Inc.)*
 * `razzledazzlejewelrystore[.]com` *(IP: 44.231.35[.]23 | Loc: Boardman, United States | ASN: AS16509 Amazon.com, Inc.)*
-* `orbitstride7[.]com` *(IP: 172.67.132[.]161 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `nickylody124[.]life` *(IP: 193.233.203[.]177 | Loc: Charlotte, United States | ASN: AS203273 NetCrafters OU)*
-* `marrakechpalms[.]com` *(IP: 172.67.166[.]13 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `meguri-toroge[.]com` *(IP: 202.233.67[.]26 | Loc: Chiyoda City, Japan | ASN: AS131965 XServer Cloud Inc.)*
-* `147[.]45[.]45[.]245` *(IP: 147.45.45[.]245 | Loc: Amsterdam, The Netherlands | ASN: None)*
-* `143[.]198[.]73[.]49` *(IP: 143.198.73[.]49 | Loc: Santa Clara, United States | ASN: AS14061 DigitalOcean, LLC)*
 * `garantialocal[.]com` *(IP: 82.29.196[.]20 | Loc: Boston, United States | ASN: AS47583 Hostinger International Limited)*
 * `www[.]hellma[.]cz` *(IP: 178.213.152[.]69 | Loc: Hovorčovice, Czechia | ASN: AS16019 Vodafone Czech Republic a.s.)*
 * `itispersonal[.]net` *(IP: 108.167.181[.]158 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
@@ -1086,116 +873,54 @@
 * `sandiegomobiletire[.]com` *(IP:  | Loc: Unknown | ASN: None)*
 * `193[.]178[.]158[.]57` *(IP: 193.178.158[.]57 | Loc: St Petersburg, Russia | ASN: AS201738 UFO TECHNOLOGIES LIMITED)*
 * `grupoartek[.]com` *(IP: 91.244.247[.]230 | Loc: Galati, Romania | ASN: AS211611 Exim Host SRL)*
-* `ebiketuneupdenver[.]com` *(IP: 107.180.54[.]172 | Loc: Tempe, United States | ASN: AS400754 GoDaddy.com, LLC)*
-* `dmtvapepenshop[.]com` *(IP: 2606:4700:3031::6815:3840 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `eclectic-entertaining[.]com` *(IP: 50.87.253[.]116 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
 * `blueboox[.]com` *(IP: 104.21.76[.]91 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `idyeahcentral[.]com` *(IP: 198.251.89[.]144 | Loc: Luxembourg, Luxembourg | ASN: AS53667 FranTech Solutions)*
 * `cnadl[.]ro` *(IP: 188.241.222[.]91 | Loc: Sighetu Marmaţiei, Romania | ASN: AS5606 GTS Telecom SRL)*
-* `dmtvapefarm[.]com` *(IP: 172.67.148[.]178 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `e-alshifaa[.]com` *(IP: 104.21.79[.]225 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `andrewcheapcars[.]com` *(IP: 172.67.133[.]254 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `cgageauthor[.]com` *(IP: 74.208.236[.]146 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
 * `clinicamasbermejo[.]com` *(IP: 84.247.164[.]48 | Loc: Düsseldorf, Germany | ASN: AS51167 Contabo GmbH)*
-* `turismonorte[.]com[.]ar` *(IP: 2800:6c0:2::c:281 | Loc: Rosario, Argentina | ASN: AS27823 Dattatec.com)*
 * `www[.]autoescuelacalderon[.]com` *(IP: 208.113.158[.]70 | Loc: Ashburn, United States | ASN: AS26347 New Dream Network, LLC)*
-* `www[.]houtadvising[.]com` *(IP: 192.185.39[.]53 | Loc: Ashburn, United States | ASN: AS19871 Network Solutions, LLC)*
-* `achmatim[.]net` *(IP: 103.55.39[.]38 | Loc: Cicurug, Indonesia | ASN: AS136052 PT Cloud Hosting Indonesia)*
 * `www[.]algem[.]org` *(IP: 86.107.36[.]158 | Loc: Cassino, Italy | ASN: AS52030 Server Plan S.r.l.)*
-* `halltek[.]com[.]br` *(IP: 108.167.151[.]50 | Loc: Vinhedo, Brazil | ASN: AS31898 Oracle Corporation)*
-* `norteya[.]com[.]ar` *(IP: 200.58.111[.]17 | Loc: Rosario, Argentina | ASN: AS27823 Dattatec.com)*
 * `windowanddoorcentrenortheast[.]com` *(IP: 5.77.61[.]127 | Loc: Nottingham, United Kingdom | ASN: AS20860 IOMART CLOUD SERVICES LIMITED)*
-* `albucor[.]com` *(IP: 94.23.84[.]56 | Loc: Madrid, Spain | ASN: AS16276 OVH SAS)*
-* `www[.]teknowgroup[.]com[.]lb` *(IP: 162.241.225[.]96 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `wenaxe[.]com` *(IP: 162.241.224[.]224 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `snitchbd[.]com` *(IP: 104.21.62[.]83 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `vanishvale[.]com` *(IP: 106.0.62[.]82 | Loc: Phoenix, United States | ASN: AS19905 Arbor Cloud)*
-* `trippydive[.]com` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `mysmartoh[.]com` *(IP: 113.23.219[.]40 | Loc: Putrajaya, Malaysia | ASN: AS38182 Extreme Broadband - Total Broadband Experience)*
 * `readingteacher[.]com` *(IP: 141.193.213[.]11 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `prayagiasacademy[.]com` *(IP: 193.108.130[.]22 | Loc: Amsterdam, The Netherlands | ASN: AS965 Webhosting Holdings LLC)*
 * `physio-benecke[.]de` *(IP: 2a00:1200:0:8::a83 | Loc: Lüneburg, Germany | ASN: AS33828 iptoX GmbH)*
-* `mimosarootusa[.]com` *(IP: 185.2.168[.]43 | Loc: Newcastle upon Tyne, United Kingdom | ASN: AS34119 Wildcard UK Limited)*
 * `www[.]servapool[.]ca` *(IP: 160.153.0[.]36 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `silverstonerealty[.]in` *(IP: 172.67.148[.]181 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `www[.]megahavalandirma[.]com` *(IP: 5.2.85[.]171 | Loc: Izmir, Türkiye | ASN: AS3188 Alastyr Telekomunikasyon A.S.)*
 * `www[.]nelan[.]com[.]pe` *(IP: 170.10.161[.]194 | Loc: Coral Springs, United States | ASN: AS14555 LiquidNet US LLC)*
-* `www[.]mahongrentalmotor[.]com` *(IP: 2001:df7:5300:9::63 | Loc: Jakarta, Indonesia | ASN: AS138115 PT Deneva)*
-* `mytravelguia[.]com` *(IP: 68.66.208[.]213 | Loc: Detroit, United States | ASN: AS55293 A2 Hosting, Inc.)*
 * `loyaltyaviation[.]com` *(IP: 68.66.226[.]102 | Loc: Phoenix, United States | ASN: AS55293 A2 Hosting, Inc.)*
 * `tomowell2020[.]com` *(IP: 157.7.231[.]240 | Loc: Chiyoda City, Japan | ASN: AS7506 GMO Internet, Inc.)*
 * `kyosotechltd[.]co[.]uk` *(IP: 2a02:2350:5:10b:808b:e743:10a7:9f2a | Loc: Copenhagen, Denmark | ASN: AS51468 One.com A/S)*
-* `www[.]kavemeres[.]hu` *(IP: 185.111.89[.]216 | Loc: Budapest, Hungary | ASN: AS51013 WebSupport s.r.o.)*
 * `miyagi[.]group` *(IP: 45.139.11[.]203 | Loc: Tehran, Iran | ASN: AS60631 Vandad Vira Hooman LLC)*
-* `www[.]junkcarscafe[.]com` *(IP: 208.109.25[.]121 | Loc: Tempe, United States | ASN: AS398101 GoDaddy.com, LLC)*
-* `jorgealderete[.]com` *(IP: 107.180.24[.]242 | Loc: Tempe, United States | ASN: AS400754 GoDaddy.com, LLC)*
-* `solar-glide-moss-luon[.]top` *(IP: 45.146.91[.]24 | Loc: Frankfurt am Main, Germany | ASN: AS60781 LeaseWeb Netherlands B.V.)*
-* `noasdoastrien[.]top` *(IP: 45.86.245[.]128 | Loc: US | ASN: NetCraftersOU NetCrafters OU, EE)*
-* `amber-weave-otter-luor[.]pro` *(IP: 45.118.248[.]229 | Loc: NL | ASN: NetCraftersOU NetCrafters OU, EE)*
 * `shepherdsbushmobiletyrefitting[.]co[.]uk` *(IP: 78.129.237[.]144 | Loc: GB | ASN: IOMART-AS IOMART CLOUD SERVICES LIMITED, GB)*
 * `sofography[.]com` *(IP: 172.67.184[.]73 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `www[.]shackbd[.]com` *(IP: 75.119.207[.]149 | Loc: US | ASN: DREAMHOST-AS - New Dream Network, LLC, US)*
-* `hoteldianajogja[.]com` *(IP: 103.76.121[.]148 | Loc: ID | ASN: IDNIC-IDCLOUDHOST-AS-ID - PT Cloud Hosting Indonesia, ID)*
-* `houstonacrepairservice[.]com` *(IP: 72.167.248[.]107 | Loc: US | ASN: GO-DADDY-COM-LLC - GoDaddy.com, LLC, US)*
-* `fatbirdnyc[.]com` *(IP: 141.193.213[.]10 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 * `givinghandstanzania[.]com` *(IP: 85.187.142[.]77 | Loc: US | ASN: WHG-FRA WHG Hosting Services Ltd, GB)*
 * `www[.]henfactory[.]com` *(IP: 192.185.146[.]73 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
-* `healthandwellnesssport[.]com` *(IP: 178.162.235[.]65 | Loc: DE | ASN: LEASEWEB-DE-FRA-10 Leaseweb Deutschland GmbH, DE)*
-* `bikinjingle[.]com` *(IP: 194.163.42[.]199 | Loc: SG | ASN: AS-HOSTINGER Hostinger International Limited, CY)*
 * `forteristorante[.]com` *(IP: 141.193.213[.]11 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `dwsdumpsters[.]com` *(IP: 103.120.48[.]32 | Loc: Jackson, United States | ASN: AS399250 Name Hero, LLC)*
-* `www[.]comfortcareconsultants[.]org` *(IP: 68.66.220[.]30 | Loc: Detroit, United States | ASN: AS55293 A2 Hosting, Inc.)*
-* `dermaglowla[.]com` *(IP: 2606:4700:3031::ac43:cfb5 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `vosgi[.]in` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `claycowanbooks[.]com` *(IP: 162.241.230[.]107 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `agrosefac[.]com[.]ar` *(IP: 200.105.69[.]241 | Loc: Guernica, Argentina | ASN: AS7303 Telecom Argentina S.A.)*
-* `acceltalentgroup[.]com` *(IP: 192.124.249[.]59 | Loc: Menifee, United States | ASN: AS30148 Sucuri)*
 * `smkdbcld28[.]sch[.]id` *(IP: 112.109.21[.]251 | Loc: Gubengairlangga, Indonesia | ASN: AS24521 PT. DATA Utama Dinamika)*
 * `aderent[.]ro` *(IP: 2a00:ece1:0:18::232 | Loc: Sighetu Marmaţiei, Romania | ASN: AS5606 GTS Telecom SRL)*
-* `24x7remediation[.]com` *(IP: 107.180.115[.]113 | Loc: Tempe, United States | ASN: AS398101 GoDaddy.com, LLC)*
-* `ptgrandprincipalmandiri[.]net` *(IP: 2001:df7:5300:9::63 | Loc: Jakarta, Indonesia | ASN: AS138115 PT Deneva)*
-* `sweetdreamreborn[.]store` *(IP: 185.2.168[.]43 | Loc: Newcastle upon Tyne, United Kingdom | ASN: AS34119 Wildcard UK Limited)*
 * `webfeenix[.]com` *(IP: 93.127.192[.]111 | Loc: Manchester, United Kingdom | ASN: AS47583 Hostinger International Limited)*
 * `wavetek[.]fr` *(IP: 193.203.239[.]86 | Loc: Golbey, France | ASN: AS210403 Groupe LWS SARL)*
-* `serviciotecnicograncanaria[.]es` *(IP: 193.84.177[.]62 | Loc: Madrid, Spain | ASN: AS60458 XNET CORE SL)*
-* `rubbercompressionrepair[.]com` *(IP: 50.87.185[.]99 | Loc: Phoenix, United States | ASN: AS46606 Unified Layer)*
-* `website[.]smaywka[.]sch[.]id` *(IP: 43.252.137[.]18 | Loc: Jakarta, Indonesia | ASN: AS58404 PT Qwords Company International)*
 * `www[.]spirakiservice[.]gr` *(IP: 194.110.243[.]239 | Loc: Cricklewood, United Kingdom | ASN: AS41000 Freethought Internet Limited)*
-* `www[.]mifalliterasi[.]com` *(IP: 36.50.77[.]52 | Loc: Jakarta, Indonesia | ASN: AS138115 PT Deneva)*
-* `istanablock[.]com` *(IP: 2001:df7:5300:9::63 | Loc: Jakarta, Indonesia | ASN: AS138115 PT Deneva)*
-* `www[.]reclaimmypcpclaim[.]co[.]uk` *(IP: 92.204.220[.]202 | Loc: Strasbourg, France | ASN: AS21499 Host Europe GmbH)*
-* `rapidservices[.]es` *(IP: 193.84.177[.]62 | Loc: Madrid, Spain | ASN: AS60458 XNET CORE SL)*
 * `prazofinal[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `newswiregujarat[.]com` *(IP: 148.135.141[.]89 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
-* `nicoledonnellyspeaks[.]com` *(IP: 162.241.24[.]80 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `luidemorais[.]com` *(IP: 200.11.122[.]10 | Loc: Rio das Ostras, Brazil | ASN: AS270439 D S CUPERTINO SERVICOS DE HOSPEDAGEM NA INTERNET)*
 * `matikconsulting[.]com` *(IP: 192.254.187[.]152 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
 * `irricampo[.]com[.]br` *(IP: 108.181.92[.]72 | Loc: Dallas, United States | ASN: AS40676 Psychz Networks)*
 * `lifechampionmastery[.]com` *(IP: 162.241.252[.]146 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
-* `vivianreyes[.]com` *(IP: 192.185.100[.]50 | Loc: Ashburn, United States | ASN: AS31898 Oracle Corporation)*
 * `www[.]incele[.]web[.]tr` *(IP: 104.21.32[.]212 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `zomabeauty[.]com[.]au` *(IP: 175.45.125[.]220 | Loc: Melbourne, Australia | ASN: AS4826 Vocus Connect International Backbone)*
-* `williamliggett[.]com` *(IP: 151.101.2[.]159 | Loc: Montreal, Canada | ASN: AS54113 Fastly, Inc.)*
 * `www[.]szoketiszahe[.]hu` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `studio-salazar[.]com` *(IP: 91.216.107[.]79 | Loc: Golbey, France | ASN: AS210403 Groupe LWS SARL)*
 * `tampabaylawnservice[.]com` *(IP: 160.153.0[.]23 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `sundasaziz[.]com` *(IP: 198.71.233[.]110 | Loc: Tempe, United States | ASN: AS398787 GoDaddy.com, LLC)*
 * `www[.]udruzenjetekstilnihskola[.]org[.]rs` *(IP: 185.102.77[.]33 | Loc: Belgrade, Serbia | ASN: AS198171 Webglobe, s.r.o.)*
-* `3d5108a1[.]finowfurt[.]com` *(IP: 104.21.31[.]47 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `26a0ed72[.]finowfurt[.]com` *(IP: 172.67.174[.]248 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
-* `193[.]148[.]56[.]98` *(IP: 193.148.56[.]98 | Loc: Helsinki, Finland | ASN: AS209946 ALINDA LLC)*
 * `slackdigital[.]com` *(IP: 172.67.204[.]118 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `www[.]yundatabox[.]com` *(IP: 104.21.67[.]220 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `myauroracare[.]com` *(IP: 141.193.213[.]10 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
 * `bizlogist[.]com` *(IP: 66.29.148[.]182 | Loc: Los Angeles, United States | ASN: AS22612 Namecheap, Inc.)*
 * `bogrup[.]com` *(IP: 185.110.66[.]8 | Loc: Madrid, Spain | ASN: AS39729 REGISTER S.P.A.)*
-* `brainsy[.]ai` *(IP: 141.193.213[.]10 | Loc: Austin, United States | ASN: AS209242 Cloudflare London, LLC)*
-* `ioelche[.]com` *(IP: 94.143.139[.]107 | Loc: Madrid, Spain | ASN: AS8560 IONOS SE)*
 * `theaffinitysalon[.]com` *(IP: 63.141.242[.]205 | Loc: Kansas City, United States | ASN: AS33387 Nocix, LLC)*
 * `calaismetonne[.]fr` *(IP: 188.130.25[.]202 | Loc: Villeneuve-la-Garenne, France | ASN: AS34177 Celeste SAS)*
-* `carboneriastudio[.]live` *(IP: 172.67.137[.]76 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `nhakhoataysaigon[.]com` *(IP: 160.191.88[.]102 | Loc: Go Vap, Vietnam | ASN: AS151858 INTERDIGI JOINT STOCK COMPANY)*
-* `mdfconsig[.]com[.]br` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `boldandblendedbyjoelle[.]com` *(IP: 160.153.0[.]59 | Loc: US | ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US)*
 * `bluehorizonbooks[.]net` *(IP: 144.91.91[.]150 | Loc: FR | ASN: CONTABO Contabo GmbH, DE)*
 * `frontline-coating[.]pl` *(IP: 195.2.222[.]233 | Loc: PL | ASN: LHPL LH.pl Sp. z o.o., PL)*
@@ -1207,7 +932,6 @@
 * `brasserie-alphand[.]com` *(IP: 213.158.93[.]19 | Loc: Brussels, Belgium | ASN: AS34762 Combell NV)*
 * `brusconcept[.]com` *(IP: 2607:f1c0:100f:f000::200 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
 * `caballito-web[.]com[.]ar` *(IP: 149.50.140[.]72 | Loc: Córdoba, Argentina | ASN: AS27823 Dattatec.com)*
-* `sgaa[.]me` *(IP: 45.133.44[.]1 | Loc: Philadelphia, United States | ASN: AS39572 DataWeb Global Group B.V.)*
 * `cambridgeeducare[.]com` *(IP: 151.106.124[.]146 | Loc: Singapore, Singapore | ASN: AS47583 Hostinger International Limited)*
 * `caiif[.]ca` *(IP: 74.208.236[.]231 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
 * `www[.]paulinaniewiadomskaphotography[.]pl` *(IP: 185.135.91[.]162 | Loc: Poznan, Poland | ASN: AS203417 LH.pl Sp. z o.o.)*
@@ -1360,7 +1084,6 @@
 * `zumio[.]pl` *(IP: 185.208.164[.]60 | Loc: Krakow, Poland | ASN: AS41079 Cyber_Folks S.A.)*
 * `www[.]exrubs[.]com` *(IP: 103.129.176[.]84 | Loc: Neihu District, Taiwan | ASN: AS9924 Taiwan Fixed Network, Telco and Network Service Provider.)*
 * `exrub[.]com` *(IP: 103.129.176[.]84 | Loc: Neihu District, Taiwan | ASN: AS9924 Taiwan Fixed Network, Telco and Network Service Provider.)*
-* `henanpullur[.]com` *(IP: 2a02:4780:11:978:0:20e3:ef86:2 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
 * `www[.]scuolecomunalimusicamugello[.]it` *(IP: 2a00:6d40:4:1::c280:63 | Loc: Arezzo, Italy | ASN: AS31034 Aruba S.p.A.)*
 * `salus-senior[.]eu` *(IP: 79.96.25[.]43 | Loc: Szczecin, Poland | ASN: AS12824 home.pl sp. z o.o.)*
 * `salus-senior[.]com[.]pl` *(IP: 79.96.25[.]43 | Loc: Szczecin, Poland | ASN: AS12824 home.pl sp. z o.o.)*
@@ -1403,552 +1126,664 @@
 * `bettingfootball-online[.]com` *(IP: 188.114.97[.]3 | Loc: Unknown | ASN: CLOUDFLARENET - Cloudflare, Inc., US)*
 * `betonicehockey[.]com` *(IP: 188.114.97[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
 * `bet-on-hockey[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `item[.]rakuten[.]co[.]jp` *(IP: 23.32.39[.]135 | Loc: Singapore, Singapore | ASN: AS20940 Akamai International B.V.)*
+* `charteredcertifications[.]com` *(IP: 2606:4700:20::ac43:497a | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `4starhealth[.]com` *(IP: 176.9.86[.]61 | Loc: Falkenstein, Germany | ASN: AS24940 Hetzner Online GmbH)*
+* `marissacollections[.]com` *(IP: 23.227.38[.]65 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `momcozy[.]com` *(IP: 23.227.38[.]65 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `mikucare[.]com` *(IP: 23.227.38[.]32 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `newstate[.]pubg[.]com` *(IP: 18.66.147[.]3 | Loc: Frankfurt am Main, Germany | ASN: AS16509 Amazon.com, Inc.)*
+* `materialkitchen[.]com` *(IP: 23.227.38[.]32 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `www[.]marinelayer[.]com` *(IP: 23.227.38[.]74 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `postage-solutions[.]co[.]uk` *(IP: 172.67.69[.]87 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `www[.]marieveronique[.]com` *(IP: 23.227.38[.]65 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `www[.]mackage[.]ca` *(IP: 23.227.38[.]74 | Loc: Ottawa, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `betimate[.]com` *(IP: 2606:4700:3108::ac42:2870 | Loc: Montreal, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `366patiopenquista[.]cl` *(IP: 50.6.138[.]160 | Loc: Vinhedo, Brazil | ASN: AS31898 Oracle Corporation)*
+* `a10detailing[.]com` *(IP: 2607:f1c0:100f:f000::272 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
+* `actionstylescleaners[.]com[.]ng` *(IP: 147.124.220[.]188 | Loc: Dallas, United States | ASN: AS396073 Majestic Hosting Solutions, LLC)*
+* `acmbio[.]es` *(IP: 37.59.203[.]111 | Loc: Madrid, Spain | ASN: AS16276 OVH SAS)*
+* `acholichild[.]or[.]ug` *(IP: 139.162.187[.]227 | Loc: Frankfurt am Main, Germany | ASN: AS63949 Akamai Connected Cloud)*
+* `aceitelasanta[.]com` *(IP: 213.158.93[.]87 | Loc: Brussels, Belgium | ASN: AS34762 Combell NV)*
+* `adventuregateways[.]pk` *(IP: 94.23.166[.]211 | Loc: Saarbrücken, Germany | ASN: AS16276 OVH SAS)*
+* `kreiles-kreativwerkstatt[.]de` *(IP: 188.40.28[.]6 | Loc: Nuremberg, Germany | ASN: AS24940 Hetzner Online GmbH)*
+* `adamtaxes[.]com` *(IP: 103.150.186[.]210 | Loc: Noida, India | ASN: AS133643 EWEBGURU)*
+* `www[.]etaomicronomega[.]com` *(IP: 66.96.130[.]84 | Loc: US | ASN: BIZLAND-SD - Newfold Digital, Inc., US)*
+* `princecables[.]com` *(IP: 2a02:4780:11:1226:0:1b2c:557e:2 | Loc: Mumbai, India | ASN: AS47583 Hostinger International Limited)*
+* `afriksante[.]org` *(IP: 2001:41d0:301:3::30 | Loc: Dublin, Ireland | ASN: AS16276 OVH SAS)*
+* `afpmwc[.]com` *(IP: 173.254.29[.]42 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `stg-thinkoralimplantsandperiodon-thinkoralstg[.]kinsta[.]cloud` *(IP: 162.159.134[.]42 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `altamareaseatours[.]it` *(IP: 217.160.141[.]253 | Loc: Frankfurt am Main, Germany | ASN: AS8560 IONOS SE)*
+* `aisther[.]fr` *(IP: 213.186.33[.]19 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
+* `airwaveav[.]co[.]uk` *(IP: 80.87.129[.]101 | Loc: London, United Kingdom | ASN: AS21260 The Positive Internet Company Ltd)*
+* `www[.]allparty[.]com[.]br` *(IP: 173.236.247[.]83 | Loc: Ashburn, United States | ASN: AS26347 New Dream Network, LLC)*
+* `alithoral[.]com` *(IP: 146.19.212[.]242 | Loc: Tehran, Iran | ASN: AS60631 Vandad Vira Hooman LLC)*
+* `fikus[.]ir` *(IP: 217.144.104[.]111 | Loc: Tehran, Iran | ASN: AS204213 Netmihan Communication Company Ltd)*
+* `www[.]alirail[.]co[.]uk` *(IP: 151.101.66[.]159 | Loc: Montreal, Canada | ASN: AS54113 Fastly, Inc.)*
+* `alignedsystems[.]com` *(IP: 160.153.0[.]137 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
+* `mqff[.]preprod[.]concept-image[.]fr` *(IP: 51.68.23[.]34 | Loc: Rennes, France | ASN: AS16276 OVH SAS)*
+* `albakarlogistics[.]com` *(IP: 91.132.48[.]217 | Loc: Dubai, United Arab Emirates | ASN: AS59878 BFB ONE FZ-LLC)*
+* `alshahinfuel[.]online` *(IP: 162.241.216[.]86 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `alshahinfuel[.]com` *(IP: 162.241.216[.]86 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `alquiler-castillos-hinchables-mallorca[.]com` *(IP: 192.232.218[.]164 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `alpacpharma[.]com` *(IP: 192.232.216[.]193 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `andalusiantreks[.]com` *(IP: 2001:41d0:301:4::23 | Loc: Madrid, Spain | ASN: AS16276 OVH SAS)*
+* `ami-commerciale[.]com` *(IP: 2001:41d0:301:3::31 | Loc: Dublin, Ireland | ASN: AS16276 OVH SAS)*
+* `angadsodhi[.]com` *(IP: 188.114.96[.]3 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `anvixveda[.]com` *(IP: 217.76.53[.]65 | Loc: Lauterbourg, France | ASN: AS51167 Contabo GmbH)*
+* `suitsgreen[.]com` *(IP: 2a01:238:20a:202:1070:: | Loc: Karlsruhe, Germany | ASN: AS6724 Strato GmbH)*
+* `sntcm[.]ac[.]th` *(IP: 27.254.153[.]22 | Loc: Huai Khwang, Thailand | ASN: AS63940 dragonhispeed)*
+* `armsscors[.]com` *(IP: 198.251.84[.]236 | Loc: Luxembourg, Luxembourg | ASN: AS53667 FranTech Solutions)*
+* `www[.]arlatam[.]com[.]br` *(IP: 45.227.142[.]3 | Loc: Três Coroas, Brazil | ASN: AS267113 CLICKCONNECT SOLUCOES EM INTERNET E TECNOLOGIA)*
+* `ashrafganatra[.]com` *(IP: 65.109.16[.]61 | Loc: Helsinki, Finland | ASN: AS24940 Hetzner Online GmbH)*
+* `171388[.]eu9[.]myftpupload[.]com` *(IP: 160.153.0[.]148 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
+* `www[.]association-lea[.]org` *(IP: 109.234.166[.]232 | Loc: Clermont-Ferrand, France | ASN: AS50474 O2SWITCH SAS)*
+* `avilaheinz[.]com[.]br` *(IP: 104.21.38[.]129 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `austin-kimbermodernhotel[.]info` *(IP: 176.9.86[.]61 | Loc: Falkenstein, Germany | ASN: AS24940 Hetzner Online GmbH)*
+* `optipix[.]ca` *(IP: 66.96.147[.]144 | Loc: Ashburn, United States | ASN: AS29873 Newfold Digital, Inc.)*
+* `beneficialsavings[.]com` *(IP: 2a02:4780:43:b8ce:31ed:8527:ce9b:48e4 | Loc: Frankfurt am Main, Germany | ASN: AS47583 Hostinger International Limited)*
+* `elegancedrycleaner[.]com` *(IP: 94.136.184[.]62 | Loc: Mumbai, India | ASN: AS141995 Contabo Asia Private Limited)*
+* `egtafht[.]ca` *(IP: 66.96.160[.]139 | Loc: Ashburn, United States | ASN: AS29873 Newfold Digital, Inc.)*
+* `www[.]eyadsa[.]com` *(IP: 3.6.128[.]16 | Loc: Mumbai, India | ASN: AS16509 Amazon.com, Inc.)*
+* `fito[.]food` *(IP: 13.209.185[.]1 | Loc: Incheon, South Korea | ASN: AS16509 Amazon.com, Inc.)*
+* `firstpost[.]com[.]au` *(IP: 104.21.52[.]22 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `www[.]firsthome-realestate[.]com` *(IP: 2001:41d0:301::26 | Loc: Roubaix, France | ASN: AS16276 OVH SAS)*
+* `gaanwala[.]in` *(IP: 147.79.72[.]126 | Loc: Boston, United States | ASN: AS47583 Hostinger International Limited)*
+* `gfe[.]sk` *(IP: 86.110.243[.]206 | Loc: Bratislava, Slovakia | ASN: AS29405 VNET a.s.)*
+* `garvale[.]es` *(IP: 82.98.168[.]152 | Loc: Madrid, Spain | ASN: AS42612 DinaHosting S.L.)*
+* `geneparks[.]com` *(IP: 160.153.0[.]125 | Loc: Tempe, United States | ASN: AS209242 Cloudflare London, LLC)*
+* `www[.]geckohub[.]space` *(IP: 109.234.167[.]185 | Loc: Clermont-Ferrand, France | ASN: AS50474 O2SWITCH SAS)*
+* `ilovewithheart[.]com` *(IP: 162.241.225[.]210 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `flouz[.]agency` *(IP: 2001:8d8:100f:f000::200 | Loc: Frankfurt am Main, Germany | ASN: AS8560 IONOS SE)*
+* `lintocommerce[.]com` *(IP: 173.247.245[.]31 | Loc: US | ASN: INMOTION - InMotion Hosting, Inc., US)*
+* `www[.]linexgel[.]com[.]br` *(IP: 173.236.208[.]77 | Loc: US | ASN: DREAMHOST-AS - New Dream Network, LLC, US)*
+* `elegantthemesflywheel[.]com` *(IP: 151.101.2[.]159 | Loc: US | ASN: FASTLY - Fastly, Inc., US)*
+* `kairostksc[.]com` *(IP: 162.241.225[.]18 | Loc: US | ASN: ORACLE-BMC-31898 - Oracle Corporation, US)*
+* `mubarik[.]co` *(IP: 2607:f1c0:100f:f000::28a | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
+* `www[.]montecon[.]cz` *(IP: 185.8.237[.]11 | Loc: Prague, Czechia | ASN: AS208414 WEDOS Internet, a.s.)*
+* `nisw[.]co[.]za` *(IP: 197.221.14[.]106 | Loc: Cape Town, South Africa | ASN: AS37153 Xneelo (Pty) Ltd)*
+* `rangaah-ndifoundation[.]org` *(IP: 172.67.184[.]121 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `randrboatrepairs[.]com` *(IP: 74.208.236[.]118 | Loc: Kansas City, United States | ASN: AS8560 IONOS SE)*
+* `riverdalesolicitors[.]co[.]uk` *(IP: 217.160.0[.]137 | Loc: Karlsruhe, Germany | ASN: AS8560 IONOS SE)*
+* `sandhua1construction[.]co[.]uk` *(IP: 2a02:2350:5:106:49:d37f:b355:20cb | Loc: Copenhagen, Denmark | ASN: AS51468 One.com A/S)*
+* `scholarsync[.]co[.]uk` *(IP: 92.113.16[.]242 | Loc: Frankfurt am Main, Germany | ASN: AS47583 Hostinger International Limited)*
+* `skakalki-club[.]kiev[.]ua` *(IP: 172.67.207[.]133 | Loc: Toronto, Canada | ASN: AS13335 Cloudflare, Inc.)*
+* `t65quotes[.]com` *(IP: 161.153.35[.]242 | Loc: Phoenix, United States | ASN: AS31898 Oracle Corporation)*
+* `thethinkbox[.]co[.]uk` *(IP: 185.211.23[.]187 | Loc: Larne, United Kingdom | ASN: AS205654 Labtech Systems Ltd)*
+* `velti-digital[.]com` *(IP: 65.21.166[.]135 | Loc: Helsinki, Finland | ASN: AS24940 Hetzner Online GmbH)*
+* `westernfashion[.]net` *(IP: 2a06:98c1:3120::3 | Loc: London, United Kingdom | ASN: AS13335 Cloudflare, Inc.)*
+* `xn--ibaezabogado-chb[.]com` *(IP: 82.223.69[.]53 | Loc: Madrid, Spain | ASN: AS8560 IONOS SE)*
 
 ---
 ### [Decentralized Blockchain C2 Infrastructure (Polygon MATIC)]
-* Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `0xb68d1809`)
 * Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `None`)
+* Smart Contract: `0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2` (Method: `0xb68d1809`)
 
 ---
 ### [Resolved Live C2 / TDS Infrastructure]
-* `hxxps://interseq[.]at`
-* `hxxps://thu-ipad-03[.]cfd`
-* `hxxps://www[.]quintahayara[.]es`
-* `hxxps://makeverizyjar[.]info`
-* `hxxps://cocuktekstil[.]com`
-* `hxxps://lovezramexar[.]info`
-* `hxxps://mon-blanc-02[.]cfd`
-* `hxxps://cloudeccentric[.]cc`
+* `hxxps://securityalertcaptchacheck[.]com`
 * `hxxps://tech4us[.]pl`
-* `hxxps://browseid[.]codes`
-* `hxxps://www[.]loruhan[.]com`
+* `hxxps://lovezramexar[.]info`
+* `hxxps://cloudeccentric[.]cc`
 * `hxxps://idcool[.]codes`
-* `hxxps://simplylistedmarketing[.]com`
-* `hxxps://connect[.]facebook[.]net`
-* `hxxps://abcsgftr[.]cc`
+* `hxxps://makeverizyjar[.]info`
+* `hxxps://thu-ipad-03[.]cfd`
+* `hxxps://www[.]loruhan[.]com`
 * `hxxps://entry-verifed-cdn[.]codes`
 * `hxxps://browscheck[.]codes`
-* `hxxps://securityalertcaptchacheck[.]com`
+* `hxxps://abcsgftr[.]cc`
+* `hxxps://connect[.]facebook[.]net`
+* `hxxps://cocuktekstil[.]com`
+* `hxxps://interseq[.]at`
+* `hxxps://simplylistedmarketing[.]com`
+* `hxxps://www[.]quintahayara[.]es`
+* `hxxps://mon-blanc-02[.]cfd`
+* `hxxps://browseid[.]codes`
 
 ---
 ### [Observed TDS / Staging Delivery URLs]
-* `hxxps://makeverizyjar[.]info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7`
-* `hxxps://browscheck[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
-* `hxxps://browseid[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
-* `hxxps://browseid[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
-* `hxxps://browseid[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
-* `hxxps://browseid[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
-* `hxxps://browseid[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
-* `hxxps://interseq[.]at/lom/a`
 * `hxxps://interseq[.]at/lom_p2/api?_v=29848142`
-* `hxxps://mon-blanc-02[.]cfd/api.php?s=93e401528b05efd8bd0e3b171a2d3f74b031ff10ea025a93`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=54c7ed5118fd73b051e9dc1dd56cad2c00abc2a661956f32`
-* `hxxps://thu-ipad-03[.]cfd/api.php?s=355d983b483b7b665fd8efd21f72082436aeea2d6b19a437`
-* `hxxps://makeverizyjar[.]info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3`
-* `hxxps://browscheck[.]codes/api.php?s=ca6b7a9ca6238c3959826fe5773fe40e63a64b2ce8a6574e`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
-* `hxxps://makeverizyjar[.]info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89`
-* `hxxps://browscheck[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
-* `hxxps://idcool[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
-* `hxxps://browseid[.]codes/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=093f7868f7aec7a8bf87c48337f377242f6d059b1f03ea18`
-* `hxxps://www[.]loruhan[.]com/restoran/`
-* `hxxps://www[.]mediafire[.]com/file/y1doq9125h0znvl/e5233db1+(1).exe/file?dkey=id39il07cpx&r=40`
-* `hxxps://mon-blanc-02[.]cfd/api.php?s=4be65b0fa8d84ec9e83e1cad68ba4c6284fdbc4afc25bbca`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848089`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=55cf111d272f51001d0c68612e78ea1fd5438401d3267f77`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
-* `hxxps://browscheck[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
-* `hxxps://idcool[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
-* `hxxps://browseid[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif)`
-* `hxxps://browscheck[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848378`
-* `hxxps://browseid[.]codes/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646`
-* `hxxps://www[.]quintahayara[.]es/restaurante/`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d44962b1b52fda9cbc4cd0af4c24de22f73561d73fea5d48`
-* `hxxps://browseid[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
-* `hxxps://mon-blanc-02[.]cfd/api.php?s=bfa8d66687ce0fd20ad81e377f3d0a63841b42231a0c7f95`
-* `hxxps://idcool[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
-* `hxxps://browseid[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e`
-* `hxxps://browseid[.]codes/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
-* `hxxps://browscheck[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
-* `hxxps://browseid[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
-* `hxxps://browseid[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
-* `hxxps://browseid[.]codes/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7`
-* `hxxps://idcool[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
-* `hxxps://thu-ipad-03[.]cfd/api.php?s=55d3781e9701b9a0eae703f6438b1b85aea7e64e3a74115f`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
-* `hxxps://idcool[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
-* `hxxps://browscheck[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
-* `hxxps://browscheck[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
-* `hxxps://idcool[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
-* `hxxps://browscheck[.]codes/api.php?s=54c7ed5118fd73b051e9dc1dd56cad2c00abc2a661956f32`
-* `hxxps://browscheck[.]codes/api.php?s=059cda028f1e1f0a7ce2d47fc39fea0f9c0eac8b76a3ab1e`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646`
-* `hxxps://securityalertcaptchacheck[.]com/lom/a`
-* `hxxps://browscheck[.]codes/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848049`
-* `hxxps://browscheck[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
-* `hxxps://cloudeccentric[.]cc/api.php?s=ffa65e22169204ca1ac7588970f688d7401d3ffe20656099`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848043`
-* `hxxps://lovezramexar[.]info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=9ae414640fb40d84df142ee4b271dfe642ae51ff6125f1ae`
-* `hxxps://idcool[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
-* `hxxps://idcool[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
-* `hxxps://browseid[.]codes/api.php?s=f53d9363f629593d3708bfa366540eaece8316e441c1b418`
-* `hxxps://browscheck[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
-* `hxxps://tech4us[.]pl/regulamin/`
-* `hxxps://browseid[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
-* `hxxps://browscheck[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848056`
-* `hxxps://abcsgftr[.]cc/api.php?s=531ce2f2fa18aeadcf7ac66309d8d94a2be425a1760df12d`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
-* `hxxps://idcool[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
-* `hxxps://browseid[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
-* `hxxps://browseid[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
-* `hxxps://browseid[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
-* `hxxps://entry-verifed-cdn[.]codes/api.php?s=e5a6ee8789a37b46424f0e1a414979a3e9c4b670f991f82c`
-* `hxxps://browscheck[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
-* `hxxps://browseid[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
-* `hxxps://browseid[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
-* `hxxps://browscheck[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
-* `hxxps://simplylistedmarketing[.]com/refund-cancellation-policy/`
-* `hxxps://browseid[.]codes/api.php?s=9ae414640fb40d84df142ee4b271dfe642ae51ff6125f1ae`
-* `hxxps://browscheck[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
 * `hxxps://entry-verifed-cdn[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
+* `hxxps://browseid[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
+* `hxxps://idcool[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
+* `hxxps://browscheck[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
+* `hxxps://abcsgftr[.]cc/api.php?s=531ce2f2fa18aeadcf7ac66309d8d94a2be425a1760df12d`
+* `hxxps://browseid[.]codes/api.php?s=f53d9363f629593d3708bfa366540eaece8316e441c1b418`
+* `hxxps://browscheck[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
+* `hxxps://browscheck[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
+* `hxxps://browscheck[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
+* `hxxps://browseid[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
+* `hxxps://browseid[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
 * `hxxps://browscheck[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
+* `hxxps://browseid[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
+* `hxxps://browseid[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
+* `hxxps://mon-blanc-02[.]cfd/api.php?s=4be65b0fa8d84ec9e83e1cad68ba4c6284fdbc4afc25bbca`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
+* `hxxps://browscheck[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
+* `hxxps://browseid[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
+* `hxxps://browseid[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
+* `hxxps://www[.]quintahayara[.]es/restaurante/`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=093f7868f7aec7a8bf87c48337f377242f6d059b1f03ea18`
+* `hxxps://idcool[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
+* `hxxps://browseid[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
+* `hxxps://idcool[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
+* `hxxps://tech4us[.]pl/regulamin/`
+* `hxxps://securityalertcaptchacheck[.]com/lom/a`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
+* `hxxps://browseid[.]codes/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=e5a6ee8789a37b46424f0e1a414979a3e9c4b670f991f82c`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=9ae414640fb40d84df142ee4b271dfe642ae51ff6125f1ae`
+* `hxxps://browscheck[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
+* `hxxps://browscheck[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
+* `hxxps://browseid[.]codes/api.php?s=9ae414640fb40d84df142ee4b271dfe642ae51ff6125f1ae`
+* `hxxps://thu-ipad-03[.]cfd/api.php?s=355d983b483b7b665fd8efd21f72082436aeea2d6b19a437`
+* `hxxps://idcool[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
+* `hxxps://browseid[.]codes/api.php?s=cdf00577bc0ae0adb9574ec0bf11c0e712ceab358ca67b3e`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
+* `hxxps://browscheck[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a`
+* `hxxps://browseid[.]codes/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf`
+* `hxxps://browscheck[.]codes/api.php?s=ca6b7a9ca6238c3959826fe5773fe40e63a64b2ce8a6574e`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848043`
+* `hxxps://browscheck[.]codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae`
+* `hxxps://browscheck[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2`
 * `hxxps://entry-verifed-cdn[.]codes/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf`
+* `hxxps://simplylistedmarketing[.]com/refund-cancellation-policy/`
+* `hxxps://browscheck[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
+* `hxxps://idcool[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
+* `hxxps://idcool[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
+* `hxxps://browseid[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d44962b1b52fda9cbc4cd0af4c24de22f73561d73fea5d48`
+* `hxxps://browseid[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848378`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848089`
+* `hxxps://cloudeccentric[.]cc/api.php?s=ffa65e22169204ca1ac7588970f688d7401d3ffe20656099`
+* `hxxps://idcool[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716`
+* `hxxps://browseid[.]codes/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b`
+* `hxxps://browseid[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea`
+* `hxxps://browseid[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif)`
+* `hxxps://browscheck[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5`
+* `hxxps://browscheck[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848049`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5`
+* `hxxps://idcool[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
+* `hxxps://idcool[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=55cf111d272f51001d0c68612e78ea1fd5438401d3267f77`
+* `hxxps://lovezramexar[.]info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b`
+* `hxxps://interseq[.]at/lom/a`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=54c7ed5118fd73b051e9dc1dd56cad2c00abc2a661956f32`
+* `hxxps://www[.]loruhan[.]com/restoran/`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848056`
+* `hxxps://browscheck[.]codes/api.php?s=54c7ed5118fd73b051e9dc1dd56cad2c00abc2a661956f32`
+* `hxxps://browseid[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb`
+* `hxxps://makeverizyjar[.]info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
+* `hxxps://browscheck[.]codes/api.php?s=059cda028f1e1f0a7ce2d47fc39fea0f9c0eac8b76a3ab1e`
+* `hxxps://mon-blanc-02[.]cfd/api.php?s=bfa8d66687ce0fd20ad81e377f3d0a63841b42231a0c7f95`
+* `hxxps://browseid[.]codes/api.php?s=8bd061fa7d7381768b017e1a56ca24f4d09c2bdbab3be2db`
+* `hxxps://thu-ipad-03[.]cfd/api.php?s=55d3781e9701b9a0eae703f6438b1b85aea7e64e3a74115f`
+* `hxxps://browseid[.]codes/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7`
+* `hxxps://makeverizyjar[.]info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7`
+* `hxxps://browseid[.]codes/api.php?s=ca6b7a9ca6238c3959826fe5773fe40e63a64b2ce8a6574e`
+* `hxxps://browseid[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a`
+* `hxxps://browscheck[.]codes/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7`
+* `hxxps://mon-blanc-02[.]cfd/api.php?s=93e401528b05efd8bd0e3b171a2d3f74b031ff10ea025a93`
+* `hxxps://browseid[.]codes/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36`
+* `hxxps://makeverizyjar[.]info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89`
+* `hxxps://www[.]mediafire[.]com/file/y1doq9125h0znvl/e5233db1+(1).exe/file?dkey=id39il07cpx&r=40`
+* `hxxps://entry-verifed-cdn[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd`
 
 ---
 ### [Decoded Payload / Download URLs]
-* `hxxps://entry-code-cdn[.]codes/9e6a18e1d27bc17d`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-o-melhor-metodo-de-pagamento-no-slotoro-casino/`
-* `hxxps://caiif[.]ca/wp-admin/admin-ajax.php`
-* `hxxps://yelloweasel[.]com/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-navegar-na-plataforma-do-rokubet-casino/`
-* `hxxps://www[.]dropbox[.]com/scl/fi/0uo36mnwpsr3pkimq0tbw/installer.exe?rlkey=y809n84pzpul9hs33ihya6qcj&st=gy1s1dqs&dl=1`
-* `hxxps://mytds10293`
-* `hxxps://www[.]instagram[.]com/reel/DCNnqMXNoiX/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-1086x1536.png`
-* `hxxps://bsc-testnet[.]drpc[.]org/`
-* `hxxps://azanintl[.]com/`
-* `hxxps://polygon-mainnet[.]public[.]blastapi[.]io`
-* `hxxps://www[.]pizzeriaalparco[.]it/regole-haccp/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/desvendando-os-mitos-sobre-o-spinline-casino/`
-* `hxxps://www[.]instagram[.]com/reel/DB99ZPwuC8S/`
+* `hxxp://193[.]178[.]158[.]107/bin/1f1974ee5c566e5a_1.exe`
+* `hxxps://pietrek[.]pl:443`
+* `hxxps://fenos[.]be/cart/`
 * `hxxps://blueprint-71[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/cc2/update`
-* `hxxps://www[.]pomitni[.]com:443`
-* `hxxps://acddurban[.]co[.]za/wp-admin/admin-ajax.php`
+* `hxxps://prudenceflores[.]com:443`
+* `hxxps://entry-code-cdn[.]codes/9e6a18e1d27bc17d`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848142`
+* `hxxps://cocuktekstil[.]com/r`
+* `hxxp://172[.]86[.]73[.]169:8081/pavin/x86/pavin_x86.exe`
+* `hxxps://bkavsmarthome[.]vn/uploads/source/tin-tuc/tin-tuc-bakv/xu-huong-nha-thong-minh-bkav-trong-tuong-lai/h5.pngw}_է?`
+* `hxxps://cnadl[.]ro/wp-includes/`
+* `hxxps://journeylake11[.]com/curl/fh3ddf2xv6k/hilhg0wgie4tsjo9vi.txt`
+* `hxxps://razzledazzlejewelrystore[.]com/`
+* `hxxps://www[.]bmsmigration[.]com:443`
+* `hxxps://polygon[.]gateway[.]tenderly[.]co`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/gransino-casino-jouw-gids-voor-een-veilige-registratie/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/presentes-de-fidelidade-para-jogadores-do-bet-andreas-casino/`
+* `hxxps://366patiopenquista[.]cl:443`
+* `hxxps://www[.]sahak[.]ch:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
+* `hxxps://anhcuoihalong[.]com/wp-json/elementskit/v1/`
+* `hxxps://cee2003[.]com/wp-content/themes/Impreza`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-tipps-fur-das-spielen-im-freshbet-casino/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848111`
+* `hxxps://clubnatura[.]es:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/por-que-escolher-o-cleobetra-casino-para-jogar-online/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/o-vernostnich-bonusech-ve-spinit-casino/`
-* `hxxps://eth-sepolia-testnet[.]api[.]pocket[.]network`
-* `hxxps://ultratrijumfvijesti[.]info/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-e-a-trajetoria-do-yep-casino-no-mercado/`
-* `hxxps://elclubdelosseisceros[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/erwin-casino-ein-blick-auf-die-besten-promotions/`
+* `hxxps://imap[.]usslimsounds[.]com/c76db9ce-59d0-4dc0-84ed-5d152ec39f16/hutepkeazyauxbqsiykw.dll`
+* `hxxps://creterium[.]gr:443`
+* `hxxps://whatsoninreddeer[.]com:443`
+* `hxxps://simplylistedmarketing[.]com/reputation-management/`
+* `hxxps://luidemorais[.]com/`
 * `hxxps://vosgi[.]in:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/moosh-casino-e-a-diversidade-de-jogos-disponiveis/`
-* `hxxps://prazofinal[.]com/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinit-casino-jake-moznosti-odvodu-penez-nabizi/`
+* `hxxps://dev-coastal-road-repair[.]pantheonsite[.]io:443`
+* `hxxps://tawatson[.]com:443`
+* `hxxps://www[.]quintahayara[.]es/restaurante/`
+* `hxxps://ethereum-sepolia-public[.]nodies[.]app`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/vse-co-potrebujete-vedet-o-bezpecnosti-ve-spinit-casino/`
+* `hxxps://hashedsolver[.]icu/update1.ps1`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/dragonia-casino-um-novo-lider-em-jogos-online/`
+* `hxxps://securityalertcaptchacheck[.]com/lom/a`
+* `hxxp://86[.]109[.]75[.]7/app/19481b28bd67/IconEdit2Turb.msi`
+* `hxxps://polygon[.]drpc[.]org`
+* `hxxps://gateway[.]tenderly[.]co/public/sepolia`
+* `hxxps://garvale[.]es:443`
+* `hxxps://data-seed-prebsc-2-s2[.]binance[.]org:8545/`
+* `hxxps://bsc-testnet-dataseed[.]bnbchain[.]org/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-2048x1536.jpg`
+* `hxxps://thethinkbox[.]co[.]uk:443`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjV5rl7xwTsGOS6cVRa6pAE-4ZGWxY6Nrb2_mltvJy1r2YTpo1Nm=w40-h40-c-rp-mo-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/frumzi-casino-jake-bonusy-vam-mohou-prinest-stesti/`
+* `hxxps://fullinstall[.]sbs/0924.exe`
+* `hxxps://roptik[.]com/dynamic?txd=b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
+* `hxxps://spitandmalachite[.]com/rqs`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/allyspin-casino-jaka-je-jeho-reputace/`
+* `hxxps://duelmsprevailinggenetics[.]com/ru-ru.html`
+* `hxxp://hip-hop-comms[.]com`
+* `hxxps://www[.]yundatabox[.]com/KL.bat`
+* `hxxps://betimate[.]com/`
+* `hxxps://firstcallkuwait[.]com/`
+* `hxxps://github[.]com/ampproject/amphtml/issues/11133\n#hero-iframe-container`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848129`
+* `hxxps://simplylistedmarketing[.]com/refund-cancellation-policy/`
+* `hxxps://cid[.]gov[.]so/tmp/msvsmon.exe`
+* `hxxps://dispensaserrande[.]it/wp-content/plugins/global-gallery/classes/easy_wp_thumbs.php?src=%URL%&w=%W%&h=%H%&q=80`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinmama-casino-um-mergulho-na-diversidade-de-jogos-de-slots/`
+* `hxxps://www[.]instagram[.]com/reel/DCmJqRCu0iZ/`
+* `hxxps://drecruitment[.]com:443`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/ghost.png`
+* `hxxps://shdid[.]me`
+* `hxxps://www[.]instagram[.]com/reel/DCxcg-Kub89/`
+* `hxxps://www[.]instagram[.]com/reel/DCDcOOINI9t/`
+* `hxxps://www[.]google[.]com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3541743136257!2d106.74404151140098!3d10.784162389320691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525006cc10df7%3A0x36f66c89b8270a5b!2zV09PIEpVTkcgU0FMT04g7Jqw7KCVIOydtOuwnOyGjA!5e0!3m2!1sko!2s!4v1739217695898!5m2!1sko!2s`
+* `hxxps://pevrix[.]com/curl/42403afd2906a8f3062e3ddb19b28572d88db9ae74b147319383bd280c6bec0a`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/programa-de-fidelidade-do-ivibet-casino-vale-a-pena/`
+* `hxxps://www[.]google[.]com/recaptcha/api.js?render=6Lemwu0UAAAAAJghn3RQZjwkYxnCTuYDCAcrJJ7S`
+* `hxxps://wiltonstamebudgies[.]com/wp-admin/admin-ajax.php`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjVTn7p4E5ZIz4dTPMRbWuqmQk32VQgSu9Wpt9DU1Vbvj16cF6fi8Q=w40-h40-c-rp-mo-ba6-br100`
+* `hxxps://www[.]dropbox[.]com/scl/fi/0uo36mnwpsr3pkimq0tbw/installer.exe?rlkey=y809n84pzpul9hs33ihya6qcj&st=gy1s1dqs&dl=1`
+* `hxxps://genovaw[.]com/dynamic?txd=001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336`
+* `hxxps://dibs-project[.]eu:443`
+* `hxxps://conectasinos[.]com[.]br:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/nv-casino-ein-blick-hinter-die-kulissen-des-anbieters/`
+* `hxxps://sunsetsurfvillas[.]com:443`
+* `hxxps://v7yp4wts[.]fourstarcampground[.]com/`
+* `hxxps://mytds102938`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848095`
+* `hxxps://cafeoryansestao[.]com:443`
+* `hxxps://sna247supportservices[.]org:443`
+* `hxxp://ns[.]adobe[.]com/tiff/1.0/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spieleprofile-was-bietet-nova-dreams-casino/`
+* `hxxps://www[.]yundatabox[.]com/verify-page.js`
+* `hxxps://b-water[.]be:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wildsino-casino-co-hraci-rikaji-o-jeho-vyhodach/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848285`
+* `hxxps://loop-lumen[.]com/zxc/appex.zip`
+* `hxxps://escapeai[.]live/loader_v2.sh?build=lom&owner=ekm`
+* `hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_black.svg\`
+* `hxxps://1rpc[.]io/matic`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-212x300.png`
+* `hxxps://script-six-tawny[.]vercel[.]app`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-724x1024.png`
+* `hxxps://blog[.]naver[.]com/ssoyeon_p/223534068644`
+* `hxxps://polygon-bor-rpc[.]publicnode[.]com`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/billionaire-spin-casino-vydelejte-penize-s-vasim-talentem/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-1086x1536.png`
+* `hxxps://rpc[.]ankr[.]com/polygon`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-funciona-a-oferta-de-torneios-no-jokery-casino/`
+* `hxxps://bsc-testnet-rpc[.]publicnode[.]com/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848041`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-o-godofcoins-se-estabeleceu-no-cenario-dos-casinos/`
+* `hxxps://www[.]psychologytoday[.]com/api/verified-seal/seals/[BADGE]/profile/[PROFILE_ID]?callback=sxcallback`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-como-funciona-a-evolucao-dos-jogos/`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js`
+* `hxxps://www[.]barcelonadrumfest[.]art/carrito/`
+* `hxxps://caiif[.]ca/wp-content/plugins/builder-typewriter/assets/scripts`
+* `hxxps://www[.]lineaintegrale[.]it:443`
+* `hxxps://www[.]sensasian-concept[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/warum-casoola-casino-eine-gute-wahl-ist/`
+* `hxxps://aisther[.]fr:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/quais-novidades-esperar-no-winbay-casino-em-2024/`
+* `hxxps://www[.]natural-health-news[.]com/Verify.msi`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848104`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocKBBUvFytZrZOon-q9uXD0jHzEm4avvBirKmyyr4rIB293BkQ=w40-h40-c-rp-mo-br100`
+* `hxxps://spence-creative[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-um-ponto-de-encontro-para-apostadores/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848257`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848376`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjWFsSYwmdLmS2yPSrog0x-J87Syn95dfOdCtv0EvQRVgNIVCrj6=w40-h40-c-rp-mo-ba5-br100`
+* `hxxps://balanceaesthetics[.]com:443`
+* `hxxps://www[.]google[.]com/recaptcha/api.js?onload=c4wp_onloadCallback&amp;render=explicit&amp;hl=en&amp;ver=7.6.2`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848087`
+* `hxxps://animhappy[.]fr:443`
+* `hxxps://www[.]instagram[.]com/reel/DB90VzSueJ-/`
+* `hxxps://ssn-id[.]email`
+* `hxxps://우정살롱[.]com`
+* `hxxps://zocity[.]nl:443`
+* `hxxps://wanasinplace[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-e-a-trajetoria-do-yep-casino-no-mercado/`
+* `hxxps://yelloweasel[.]com/`
+* `hxxps://www[.]bravoycia[.]es:443`
+* `hxxps://awesomedimsum[.]com:443`
+* `hxxps://ultratrijumfvijesti[.]info/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-768x576.jpg`
+* `hxxps://cdn[.]ywxi[.]net/rpc/tmjs/laplayahollywood.com/visit?rand=1790883971288`
+* `hxxps://cnadl[.]ro/wp-content`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/was-bieten-die-vip-vorteile-im-realz-casino/`
+* `hxxps://www[.]consorziocar[.]org:443`
 * `hxxp://ns[.]adobe[.]com/xap/1.0/sType/ResourceEvent#`
 * `hxxps://razzledazzlejewelrystore[.]com/checkout/cart/add/uenc/aHR0cHM6Ly9yYXp6bGVkYXp6bGVqZXdlbHJ5c3RvcmUuY29tLw`
-* `hxxps://www[.]mediafire[.]com/file/y1doq9125h0znvl/e5233db1+(1).exe/file?dkey=id39il07cpx&r=40`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/tree.png`
-* `hxxps://escapeai[.]live/loader_v2.sh?build=lom&owner=ekm`
-* `hxxps://feed[.]pippa[.]io/public/shows/5c92c88b5e222bd90980d1fc`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/nv-casino-ein-blick-hinter-die-kulissen-des-anbieters/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-724x1024.png`
-* `hxxps://loop-lumen[.]com/zxc/appex.zip`
-* `hxxp://ns[.]adobe[.]com/photoshop/1.0/`
-* `hxxps://data-seed-prebsc-1-s1[.]binance[.]org:8545/`
-* `hxxps://simplylistedmarketing[.]com/reputation-management/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/highflybet-casino-uma-imersao-no-universo-das-apostas-online/`
-* `hxxps://www[.]psychologytoday[.]com/api/verified-seal/seals/[BADGE]/profile/[PROFILE_ID]?callback=sxcallback`
-* `hxxps://burlesondentalcare[.]com/wp-json/`
-* `hxxps://zocity[.]nl:443`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjV5rl7xwTsGOS6cVRa6pAE-4ZGWxY6Nrb2_mltvJy1r2YTpo1Nm=w40-h40-c-rp-mo-br100`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-log-je-in-bij-betonred-casino/`
-* `hxxps://www[.]googletagmanager[.]com/gtm.js?id=`
-* `hxxps://blueprinthrm[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/ktere-hry-prinaseji-nejvetsi-vyhry-v-gorilla-casinu/`
-* `hxxps://hamilahealthfoundation[.]org/registro-de-voluntarios/`
-* `hxxps://polygon-bor-rpc[.]publicnode[.]com`
-* `hxxp://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848095`
-* `hxxps://spitandmalachite[.]com/rqs`
-* `hxxps://botcheck-cf[.]top/hex/traffic`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js`
-* `hxxps://www[.]instagram[.]com/reel/DB90VzSueJ-/`
-* `hxxp://91[.]92[.]43[.]250`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/bat.png`
-* `hxxps://www[.]henfactory[.]com:443`
-* `hxxps://genovaw[.]com/dynamic?txd=001e07c934e19b9d10f621c6b7546b43b2fb1c7b8fce2625fc7b767dfb626336`
-* `hxxps://curier[.]ro/`
-* `hxxps://www[.]spd-schwalmtal[.]de/wp-admin/admin-ajax.php`
-* `hxxps://pro-comfort[.]pl:443`
-* `hxxps://cee2003[.]com/wp-content/themes/Impreza`
-* `hxxps://www[.]sahak[.]ch:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848260`
-* `hxxps://resolvend[.]com:443`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocKBBUvFytZrZOon-q9uXD0jHzEm4avvBirKmyyr4rIB293BkQ=w40-h40-c-rp-mo-br100`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848043`
-* `hxxps://www[.]facebook[.]com/rockpooloasis/`
-* `hxxps://ausgreensolar[.]com[.]au:443`
-* `hxxps://update-notif[.]com/`
-* `hxxps://commercialbakkiecentre[.]co[.]za:443`
-* `hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/scripts`
-* `hxxps://awesomedimsum[.]com:443`
-* `hxxps://www[.]google[.]com/recaptcha/api2/anchor?ar=1&amp;k=6Lemwu0UAAAAAJghn3RQZjwkYxnCTuYDCAcrJJ7S&amp;co=aHR0cHM6Ly9waGJhbGFuY2VkLmNvOjQ0Mw..&amp;hl=nl&amp;v=kemdRjWFxNjgsGdhRslyEPwU&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=j5awuobkfmqq`
-* `hxxps://cee2003[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/champion-casino-jak-hodnotit-herni-zazitek/`
-* `hxxps://polygon-public[.]nodies[.]app`
-* `hxxps://implantdentistrytx[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/pumpkin.png`
-* `hxxps://uasputnik[.]com/astra.msi`
-* `hxxps://www[.]bravoycia[.]es:443`
-* `hxxps://prudenceflores[.]com:443`
-* `hxxps://www[.]instagram[.]com/smkdwibhakti_cldg/`
-* `hxxps://kineticlenz[.]com/gg.ps1`
-* `hxxps://dipagaletoegrelhados[.]com[.]br:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-o-godofcoins-se-estabeleceu-no-cenario-dos-casinos/`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png)`
-* `hxxps://simplylistedmarketing[.]com/refund-cancellation-policy/`
-* `hxxps://www[.]youtube[.]com/watch?v=58tG07XYBxA`
-* `hxxps://afilma[.]net:443`
-* `hxxps://cnadl[.]ro/wp-content`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848376`
-* `hxxps://cocuktekstil[.]com/g.php`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css`
-* `hxxps://q7k2m9xb[.]us-theeloncode[.]com/?ublib=3f2a9c1e-7b4d-4e61-9a0b-5c8d2e1f4a77`
-* `hxxps://bisearcher[.]com/`
-* `hxxps://pietrek[.]pl:443`
-* `hxxps://www[.]cartoontjes[.]nl:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848258`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinit-casino-jake-moznosti-odvodu-penez-nabizi/`
-* `hxxps://www[.]recon-usa[.]org:443`
-* `hxxps://0xrpc[.]io/sep`
-* `hxxps://www[.]incele[.]web[.]tr/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848175`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848111`
-* `hxxps://animhappy[.]fr:443`
-* `hxxps://rpc[.]sepolia[.]ethpandaops[.]io`
-* `hxxps://conectasinos[.]com[.]br:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848029`
-* `hxxps://interseq[.]at/lom/a`
-* `hxxps://cee2003[.]com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=15`
-* `hxxps://raw[.]githubusercontent[.]com/34-19-44r/573-45-43cvi/refs/heads/main/AC-BC-FB-E2-30-46`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/was-bieten-die-vip-vorteile-im-realz-casino/`
-* `hxxps://nordertextil[.]de/room`
-* `hxxps://loyaltyaviation[.]com:443`
-* `hxxps://bayareastardive[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱.webp`
-* `hxxps://www[.]gstatic[.]com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__nl.js`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848041`
+* `hxxps://www[.]facebook[.]com/rockpooloasis`
 * `hxxps://interseq[.]at/lom_p2/api?_v=29848176`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/frumzi-casino-jake-bonusy-vam-mohou-prinest-stesti/`
-* `hxxps://basequill9[.]com/curl/av6t87xg9gon/ahlg4goj9kfsh1itrutp47.dat`
-* `hxxps://www[.]google[.]com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3541743136257!2d106.74404151140098!3d10.784162389320691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525006cc10df7%3A0x36f66c89b8270a5b!2zV09PIEpVTkcgU0FMT04g7Jqw7KCVIOydtOuwnOyGjA!5e0!3m2!1sko!2s!4v1739217695898!5m2!1sko!2s`
-* `hxxps://websitedesigncharlotte[.]com/wp-admin/admin-ajax.php`
-* `hxxps://dev-coastal-road-repair[.]pantheonsite[.]io:443`
-* `hxxps://copiose[.]org/lom/62a9405c9735a1a7`
-* `hxxps://kupunasvolpiano[.]com/g/static/s/cinzel/v23/Taskforce.exe`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848377`
-* `hxxps://www[.]spirakiservice[.]gr:443`
-* `hxxps://omigifts[.]com:443`
-* `hxxps://creterium[.]gr:443`
-* `hxxps://caiif[.]ca/wp-content`
-* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/star/f.svg`
-* `hxxps://cid[.]gov[.]so/tmp/msvsmon.exe`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848089`
-* `hxxps://fenos[.]be/cart/`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif)`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/programa-de-fidelidade-do-ivibet-casino-vale-a-pena/`
-* `hxxp://172[.]86[.]73[.]169:8081/pavin/x86/pavin_x86.exe`
-* `hxxps://cee2003[.]com/aviso-legal/`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js`
-* `hxxps://cdn[.]trustindex[.]io/loader.js?wp-widget`
-* `hxxps://ethereum-sepolia-rpc[.]publicnode[.]com`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-spiele-bei-realz-casino-ein-uberblick/`
-* `hxxps://dreamziot[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-bonusy-ma-lizaro-casino-pro-stale-hrace/`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjWFsSYwmdLmS2yPSrog0x-J87Syn95dfOdCtv0EvQRVgNIVCrj6=w40-h40-c-rp-mo-ba5-br100`
-* `hxxp://85[.]239[.]149[.]`
-* `hxxps://crosbyexports[.]com:443`
-* `hxxps://academicpipelinedatabase[.]net:443`
-* `hxxps://www[.]google[.]com/recaptcha/api.js?render=6Lemwu0UAAAAAJghn3RQZjwkYxnCTuYDCAcrJJ7S`
-* `hxxps://the[.]earth[.]li/~sgtatham/putty/0.85/w64/putty.exe`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/moon.png`
-* `hxxps://keirachenergy[.]com:443`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins`
-* `hxxps://spence-creative[.]com:443`
-* `hxxps://sna247supportservices[.]org:443`
-* `hxxp://www[.]bohemiancoding[.]com/sketch/ns`
-* `hxxps://1rpc[.]io/matic`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-fatpirate-casino-veilig-om-te-spelen/`
-* `hxxp://ns[.]adobe[.]com/xap/1.0/`
-* `hxxps://mytds102938`
-* `hxxps://maple30[.]com/f/680apd_597afiqvimxvelw/sfjwmrjy`
-* `hxxps://dispensaserrande[.]it:443`
-* `hxxps://wanasinplace[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
-* `hxxps://open[.]kakao[.]com/o/scEaZ1fh`
-* `hxxps://bnb-testnet[.]api[.]onfinality[.]io/public`
-* `hxxps://amaxxagroup[.]com:443`
-* `hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/style`
-* `hxxps://www[.]stradiotto[.]in:443`
-* `hxxps://anhcuoihalong[.]com/wp-json/elementskit/v1/`
-* `hxxps://script-six-tawny[.]vercel[.]app`
-* `hxxps://securityalertcaptchacheck[.]com/lom/a`
-* `hxxps://caiif[.]ca/wp-content/plugins/builder-typewriter/assets/scripts`
-* `hxxps://www[.]gstatic[.]com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js`
-* `hxxps://hikarie[.]lk:443`
-* `hxxps://gentlecosmetictattoo[.]com[.]au:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848129`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848285`
-* `hxxps://sepolia[.]gateway[.]tenderly[.]co`
-* `hxxps://www[.]instagram[.]com/reel/DCxcg-Kub89/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/analyse-van-de-uitbetalingspercentages-bij-winaura-casino/`
-* `hxxps://caiif[.]ca/wp-includes/`
-* `hxxp://hip-hop-comms[.]com`
-* `hxxp://ns[.]adobe[.]com/tiff/1.0/`
-* `hxxps://update[.]googlecert[.]help/Installer%20GoogleCert.scpt`
-* `hxxps://copiose[.]org/test_proliv/b?o=79e5471cc1e2301b`
-* `hxxps://bsc-testnet-dataseed[.]bnbchain[.]org/`
-* `hxxps://rpc[.]ankr[.]com/polygon`
-* `hxxps://cee2003[.]com/politica-de-cookies/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848073`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinmama-casino-um-mergulho-na-diversidade-de-jogos-de-slots/`
-* `hxxps://forteristorante[.]com:443`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/skull.png`
-* `hxxps://cdn[.]ywxi[.]net/rpc/tmjs/laplayahollywood.com/visit?rand=1790883971288`
-* `hxxps://zaluposs[.]com/check/update.ps1`
-* `hxxps://sunsetsurfvillas[.]com:443`
-* `hxxps://www[.]instagram[.]com/reel/DCDcOOINI9t/`
-* `hxxps://hashedsolver[.]icu/update1.ps1`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848257`
-* `hxxps://rpc-mainnet[.]matic[.]quiknode[.]pro`
-* `hxxps://fastsrunners[.]com/SecondRunner.exe`
-* `hxxps://data-seed-prebsc-2-s2[.]binance[.]org:8545/`
-* `hxxp://ns[.]adobe[.]com/xap/1.0/sType/ResourceRef#`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-um-ponto-de-encontro-para-apostadores/`
-* `hxxps://www[.]consorziocar[.]org:443`
-* `hxxps://www[.]youtube[.]com/embed/58tG07XYBxA?feature=oembed`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif)`
-* `hxxps://cnadl[.]ro/wp-includes/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/xon-bet-casino-tips-voor-verantwoord-gokken/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-akce-probihaji-v-betonred-casino-tento-mesic/`
-* `hxxps://arcanebear[.]com/wp-admin/admin-ajax.php`
-* `hxxps://zomabeauty[.]com[.]au/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848405`
-* `hxxps://blog[.]naver[.]com/ssoyeon_p/223534068644`
-* `hxxps://imap[.]usslimsounds[.]com/c76db9ce-59d0-4dc0-84ed-5d152ec39f16/hutepkeazyauxbqsiykw.dll`
-* `hxxps://ehimarsalud[.]com:443`
-* `hxxps://aderent[.]ro:443`
-* `hxxps://congtrinhthep[.]com[.]vn/wp-admin/admin-ajax.php`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/presentes-de-fidelidade-para-jogadores-do-bet-andreas-casino/`
-* `hxxps://www[.]trustindex[.]io/?a=sys&amp;c=wp-verified-badge&amp;url=/the-trustindex-verified-badge/`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/snowflake.svg`
-* `hxxps://pevrix[.]com/curl/42403afd2906a8f3062e3ddb19b28572d88db9ae74b147319383bd280c6bec0a`
-* `hxxps://yoauction[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/ghost.png`
-* `hxxps://polygon[.]drpc[.]org`
-* `hxxps://proalamir[.]dz/dl/dA2otSYgVZRH.7z`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-funguje-vernostni-program-na-glorion-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-2048x1536.jpg`
-* `hxxps://www[.]lineaintegrale[.]it:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/quais-novidades-esperar-no-winbay-casino-em-2024/`
-* `hxxps://phbalanced[.]co:443`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js`
-* `hxxps://www[.]natural-health-news[.]com/Verify.msi`
-* `hxxps://dibs-project[.]eu:443`
-* `hxxps://www[.]loruhan[.]com/restoran/`
-* `hxxps://github[.]com/indirect-syscall/test/releases/download/2134252/over32.exe`
-* `hxxps://clubnatura[.]es:443`
-* `hxxps://b-water[.]be:443`
-* `hxxps://www[.]suministroelectrico[.]com[.]mx:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-vielfalt-der-spiele-im-voodoo-casino-ein-uberblick/`
-* `hxxps://cafeoryansestao[.]com:443`
-* `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_1532c81514d47461.exe`
-* `hxxps://k3p8wz1n[.]bvcbx[.]store/?ublib=9e4a7c31-5b2d-4f8e-a6c0-1d7b3e5f9a42`
-* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/gift.png`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif)`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848037`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-212x300.png`
-* `hxxps://zanderrealestate[.]com/curl/85cb26206d920216eee0c5f67e8de516b4d55bd1752025bb3c08a069a44fdbdf`
-* `hxxps://forgewillow[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update`
-* `hxxps://www[.]barcelonadrumfest[.]art/carrito/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848060`
-* `hxxps://journeylake11[.]com/curl/fh3ddf2xv6k/hilhg0wgie4tsjo9vi.txt`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848034`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848177`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/pourquoi-les-utilisateurs-recommandent-millioner-casino/`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjXJkYzltDPgcNdVLC-9AWk3It_bCZn0T75df9uNdbzjV74ex5-N=w40-h40-c-rp-mo-br100`
-* `hxxps://www[.]quintahayara[.]es/restaurante/`
-* `hxxps://www[.]instagram[.]com/reel/DB4opFHPdBU/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-300x225.jpg`
-* `hxxps://goldrateuae[.]ae/`
-* `hxxps://polygon[.]gateway[.]tenderly[.]co`
-* `hxxps://ethereum-sepolia[.]rpc[.]subquery[.]network/public`
-* `hxxps://webfeenix[.]com:443`
-* `hxxps://우정살롱[.]com`
-* `hxxp://193[.]178[.]158[.]107/bin/1f1974ee5c566e5a_1.exe`
-* `hxxps://melbourne-data-recovery[.]com[.]au:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/myempire-casino-como-a-plataforma-se-compara-a-outros/`
-* `hxxps://whatsoninreddeer[.]com:443`
-* `hxxps://www[.]actingandvoice[.]co[.]uk:443`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content`
-* `hxxps://burkesfinefoods[.]com:443`
-* `hxxps://duelmsprevailinggenetics[.]com/ru-ru.html`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-instant-casino-de-juiste-keuze-voor-ervaren-spelers/`
-* `hxxps://thewombstory[.]com:443`
-* `hxxps://www[.]yundatabox[.]com/KL.zip`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-768x576.jpg`
-* `hxxps://neurowellcounseling[.]com:443`
-* `hxxps://luidemorais[.]com/`
-* `hxxp://192[.]162[.]199[.]249/cr2nfs6c`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848353`
-* `hxxps://ethereum-sepolia-public[.]nodies[.]app`
-* `hxxps://vecta[.]io/nano`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/por-que-escolher-o-cleobetra-casino-para-jogar-online/`
-* `hxxps://www[.]instagram[.]com/reel/DCmJqRCu0iZ/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848116`
-* `hxxps://firstcallkuwait[.]com/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/gransino-casino-jouw-gids-voor-een-veilige-registratie/`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js`
-* `hxxp://86[.]109[.]75[.]7/app/19481b28bd67/IconEdit2Turb.msi`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848049`
+* `hxxps://q7k2m9xb[.]us-theeloncode[.]com/?ublib=3f2a9c1e-7b4d-4e61-9a0b-5c8d2e1f4a77`
+* `hxxps://ausgreensolar[.]com[.]au:443`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308.jpg`
-* `hxxps://globalsupportupdate[.]top/enc.exe`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-werkt-het-loyaliteitsprogramma-van-vegashero-casino/`
-* `hxxps://ilayacare[.]com:443`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848043`
+* `hxxps://cee2003[.]com/wp-admin/admin-ajax.php`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-akce-probihaji-v-betonred-casino-tento-mesic/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848256`
+* `hxxps://ucc-tr[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-300x225.jpg`
+* `hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/style`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-includes/`
+* `hxxps://www[.]youtube[.]com/watch?v=58tG07XYBxA`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/erwin-casino-ein-blick-auf-die-besten-promotions/`
+* `hxxps://www[.]googletagmanager[.]com/gtm.js?id=`
+* `hxxps://ethereum-sepolia[.]rpc[.]subquery[.]network/public`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848089`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/de-aantrekkingskracht-van-cazeus-casinos-spelomgeving/`
+* `hxxps://goldrateuae[.]ae/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/casino-lab-jak-se-orientovat-v-jeho-nabidce/`
+* `hxxps://data-seed-prebsc-1-s1[.]bnbchain[.]org:8545/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/waarom-spelers-de-eerste-keer-kiezen-voor-winaura-casino/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848034`
+* `hxxps://elclubdelosseisceros[.]com:443`
+* `hxxps://www[.]google[.]com/recaptcha/api.js?render=6LedxBMoAAAAAH5Q5RKxSkIqeIcSb7RJU9eMLpC5&amp;ver=3.0`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-admin/admin-ajax.php`
+* `hxxps://www[.]instagram[.]com/smkdwibhakti_cldg/`
+* `hxxps://wiltonstamebudgies[.]com`
+* `hxxps://copiose[.]org/lom/62a9405c9735a1a7`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/y2/r/onuUJj0tCqE.png);background-position:50%`
+* `hxxps://capricecapitalpartners[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
+* `hxxps://www[.]instagram[.]com/reel/DCNnqMXNoiX/`
+* `hxxps://letsupconfig[.]sbs/0921.exe`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins`
+* `hxxps://www[.]henfactory[.]com:443`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif)`
+* `hxxps://interpretationaudiosupport[.]com:443`
+* `hxxps://melbourne-data-recovery[.]com[.]au:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/highflybet-casino-uma-imersao-no-universo-das-apostas-online/`
+* `hxxps://dispensaserrande[.]it:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-fatpirate-casino-veilig-om-te-spelen/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱-300x200.webp`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848037`
+* `hxxps://loyaltyaviation[.]com:443`
+* `hxxps://readingteacher[.]com:443`
+* `hxxps://nordertextil[.]de/room`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848177`
+* `hxxps://thewombstory[.]com:443`
+* `hxxps://zaluposs[.]com/check/update.ps1`
+* `hxxps://www[.]pomitni[.]com:443`
+* `hxxps://proalamir[.]dz/dl/dA2otSYgVZRH.7z`
+* `hxxps://www[.]incele[.]web[.]tr/`
+* `hxxps://phbalanced[.]co:443`
+* `hxxps://www[.]mediafire[.]com/file/y1doq9125h0znvl/e5233db1+(1).exe/file?dkey=id39il07cpx&r=40`
+* `hxxps://sandiegomobiletire[.]com/loader/agent/a75137e5a3f45aacaa1ed5259e81ad8dcbcc0c1b767d8fc46dc42d2ef548b449`
+* `hxxps://stg-thinkoralimplantsandperiodon-thinkoralstg[.]kinsta[.]cloud:443`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848518`
+* `hxxps://hunteroc[.]com/wp-admin/admin-ajax.php`
+* `hxxps://cee2003[.]com/aviso-legal/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/qual-o-melhor-metodo-de-pagamento-no-slotoro-casino/`
+* `hxxp://fingerprint-veri[.]info/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-se-registruji-hraci-v-casino-lab/`
+* `hxxps://the[.]earth[.]li/~sgtatham/putty/0.85/w64/putty.exe`
+* `hxxps://cee2003[.]com:443`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css`
+* `hxxps://dreamziot[.]com:443`
+* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/star/f.svg`
+* `hxxps://rpc[.]sepolia[.]ethpandaops[.]io`
+* `hxxps://www[.]suministroelectrico[.]com[.]mx:443`
+* `hxxps://rd[.]rakuten[.]co[.]jp/rat?R2=https://network.mobile.rakuten.co.jp/campaign/card-mobile-majitoku/%3Fscid%3Dwi_ich_rmb_mkdiv_header_pitari_kasou_item_pc_new-alluser-webcx_card-mobile-majitoku4_20260928&acc=1312&aid=1&etype=click&ssc=crossuse_campaign&pgn=/matsubara0505/rdj500-bl1830b-2p-cdq/&ref=https://item.rakuten.co.jp/matsubara0505/rdj500-bl1830b-2p-cdq/&target_ele=new-alluser-webcx_card-mobile-majitoku4_20260928`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848116`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/champion-casino-jak-hodnotit-herni-zazitek/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848073`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/explorando-o-ambiente-do-winstler-casino-o-que-esperar/`
+* `hxxps://uasputnik[.]com/astra.msi`
+* `hxxps://ehimarsalud[.]com:443`
+* `hxxps://shortlist[.]com[.]pl/reklamiara/`
+* `hxxps://dispensaserrande[.]it?lcl_canon=`
+* `hxxps://caiif[.]ca/wp-content/plugins`
+* `hxxps://www[.]recon-usa[.]org:443`
+* `hxxps://keirachenergy[.]com:443`
+* `hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/scripts`
+* `hxxps://update[.]googlecert[.]help/Installer%20GoogleCert.scpt`
+* `hxxps://bayareastardive[.]com:443`
+* `hxxps://amaxxagroup[.]com:443`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocLM7tqashkYF8gqdXDVb_ViI_GJuQPu7kRSUj-J1_KDjLd-Pg=w40-h40-c-rp-mo-ba3-br100`
+* `hxxps://www[.]instagram[.]com/reel/DCiXqaNNhR_/`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/gift.png`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/pumpkin.png`
+* `hxxps://meyerweb[.]com/eric/tools/css/reset/\n#hero-iframe-container`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1024x768.jpg`
+* `hxxps://aderent[.]ro:443`
+* `hxxp://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x.png`
+* `hxxps://www[.]gstatic[.]com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__de.js`
+* `hxxps://www[.]marinelayer[.]com:443`
+* `hxxps://crosbyexports[.]com:443`
+* `hxxps://github[.]com/indirect-syscall/test/releases/download/2134252/over32.exe`
+* `hxxps://acholichild[.]or[.]ug/resources/`
+* `hxxps://kineticlenz[.]com/gg.ps1`
+* `hxxps://bowman-painting[.]com:443`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848405`
+* `hxxps://botcheck-cf[.]top/hex/traffic`
+* `hxxps://www[.]instagram[.]com/reel/DB99ZPwuC8S/`
+* `hxxp://85[.]239[.]149[.]`
+* `hxxps://yoauction[.]com/curl/b42a0ed9d1ecb72e42d6034502c304845d98805481d99cea4e259359f9ab206e`
+* `hxxps://feed[.]pippa[.]io/public/shows/5c92c88b5e222bd90980d1fc`
+* `hxxps://data-seed-prebsc-1-s1[.]binance[.]org:8545/`
+* `hxxps://cocuktekstil[.]com/g.php`
+* `hxxps://implantdentistrytx[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
+* `hxxps://gentlecosmetictattoo[.]com[.]au:443`
 * `hxxp://ns[.]adobe[.]com/xap/1.0/mm/`
 * `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/trustindex-google-widget.css?1787135686`
-* `hxxp://ns[.]adobe[.]com/exif/1.0/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/de-aantrekkingskracht-van-cazeus-casinos-spelomgeving/`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJBikOt2QYFJ6KoaeHyxgaddFH3qDoO3kgs6MSc4C0-boXq7w=w40-h40-c-rp-mo-ba3-br100`
-* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/icon.svg`
-* `hxxps://iyn4ce9o[.]casero[.]store/?ublib=d8ff2563-8e9d-4f78-9f7c-7efb9e3bce22`
-* `hxxps://airservicespanama[.]com:443`
-* `hxxps://www[.]instagram[.]com/reel/DCiXqaNNhR_/`
-* `hxxps://readingteacher[.]com:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848056`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-includes/`
-* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/y2/r/onuUJj0tCqE.png);background-position:50%`
-* `hxxps://www[.]bmsmigration[.]com:443`
-* `hxxps://wienflower[.]at:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wildsino-casino-co-hraci-rikaji-o-jeho-vyhodach/`
-* `hxxps://quillchant14[.]com/curl/owe4d2uwalzu/gkgeuf4jglj8kmpnoqb.txt`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-se-registruji-hraci-v-casino-lab/`
-* `hxxps://caiif[.]ca/wp-content/plugins`
-* `hxxps://fboudin[.]com:443`
-* `hxxps://wiltonstamebudgies[.]com/wp-admin/admin-ajax.php`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848087`
-* `hxxps://www[.]yundatabox[.]com/KL.bat`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/explorando-o-ambiente-do-winstler-casino-o-que-esperar/`
-* `hxxps://ssn-id[.]email`
-* `hxxps://www[.]google[.]com/recaptcha/api.js?onload=c4wp_onloadCallback&amp;render=explicit&amp;hl=en&amp;ver=7.6.2`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocLM7tqashkYF8gqdXDVb_ViI_GJuQPu7kRSUj-J1_KDjLd-Pg=w40-h40-c-rp-mo-ba3-br100`
-* `hxxps://hunteroc[.]com/wp-admin/admin-ajax.php`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-hry-vam-pelican-casino-nabizi/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/warum-casoola-casino-eine-gute-wahl-ist/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/les-gains-a-grande-echelle-au-friday-roll-casino/`
-* `hxxps://www[.]gctattoo[.]it/richiedi-appuntamento/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/magius-casino-osobni-zkusenosti-hracu-s-platformou/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848120`
-* `hxxps://fullinstall[.]sbs/0924.exe`
-* `hxxps://degorgement-95[.]com:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848142`
-* `hxxp://45[.]39[.]84[.]142/velcap3b`
-* `hxxps://balanceaesthetics[.]com:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848104`
-* `hxxps://cee2003[.]com/wp-admin/admin-ajax.php`
-* `hxxps://x9v2mq4t[.]bossbey[.]store/?ublib=6b1e0c2a-2f4d-4c9e-8a7b-3d5f1e9c0b21`
-* `hxxps://roptik[.]com/dynamic?txd=b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
-* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjVTn7p4E5ZIz4dTPMRbWuqmQk32VQgSu9Wpt9DU1Vbvj16cF6fi8Q=w40-h40-c-rp-mo-ba6-br100`
-* `hxxps://www[.]facebook[.]com/rockpooloasis`
-* `hxxps://sail[.]autolabsouthgate[.]com/update.ps1`
-* `hxxps://interpretationaudiosupport[.]com:443`
-* `hxxps://tawatson[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-funciona-a-oferta-de-torneios-no-jokery-casino/`
-* `hxxps://capricecapitalpartners[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/os-pagamentos-do-bet-andreas-casino-sao-rapidos/`
-* `hxxp://193[.]178[.]158[.]57/bin/d39b2eac249e8c65_build_x64.exe`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/betonred-casino-como-funciona-a-evolucao-dos-jogos/`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848256`
-* `hxxps://www[.]cee2003[.]com/gracias-por-contactar/`
-* `hxxps://cestmonterrey[.]edu[.]mx:443`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848378`
-* `hxxps://bowman-painting[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/casino-lab-jak-se-orientovat-v-jeho-nabidce/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/allyspin-casino-jaka-je-jeho-reputace/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/dragonia-casino-um-novo-lider-em-jogos-online/`
-* `hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_black.svg\`
-* `hxxps://www[.]sensasian-concept[.]com:443`
-* `hxxps://www[.]instagram[.]com/reel/DCrtCMbPRO3/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/waarom-spelers-de-eerste-keer-kiezen-voor-winaura-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spieleprofile-was-bietet-nova-dreams-casino/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/nieuws-over-instant-casino-wat-je-niet-mag-missen/`
-* `hxxps://www[.]yundatabox[.]com/verify-page.js`
-* `hxxps://steady-aim[.]com:443`
-* `hxxp://185[.]166[.]155[.]221/grab.exe`
-* `hxxps://takeactioncanada[.]ca/wp-admin/admin-ajax.php`
-* `hxxp://94[.]154[.]43[.]253/bot_x86.exe`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱-300x200.webp`
-* `hxxps://dispensaserrande[.]it/wp-content/plugins/global-gallery/classes/easy_wp_thumbs.php?src=%URL%&w=%W%&h=%H%&q=80`
-* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJQJpit7bt4Cwt3RmwyFQoCxkF5DwJ9bUMvU5qLlWCYto-K9Q=w40-h40-c-rp-mo-br100`
-* `hxxps://burlesondentalcare[.]com/wp-content/plugins/`
-* `hxxps://sandiegomobiletire[.]com/loader/agent/a75137e5a3f45aacaa1ed5259e81ad8dcbcc0c1b767d8fc46dc42d2ef548b449`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-768x1087.png`
-* `hxxps://bkavsmarthome[.]vn/uploads/source/du-toan/ntm-binh-dinh/1-(17).jpgk^7nj`
-* `hxxps://drecruitment[.]com:443`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/vse-co-potrebujete-vedet-o-bezpecnosti-ve-spinit-casino/`
-* `hxxps://api-relay[.]cc/hex/traffic`
-* `hxxps://v7yp4wts[.]fourstarcampground[.]com/`
-* `hxxps://data-seed-prebsc-1-s1[.]bnbchain[.]org:8545/`
-* `hxxps://cee2003[.]com/politica-de-privacidad/`
-* `hxxps://bkavsmarthome[.]vn/uploads/source/tin-tuc/tin-tuc-bakv/xu-huong-nha-thong-minh-bkav-trong-tuong-lai/h5.pngw}_է?`
-* `hxxps://tryclix[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1536x1152.jpg`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848096`
-* `hxxps://bsc-testnet-rpc[.]publicnode[.]com/`
-* `hxxps://www[.]mecater[.]com:443`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-admin/admin-ajax.php`
-* `hxxps://razzledazzlejewelrystore[.]com/`
-* `hxxps://wiltonstamebudgies[.]com`
-* `hxxps://tech4us[.]pl/regulamin/`
-* `hxxps://datnenlongthanh[.]org:443`
-* `hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_indigo.svg\`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/billionaire-spin-casino-vydelejte-penize-s-vasim-talentem/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/gorilla-casino-co-rikate-na-jeho-mobilni-aplikaci/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinline-casino-todos-os-bonus-e-ofertas-atuais/`
+* `hxxps://prazofinal[.]com/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/myempire-casino-como-a-plataforma-se-compara-a-outros/`
+* `hxxps://fastsrunners[.]com/SecondRunner.exe`
 * `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css`
-* `hxxp://fingerprint-veri[.]info/`
-* `hxxps://cocuktekstil[.]com/r`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848080`
-* `hxxps://shortlist[.]com[.]pl/reklamiara/`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-tipps-fur-das-spielen-im-freshbet-casino/`
-* `hxxps://ucc-tr[.]com:443`
+* `hxxps://zomabeauty[.]com[.]au/`
+* `hxxp://193[.]178[.]158[.]57/bin/d39b2eac249e8c65_build_x64.exe`
+* `hxxp://91[.]92[.]242[.]236/files-129312398/files/file_1532c81514d47461.exe`
+* `hxxps://forteristorante[.]com:443`
+* `hxxps://ilayacare[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/les-gains-a-grande-echelle-au-friday-roll-casino/`
+* `hxxps://bsc-testnet[.]drpc[.]org/`
+* `hxxps://www[.]instagram[.]com/reel/DCrtCMbPRO3/`
+* `hxxps://arcanebear[.]com/wp-admin/admin-ajax.php`
+* `hxxps://kupunasvolpiano[.]com/g/static/s/cinzel/v23/Taskforce.exe`
+* `hxxps://caiif[.]ca/wp-includes/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/xon-bet-casino-tips-voor-verantwoord-gokken/`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848258`
+* `hxxp://45[.]39[.]84[.]142/velcap3b`
+* `hxxps://eth-sepolia-testnet[.]api[.]pocket[.]network`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848378`
+* `hxxps://polygon-mainnet[.]public[.]blastapi[.]io`
+* `hxxps://copiose[.]org/test_proliv/b?o=79e5471cc1e2301b`
+* `hxxps://omigifts[.]com:443`
+* `hxxps://www[.]google[.]com/recaptcha/api2/anchor?ar=1&amp;k=6Lemwu0UAAAAAJghn3RQZjwkYxnCTuYDCAcrJJ7S&amp;co=aHR0cHM6Ly9waGJhbGFuY2VkLmNvOjQ0Mw..&amp;hl=nl&amp;v=kemdRjWFxNjgsGdhRslyEPwU&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=j5awuobkfmqq`
+* `hxxps://airservicespanama[.]com:443`
+* `hxxps://www[.]actingandvoice[.]co[.]uk:443`
+* `hxxp://91[.]92[.]43[.]250`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png)`
+* `hxxps://www[.]spd-schwalmtal[.]de/wp-admin/admin-ajax.php`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif)`
+* `hxxps://degorgement-95[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/moosh-casino-e-a-diversidade-de-jogos-disponiveis/`
+* `hxxp://ns[.]adobe[.]com/photoshop/1.0/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/gorilla-casino-co-rikate-na-jeho-mobilni-aplikaci/`
+* `hxxps://sail[.]autolabsouthgate[.]com/update.ps1`
 * `hxxps://interseq[.]at/lom_p2/api?_v=29848090`
-* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js`
-* `hxxps://interseq[.]at/lom_p2/api?_v=29848132`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848120`
+* `hxxps://polygon-public[.]nodies[.]app`
+* `hxxp://185[.]166[.]155[.]221/grab.exe`
+* `hxxp://ns[.]adobe[.]com/xap/1.0/`
+* `hxxps://www[.]trustindex[.]io/?a=sys&amp;c=wp-verified-badge&amp;url=/the-trustindex-verified-badge/`
+* `hxxps://zanderrealestate[.]com/curl/85cb26206d920216eee0c5f67e8de516b4d55bd1752025bb3c08a069a44fdbdf`
+* `hxxps://websitedesigncharlotte[.]com/wp-admin/admin-ajax.php`
+* `hxxps://hamilahealthfoundation[.]org/registro-de-voluntarios/`
+* `hxxps://www[.]facebook[.]com/rockpooloasis/`
 * `hxxps://data-seed-prebsc-2-s1[.]binance[.]org:8545/`
-* `hxxps://cdn[.]jsdelivr[.]net/gh/zor-876/futures-import@04e2419/llm`
-* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1024x768.jpg`
-* `hxxps://gateway[.]tenderly[.]co/public/sepolia`
-* `hxxps://letsupconfig[.]sbs/0921.exe`
-* `hxxps://burlesondentalcare[.]com/wp-content/plugins/revslider/`
+* `hxxps://academicpipelinedatabase[.]net:443`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848029`
+* `hxxps://charteredcertifications[.]com:443`
+* `hxxps://momcozy[.]com`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/is-instant-casino-de-juiste-keuze-voor-ervaren-spelers/`
+* `hxxps://rpc-mainnet[.]matic[.]quiknode[.]pro`
+* `hxxps://burlesondentalcare[.]com/wp-content/plugins/`
+* `hxxps://cee2003[.]com/politica-de-cookies/`
+* `hxxps://www[.]spirakiservice[.]gr:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/ktere-hry-prinaseji-nejvetsi-vyhry-v-gorilla-casinu/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848096`
+* `hxxps://www[.]gctattoo[.]it/richiedi-appuntamento/`
+* `hxxps://item[.]rakuten[.]co[.]jp`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/analyse-van-de-uitbetalingspercentages-bij-winaura-casino/`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/snowflake.svg`
+* `hxxps://hikarie[.]lk:443`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848175`
+* `hxxps://globalsupportupdate[.]top/enc.exe`
+* `hxxps://blueprinthrm[.]com:443`
+* `hxxp://ns[.]adobe[.]com/xap/1.0/sType/ResourceRef#`
+* `hxxps://www[.]cee2003[.]com/gracias-por-contactar/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/spinline-casino-todos-os-bonus-e-ofertas-atuais/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-besten-spiele-bei-realz-casino-ein-uberblick/`
+* `hxxps://www[.]gstatic[.]com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__nl.js`
+* `hxxps://afilma[.]net:443`
+* `hxxp://94[.]154[.]43[.]253/bot_x86.exe`
+* `hxxps://cestmonterrey[.]edu[.]mx:443`
+* `hxxps://iyn4ce9o[.]casero[.]store/?ublib=d8ff2563-8e9d-4f78-9f7c-7efb9e3bce22`
+* `hxxps://datnenlongthanh[.]org:443`
+* `hxxps://acddurban[.]co[.]za/wp-admin/admin-ajax.php`
 * `hxxp://185[.]166[.]153[.]194/clip.exe`
-* `hxxps://dispensaserrande[.]it?lcl_canon=`
+* `hxxps://ethereum-sepolia-rpc[.]publicnode[.]com`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-hry-vam-pelican-casino-nabizi/`
+* `hxxps://fboudin[.]com:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/como-navegar-na-plataforma-do-rokubet-casino/`
+* `hxxps://pro-comfort[.]pl:443`
+* `hxxps://www[.]mecater[.]com:443`
+* `hxxps://x9v2mq4t[.]bossbey[.]store/?ublib=6b1e0c2a-2f4d-4c9e-8a7b-3d5f1e9c0b21`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/nieuws-over-instant-casino-wat-je-niet-mag-missen/`
+* `hxxps://raw[.]githubusercontent[.]com/34-19-44r/573-45-43cvi/refs/heads/main/AC-BC-FB-E2-30-46`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jake-bonusy-ma-lizaro-casino-pro-stale-hrace/`
+* `hxxps://basequill9[.]com/curl/av6t87xg9gon/ahlg4goj9kfsh1itrutp47.dat`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-log-je-in-bij-betonred-casino/`
+* `hxxps://curier[.]ro/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848353`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/hoe-werkt-het-loyaliteitsprogramma-van-vegashero-casino/`
+* `hxxps://nisw[.]co[.]za:443`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848060`
+* `hxxps://k3p8wz1n[.]bvcbx[.]store/?ublib=9e4a7c31-5b2d-4f8e-a6c0-1d7b3e5f9a42`
+* `hxxps://tryclix[.]com/curl/b54cc90c9143f757e0ac59356414f14447d5f9cbbae0b0e61cf6b4e8ced28f42`
+* `hxxps://www[.]youtube[.]com/embed/58tG07XYBxA?feature=oembed`
+* `hxxps://tech4us[.]pl/regulamin/`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/우정살롱.webp`
+* `hxxps://webfeenix[.]com:443`
+* `hxxps://www[.]gstatic[.]com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js`
+* `hxxps://takeactioncanada[.]ca/wp-admin/admin-ajax.php`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/skull.png`
+* `hxxps://commercialbakkiecentre[.]co[.]za:443`
+* `hxxps://cdn[.]jsdelivr[.]net/gh/zor-876/futures-import@04e2419/llm`
+* `hxxps://bugs[.]webkit[.]org/show_bug.cgi?id=185940\n`
+* `hxxps://cdn[.]trustindex[.]io/assets/platform/Google/icon.svg`
+* `hxxps://update-notif[.]com/`
+* `hxxps://burlesondentalcare[.]com/wp-content/plugins/revslider/`
+* `hxxps://neurowellcounseling[.]com:443`
+* `hxxps://www[.]google[.]com/recaptcha/api2/anchor?ar=1&amp;k=6LedxBMoAAAAAH5Q5RKxSkIqeIcSb7RJU9eMLpC5&amp;co=aHR0cHM6Ly8zNjZwYXRpb3BlbnF1aXN0YS5jbDo0NDM.&amp;hl=de&amp;v=kemdRjWFxNjgsGdhRslyEPwU&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=7bxvzeveczyd`
+* `hxxps://open[.]kakao[.]com/o/scEaZ1fh`
+* `hxxps://caiif[.]ca/wp-admin/admin-ajax.php`
+* `hxxps://bnb-testnet[.]api[.]onfinality[.]io/public`
+* `hxxps://caiif[.]ca/wp-content`
+* `hxxps://cee2003[.]com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=15`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJQJpit7bt4Cwt3RmwyFQoCxkF5DwJ9bUMvU5qLlWCYto-K9Q=w40-h40-c-rp-mo-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/desvendando-os-mitos-sobre-o-spinline-casino/`
+* `hxxps://www[.]cartoontjes[.]nl:443`
+* `hxxps://burkesfinefoods[.]com:443`
+* `hxxps://dipagaletoegrelhados[.]com[.]br:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2026/08/CleanShot-2026-08-02-at-01.38.00@2x-768x1087.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/die-vielfalt-der-spiele-im-voodoo-casino-ein-uberblick/`
+* `hxxps://sepolia[.]gateway[.]tenderly[.]co`
+* `hxxps://azanintl[.]com/`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848260`
+* `hxxps://bkavsmarthome[.]vn/uploads/source/du-toan/ntm-binh-dinh/1-(17).jpgk^7nj`
+* `hxxps://cee2003[.]com/politica-de-privacidad/`
+* `hxxps://www[.]pizzeriaalparco[.]it/regole-haccp/`
+* `hxxps://www[.]stradiotto[.]in:443`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/wp-content/uploads/2025/02/z6305352657186_132afc2d0467aeb920a42e7ad14d3308-1536x1152.jpg`
+* `hxxps://congtrinhthep[.]com[.]vn/wp-admin/admin-ajax.php`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/moon.png`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/jak-funguje-vernostni-program-na-glorion-casino/`
+* `hxxps://mubarik[.]co:443`
+* `hxxps://www[.]instagram[.]com/reel/DB4opFHPdBU/`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848377`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848049`
+* `hxxps://mytds10293`
+* `hxxps://burlesondentalcare[.]com/wp-json/`
+* `hxxps://resolvend[.]com:443`
+* `hxxps://wienflower[.]at:443`
+* `hxxps://postage-solutions[.]co[.]uk:443`
+* `hxxps://bisearcher[.]com/`
+* `hxxps://www[.]yundatabox[.]com/KL.zip`
+* `hxxps://steady-aim[.]com:443`
+* `hxxps://connect[.]facebook[.]net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif)`
+* `hxxps://interseq[.]at/lom/a`
+* `hxxps://www[.]loruhan[.]com/restoran/`
+* `hxxps://api-relay[.]cc/hex/traffic`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848056`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/magius-casino-osobni-zkusenosti-hracu-s-platformou/`
+* `hxxp://ns[.]adobe[.]com/exif/1.0/`
+* `hxxps://maple30[.]com/f/680apd_597afiqvimxvelw/sfjwmrjy`
+* `hxxps://lh3[.]googleusercontent[.]com/a/ACg8ocJBikOt2QYFJ6KoaeHyxgaddFH3qDoO3kgs6MSc4C0-boXq7w=w40-h40-c-rp-mo-ba3-br100`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/os-pagamentos-do-bet-andreas-casino-sao-rapidos/`
+* `hxxps://quillchant14[.]com/curl/owe4d2uwalzu/gkgeuf4jglj8kmpnoqb.txt`
+* `hxxps://xn--ih3bm3h02eowa8w[.]com/pourquoi-les-utilisateurs-recommandent-millioner-casino/`
+* `hxxps://vecta[.]io/nano`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848080`
+* `hxxps://interseq[.]at/lom_p2/api?_v=29848132`
+* `hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_indigo.svg\`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/bat.png`
+* `hxxps://lh3[.]googleusercontent[.]com/a-/ALV-UjXJkYzltDPgcNdVLC-9AWk3It_bCZn0T75df9uNdbzjV74ex5-N=w40-h40-c-rp-mo-br100`
+* `hxxps://0xrpc[.]io/sep`
+* `hxxp://www[.]bohemiancoding[.]com/sketch/ns`
+* `hxxp://192[.]162[.]199[.]249/cr2nfs6c`
+* `hxxps://www[.]barcelonadrumfest[.]art/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js`
+* `hxxps://forgewillow[.]com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update`
+* `hxxps://3tenplumbing[.]com/wp-content/plugins/ultimate-elementor/assets/img/tree.png`
+* `hxxps://cdn[.]trustindex[.]io/loader.js?wp-widget`
 
 ---
 *Auto-generated by ClickFix-Tracker.*
