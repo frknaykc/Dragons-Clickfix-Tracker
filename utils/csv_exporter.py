@@ -57,8 +57,8 @@ def export_to_daily_csv(findings: list[dict]):
                     "timestamp": now_str,
                     "type": "domain",
                     "indicator": ind,
-                    "threat_type": "Compromised Host / Lure Page",
-                    "detection_method": "urlscan telemetry",
+                    "threat_type": f.get("threat_type", "Compromised Host / Lure Page"),
+                    "detection_method": f"Lure: {f.get('cfmd_lure')}" if f.get('cfmd_lure') else "urlscan telemetry",
                     "first_seen": first_seen,
                     "reference": ref
                 })

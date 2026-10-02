@@ -23,7 +23,12 @@ def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
     Extracts all resolved live C2 domains from the local database
     plus live blockchain smart contracts to dynamically pivot and hunt.
     """
-    c2s = {"idcool.codes", "entry-verifed-cdn.codes", "makeverizyjar.info"}
+    c2s = {
+        "idcool.codes", "entry-verifed-cdn.codes", "makeverizyjar.info", 
+        "browscheck.codes", "browseid.codes", "cleanavcheskre.com", 
+        "copiose.org", "securityalertcaptchacheck.com", "internetserchinkas.co", 
+        "interseq.at", "yundatabox.com", "escapeai.live"
+    }
     
     # 1. Check local database
     if os.path.exists(database_file):
@@ -79,21 +84,23 @@ def get_dom(dom_url: str) -> str:
 def get_recent_candidates(time_window_minutes: int = 4320):
     """
     Gathers candidate scans using:
-    1. Global hunting tags (@clickfixhunter, clickfix)
-    2. Heuristic text lures (macOS Terminal, Windows Run)
+    1. Global hunting tags (@clickfixhunter, clickfix, threatfox)
+    2. Heuristic text lures (macOS Terminal, Windows Run, Win+X, Microsoft/Cloudflare verification)
     3. Dynamic C2 pivoting (automatically searching for any domain contacting known C2s)
     """
     time_filter = f"date:>now-{time_window_minutes}m AND " if time_window_minutes else ""
 
     queries = [
-        f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix")',
-        f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))'
+        f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix" OR (task.tags:"threatfox" AND task.tags:"clickfix"))',
+        f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))',
+        f'{time_filter}(page.text:("To verify your request" AND "PowerShell") OR page.text:("Verify it\'s you" AND "PowerShell") OR page.text:("Confirm this sign-in"))',
+        f'{time_filter}(page.url:("/verify-page.js" OR "/KL.bat" OR "/KL.zip"))'
     ]
 
     # Dynamically pivot on active C2 domains extracted from smart contracts / deobfuscation
     c2_domains = get_known_c2_domains()
     if c2_domains:
-        for i in range(0, min(len(c2_domains), 20), 5):
+        for i in range(0, min(len(c2_domains), 40), 5):
             batch = c2_domains[i:i+5]
             c2_part = " OR ".join([f'"{d}"' for d in batch])
             queries.append(f'{time_filter}domain:({c2_part})')

@@ -61,5 +61,23 @@
     "first_observed": "2026-09-25",
     "sample_indicator": "uberrichinfatcity.com",
     "description": "Active Polygon smart contract observed resolving live C2 None."
+  },
+  {
+    "id": "cfmd_clickfix_verification_dialog",
+    "category": "Social Engineering Lure",
+    "name": "ClickFix Lure: ClickFix Verification Dialog",
+    "signature": "Framework: __cfmdCaptcha (WUA Token: None)",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "grupoartek.com",
+    "description": "PowerShell WUA Stager connecting to https://securityalertcaptchacheck.com."
+  },
+  {
+    "id": "cfmd_fake_microsoft_account_verification",
+    "category": "Social Engineering Lure",
+    "name": "ClickFix Lure: Fake Microsoft Account Verification",
+    "signature": "Framework: __cfmdCaptcha (WUA Token: 22ab8f9767)",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "cgageauthor.com",
+    "description": "PowerShell WUA Stager connecting to https://cloudeccentric.cc."
   }
 ]

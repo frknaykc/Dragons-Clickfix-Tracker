@@ -1,0 +1,631 @@
+timestamp,type,indicator,threat_type,detection_method,first_seen,reference
+2026-10-02 01:41:41 UTC,domain,grupoartek[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:58:49.276Z,https://urlscan.io/result/01a0fa1e-b6db-74f9-be77-60b442022006/
+2026-10-02 01:41:41 UTC,ip,91.244.247[.]230,Injected Host IP,ASN: AS211611 Exim Host SRL,2026-10-02T00:58:49.276Z,https://urlscan.io/result/01a0fa1e-b6db-74f9-be77-60b442022006/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://securityalertcaptchacheck[.]com,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:58:49.276Z,grupoartek.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://securityalertcaptchacheck[.]com/lom/a,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:58:49.276Z,grupoartek.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://securityalertcaptchacheck[.]com/lom/a,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:49.276Z,grupoartek.com
+2026-10-02 01:41:41 UTC,domain,ebiketuneupdenver[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:45.219Z,https://urlscan.io/result/01a0fa1e-b0a8-74e5-9275-89916cb24e56/
+2026-10-02 01:41:41 UTC,ip,107.180.54[.]172,Injected Host IP,"ASN: AS400754 GoDaddy.com, LLC",2026-10-02T00:58:45.219Z,https://urlscan.io/result/01a0fa1e-b0a8-74e5-9275-89916cb24e56/
+2026-10-02 01:41:41 UTC,domain,dmtvapepenshop[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:38.923Z,https://urlscan.io/result/01a0fa1e-a402-70b4-9bdf-222346599533/
+2026-10-02 01:41:41 UTC,ip,2606:4700:3031::6815:3840,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:38.923Z,https://urlscan.io/result/01a0fa1e-a402-70b4-9bdf-222346599533/
+2026-10-02 01:41:41 UTC,domain,eclectic-entertaining[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:36.807Z,https://urlscan.io/result/01a0fa1e-aa21-7148-ab62-e590d502acf3/
+2026-10-02 01:41:41 UTC,ip,50.87.253[.]116,Injected Host IP,ASN: AS46606 Unified Layer,2026-10-02T00:58:36.807Z,https://urlscan.io/result/01a0fa1e-aa21-7148-ab62-e590d502acf3/
+2026-10-02 01:41:41 UTC,domain,blueboox[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:58:35.196Z,https://urlscan.io/result/01a0fa1e-9488-72c4-aa68-8c6a2dda8218/
+2026-10-02 01:41:41 UTC,ip,104.21.76[.]91,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:35.196Z,https://urlscan.io/result/01a0fa1e-9488-72c4-aa68-8c6a2dda8218/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom/a,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:35.196Z,blueboox.com
+2026-10-02 01:41:41 UTC,domain,idyeahcentral[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:35.083Z,https://urlscan.io/result/01a0fa1e-7058-7351-8df2-2df2a7be1264/
+2026-10-02 01:41:41 UTC,ip,198.251.89[.]144,Injected Host IP,ASN: AS53667 FranTech Solutions,2026-10-02T00:58:35.083Z,https://urlscan.io/result/01a0fa1e-7058-7351-8df2-2df2a7be1264/
+2026-10-02 01:41:41 UTC,domain,cnadl[.]ro,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:34.119Z,https://urlscan.io/result/01a0fa1e-9f5c-72fa-8c6d-bdb2256a64a4/
+2026-10-02 01:41:41 UTC,ip,188.241.222[.]91,Injected Host IP,ASN: AS5606 GTS Telecom SRL,2026-10-02T00:58:34.119Z,https://urlscan.io/result/01a0fa1e-9f5c-72fa-8c6d-bdb2256a64a4/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://cnadl[.]ro/wp-includes/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:34.119Z,cnadl.ro
+2026-10-02 01:41:41 UTC,payload_url,hxxps://cnadl[.]ro/wp-content,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:34.119Z,cnadl.ro
+2026-10-02 01:41:41 UTC,domain,dmtvapefarm[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:33.855Z,https://urlscan.io/result/01a0fa1e-8e97-760a-8b99-fdb6ac73b12e/
+2026-10-02 01:41:41 UTC,ip,172.67.148[.]178,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:33.855Z,https://urlscan.io/result/01a0fa1e-8e97-760a-8b99-fdb6ac73b12e/
+2026-10-02 01:41:41 UTC,domain,e-alshifaa[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:33.650Z,https://urlscan.io/result/01a0fa1e-9938-765c-b1e1-dcf113289796/
+2026-10-02 01:41:41 UTC,ip,104.21.79[.]225,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:33.650Z,https://urlscan.io/result/01a0fa1e-9938-765c-b1e1-dcf113289796/
+2026-10-02 01:41:41 UTC,domain,andrewcheapcars[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:30.141Z,https://urlscan.io/result/01a0fa1e-7bb7-71bd-b571-d39e10d6cc50/
+2026-10-02 01:41:41 UTC,ip,172.67.133[.]254,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:30.141Z,https://urlscan.io/result/01a0fa1e-7bb7-71bd-b571-d39e10d6cc50/
+2026-10-02 01:41:41 UTC,domain,cgageauthor[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:58:28.815Z,https://urlscan.io/result/01a0fa1e-8883-7027-a7b2-4456819b70ab/
+2026-10-02 01:41:41 UTC,ip,74.208.236[.]146,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-02T00:58:28.815Z,https://urlscan.io/result/01a0fa1e-8883-7027-a7b2-4456819b70ab/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://cloudeccentric[.]cc,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:58:28.815Z,cgageauthor.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://cloudeccentric[.]cc/api.php?s=ffa65e22169204ca1ac7588970f688d7401d3ffe20656099,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:58:28.815Z,cgageauthor.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://escapeai[.]live/loader_v2.sh?build=lom&owner=ekm,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:28.815Z,cgageauthor.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://copiose[.]org/lom/62a9405c9735a1a7,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:28.815Z,cgageauthor.com
+2026-10-02 01:41:41 UTC,domain,clinicamasbermejo[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:27.084Z,https://urlscan.io/result/01a0fa1e-8270-771a-971f-5d58616696b2/
+2026-10-02 01:41:41 UTC,ip,84.247.164[.]48,Injected Host IP,ASN: AS51167 Contabo GmbH,2026-10-02T00:58:27.084Z,https://urlscan.io/result/01a0fa1e-8270-771a-971f-5d58616696b2/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://vecta[.]io/nano,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:27.084Z,clinicamasbermejo.com
+2026-10-02 01:41:41 UTC,domain,turismonorte[.]com[.]ar,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:26.717Z,https://urlscan.io/result/01a0fa1e-32db-76ce-b5cf-7792edffd756/
+2026-10-02 01:41:41 UTC,ip,2800:6c0:2::c:281,Injected Host IP,ASN: AS27823 Dattatec.com,2026-10-02T00:58:26.717Z,https://urlscan.io/result/01a0fa1e-32db-76ce-b5cf-7792edffd756/
+2026-10-02 01:41:41 UTC,domain,www[.]autoescuelacalderon[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:58:25.001Z,https://urlscan.io/result/01a0fa1e-75b5-73e4-850d-5297a61c9261/
+2026-10-02 01:41:41 UTC,ip,208.113.158[.]70,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-02T00:58:25.001Z,https://urlscan.io/result/01a0fa1e-75b5-73e4-850d-5297a61c9261/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://interseq[.]at,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:58:25.001Z,www.autoescuelacalderon.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://interseq[.]at/lom_p2/api?_v=29848378,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:58:25.001Z,www.autoescuelacalderon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848378,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:25.001Z,www.autoescuelacalderon.com
+2026-10-02 01:41:41 UTC,domain,www[.]houtadvising[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:22.083Z,https://urlscan.io/result/01a0fa1e-6b36-75de-937e-b3eafc026f2b/
+2026-10-02 01:41:41 UTC,ip,192.185.39[.]53,Injected Host IP,"ASN: AS19871 Network Solutions, LLC",2026-10-02T00:58:22.083Z,https://urlscan.io/result/01a0fa1e-6b36-75de-937e-b3eafc026f2b/
+2026-10-02 01:41:41 UTC,domain,achmatim[.]net,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:20.897Z,https://urlscan.io/result/01a0fa1e-5db3-746e-a415-6f4a13c5c227/
+2026-10-02 01:41:41 UTC,ip,103.55.39[.]38,Injected Host IP,ASN: AS136052 PT Cloud Hosting Indonesia,2026-10-02T00:58:20.897Z,https://urlscan.io/result/01a0fa1e-5db3-746e-a415-6f4a13c5c227/
+2026-10-02 01:41:41 UTC,domain,www[.]algem[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:58:19.673Z,https://urlscan.io/result/01a0fa1e-50ce-728c-92c7-1eb4eca5009e/
+2026-10-02 01:41:41 UTC,ip,86.107.36[.]158,Injected Host IP,ASN: AS52030 Server Plan S.r.l.,2026-10-02T00:58:19.673Z,https://urlscan.io/result/01a0fa1e-50ce-728c-92c7-1eb4eca5009e/
+2026-10-02 01:41:41 UTC,domain,halltek[.]com[.]br,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:19.326Z,https://urlscan.io/result/01a0fa1e-649a-775b-a9d0-552d7dc10e9b/
+2026-10-02 01:41:41 UTC,ip,108.167.151[.]50,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:58:19.326Z,https://urlscan.io/result/01a0fa1e-649a-775b-a9d0-552d7dc10e9b/
+2026-10-02 01:41:41 UTC,domain,norteya[.]com[.]ar,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:18.120Z,https://urlscan.io/result/01a0fa1d-f32e-72fb-8b6a-b42c3c639772/
+2026-10-02 01:41:41 UTC,ip,200.58.111[.]17,Injected Host IP,ASN: AS27823 Dattatec.com,2026-10-02T00:58:18.120Z,https://urlscan.io/result/01a0fa1d-f32e-72fb-8b6a-b42c3c639772/
+2026-10-02 01:41:41 UTC,domain,windowanddoorcentrenortheast[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:58:15.276Z,https://urlscan.io/result/01a0fa1e-4b08-717e-8c7c-b005a97c6cdb/
+2026-10-02 01:41:41 UTC,ip,5.77.61[.]127,Injected Host IP,ASN: AS20860 IOMART CLOUD SERVICES LIMITED,2026-10-02T00:58:15.276Z,https://urlscan.io/result/01a0fa1e-4b08-717e-8c7c-b005a97c6cdb/
+2026-10-02 01:41:41 UTC,domain,albucor[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:15.221Z,https://urlscan.io/result/01a0fa1e-56e3-7329-bef8-89e048142bbd/
+2026-10-02 01:41:41 UTC,ip,94.23.84[.]56,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:58:15.221Z,https://urlscan.io/result/01a0fa1e-56e3-7329-bef8-89e048142bbd/
+2026-10-02 01:41:41 UTC,domain,www[.]teknowgroup[.]com[.]lb,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:14.735Z,https://urlscan.io/result/01a0fa1e-4027-74fb-b717-1821dc585b46/
+2026-10-02 01:41:41 UTC,ip,162.241.225[.]96,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:58:14.735Z,https://urlscan.io/result/01a0fa1e-4027-74fb-b717-1821dc585b46/
+2026-10-02 01:41:41 UTC,domain,wenaxe[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:58:13.964Z,https://urlscan.io/result/01a0fa1e-44e0-770b-889e-ab05efc1f08a/
+2026-10-02 01:41:41 UTC,ip,162.241.224[.]224,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:58:13.964Z,https://urlscan.io/result/01a0fa1e-44e0-770b-889e-ab05efc1f08a/
+2026-10-02 01:41:41 UTC,domain,snitchbd[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:13.403Z,https://urlscan.io/result/01a0fa1e-260f-71fa-851b-f4b2d50a638a/
+2026-10-02 01:41:41 UTC,ip,104.21.62[.]83,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:13.403Z,https://urlscan.io/result/01a0fa1e-260f-71fa-851b-f4b2d50a638a/
+2026-10-02 01:41:41 UTC,domain,vanishvale[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:09.782Z,https://urlscan.io/result/01a0fa1e-387d-762c-a848-fe25160bbaa0/
+2026-10-02 01:41:41 UTC,ip,106.0.62[.]82,Injected Host IP,ASN: AS19905 Arbor Cloud,2026-10-02T00:58:09.782Z,https://urlscan.io/result/01a0fa1e-387d-762c-a848-fe25160bbaa0/
+2026-10-02 01:41:41 UTC,domain,trippydive[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:07.316Z,https://urlscan.io/result/01a0fa1e-2b7c-7076-8f1a-1fea11a502dc/
+2026-10-02 01:41:41 UTC,ip,188.114.97[.]3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:58:07.316Z,https://urlscan.io/result/01a0fa1e-2b7c-7076-8f1a-1fea11a502dc/
+2026-10-02 01:41:41 UTC,domain,mysmartoh[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:58:02.734Z,https://urlscan.io/result/01a0fa1e-088b-732d-b927-29e9de59aebb/
+2026-10-02 01:41:41 UTC,ip,113.23.219[.]40,Injected Host IP,ASN: AS38182 Extreme Broadband - Total Broadband Experience,2026-10-02T00:58:02.734Z,https://urlscan.io/result/01a0fa1e-088b-732d-b927-29e9de59aebb/
+2026-10-02 01:41:41 UTC,domain,readingteacher[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:58:00.308Z,https://urlscan.io/result/01a0fa1e-0d61-768e-8eea-971b9ec5746a/
+2026-10-02 01:41:41 UTC,ip,141.193.213[.]11,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-02T00:58:00.308Z,https://urlscan.io/result/01a0fa1e-0d61-768e-8eea-971b9ec5746a/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://mon-blanc-02[.]cfd,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:58:00.308Z,readingteacher.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://mon-blanc-02[.]cfd/api.php?s=bfa8d66687ce0fd20ad81e377f3d0a63841b42231a0c7f95,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:58:00.308Z,readingteacher.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://readingteacher[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:58:00.308Z,readingteacher.com
+2026-10-02 01:41:41 UTC,domain,prayagiasacademy[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:59.410Z,https://urlscan.io/result/01a0fa1e-1a45-7552-8af6-33b66afda4a0/
+2026-10-02 01:41:41 UTC,ip,193.108.130[.]22,Injected Host IP,ASN: AS965 Webhosting Holdings LLC,2026-10-02T00:57:59.410Z,https://urlscan.io/result/01a0fa1e-1a45-7552-8af6-33b66afda4a0/
+2026-10-02 01:41:41 UTC,domain,physio-benecke[.]de,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:59.174Z,https://urlscan.io/result/01a0fa1e-1386-739f-a8f3-1e7e3b7c81a7/
+2026-10-02 01:41:41 UTC,ip,2a00:1200:0:8::a83,Injected Host IP,ASN: AS33828 iptoX GmbH,2026-10-02T00:57:59.174Z,https://urlscan.io/result/01a0fa1e-1386-739f-a8f3-1e7e3b7c81a7/
+2026-10-02 01:41:41 UTC,domain,mimosarootusa[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:54.153Z,https://urlscan.io/result/01a0fa1d-fe08-752a-894b-40cdb335336c/
+2026-10-02 01:41:41 UTC,ip,185.2.168[.]43,Injected Host IP,ASN: AS34119 Wildcard UK Limited,2026-10-02T00:57:54.153Z,https://urlscan.io/result/01a0fa1d-fe08-752a-894b-40cdb335336c/
+2026-10-02 01:41:41 UTC,domain,www[.]servapool[.]ca,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:53.563Z,https://urlscan.io/result/01a0fa1d-98f0-7449-b51b-d24d2ed6498e/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]36,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-02T00:57:53.563Z,https://urlscan.io/result/01a0fa1d-98f0-7449-b51b-d24d2ed6498e/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://thu-ipad-03[.]cfd,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:57:53.563Z,www.servapool.ca
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://thu-ipad-03[.]cfd/api.php?s=55d3781e9701b9a0eae703f6438b1b85aea7e64e3a74115f,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:57:53.563Z,www.servapool.ca
+2026-10-02 01:41:41 UTC,domain,silverstonerealty[.]in,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:52.573Z,https://urlscan.io/result/01a0fa1d-a471-706b-8f9e-c63f8af25385/
+2026-10-02 01:41:41 UTC,ip,172.67.148[.]181,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:57:52.573Z,https://urlscan.io/result/01a0fa1d-a471-706b-8f9e-c63f8af25385/
+2026-10-02 01:41:41 UTC,domain,www[.]megahavalandirma[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:51.347Z,https://urlscan.io/result/01a0fa1d-f857-73ab-b1bb-5ba4bee9ba6e/
+2026-10-02 01:41:41 UTC,ip,5.2.85[.]171,Injected Host IP,ASN: AS3188 Alastyr Telekomunikasyon A.S.,2026-10-02T00:57:51.347Z,https://urlscan.io/result/01a0fa1d-f857-73ab-b1bb-5ba4bee9ba6e/
+2026-10-02 01:41:41 UTC,domain,www[.]nelan[.]com[.]pe,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:57:50.674Z,https://urlscan.io/result/01a0fa1d-ea3f-755a-9d79-f91d4824b632/
+2026-10-02 01:41:41 UTC,ip,170.10.161[.]194,Injected Host IP,ASN: AS14555 LiquidNet US LLC,2026-10-02T00:57:50.674Z,https://urlscan.io/result/01a0fa1d-ea3f-755a-9d79-f91d4824b632/
+2026-10-02 01:41:41 UTC,domain,www[.]mahongrentalmotor[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:47.958Z,https://urlscan.io/result/01a0fa1d-dd98-742a-80e7-fd505b459a63/
+2026-10-02 01:41:41 UTC,ip,2001:df7:5300:9::63,Injected Host IP,ASN: AS138115 PT Deneva,2026-10-02T00:57:47.958Z,https://urlscan.io/result/01a0fa1d-dd98-742a-80e7-fd505b459a63/
+2026-10-02 01:41:41 UTC,domain,mytravelguia[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:47.872Z,https://urlscan.io/result/01a0fa1d-e3a5-746b-b69a-0f7b36695d8f/
+2026-10-02 01:41:41 UTC,ip,68.66.208[.]213,Injected Host IP,"ASN: AS55293 A2 Hosting, Inc.",2026-10-02T00:57:47.872Z,https://urlscan.io/result/01a0fa1d-e3a5-746b-b69a-0f7b36695d8f/
+2026-10-02 01:41:41 UTC,domain,loyaltyaviation[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:46.168Z,https://urlscan.io/result/01a0fa1d-d76c-7459-b305-00e2e1e503fe/
+2026-10-02 01:41:41 UTC,ip,68.66.226[.]102,Injected Host IP,"ASN: AS55293 A2 Hosting, Inc.",2026-10-02T00:57:46.168Z,https://urlscan.io/result/01a0fa1d-d76c-7459-b305-00e2e1e503fe/
+2026-10-02 01:41:41 UTC,payload_url,hxxp://www[.]bohemiancoding[.]com/sketch/ns,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:46.168Z,loyaltyaviation.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://loyaltyaviation[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:46.168Z,loyaltyaviation.com
+2026-10-02 01:41:41 UTC,domain,tomowell2020[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:44.167Z,https://urlscan.io/result/01a0fa1c-7396-7107-8f77-360fd1a4943e/
+2026-10-02 01:41:41 UTC,ip,157.7.231[.]240,Injected Host IP,"ASN: AS7506 GMO Internet, Inc.",2026-10-02T00:57:44.167Z,https://urlscan.io/result/01a0fa1c-7396-7107-8f77-360fd1a4943e/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://mon-blanc-02[.]cfd/api.php?s=4be65b0fa8d84ec9e83e1cad68ba4c6284fdbc4afc25bbca,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:57:44.167Z,tomowell2020.com
+2026-10-02 01:41:41 UTC,domain,kyosotechltd[.]co[.]uk,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:43.149Z,https://urlscan.io/result/01a0fa1d-d2b5-76ce-b255-37891e08c084/
+2026-10-02 01:41:41 UTC,ip,2a02:2350:5:10b:808b:e743:10a7:9f2a,Injected Host IP,ASN: AS51468 One.com A/S,2026-10-02T00:57:43.149Z,https://urlscan.io/result/01a0fa1d-d2b5-76ce-b255-37891e08c084/
+2026-10-02 01:41:41 UTC,domain,www[.]kavemeres[.]hu,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:41.976Z,https://urlscan.io/result/01a0fa1d-cd0d-72fc-8741-eeb7f2272a22/
+2026-10-02 01:41:41 UTC,ip,185.111.89[.]216,Injected Host IP,ASN: AS51013 WebSupport s.r.o.,2026-10-02T00:57:41.976Z,https://urlscan.io/result/01a0fa1d-cd0d-72fc-8741-eeb7f2272a22/
+2026-10-02 01:41:41 UTC,domain,miyagi[.]group,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:57:40.150Z,https://urlscan.io/result/01a0fa1d-bc20-70b9-b5d1-852ae22b70e8/
+2026-10-02 01:41:41 UTC,ip,45.139.11[.]203,Injected Host IP,ASN: AS60631 Vandad Vira Hooman LLC,2026-10-02T00:57:40.150Z,https://urlscan.io/result/01a0fa1d-bc20-70b9-b5d1-852ae22b70e8/
+2026-10-02 01:41:41 UTC,domain,www[.]junkcarscafe[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:39.957Z,https://urlscan.io/result/01a0fa1d-c6d3-759d-9e89-64f13f5a9b46/
+2026-10-02 01:41:41 UTC,ip,208.109.25[.]121,Injected Host IP,"ASN: AS398101 GoDaddy.com, LLC",2026-10-02T00:57:39.957Z,https://urlscan.io/result/01a0fa1d-c6d3-759d-9e89-64f13f5a9b46/
+2026-10-02 01:41:41 UTC,domain,jorgealderete[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:37.345Z,https://urlscan.io/result/01a0fa1d-c0a9-7402-b807-2c1ad971c68d/
+2026-10-02 01:41:41 UTC,ip,107.180.24[.]242,Injected Host IP,"ASN: AS400754 GoDaddy.com, LLC",2026-10-02T00:57:37.345Z,https://urlscan.io/result/01a0fa1d-c0a9-7402-b807-2c1ad971c68d/
+2026-10-02 01:41:41 UTC,domain,solar-glide-moss-luon[.]top,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:32.396Z,https://urlscan.io/result/01a0fa1d-b5e3-770d-b294-7cec44351f00/
+2026-10-02 01:41:41 UTC,ip,45.146.91[.]24,Injected Host IP,ASN: AS60781 LeaseWeb Netherlands B.V.,2026-10-02T00:57:32.396Z,https://urlscan.io/result/01a0fa1d-b5e3-770d-b294-7cec44351f00/
+2026-10-02 01:41:41 UTC,domain,noasdoastrien[.]top,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:32.053Z,https://urlscan.io/result/01a0fa1d-aa8c-7097-b900-faed2e8986c2/
+2026-10-02 01:41:41 UTC,ip,45.86.245[.]128,Injected Host IP,"ASN: NetCraftersOU NetCrafters OU, EE",2026-10-02T00:57:32.053Z,https://urlscan.io/result/01a0fa1d-aa8c-7097-b900-faed2e8986c2/
+2026-10-02 01:41:41 UTC,domain,amber-weave-otter-luor[.]pro,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:31.282Z,https://urlscan.io/result/01a0fa1d-afbd-765b-8a6b-6de9ecd3e7a4/
+2026-10-02 01:41:41 UTC,ip,45.118.248[.]229,Injected Host IP,"ASN: NetCraftersOU NetCrafters OU, EE",2026-10-02T00:57:31.282Z,https://urlscan.io/result/01a0fa1d-afbd-765b-8a6b-6de9ecd3e7a4/
+2026-10-02 01:41:41 UTC,domain,shepherdsbushmobiletyrefitting[.]co[.]uk,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:29.883Z,https://urlscan.io/result/01a0fa1d-9f0b-72ae-9854-5cd579c697a7/
+2026-10-02 01:41:41 UTC,ip,78.129.237[.]144,Injected Host IP,"ASN: IOMART-AS IOMART CLOUD SERVICES LIMITED, GB",2026-10-02T00:57:29.883Z,https://urlscan.io/result/01a0fa1d-9f0b-72ae-9854-5cd579c697a7/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://mon-blanc-02[.]cfd/api.php?s=93e401528b05efd8bd0e3b171a2d3f74b031ff10ea025a93,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:57:29.883Z,shepherdsbushmobiletyrefitting.co.uk
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848377,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:29.883Z,shepherdsbushmobiletyrefitting.co.uk
+2026-10-02 01:41:41 UTC,domain,sofography[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:25.764Z,https://urlscan.io/result/01a0fa1d-9442-7431-8b87-be783cabdb0a/
+2026-10-02 01:41:41 UTC,ip,172.67.184[.]73,Injected Host IP,"ASN: CLOUDFLARENET - Cloudflare, Inc., US",2026-10-02T00:57:25.764Z,https://urlscan.io/result/01a0fa1d-9442-7431-8b87-be783cabdb0a/
+2026-10-02 01:41:41 UTC,domain,www[.]shackbd[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:24.538Z,https://urlscan.io/result/01a0fa1d-9001-71cd-bcb3-886aaa764274/
+2026-10-02 01:41:41 UTC,ip,75.119.207[.]149,Injected Host IP,"ASN: DREAMHOST-AS - New Dream Network, LLC, US",2026-10-02T00:57:24.538Z,https://urlscan.io/result/01a0fa1d-9001-71cd-bcb3-886aaa764274/
+2026-10-02 01:41:41 UTC,domain,hoteldianajogja[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:23.716Z,https://urlscan.io/result/01a0fa1d-7dc0-73e9-bcea-927884d724c7/
+2026-10-02 01:41:41 UTC,ip,103.76.121[.]148,Injected Host IP,"ASN: IDNIC-IDCLOUDHOST-AS-ID - PT Cloud Hosting Indonesia, ID",2026-10-02T00:57:23.716Z,https://urlscan.io/result/01a0fa1d-7dc0-73e9-bcea-927884d724c7/
+2026-10-02 01:41:41 UTC,domain,houstonacrepairservice[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:23.604Z,https://urlscan.io/result/01a0fa1d-83aa-74c8-b338-c80959632f81/
+2026-10-02 01:41:41 UTC,ip,72.167.248[.]107,Injected Host IP,"ASN: GO-DADDY-COM-LLC - GoDaddy.com, LLC, US",2026-10-02T00:57:23.604Z,https://urlscan.io/result/01a0fa1d-83aa-74c8-b338-c80959632f81/
+2026-10-02 01:41:41 UTC,domain,fatbirdnyc[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:23.449Z,https://urlscan.io/result/01a0fa1d-89ca-72ca-9471-f503159cd131/
+2026-10-02 01:41:41 UTC,ip,141.193.213[.]10,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-10-02T00:57:23.449Z,https://urlscan.io/result/01a0fa1d-89ca-72ca-9471-f503159cd131/
+2026-10-02 01:41:41 UTC,domain,givinghandstanzania[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:57:21.748Z,https://urlscan.io/result/01a0fa1d-68c8-75d8-9c23-6ef3775737ed/
+2026-10-02 01:41:41 UTC,ip,85.187.142[.]77,Injected Host IP,"ASN: WHG-FRA WHG Hosting Services Ltd, GB",2026-10-02T00:57:21.748Z,https://urlscan.io/result/01a0fa1d-68c8-75d8-9c23-6ef3775737ed/
+2026-10-02 01:41:41 UTC,domain,www[.]henfactory[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:20.479Z,https://urlscan.io/result/01a0fa1d-757b-73d2-a360-d7bf0423b96b/
+2026-10-02 01:41:41 UTC,ip,192.185.146[.]73,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-10-02T00:57:20.479Z,https://urlscan.io/result/01a0fa1d-757b-73d2-a360-d7bf0423b96b/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]henfactory[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:20.479Z,www.henfactory.com
+2026-10-02 01:41:41 UTC,domain,healthandwellnesssport[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:19.348Z,https://urlscan.io/result/01a0fa1d-6ee5-77c6-826e-01ee3e37ab72/
+2026-10-02 01:41:41 UTC,ip,178.162.235[.]65,Injected Host IP,"ASN: LEASEWEB-DE-FRA-10 Leaseweb Deutschland GmbH, DE",2026-10-02T00:57:19.348Z,https://urlscan.io/result/01a0fa1d-6ee5-77c6-826e-01ee3e37ab72/
+2026-10-02 01:41:41 UTC,domain,bikinjingle[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:14.746Z,https://urlscan.io/result/01a0fa1d-574c-760a-bd7e-f91cff7a0fb8/
+2026-10-02 01:41:41 UTC,ip,194.163.42[.]199,Injected Host IP,"ASN: AS-HOSTINGER Hostinger International Limited, CY",2026-10-02T00:57:14.746Z,https://urlscan.io/result/01a0fa1d-574c-760a-bd7e-f91cff7a0fb8/
+2026-10-02 01:41:41 UTC,domain,forteristorante[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:14.420Z,https://urlscan.io/result/01a0fa1d-6464-7539-bad7-9d71178016a1/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://forteristorante[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:14.420Z,forteristorante.com
+2026-10-02 01:41:41 UTC,domain,dwsdumpsters[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:14.225Z,https://urlscan.io/result/01a0fa1d-5e50-7688-b720-148787583c46/
+2026-10-02 01:41:41 UTC,ip,103.120.48[.]32,Injected Host IP,"ASN: AS399250 Name Hero, LLC",2026-10-02T00:57:14.225Z,https://urlscan.io/result/01a0fa1d-5e50-7688-b720-148787583c46/
+2026-10-02 01:41:41 UTC,domain,www[.]comfortcareconsultants[.]org,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:09.266Z,https://urlscan.io/result/01a0fa1d-4b8f-7298-b4f4-57a204ea76c9/
+2026-10-02 01:41:41 UTC,ip,68.66.220[.]30,Injected Host IP,"ASN: AS55293 A2 Hosting, Inc.",2026-10-02T00:57:09.266Z,https://urlscan.io/result/01a0fa1d-4b8f-7298-b4f4-57a204ea76c9/
+2026-10-02 01:41:41 UTC,domain,dermaglowla[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:08.325Z,https://urlscan.io/result/01a0fa1d-513e-7158-82f1-642d30abbcdd/
+2026-10-02 01:41:41 UTC,ip,2606:4700:3031::ac43:cfb5,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:57:08.325Z,https://urlscan.io/result/01a0fa1d-513e-7158-82f1-642d30abbcdd/
+2026-10-02 01:41:41 UTC,domain,vosgi[.]in,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:07.252Z,https://urlscan.io/result/01a0fa1d-0e4b-77c5-9a5a-810f4beefed0/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://vosgi[.]in:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:57:07.252Z,vosgi.in
+2026-10-02 01:41:41 UTC,domain,claycowanbooks[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:06.033Z,https://urlscan.io/result/01a0fa1d-4720-758d-93d0-4eef59001958/
+2026-10-02 01:41:41 UTC,ip,162.241.230[.]107,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:57:06.033Z,https://urlscan.io/result/01a0fa1d-4720-758d-93d0-4eef59001958/
+2026-10-02 01:41:41 UTC,domain,agrosefac[.]com[.]ar,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:05.590Z,https://urlscan.io/result/01a0fa1d-4004-739f-8171-73b380b54b6b/
+2026-10-02 01:41:41 UTC,ip,200.105.69[.]241,Injected Host IP,ASN: AS7303 Telecom Argentina S.A.,2026-10-02T00:57:05.590Z,https://urlscan.io/result/01a0fa1d-4004-739f-8171-73b380b54b6b/
+2026-10-02 01:41:41 UTC,domain,acceltalentgroup[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:57:01.204Z,https://urlscan.io/result/01a0fa1d-2964-724f-ba60-021ec77833ed/
+2026-10-02 01:41:41 UTC,ip,192.124.249[.]59,Injected Host IP,ASN: AS30148 Sucuri,2026-10-02T00:57:01.204Z,https://urlscan.io/result/01a0fa1d-2964-724f-ba60-021ec77833ed/
+2026-10-02 01:41:41 UTC,domain,smkdbcld28[.]sch[.]id,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:59.252Z,https://urlscan.io/result/01a0fa1d-16f9-71f7-b612-8c1c99250496/
+2026-10-02 01:41:41 UTC,ip,112.109.21[.]251,Injected Host IP,ASN: AS24521 PT. DATA Utama Dinamika,2026-10-02T00:56:59.252Z,https://urlscan.io/result/01a0fa1d-16f9-71f7-b612-8c1c99250496/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]instagram[.]com/smkdwibhakti_cldg/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:59.252Z,smkdbcld28.sch.id
+2026-10-02 01:41:41 UTC,domain,aderent[.]ro,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:58.228Z,https://urlscan.io/result/01a0fa1d-1d11-778b-9223-99a5d33c5da9/
+2026-10-02 01:41:41 UTC,ip,2a00:ece1:0:18::232,Injected Host IP,ASN: AS5606 GTS Telecom SRL,2026-10-02T00:56:58.228Z,https://urlscan.io/result/01a0fa1d-1d11-778b-9223-99a5d33c5da9/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://aderent[.]ro:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:58.228Z,aderent.ro
+2026-10-02 01:41:41 UTC,domain,24x7remediation[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:58.129Z,https://urlscan.io/result/01a0fa1d-2346-7565-a356-3e318344523c/
+2026-10-02 01:41:41 UTC,ip,107.180.115[.]113,Injected Host IP,"ASN: AS398101 GoDaddy.com, LLC",2026-10-02T00:56:58.129Z,https://urlscan.io/result/01a0fa1d-2346-7565-a356-3e318344523c/
+2026-10-02 01:41:41 UTC,domain,ptgrandprincipalmandiri[.]net,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:52.359Z,https://urlscan.io/result/01a0fa1c-e006-73ac-8c4d-e0d074e20337/
+2026-10-02 01:41:41 UTC,domain,sweetdreamreborn[.]store,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:51.508Z,https://urlscan.io/result/01a0fa1d-08f2-73fc-bcf0-f1d9b3c0c8db/
+2026-10-02 01:41:41 UTC,domain,webfeenix[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:56:48.869Z,https://urlscan.io/result/01a0fa1d-028d-7625-99d1-f0c1fc67cf58/
+2026-10-02 01:41:41 UTC,ip,93.127.192[.]111,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-02T00:56:48.869Z,https://urlscan.io/result/01a0fa1d-028d-7625-99d1-f0c1fc67cf58/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://webfeenix[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:48.869Z,webfeenix.com
+2026-10-02 01:41:41 UTC,domain,wavetek[.]fr,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:47.376Z,https://urlscan.io/result/01a0fa1c-fce5-73e2-b4a1-cbbbcbae5d5e/
+2026-10-02 01:41:41 UTC,ip,193.203.239[.]86,Injected Host IP,ASN: AS210403 Groupe LWS SARL,2026-10-02T00:56:47.376Z,https://urlscan.io/result/01a0fa1c-fce5-73e2-b4a1-cbbbcbae5d5e/
+2026-10-02 01:41:41 UTC,domain,serviciotecnicograncanaria[.]es,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:46.233Z,https://urlscan.io/result/01a0fa1c-f696-75f8-ab1e-0d90f10edfd6/
+2026-10-02 01:41:41 UTC,ip,193.84.177[.]62,Injected Host IP,ASN: AS60458 XNET CORE SL,2026-10-02T00:56:46.233Z,https://urlscan.io/result/01a0fa1c-f696-75f8-ab1e-0d90f10edfd6/
+2026-10-02 01:41:41 UTC,domain,rubbercompressionrepair[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:43.852Z,https://urlscan.io/result/01a0fa1c-e4ba-76de-97d5-4358b5424458/
+2026-10-02 01:41:41 UTC,ip,50.87.185[.]99,Injected Host IP,ASN: AS46606 Unified Layer,2026-10-02T00:56:43.852Z,https://urlscan.io/result/01a0fa1c-e4ba-76de-97d5-4358b5424458/
+2026-10-02 01:41:41 UTC,domain,website[.]smaywka[.]sch[.]id,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:43.643Z,https://urlscan.io/result/01a0fa1c-84e0-747b-b36c-59a711416981/
+2026-10-02 01:41:41 UTC,ip,43.252.137[.]18,Injected Host IP,ASN: AS58404 PT Qwords Company International,2026-10-02T00:56:43.643Z,https://urlscan.io/result/01a0fa1c-84e0-747b-b36c-59a711416981/
+2026-10-02 01:41:41 UTC,domain,www[.]spirakiservice[.]gr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:56:43.457Z,https://urlscan.io/result/01a0fa1c-f023-7738-b238-79276955f2c5/
+2026-10-02 01:41:41 UTC,ip,194.110.243[.]239,Injected Host IP,ASN: AS41000 Freethought Internet Limited,2026-10-02T00:56:43.457Z,https://urlscan.io/result/01a0fa1c-f023-7738-b238-79276955f2c5/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]spirakiservice[.]gr:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:43.457Z,www.spirakiservice.gr
+2026-10-02 01:41:41 UTC,domain,www[.]mifalliterasi[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:43.425Z,https://urlscan.io/result/01a0fa1c-c17e-75fe-9c45-af458d5a6f44/
+2026-10-02 01:41:41 UTC,ip,36.50.77[.]52,Injected Host IP,ASN: AS138115 PT Deneva,2026-10-02T00:56:43.425Z,https://urlscan.io/result/01a0fa1c-c17e-75fe-9c45-af458d5a6f44/
+2026-10-02 01:41:41 UTC,domain,istanablock[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:42.090Z,https://urlscan.io/result/01a0fa1c-a5f7-77e6-9484-ea0dc5e0be80/
+2026-10-02 01:41:41 UTC,domain,www[.]reclaimmypcpclaim[.]co[.]uk,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:41.469Z,https://urlscan.io/result/01a0fa1c-e903-717c-b93d-e98edf7e2e5f/
+2026-10-02 01:41:41 UTC,ip,92.204.220[.]202,Injected Host IP,ASN: AS21499 Host Europe GmbH,2026-10-02T00:56:41.469Z,https://urlscan.io/result/01a0fa1c-e903-717c-b93d-e98edf7e2e5f/
+2026-10-02 01:41:41 UTC,domain,rapidservices[.]es,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:38.719Z,https://urlscan.io/result/01a0fa1c-daa0-7051-911d-40cfa15c8ffd/
+2026-10-02 01:41:41 UTC,domain,prazofinal[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:36.889Z,https://urlscan.io/result/01a0fa1c-d498-764d-b419-ddc7eb2d944e/
+2026-10-02 01:41:41 UTC,ip,188.114.96[.]3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:56:36.889Z,https://urlscan.io/result/01a0fa1c-d498-764d-b419-ddc7eb2d944e/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://prazofinal[.]com/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:36.889Z,prazofinal.com
+2026-10-02 01:41:41 UTC,domain,newswiregujarat[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:35.840Z,https://urlscan.io/result/01a0fa1c-ce34-77fb-97ad-f9b9338c7e29/
+2026-10-02 01:41:41 UTC,ip,148.135.141[.]89,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-02T00:56:35.840Z,https://urlscan.io/result/01a0fa1c-ce34-77fb-97ad-f9b9338c7e29/
+2026-10-02 01:41:41 UTC,domain,nicoledonnellyspeaks[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:34.069Z,https://urlscan.io/result/01a0fa1c-c767-755e-855b-2688cd90cd49/
+2026-10-02 01:41:41 UTC,ip,162.241.24[.]80,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:56:34.069Z,https://urlscan.io/result/01a0fa1c-c767-755e-855b-2688cd90cd49/
+2026-10-02 01:41:41 UTC,domain,luidemorais[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:56:31.015Z,https://urlscan.io/result/01a0fa1c-bb6e-7568-a1a9-e0f5b4953ac1/
+2026-10-02 01:41:41 UTC,ip,200.11.122[.]10,Injected Host IP,ASN: AS270439 D S CUPERTINO SERVICOS DE HOSPEDAGEM NA INTERNET,2026-10-02T00:56:31.015Z,https://urlscan.io/result/01a0fa1c-bb6e-7568-a1a9-e0f5b4953ac1/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://luidemorais[.]com/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:31.015Z,luidemorais.com
+2026-10-02 01:41:41 UTC,domain,matikconsulting[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:29.377Z,https://urlscan.io/result/01a0fa1c-ac0b-73cd-ab7b-d9249d4e1687/
+2026-10-02 01:41:41 UTC,ip,192.254.187[.]152,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:56:29.377Z,https://urlscan.io/result/01a0fa1c-ac0b-73cd-ab7b-d9249d4e1687/
+2026-10-02 01:41:41 UTC,domain,irricampo[.]com[.]br,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:56:27.964Z,https://urlscan.io/result/01a0fa1c-9e3c-758c-a735-0211e6640995/
+2026-10-02 01:41:41 UTC,ip,108.181.92[.]72,Injected Host IP,ASN: AS40676 Psychz Networks,2026-10-02T00:56:27.964Z,https://urlscan.io/result/01a0fa1c-9e3c-758c-a735-0211e6640995/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848376,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:27.964Z,irricampo.com.br
+2026-10-02 01:41:41 UTC,domain,lifechampionmastery[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:26.848Z,https://urlscan.io/result/01a0fa1c-b1b9-7664-80d8-27a0feace55c/
+2026-10-02 01:41:41 UTC,ip,162.241.252[.]146,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:56:26.848Z,https://urlscan.io/result/01a0fa1c-b1b9-7664-80d8-27a0feace55c/
+2026-10-02 01:41:41 UTC,payload_url,hxxp://ns[.]adobe[.]com/xap/1.0/sType/ResourceRef#,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:26.848Z,lifechampionmastery.com
+2026-10-02 01:41:41 UTC,payload_url,hxxp://ns[.]adobe[.]com/xap/1.0/mm/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:26.848Z,lifechampionmastery.com
+2026-10-02 01:41:41 UTC,domain,vivianreyes[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:24.995Z,https://urlscan.io/result/01a0fa1c-5120-74db-9729-5841b595933d/
+2026-10-02 01:41:41 UTC,ip,192.185.100[.]50,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:56:24.995Z,https://urlscan.io/result/01a0fa1c-5120-74db-9729-5841b595933d/
+2026-10-02 01:41:41 UTC,domain,www[.]incele[.]web[.]tr,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:21.659Z,https://urlscan.io/result/01a0fa1c-97e5-70fb-9fe8-22ae30addcde/
+2026-10-02 01:41:41 UTC,ip,104.21.32[.]212,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:56:21.659Z,https://urlscan.io/result/01a0fa1c-97e5-70fb-9fe8-22ae30addcde/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]incele[.]web[.]tr/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:21.659Z,www.incele.web.tr
+2026-10-02 01:41:41 UTC,domain,zomabeauty[.]com[.]au,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:18.433Z,https://urlscan.io/result/01a0fa1c-8c51-73ed-93a9-d5e52ab59941/
+2026-10-02 01:41:41 UTC,ip,175.45.125[.]220,Injected Host IP,ASN: AS4826 Vocus Connect International Backbone,2026-10-02T00:56:18.433Z,https://urlscan.io/result/01a0fa1c-8c51-73ed-93a9-d5e52ab59941/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://zomabeauty[.]com[.]au/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:18.433Z,zomabeauty.com.au
+2026-10-02 01:41:41 UTC,domain,williamliggett[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:18.397Z,https://urlscan.io/result/01a0fa1c-9275-7372-8eae-8e1ba13cee7a/
+2026-10-02 01:41:41 UTC,ip,151.101.2[.]159,Injected Host IP,"ASN: AS54113 Fastly, Inc.",2026-10-02T00:56:18.397Z,https://urlscan.io/result/01a0fa1c-9275-7372-8eae-8e1ba13cee7a/
+2026-10-02 01:41:41 UTC,domain,www[.]szoketiszahe[.]hu,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:14.826Z,https://urlscan.io/result/01a0fa1c-7ee2-72de-b220-3322ba1aa980/
+2026-10-02 01:41:41 UTC,domain,studio-salazar[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:13.031Z,https://urlscan.io/result/01a0fa1c-6c39-764e-914b-08c5ebb97aea/
+2026-10-02 01:41:41 UTC,ip,91.216.107[.]79,Injected Host IP,ASN: AS210403 Groupe LWS SARL,2026-10-02T00:56:13.031Z,https://urlscan.io/result/01a0fa1c-6c39-764e-914b-08c5ebb97aea/
+2026-10-02 01:41:41 UTC,domain,tampabaylawnservice[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:12.709Z,https://urlscan.io/result/01a0fa1c-7a10-71ad-a6b0-ffd26e90c7e1/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]23,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-02T00:56:12.709Z,https://urlscan.io/result/01a0fa1c-7a10-71ad-a6b0-ffd26e90c7e1/
+2026-10-02 01:41:41 UTC,domain,sundasaziz[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:08.563Z,https://urlscan.io/result/01a0fa1c-6663-76dc-8cd1-dc3550ea9159/
+2026-10-02 01:41:41 UTC,ip,198.71.233[.]110,Injected Host IP,"ASN: AS398787 GoDaddy.com, LLC",2026-10-02T00:56:08.563Z,https://urlscan.io/result/01a0fa1c-6663-76dc-8cd1-dc3550ea9159/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://thu-ipad-03[.]cfd/api.php?s=355d983b483b7b665fd8efd21f72082436aeea2d6b19a437,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:56:08.563Z,sundasaziz.com
+2026-10-02 01:41:41 UTC,domain,www[.]udruzenjetekstilnihskola[.]org[.]rs,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:56:04.612Z,https://urlscan.io/result/01a0fa1c-55d7-7509-8878-12534ccbf74d/
+2026-10-02 01:41:41 UTC,ip,185.102.77[.]33,Injected Host IP,"ASN: AS198171 Webglobe, s.r.o.",2026-10-02T00:56:04.612Z,https://urlscan.io/result/01a0fa1c-55d7-7509-8878-12534ccbf74d/
+2026-10-02 01:41:41 UTC,domain,3d5108a1[.]finowfurt[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:04.489Z,https://urlscan.io/result/01a0fa1c-6135-77e0-9c04-759e5e163811/
+2026-10-02 01:41:41 UTC,ip,104.21.31[.]47,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:56:04.489Z,https://urlscan.io/result/01a0fa1c-6135-77e0-9c04-759e5e163811/
+2026-10-02 01:41:41 UTC,domain,26a0ed72[.]finowfurt[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:56:03.483Z,https://urlscan.io/result/01a0fa1c-5bd8-713a-934d-bba92036d763/
+2026-10-02 01:41:41 UTC,ip,172.67.174[.]248,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:56:03.483Z,https://urlscan.io/result/01a0fa1c-5bd8-713a-934d-bba92036d763/
+2026-10-02 01:41:41 UTC,domain,193[.]148[.]56[.]98,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:02:36.231Z,https://urlscan.io/result/01a0f9eb-038c-73dd-913e-cf1c5f0a9df8/
+2026-10-02 01:41:41 UTC,ip,193.148.56[.]98,Injected Host IP,ASN: AS209946 ALINDA LLC,2026-10-02T00:02:36.231Z,https://urlscan.io/result/01a0f9eb-038c-73dd-913e-cf1c5f0a9df8/
+2026-10-02 01:41:41 UTC,domain,slackdigital[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:59:33.331Z,https://urlscan.io/result/01a0f9b0-cd98-77b9-b049-f099b726d9e9/
+2026-10-02 01:41:41 UTC,ip,172.67.204[.]118,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-01T22:59:33.331Z,https://urlscan.io/result/01a0f9b0-cd98-77b9-b049-f099b726d9e9/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848260,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:59:33.331Z,slackdigital.com
+2026-10-02 01:41:41 UTC,domain,www[.]yundatabox[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:06:50.928Z,https://urlscan.io/result/01a0fa25-d565-77bc-a55c-d0f460955f7e/
+2026-10-02 01:41:41 UTC,ip,104.21.67[.]220,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T01:06:50.928Z,https://urlscan.io/result/01a0fa25-d565-77bc-a55c-d0f460955f7e/
+2026-10-02 01:41:41 UTC,domain,myauroracare[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T01:32:59.359Z,https://urlscan.io/result/01a0fa3e-1e7c-76c7-b7a5-de1e8e3f8373/
+2026-10-02 01:41:41 UTC,domain,bizlogist[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:27:03.610Z,https://urlscan.io/result/01a0fa38-b472-778f-abec-56cd7e3c18f4/
+2026-10-02 01:41:41 UTC,ip,66.29.148[.]182,Injected Host IP,"ASN: AS22612 Namecheap, Inc.",2026-10-02T01:27:03.610Z,https://urlscan.io/result/01a0fa38-b472-778f-abec-56cd7e3c18f4/
+2026-10-02 01:41:41 UTC,payload_url,hxxp://91[.]92[.]43[.]250,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:27:03.610Z,bizlogist.com
+2026-10-02 01:41:41 UTC,domain,bogrup[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T01:25:34.993Z,https://urlscan.io/result/01a0fa37-5b84-709d-b7e1-744de1600e4f/
+2026-10-02 01:41:41 UTC,ip,185.110.66[.]8,Injected Host IP,ASN: AS39729 REGISTER S.P.A.,2026-10-02T01:25:34.993Z,https://urlscan.io/result/01a0fa37-5b84-709d-b7e1-744de1600e4f/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848405,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:25:34.993Z,bogrup.com
+2026-10-02 01:41:41 UTC,domain,brainsy[.]ai,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:21:21.236Z,https://urlscan.io/result/01a0fa33-1975-7570-86f0-6a0253390dc5/
+2026-10-02 01:41:41 UTC,domain,ioelche[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:15:13.582Z,https://urlscan.io/result/01a0fa2d-8f33-7668-87c4-d92262323adb/
+2026-10-02 01:41:41 UTC,ip,94.143.139[.]107,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-02T01:15:13.582Z,https://urlscan.io/result/01a0fa2d-8f33-7668-87c4-d92262323adb/
+2026-10-02 01:41:41 UTC,domain,theaffinitysalon[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:02:02.170Z,https://urlscan.io/result/01a0fa21-9985-733d-8543-ca8b89f2efc6/
+2026-10-02 01:41:41 UTC,ip,63.141.242[.]205,Injected Host IP,"ASN: AS33387 Nocix, LLC",2026-10-02T01:02:02.170Z,https://urlscan.io/result/01a0fa21-9985-733d-8543-ca8b89f2efc6/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://data-seed-prebsc-2-s2[.]binance[.]org:8545/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://bsc-testnet-rpc[.]publicnode[.]com/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://bsc-testnet[.]drpc[.]org/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://data-seed-prebsc-1-s1[.]binance[.]org:8545/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://bsc-testnet-dataseed[.]bnbchain[.]org/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://data-seed-prebsc-1-s1[.]bnbchain[.]org:8545/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://data-seed-prebsc-2-s1[.]binance[.]org:8545/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://bnb-testnet[.]api[.]onfinality[.]io/public,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:02:02.170Z,theaffinitysalon.com
+2026-10-02 01:41:41 UTC,domain,calaismetonne[.]fr,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:57:23.748Z,https://urlscan.io/result/01a0fa1d-8e0e-71e6-bee5-2be008190e00/
+2026-10-02 01:41:41 UTC,ip,188.130.25[.]202,Injected Host IP,ASN: AS34177 Celeste SAS,2026-10-02T00:57:23.748Z,https://urlscan.io/result/01a0fa1d-8e0e-71e6-bee5-2be008190e00/
+2026-10-02 01:41:41 UTC,domain,carboneriastudio[.]live,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T00:50:40.794Z,https://urlscan.io/result/01a0fa17-3d24-778b-bcce-929ede7d751a/
+2026-10-02 01:41:41 UTC,ip,172.67.137[.]76,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:50:40.794Z,https://urlscan.io/result/01a0fa17-3d24-778b-bcce-929ede7d751a/
+2026-10-02 01:41:41 UTC,domain,nhakhoataysaigon[.]com,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:33:41.231Z,https://urlscan.io/result/01a0fa3e-7bc3-700b-9dff-d9ea3caa990b/
+2026-10-02 01:41:41 UTC,ip,160.191.88[.]102,Injected Host IP,ASN: AS151858 INTERDIGI JOINT STOCK COMPANY,2026-10-02T01:33:41.231Z,https://urlscan.io/result/01a0fa3e-7bc3-700b-9dff-d9ea3caa990b/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://rpc-mainnet[.]matic[.]quiknode[.]pro,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://polygon[.]drpc[.]org,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://script-six-tawny[.]vercel[.]app,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://rpc[.]ankr[.]com/polygon,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://polygon-bor-rpc[.]publicnode[.]com,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://mytds102938,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://1rpc[.]io/matic,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://polygon-mainnet[.]public[.]blastapi[.]io,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://polygon-public[.]nodies[.]app,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://polygon[.]gateway[.]tenderly[.]co,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:33:41.231Z,nhakhoataysaigon.com
+2026-10-02 01:41:41 UTC,domain,mdfconsig[.]com[.]br,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:33:00.396Z,https://urlscan.io/result/01a0fa3e-10a4-75c5-b3b0-0e34af282773/
+2026-10-02 01:41:41 UTC,domain,boldandblendedbyjoelle[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:26:10.949Z,https://urlscan.io/result/01a0fa37-de3b-776c-929c-7f4f096aafd7/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]59,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-10-02T01:26:10.949Z,https://urlscan.io/result/01a0fa37-de3b-776c-929c-7f4f096aafd7/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://makeverizyjar[.]info,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T01:26:10.949Z,boldandblendedbyjoelle.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://makeverizyjar[.]info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:26:10.949Z,boldandblendedbyjoelle.com
+2026-10-02 01:41:41 UTC,domain,bluehorizonbooks[.]net,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:23:15.534Z,https://urlscan.io/result/01a0fa35-37fb-7613-bd3b-ef1dd2dddc7c/
+2026-10-02 01:41:41 UTC,ip,144.91.91[.]150,Injected Host IP,"ASN: CONTABO Contabo GmbH, DE",2026-10-02T01:23:15.534Z,https://urlscan.io/result/01a0fa35-37fb-7613-bd3b-ef1dd2dddc7c/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://browseid[.]codes,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T01:23:15.534Z,bluehorizonbooks.net
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:23:15.534Z,bluehorizonbooks.net
+2026-10-02 01:41:41 UTC,domain,frontline-coating[.]pl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:21:55.868Z,https://urlscan.io/result/01a0fa34-03d2-7779-afc4-646a2e753462/
+2026-10-02 01:41:41 UTC,ip,195.2.222[.]233,Injected Host IP,"ASN: LHPL LH.pl Sp. z o.o., PL",2026-10-02T01:21:55.868Z,https://urlscan.io/result/01a0fa34-03d2-7779-afc4-646a2e753462/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:21:55.868Z,frontline-coating.pl
+2026-10-02 01:41:41 UTC,domain,brainseba[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:20:24.854Z,https://urlscan.io/result/01a0fa32-82d3-7312-aa9b-c98e91f44fc2/
+2026-10-02 01:41:41 UTC,ip,139.99.68[.]92,Injected Host IP,"ASN: OVH OVH SAS, FR",2026-10-02T01:20:24.854Z,https://urlscan.io/result/01a0fa32-82d3-7312-aa9b-c98e91f44fc2/
+2026-10-02 01:41:41 UTC,smart_contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Decentralized C2 (Polygon),ClearFake Double-XOR (Method: 0xb68d1809),2026-10-02T01:20:24.854Z,brainseba.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:20:24.854Z,brainseba.com
+2026-10-02 01:41:41 UTC,domain,boutiquedumenuisier-sisteron[.]fr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:18:41.224Z,https://urlscan.io/result/01a0fa31-02bc-749c-b909-01ed839900ce/
+2026-10-02 01:41:41 UTC,ip,128.65.195[.]249,Injected Host IP,"ASN: Infomaniak-AS Infomaniak Network SA, CH",2026-10-02T01:18:41.224Z,https://urlscan.io/result/01a0fa31-02bc-749c-b909-01ed839900ce/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=f53d9363f629593d3708bfa366540eaece8316e441c1b418,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:18:41.224Z,boutiquedumenuisier-sisteron.fr
+2026-10-02 01:41:41 UTC,domain,boqueria[.]co[.]uk,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:16:56.769Z,https://urlscan.io/result/01a0fa2f-67b1-75cb-adfd-333b667a41f9/
+2026-10-02 01:41:41 UTC,ip,77.68.64[.]20,Injected Host IP,"ASN: IONOS-AS IONOS SE, DE",2026-10-02T01:16:56.769Z,https://urlscan.io/result/01a0fa2f-67b1-75cb-adfd-333b667a41f9/
+2026-10-02 01:41:41 UTC,domain,bronzinoconsulting[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:16:30.324Z,https://urlscan.io/result/01a0fa2e-e55d-774b-9213-952ba1a88653/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]82,Injected Host IP,"ASN: CLOUDFLARESPECTRUM Cloudflare London, LLC, US",2026-10-02T01:16:30.324Z,https://urlscan.io/result/01a0fa2e-e55d-774b-9213-952ba1a88653/
+2026-10-02 01:41:41 UTC,domain,cccnextleveled[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:11:30.120Z,https://urlscan.io/result/01a0fa2a-5547-75ee-84ab-8231d1bf4278/
+2026-10-02 01:41:41 UTC,ip,104.198.108[.]232,Injected Host IP,"ASN: GOOGLE-CLOUD-PLATFORM - Google LLC, US",2026-10-02T01:11:30.120Z,https://urlscan.io/result/01a0fa2a-5547-75ee-84ab-8231d1bf4278/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:11:30.120Z,cccnextleveled.org
+2026-10-02 01:41:41 UTC,domain,brasserie-alphand[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:10:29.212Z,https://urlscan.io/result/01a0fa29-8c8b-72d8-93eb-2d891e237f17/
+2026-10-02 01:41:41 UTC,ip,213.158.93[.]19,Injected Host IP,ASN: AS34762 Combell NV,2026-10-02T01:10:29.212Z,https://urlscan.io/result/01a0fa29-8c8b-72d8-93eb-2d891e237f17/
+2026-10-02 01:41:41 UTC,domain,brusconcept[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:08:04.588Z,https://urlscan.io/result/01a0fa27-3ba6-728f-8a3f-0289bd8918e0/
+2026-10-02 01:41:41 UTC,ip,2607:f1c0:100f:f000::200,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-02T01:08:04.588Z,https://urlscan.io/result/01a0fa27-3ba6-728f-8a3f-0289bd8918e0/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a,TDS Staging Script,ClearFake Secret extraction,2026-10-02T01:08:04.588Z,brusconcept.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://mytds10293,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T01:08:04.588Z,brusconcept.com
+2026-10-02 01:41:41 UTC,domain,caballito-web[.]com[.]ar,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:05:51.391Z,https://urlscan.io/result/01a0fa25-3697-726b-a8de-274909d56c07/
+2026-10-02 01:41:41 UTC,ip,149.50.140[.]72,Injected Host IP,ASN: AS27823 Dattatec.com,2026-10-02T01:05:51.391Z,https://urlscan.io/result/01a0fa25-3697-726b-a8de-274909d56c07/
+2026-10-02 01:41:41 UTC,domain,sgaa[.]me,Compromised Host / Lure Page,urlscan telemetry,2026-10-02T01:01:15.180Z,https://urlscan.io/result/01a0fa20-c63f-7679-9399-a6a5386a9bfc/
+2026-10-02 01:41:41 UTC,ip,45.133.44[.]1,Injected Host IP,ASN: AS39572 DataWeb Global Group B.V.,2026-10-02T01:01:15.180Z,https://urlscan.io/result/01a0fa20-c63f-7679-9399-a6a5386a9bfc/
+2026-10-02 01:41:41 UTC,domain,cambridgeeducare[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:58:35.311Z,https://urlscan.io/result/01a0fa1e-973c-77b1-aada-f2d293a162e6/
+2026-10-02 01:41:41 UTC,ip,151.106.124[.]146,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-02T00:58:35.311Z,https://urlscan.io/result/01a0fa1e-973c-77b1-aada-f2d293a162e6/
+2026-10-02 01:41:41 UTC,domain,caiif[.]ca,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:56:54.131Z,https://urlscan.io/result/01a0fa1d-0193-770d-a994-decb5b31f3e9/
+2026-10-02 01:41:41 UTC,ip,74.208.236[.]231,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-02T00:56:54.131Z,https://urlscan.io/result/01a0fa1d-0193-770d-a994-decb5b31f3e9/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-content/plugins,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/scripts,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-admin/admin-ajax.php,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-content,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-content/plugins/builder-progress-bar/assets/style,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-content/plugins/builder-typewriter/assets/scripts,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,payload_url,hxxps://caiif[.]ca/wp-includes/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:56:54.131Z,caiif.ca
+2026-10-02 01:41:41 UTC,domain,www[.]paulinaniewiadomskaphotography[.]pl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:56:20.204Z,https://urlscan.io/result/01a0fa1c-9adb-7789-8262-8af737a5c8dc/
+2026-10-02 01:41:41 UTC,ip,185.135.91[.]162,Injected Host IP,ASN: AS203417 LH.pl Sp. z o.o.,2026-10-02T00:56:20.204Z,https://urlscan.io/result/01a0fa1c-9adb-7789-8262-8af737a5c8dc/
+2026-10-02 01:41:41 UTC,domain,www[.]urbni[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:55:22.359Z,https://urlscan.io/result/01a0fa1b-a86d-7787-95e8-aac26a46499c/
+2026-10-02 01:41:41 UTC,ip,67.225.163[.]148,Injected Host IP,"ASN: AS32244 Liquid Web, L.L.C",2026-10-02T00:55:22.359Z,https://urlscan.io/result/01a0fa1b-a86d-7787-95e8-aac26a46499c/
+2026-10-02 01:41:41 UTC,domain,www[.]caribbeancraze[.]co,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:52:40.713Z,https://urlscan.io/result/01a0fa19-1510-710f-b9e3-6cefec601c92/
+2026-10-02 01:41:41 UTC,ip,208.97.186[.]138,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-02T00:52:40.713Z,https://urlscan.io/result/01a0fa19-1510-710f-b9e3-6cefec601c92/
+2026-10-02 01:41:41 UTC,domain,carbon-critical[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:49:44.596Z,https://urlscan.io/result/01a0fa16-665e-748d-96be-f24bd767e734/
+2026-10-02 01:41:41 UTC,ip,66.96.163[.]135,Injected Host IP,"ASN: AS29873 Newfold Digital, Inc.",2026-10-02T00:49:44.596Z,https://urlscan.io/result/01a0fa16-665e-748d-96be-f24bd767e734/
+2026-10-02 01:41:41 UTC,domain,captionhuzz[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:49:08.402Z,https://urlscan.io/result/01a0fa15-fd0c-707c-9611-dc1c6f35f223/
+2026-10-02 01:41:41 UTC,ip,86.38.202[.]83,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-02T00:49:08.402Z,https://urlscan.io/result/01a0fa15-fd0c-707c-9611-dc1c6f35f223/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:49:08.402Z,captionhuzz.com
+2026-10-02 01:41:41 UTC,domain,casinohint[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:44:52.247Z,https://urlscan.io/result/01a0fa12-181e-776f-ab6a-aebca623d496/
+2026-10-02 01:41:41 UTC,ip,172.67.133[.]245,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-02T00:44:52.247Z,https://urlscan.io/result/01a0fa12-181e-776f-ab6a-aebca623d496/
+2026-10-02 01:41:41 UTC,domain,www[.]casinoactions[.]net,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:44:26.327Z,https://urlscan.io/result/01a0fa11-b781-7188-8bd0-705f1b7c7636/
+2026-10-02 01:41:41 UTC,domain,centremassiliendelaface[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:42:39.246Z,https://urlscan.io/result/01a0fa0f-d6e5-77ed-99a7-707414688539/
+2026-10-02 01:41:41 UTC,ip,54.36.91[.]62,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:42:39.246Z,https://urlscan.io/result/01a0fa0f-d6e5-77ed-99a7-707414688539/
+2026-10-02 01:41:41 UTC,domain,cellapp[.]com[.]np,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:41:18.665Z,https://urlscan.io/result/01a0fa0e-bbae-7118-b18f-78fb763fc96e/
+2026-10-02 01:41:41 UTC,ip,103.138.189[.]54,Injected Host IP,ASN: AS204800 WHG Hosting Services Ltd,2026-10-02T00:41:18.665Z,https://urlscan.io/result/01a0fa0e-bbae-7118-b18f-78fb763fc96e/
+2026-10-02 01:41:41 UTC,domain,cheongss[.]com[.]sg,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:38:23.987Z,https://urlscan.io/result/01a0fa0c-1679-737a-9a8c-649247c1a654/
+2026-10-02 01:41:41 UTC,ip,103.7.10[.]154,Injected Host IP,ASN: AS38532 Exabytes Network (Singapore) Pte. Ltd.,2026-10-02T00:38:23.987Z,https://urlscan.io/result/01a0fa0c-1679-737a-9a8c-649247c1a654/
+2026-10-02 01:41:41 UTC,domain,cheminee-poele-chazelles[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:37:41.640Z,https://urlscan.io/result/01a0fa0b-7092-71ca-8c5c-3ee21b850d1f/
+2026-10-02 01:41:41 UTC,ip,178.33.107[.]88,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:37:41.640Z,https://urlscan.io/result/01a0fa0b-7092-71ca-8c5c-3ee21b850d1f/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:37:41.640Z,cheminee-poele-chazelles.com
+2026-10-02 01:41:41 UTC,domain,chambry77[.]fr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:32:56.569Z,https://urlscan.io/result/01a0fa07-28e6-72f3-9f4d-79b4c545f0ed/
+2026-10-02 01:41:41 UTC,ip,159.89.24[.]200,Injected Host IP,"ASN: AS14061 DigitalOcean, LLC",2026-10-02T00:32:56.569Z,https://urlscan.io/result/01a0fa07-28e6-72f3-9f4d-79b4c545f0ed/
+2026-10-02 01:41:41 UTC,domain,citadelledumusulman[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:23:00.207Z,https://urlscan.io/result/01a0f9fe-164c-7609-8d94-04e6261bea68/
+2026-10-02 01:41:41 UTC,ip,78.40.10[.]67,Injected Host IP,ASN: AS50474 O2SWITCH SAS,2026-10-02T00:23:00.207Z,https://urlscan.io/result/01a0f9fe-164c-7609-8d94-04e6261bea68/
+2026-10-02 01:41:41 UTC,domain,colibrimadere[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:21:40.806Z,https://urlscan.io/result/01a0f9fc-dee7-71f5-8790-a4715d725376/
+2026-10-02 01:41:41 UTC,ip,91.216.107[.]232,Injected Host IP,ASN: AS210403 Groupe LWS SARL,2026-10-02T00:21:40.806Z,https://urlscan.io/result/01a0f9fc-dee7-71f5-8790-a4715d725376/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://makeverizyjar[.]info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:21:40.806Z,colibrimadere.com
+2026-10-02 01:41:41 UTC,domain,www[.]codigital[.]cl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:19:59.451Z,https://urlscan.io/result/01a0f9fb-478d-72e8-9e73-d284d472b927/
+2026-10-02 01:41:41 UTC,ip,66.33.203[.]11,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-02T00:19:59.451Z,https://urlscan.io/result/01a0f9fb-478d-72e8-9e73-d284d472b927/
+2026-10-02 01:41:41 UTC,domain,cnrada[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:17:43.700Z,https://urlscan.io/result/01a0f9f9-398d-70d3-9218-bc8c87bcf2a1/
+2026-10-02 01:41:41 UTC,ip,145.239.37[.]162,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:17:43.700Z,https://urlscan.io/result/01a0f9f9-398d-70d3-9218-bc8c87bcf2a1/
+2026-10-02 01:41:41 UTC,domain,clubdelbosque[.]cl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:16:08.844Z,https://urlscan.io/result/01a0f9f7-a7de-75cc-9967-f25a4a533f1e/
+2026-10-02 01:41:41 UTC,ip,186.64.114[.]115,Injected Host IP,ASN: AS52368 ZAM LTDA.,2026-10-02T00:16:08.844Z,https://urlscan.io/result/01a0f9f7-a7de-75cc-9967-f25a4a533f1e/
+2026-10-02 01:41:41 UTC,domain,www[.]conservationpulse[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:14:52.168Z,https://urlscan.io/result/01a0f9f6-909b-705b-8b82-151cd3e0df9e/
+2026-10-02 01:41:41 UTC,ip,79.170.44[.]101,Injected Host IP,ASN: AS20738 Heart Internet limited,2026-10-02T00:14:52.168Z,https://urlscan.io/result/01a0f9f6-909b-705b-8b82-151cd3e0df9e/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:14:52.168Z,www.conservationpulse.com
+2026-10-02 01:41:41 UTC,domain,bajmol[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:08:53.003Z,https://urlscan.io/result/01a0f9f1-1e62-745c-988f-b26448efea71/
+2026-10-02 01:41:41 UTC,ip,52.220.157[.]114,Injected Host IP,"ASN: AS16509 Amazon.com, Inc.",2026-10-02T00:08:53.003Z,https://urlscan.io/result/01a0f9f1-1e62-745c-988f-b26448efea71/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=6c720afc26340f39e9f29e7b7f48d8581b0b5f3c1f4d4716,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:08:53.003Z,bajmol.com
+2026-10-02 01:41:41 UTC,domain,coopelprogresorl[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:06:46.279Z,https://urlscan.io/result/01a0f9ef-2d44-7539-b683-22acba3c9d70/
+2026-10-02 01:41:41 UTC,ip,185.182.186[.]87,Injected Host IP,ASN: AS51167 Contabo GmbH,2026-10-02T00:06:46.279Z,https://urlscan.io/result/01a0f9ef-2d44-7539-b683-22acba3c9d70/
+2026-10-02 01:41:41 UTC,domain,cooling-shop[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:05:31.372Z,https://urlscan.io/result/01a0f9ee-0f02-724c-b199-cb7c2028492d/
+2026-10-02 01:41:41 UTC,ip,2001:41d0:301::23,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:05:31.372Z,https://urlscan.io/result/01a0f9ee-0f02-724c-b199-cb7c2028492d/
+2026-10-02 01:41:41 UTC,domain,construgel[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:04:53.981Z,https://urlscan.io/result/01a0f9ed-6e0b-7032-a3c5-4148392a530f/
+2026-10-02 01:41:41 UTC,ip,192.185.221[.]164,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T00:04:53.981Z,https://urlscan.io/result/01a0f9ed-6e0b-7032-a3c5-4148392a530f/
+2026-10-02 01:41:41 UTC,domain,www[.]countryheart[.]nl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:02:17.200Z,https://urlscan.io/result/01a0f9ea-fd01-749e-96b0-e1d572c0349b/
+2026-10-02 01:41:41 UTC,ip,51.38.119[.]204,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T00:02:17.200Z,https://urlscan.io/result/01a0f9ea-fd01-749e-96b0-e1d572c0349b/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://lovezramexar[.]info,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-02T00:02:17.200Z,www.countryheart.nl
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://lovezramexar[.]info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b,TDS Staging Script,ClearFake Secret extraction,2026-10-02T00:02:17.200Z,www.countryheart.nl
+2026-10-02 01:41:41 UTC,domain,creationministry[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:56:29.957Z,https://urlscan.io/result/01a0f9e5-c52d-706b-abcc-822936f6a61a/
+2026-10-02 01:41:41 UTC,ip,192.185.5[.]54,Injected Host IP,"ASN: AS19871 Network Solutions, LLC",2026-10-01T23:56:29.957Z,https://urlscan.io/result/01a0f9e5-c52d-706b-abcc-822936f6a61a/
+2026-10-02 01:41:41 UTC,domain,creartiv-marketing[.]de,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:55:11.154Z,https://urlscan.io/result/01a0f9e4-9e9f-71ff-9d79-5fc8bca42fc0/
+2026-10-02 01:41:41 UTC,ip,2.59.132[.]133,Injected Host IP,ASN: AS58212 dataforest GmbH,2026-10-01T23:55:11.154Z,https://urlscan.io/result/01a0f9e4-9e9f-71ff-9d79-5fc8bca42fc0/
+2026-10-02 01:41:41 UTC,domain,creamacres[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:54:45.414Z,https://urlscan.io/result/01a0f9e4-3c2a-73e0-b256-d4fe59fb3644/
+2026-10-02 01:41:41 UTC,ip,2a02:4780:45:3249:9027:d7a7:ae1f:5069,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-01T23:54:45.414Z,https://urlscan.io/result/01a0f9e4-3c2a-73e0-b256-d4fe59fb3644/
+2026-10-02 01:41:41 UTC,domain,crbabogados[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:54:23.698Z,https://urlscan.io/result/01a0f9e3-df03-70c3-8aca-00210d0f94dc/
+2026-10-02 01:41:41 UTC,ip,162.241.2[.]39,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:54:23.698Z,https://urlscan.io/result/01a0f9e3-df03-70c3-8aca-00210d0f94dc/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c,TDS Staging Script,ClearFake Secret extraction,2026-10-01T23:54:23.698Z,crbabogados.com
+2026-10-02 01:41:41 UTC,domain,datnenlongthanh[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:43:15.717Z,https://urlscan.io/result/01a0f9d9-9e94-7058-9e31-55ab287417cb/
+2026-10-02 01:41:41 UTC,ip,103.142.24[.]76,Injected Host IP,ASN: AS135951 Webico Company Limited,2026-10-01T23:43:15.717Z,https://urlscan.io/result/01a0f9d9-9e94-7058-9e31-55ab287417cb/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://datnenlongthanh[.]org:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:43:15.717Z,datnenlongthanh.org
+2026-10-02 01:41:41 UTC,domain,www[.]darbiniwatchrepair[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:41:13.041Z,https://urlscan.io/result/01a0f9d7-7799-76cb-974c-fc3fd41cead1/
+2026-10-02 01:41:41 UTC,ip,69.163.142[.]101,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-01T23:41:13.041Z,https://urlscan.io/result/01a0f9d7-7799-76cb-974c-fc3fd41cead1/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=2460581feb1b93e0e60609fb54e6a75d37314e296e1c2afd,TDS Staging Script,ClearFake Secret extraction,2026-10-01T23:41:13.041Z,www.darbiniwatchrepair.com
+2026-10-02 01:41:41 UTC,domain,dansebeaupreau[.]fr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:40:24.426Z,https://urlscan.io/result/01a0f9d7-139f-7616-bcc4-2e7acfb27712/
+2026-10-02 01:41:41 UTC,ip,5.135.23[.]164,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-01T23:40:24.426Z,https://urlscan.io/result/01a0f9d7-139f-7616-bcc4-2e7acfb27712/
+2026-10-02 01:41:41 UTC,domain,daltiorhotels[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:38:38.196Z,https://urlscan.io/result/01a0f9d5-672f-710a-bd01-ffa695f93801/
+2026-10-02 01:41:41 UTC,ip,148.251.13[.]147,Injected Host IP,ASN: AS24940 Hetzner Online GmbH,2026-10-01T23:38:38.196Z,https://urlscan.io/result/01a0f9d5-672f-710a-bd01-ffa695f93801/
+2026-10-02 01:41:41 UTC,domain,wrconsultoria[.]org,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:38:26.155Z,https://urlscan.io/result/01a0f9d5-3634-761e-8740-bae0a0c01b2c/
+2026-10-02 01:41:41 UTC,ip,69.6.249[.]200,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:38:26.155Z,https://urlscan.io/result/01a0f9d5-3634-761e-8740-bae0a0c01b2c/
+2026-10-02 01:41:41 UTC,domain,ioninsurance[.]com[.]tr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:36:54.822Z,https://urlscan.io/result/01a0f9d3-d520-779d-aea3-6604bf2bd01c/
+2026-10-02 01:41:41 UTC,ip,45.158.14[.]18,Injected Host IP,ASN: AS207326 HostLAB Bilisim Teknolojileri A.S.,2026-10-01T23:36:54.822Z,https://urlscan.io/result/01a0f9d3-d520-779d-aea3-6604bf2bd01c/
+2026-10-02 01:41:41 UTC,domain,deidredevelops[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:34:06.196Z,https://urlscan.io/result/01a0f9d1-2e90-743e-ab74-be343c145c4b/
+2026-10-02 01:41:41 UTC,ip,2607:f1c0:100f:f000::2bd,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-01T23:34:06.196Z,https://urlscan.io/result/01a0f9d1-2e90-743e-ab74-be343c145c4b/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://makeverizyjar[.]info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89,TDS Staging Script,ClearFake Secret extraction,2026-10-01T23:34:06.196Z,deidredevelops.com
+2026-10-02 01:41:41 UTC,domain,degorgement-95[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:32:56.985Z,https://urlscan.io/result/01a0f9d0-3837-72af-a4a0-0c2cf1d4b08b/
+2026-10-02 01:41:41 UTC,ip,2001:41d0:301::100,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-01T23:32:56.985Z,https://urlscan.io/result/01a0f9d0-3837-72af-a4a0-0c2cf1d4b08b/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://degorgement-95[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:32:56.985Z,degorgement-95.com
+2026-10-02 01:41:41 UTC,domain,decoravix[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:30:41.835Z,https://urlscan.io/result/01a0f9ce-0c9b-76fe-90a8-ab5cd3f5b050/
+2026-10-02 01:41:41 UTC,ip,50.116.87[.]164,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:30:41.835Z,https://urlscan.io/result/01a0f9ce-0c9b-76fe-90a8-ab5cd3f5b050/
+2026-10-02 01:41:41 UTC,domain,debitcardactivation[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:29:06.283Z,https://urlscan.io/result/01a0f9cc-b727-731a-900c-2e258625cf4f/
+2026-10-02 01:41:41 UTC,ip,143.110.184[.]229,Injected Host IP,"ASN: AS14061 DigitalOcean, LLC",2026-10-01T23:29:06.283Z,https://urlscan.io/result/01a0f9cc-b727-731a-900c-2e258625cf4f/
+2026-10-02 01:41:41 UTC,domain,gray-mccoy[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:27:28.904Z,https://urlscan.io/result/01a0f9cb-3cbb-74d8-9fcb-4a56d7712ef4/
+2026-10-02 01:41:41 UTC,ip,108.167.180[.]132,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:27:28.904Z,https://urlscan.io/result/01a0f9cb-3cbb-74d8-9fcb-4a56d7712ef4/
+2026-10-02 01:41:41 UTC,domain,devians[.]de,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:26:33.426Z,https://urlscan.io/result/01a0f9ca-6395-7599-98ac-74393a62a982/
+2026-10-02 01:41:41 UTC,ip,89.110.129[.]56,Injected Host IP,ASN: AS15830 Equinix (EMEA) Acquisition Enterprises B.V.,2026-10-01T23:26:33.426Z,https://urlscan.io/result/01a0f9ca-6395-7599-98ac-74393a62a982/
+2026-10-02 01:41:41 UTC,domain,descendingthirds[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:24:49.729Z,https://urlscan.io/result/01a0f9c8-c6e5-702d-810f-f0ebb2a3b3a8/
+2026-10-02 01:41:41 UTC,ip,50.6.231[.]192,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:24:49.729Z,https://urlscan.io/result/01a0f9c8-c6e5-702d-810f-f0ebb2a3b3a8/
+2026-10-02 01:41:41 UTC,domain,diva-india[.]cz,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:24:42.083Z,https://urlscan.io/result/01a0f9c8-51b4-74fe-85ba-8a26fdeaa4e6/
+2026-10-02 01:41:41 UTC,ip,62.109.150[.]32,Injected Host IP,"ASN: AS29134 Webglobe, s.r.o.",2026-10-01T23:24:42.083Z,https://urlscan.io/result/01a0f9c8-51b4-74fe-85ba-8a26fdeaa4e6/
+2026-10-02 01:41:41 UTC,domain,dipagaletoegrelhados[.]com[.]br,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:22:58.820Z,https://urlscan.io/result/01a0f9c7-1334-74ca-af2b-bccebd47868c/
+2026-10-02 01:41:41 UTC,ip,200.187.72[.]58,Injected Host IP,ASN: AS265262 Skymail Serviços de Computação e Provimento de Inf,2026-10-01T23:22:58.820Z,https://urlscan.io/result/01a0f9c7-1334-74ca-af2b-bccebd47868c/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://dipagaletoegrelhados[.]com[.]br:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:22:58.820Z,dipagaletoegrelhados.com.br
+2026-10-02 01:41:41 UTC,domain,turbotabs[.]vet,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:22:48.055Z,https://urlscan.io/result/01a0f9c6-9266-73c4-b256-51e72b82e6a5/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]183,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:22:48.055Z,https://urlscan.io/result/01a0f9c6-9266-73c4-b256-51e72b82e6a5/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=9ae414640fb40d84df142ee4b271dfe642ae51ff6125f1ae,TDS Staging Script,ClearFake Secret extraction,2026-10-01T23:22:48.055Z,turbotabs.vet
+2026-10-02 01:41:41 UTC,domain,www[.]bmsmigration[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T23:21:51.522Z,https://urlscan.io/result/01a0f9c6-0e5d-7148-9e5f-08ee0da31f65/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]bmsmigration[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:21:51.522Z,www.bmsmigration.com
+2026-10-02 01:41:41 UTC,domain,www[.]diagazur[.]fr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:18:18.987Z,https://urlscan.io/result/01a0f9c2-cc9c-7279-929e-60e57988a71b/
+2026-10-02 01:41:41 UTC,ip,185.22.110[.]122,Injected Host IP,ASN: AS53589 PlanetHoster,2026-10-01T23:18:18.987Z,https://urlscan.io/result/01a0f9c2-cc9c-7279-929e-60e57988a71b/
+2026-10-02 01:41:41 UTC,domain,divineservicesgroup[.]co[.]uk,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:17:17.096Z,https://urlscan.io/result/01a0f9c1-e4a8-77fa-90f0-b35cc9dcc592/
+2026-10-02 01:41:41 UTC,ip,2a02:2350:5:10e:30:566d:d543:778f,Injected Host IP,ASN: AS51468 One.com A/S,2026-10-01T23:17:17.096Z,https://urlscan.io/result/01a0f9c1-e4a8-77fa-90f0-b35cc9dcc592/
+2026-10-02 01:41:41 UTC,domain,directit[.]ca,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:16:12.741Z,https://urlscan.io/result/01a0f9c0-dd9d-751a-aac0-157219db2b0e/
+2026-10-02 01:41:41 UTC,ip,159.89.125[.]151,Injected Host IP,"ASN: AS14061 DigitalOcean, LLC",2026-10-01T23:16:12.741Z,https://urlscan.io/result/01a0f9c0-dd9d-751a-aac0-157219db2b0e/
+2026-10-02 01:41:41 UTC,domain,diplomatmontessori[.]co[.]za,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:15:42.148Z,https://urlscan.io/result/01a0f9c0-3daa-75d7-b535-cafe7436f33e/
+2026-10-02 01:41:41 UTC,ip,208.97.186[.]65,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-01T23:15:42.148Z,https://urlscan.io/result/01a0f9c0-3daa-75d7-b535-cafe7436f33e/
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://browseid[.]codes/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb,TDS Staging Script,ClearFake Secret extraction,2026-10-01T23:15:42.148Z,diplomatmontessori.co.za
+2026-10-02 01:41:41 UTC,domain,djschoolscl[.]cl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:13:37.185Z,https://urlscan.io/result/01a0f9be-5e6d-727c-9497-8116375d477f/
+2026-10-02 01:41:41 UTC,ip,178.16.143[.]91,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-01T23:13:37.185Z,https://urlscan.io/result/01a0f9be-5e6d-727c-9497-8116375d477f/
+2026-10-02 01:41:41 UTC,domain,djdacel[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:13:01.774Z,https://urlscan.io/result/01a0f9bd-f995-744b-9427-aad32e296996/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]190,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:13:01.774Z,https://urlscan.io/result/01a0f9bd-f995-744b-9427-aad32e296996/
+2026-10-02 01:41:41 UTC,domain,drclean[.]properties,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:12:15.468Z,https://urlscan.io/result/01a0f9bd-49f4-7608-a1e3-18f8d8988675/
+2026-10-02 01:41:41 UTC,ip,198.23.48[.]180,Injected Host IP,ASN: AS14555 LiquidNet US LLC,2026-10-01T23:12:15.468Z,https://urlscan.io/result/01a0f9bd-49f4-7608-a1e3-18f8d8988675/
+2026-10-02 01:41:41 UTC,domain,dralexandereverest[.]blog,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:11:22.950Z,https://urlscan.io/result/01a0f9bc-76d7-7369-8dd0-d664ee43da42/
+2026-10-02 01:41:41 UTC,ip,50.6.3[.]1,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:11:22.950Z,https://urlscan.io/result/01a0f9bc-76d7-7369-8dd0-d664ee43da42/
+2026-10-02 01:41:41 UTC,domain,dotransfert[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:07:42.139Z,https://urlscan.io/result/01a0f9b9-296b-73e9-ad23-bd761c84d705/
+2026-10-02 01:41:41 UTC,ip,109.234.160[.]247,Injected Host IP,ASN: AS50474 O2SWITCH SAS,2026-10-01T23:07:42.139Z,https://urlscan.io/result/01a0f9b9-296b-73e9-ad23-bd761c84d705/
+2026-10-02 01:41:41 UTC,domain,bimbuild[.]be,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:34:03.899Z,https://urlscan.io/result/01a0fa3f-21e4-7519-ad9e-76158b24ef5d/
+2026-10-02 01:41:41 UTC,ip,185.162.30[.]169,Injected Host IP,ASN: AS34762 Combell NV,2026-10-02T01:34:03.899Z,https://urlscan.io/result/01a0fa3f-21e4-7519-ad9e-76158b24ef5d/
+2026-10-02 01:41:41 UTC,domain,brofskylawfirm[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:15:14.088Z,https://urlscan.io/result/01a0fa2d-c57f-727d-b2f1-86c67fa47b8b/
+2026-10-02 01:41:41 UTC,ip,50.6.35[.]70,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-02T01:15:14.088Z,https://urlscan.io/result/01a0fa2d-c57f-727d-b2f1-86c67fa47b8b/
+2026-10-02 01:41:41 UTC,domain,bricksstaging[.]wpenginepowered[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:13:35.471Z,https://urlscan.io/result/01a0fa2c-5cfd-7736-bf49-0bba86459ac8/
+2026-10-02 01:41:41 UTC,domain,cabinetenvergure[.]fr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T01:06:23.161Z,https://urlscan.io/result/01a0fa25-b5b9-700c-b2cf-56fa61abd0af/
+2026-10-02 01:41:41 UTC,ip,92.222.139[.]190,Injected Host IP,ASN: AS16276 OVH SAS,2026-10-02T01:06:23.161Z,https://urlscan.io/result/01a0fa25-b5b9-700c-b2cf-56fa61abd0af/
+2026-10-02 01:41:41 UTC,domain,cavanmotors[.]ie,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:39:01.970Z,https://urlscan.io/result/01a0fa0c-bff0-72d0-8c91-c74e24b8269a/
+2026-10-02 01:41:41 UTC,ip,178.18.126[.]131,Injected Host IP,ASN: AS34762 Combell NV,2026-10-02T00:39:01.970Z,https://urlscan.io/result/01a0fa0c-bff0-72d0-8c91-c74e24b8269a/
+2026-10-02 01:41:41 UTC,domain,chandapublicschool[.]com,ClickFix (ClickFix Verification Dialog),Lure: ClickFix Verification Dialog,2026-10-02T00:33:42.893Z,https://urlscan.io/result/01a0fa07-d3d2-766f-8028-4b0cc2696e4c/
+2026-10-02 01:41:41 UTC,ip,119.18.58[.]248,Injected Host IP,ASN: AS394695 PDR,2026-10-02T00:33:42.893Z,https://urlscan.io/result/01a0fa07-d3d2-766f-8028-4b0cc2696e4c/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848353,Second Stage Payload,Base64 / PowerShell decoding,2026-10-02T00:33:42.893Z,chandapublicschool.com
+2026-10-02 01:41:41 UTC,domain,chroniclestick[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:32:33.899Z,https://urlscan.io/result/01a0fa06-cb9d-772c-997a-e071d35ba42c/
+2026-10-02 01:41:41 UTC,ip,131.153.147[.]42,Injected Host IP,ASN: AS19437 SECURED SERVERS LLC,2026-10-02T00:32:33.899Z,https://urlscan.io/result/01a0fa06-cb9d-772c-997a-e071d35ba42c/
+2026-10-02 01:41:41 UTC,domain,bmioli[.]be,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:25:08.927Z,https://urlscan.io/result/01a0fa00-0858-73b8-8265-abe960449b6f/
+2026-10-02 01:41:41 UTC,ip,2001:1600:13:102:f816:3eff:feb6:dc0e,Injected Host IP,ASN: AS29222 Infomaniak,2026-10-02T00:25:08.927Z,https://urlscan.io/result/01a0fa00-0858-73b8-8265-abe960449b6f/
+2026-10-02 01:41:41 UTC,domain,cityoftheinnersun[.]nl,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:23:26.292Z,https://urlscan.io/result/01a0f9fe-74d4-71b6-9bc5-d20a9f0672c1/
+2026-10-02 01:41:41 UTC,ip,2a01:7c8:f0:10a2::9233:5483,Injected Host IP,ASN: AS34762 Combell NV,2026-10-02T00:23:26.292Z,https://urlscan.io/result/01a0f9fe-74d4-71b6-9bc5-d20a9f0672c1/
+2026-10-02 01:41:41 UTC,domain,colegioandresbello[.]pe,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:21:10.783Z,https://urlscan.io/result/01a0f9fc-630e-701f-881e-b1cb1fc9bcc5/
+2026-10-02 01:41:41 UTC,ip,69.174.52[.]66,Injected Host IP,"ASN: AS54641 InMotion Hosting, Inc.",2026-10-02T00:21:10.783Z,https://urlscan.io/result/01a0f9fc-630e-701f-881e-b1cb1fc9bcc5/
+2026-10-02 01:41:41 UTC,domain,coffeemachinesservices[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:20:36.953Z,https://urlscan.io/result/01a0f9fb-b3ad-7269-8ee9-cc7776fc3ceb/
+2026-10-02 01:41:41 UTC,domain,comfortprollc[.]net,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:09:29.892Z,https://urlscan.io/result/01a0f9f1-89ac-76ea-8233-f9ee7d617cc4/
+2026-10-02 01:41:41 UTC,ip,208.109.245[.]177,Injected Host IP,"ASN: AS398101 GoDaddy.com, LLC",2026-10-02T00:09:29.892Z,https://urlscan.io/result/01a0f9f1-89ac-76ea-8233-f9ee7d617cc4/
+2026-10-02 01:41:41 UTC,domain,www[.]consorzioluna[.]it,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-02T00:03:16.568Z,https://urlscan.io/result/01a0f9eb-fe44-778a-89da-152eb47be7ea/
+2026-10-02 01:41:41 UTC,ip,89.46.109[.]16,Injected Host IP,ASN: AS31034 Aruba S.p.A.,2026-10-02T00:03:16.568Z,https://urlscan.io/result/01a0f9eb-fe44-778a-89da-152eb47be7ea/
+2026-10-02 01:41:41 UTC,domain,mastermindsdrivinginstitute[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-02T00:01:25.698Z,https://urlscan.io/result/01a0f9ea-41e2-75de-92ce-ec23f1e0c75c/
+2026-10-02 01:41:41 UTC,ip,2a02:4780:11:2092:0:25f7:756c:2,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-02T00:01:25.698Z,https://urlscan.io/result/01a0f9ea-41e2-75de-92ce-ec23f1e0c75c/
+2026-10-02 01:41:41 UTC,domain,creterium[.]gr,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:58:24.342Z,https://urlscan.io/result/01a0f9e7-88ae-7242-b76d-0d07790ecd2e/
+2026-10-02 01:41:41 UTC,ip,38.242.138[.]211,Injected Host IP,ASN: AS51167 Contabo GmbH,2026-10-01T23:58:24.342Z,https://urlscan.io/result/01a0f9e7-88ae-7242-b76d-0d07790ecd2e/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://creterium[.]gr:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:58:24.342Z,creterium.gr
+2026-10-02 01:41:41 UTC,domain,cuddlecrochet[.]site,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:45:54.248Z,https://urlscan.io/result/01a0f9db-e96a-7015-81de-b17bda83d880/
+2026-10-02 01:41:41 UTC,ip,104.21.67[.]90,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-01T23:45:54.248Z,https://urlscan.io/result/01a0f9db-e96a-7015-81de-b17bda83d880/
+2026-10-02 01:41:41 UTC,domain,wemovetucson[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:38:00.410Z,https://urlscan.io/result/01a0f9d4-d0d7-70b9-8b3d-827fcc068131/
+2026-10-02 01:41:41 UTC,ip,198.71.233[.]156,Injected Host IP,"ASN: AS398787 GoDaddy.com, LLC",2026-10-01T23:38:00.410Z,https://urlscan.io/result/01a0f9d4-d0d7-70b9-8b3d-827fcc068131/
+2026-10-02 01:41:41 UTC,domain,wanasinplace[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:37:36.441Z,https://urlscan.io/result/01a0f9d4-44f2-7599-984e-ca4ab56d7a05/
+2026-10-02 01:41:41 UTC,ip,150.107.31[.]51,Injected Host IP,ASN: AS131447 POPIDC powered by CSLoxinfo,2026-10-01T23:37:36.441Z,https://urlscan.io/result/01a0f9d4-44f2-7599-984e-ca4ab56d7a05/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://wanasinplace[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:37:36.441Z,wanasinplace.com
+2026-10-02 01:41:41 UTC,domain,www[.]tuideatunegocio[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:36:55.190Z,https://urlscan.io/result/01a0f9d3-b4e2-702e-8435-22d645689d1f/
+2026-10-02 01:41:41 UTC,ip,81.88.48[.]79,Injected Host IP,ASN: AS39729 REGISTER S.P.A.,2026-10-01T23:36:55.190Z,https://urlscan.io/result/01a0f9d3-b4e2-702e-8435-22d645689d1f/
+2026-10-02 01:41:41 UTC,domain,theheritagehouse[.]com[.]au,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:35:50.435Z,https://urlscan.io/result/01a0f9d2-cad7-718d-a6d3-7473d7a56305/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]180,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:35:50.435Z,https://urlscan.io/result/01a0f9d2-cad7-718d-a6d3-7473d7a56305/
+2026-10-02 01:41:41 UTC,domain,delicacyseafood[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:35:13.901Z,https://urlscan.io/result/01a0f9d2-5302-722d-a218-3c50f05fb5d5/
+2026-10-02 01:41:41 UTC,ip,199.188.200[.]18,Injected Host IP,"ASN: AS22612 Namecheap, Inc.",2026-10-01T23:35:13.901Z,https://urlscan.io/result/01a0f9d2-5302-722d-a218-3c50f05fb5d5/
+2026-10-02 01:41:41 UTC,domain,radhetourandtravels[.]in,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:33:59.389Z,https://urlscan.io/result/01a0f9d1-1347-730a-b0fa-e49f0b1cb040/
+2026-10-02 01:41:41 UTC,ip,103.211.202[.]93,Injected Host IP,ASN: AS151774 Cloudlinks Technologies Pvt Ltd,2026-10-01T23:33:59.389Z,https://urlscan.io/result/01a0f9d1-1347-730a-b0fa-e49f0b1cb040/
+2026-10-02 01:41:41 UTC,domain,pinnacleradio[.]net,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T23:33:16.078Z,https://urlscan.io/result/01a0f9d0-6a5e-7277-a4f7-bfe154f9d0f0/
+2026-10-02 01:41:41 UTC,ip,67.20.76[.]83,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:33:16.078Z,https://urlscan.io/result/01a0f9d0-6a5e-7277-a4f7-bfe154f9d0f0/
+2026-10-02 01:41:41 UTC,domain,musical33[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:32:18.906Z,https://urlscan.io/result/01a0f9cf-aa01-7512-ae87-32882a6f305e/
+2026-10-02 01:41:41 UTC,ip,82.98.166[.]114,Injected Host IP,ASN: AS42612 DinaHosting S.L.,2026-10-01T23:32:18.906Z,https://urlscan.io/result/01a0f9cf-aa01-7512-ae87-32882a6f305e/
+2026-10-02 01:41:41 UTC,domain,mikaelalauren[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:31:51.375Z,https://urlscan.io/result/01a0f9cf-3cf4-777c-b6d7-91266849c7a0/
+2026-10-02 01:41:41 UTC,domain,mbccareagency[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:31:31.172Z,https://urlscan.io/result/01a0f9ce-e2a9-7779-b514-1dc816453461/
+2026-10-02 01:41:41 UTC,ip,50.6.3[.]183,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:31:31.172Z,https://urlscan.io/result/01a0f9ce-e2a9-7779-b514-1dc816453461/
+2026-10-02 01:41:41 UTC,domain,www[.]jtcblenders[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T23:29:52.937Z,https://urlscan.io/result/01a0f9cd-4ba0-77dd-88f9-a56453a8127b/
+2026-10-02 01:41:41 UTC,domain,jbdesigninc[.]ca,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:29:03.175Z,https://urlscan.io/result/01a0f9cc-a8fd-7436-abe5-d9298c30bcf7/
+2026-10-02 01:41:41 UTC,ip,2605:6f00:1234:700:1::af,Injected Host IP,ASN: AS40092 HostPapa,2026-10-01T23:29:03.175Z,https://urlscan.io/result/01a0f9cc-a8fd-7436-abe5-d9298c30bcf7/
+2026-10-02 01:41:41 UTC,domain,iotglobal[.]agency,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:28:41.761Z,https://urlscan.io/result/01a0f9cc-4bf7-736b-8088-a65caaf581be/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]86,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:28:41.761Z,https://urlscan.io/result/01a0f9cc-4bf7-736b-8088-a65caaf581be/
+2026-10-02 01:41:41 UTC,domain,grupodacol[.]com[.]br,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:27:10.057Z,https://urlscan.io/result/01a0f9ca-e55e-70a8-b6e5-8d0d3f9e5a20/
+2026-10-02 01:41:41 UTC,ip,162.241.3[.]46,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-10-01T23:27:10.057Z,https://urlscan.io/result/01a0f9ca-e55e-70a8-b6e5-8d0d3f9e5a20/
+2026-10-02 01:41:41 UTC,domain,globalsafetytrainers[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:26:37.140Z,https://urlscan.io/result/01a0f9ca-65a9-778e-92ca-11925edd63ee/
+2026-10-02 01:41:41 UTC,ip,66.102.133[.]222,Injected Host IP,ASN: AS40092 HostPapa,2026-10-01T23:26:37.140Z,https://urlscan.io/result/01a0f9ca-65a9-778e-92ca-11925edd63ee/
+2026-10-02 01:41:41 UTC,domain,engetecengenharia[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T23:25:59.767Z,https://urlscan.io/result/01a0f9c9-d620-718e-98f7-00d10fbaa4f8/
+2026-10-02 01:41:41 UTC,ip,108.179.253[.]84,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:25:59.767Z,https://urlscan.io/result/01a0f9c9-d620-718e-98f7-00d10fbaa4f8/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848285,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T23:25:59.767Z,engetecengenharia.com
+2026-10-02 01:41:41 UTC,domain,drlendino[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:25:29.008Z,https://urlscan.io/result/01a0f9c9-6508-7512-8dfe-faa921768594/
+2026-10-02 01:41:41 UTC,ip,192.124.249[.]35,Injected Host IP,ASN: AS30148 Sucuri,2026-10-01T23:25:29.008Z,https://urlscan.io/result/01a0f9c9-6508-7512-8dfe-faa921768594/
+2026-10-02 01:41:41 UTC,domain,dcskinandhair[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:23:52.067Z,https://urlscan.io/result/01a0f9c7-e836-70e9-ba28-62c3e18b22a5/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]140,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:23:52.067Z,https://urlscan.io/result/01a0f9c7-e836-70e9-ba28-62c3e18b22a5/
+2026-10-02 01:41:41 UTC,domain,cardiostudio[.]mx,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:22:46.066Z,https://urlscan.io/result/01a0f9c6-8715-7340-83c0-624151f11cea/
+2026-10-02 01:41:41 UTC,ip,162.241.62[.]136,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:22:46.066Z,https://urlscan.io/result/01a0f9c6-8715-7340-83c0-624151f11cea/
+2026-10-02 01:41:41 UTC,domain,www[.]baodhaka[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:21:03.651Z,https://urlscan.io/result/01a0f9c5-3ca9-71bf-aab8-a0d7cd7fe3e5/
+2026-10-02 01:41:41 UTC,domain,backyarddream[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T23:20:35.842Z,https://urlscan.io/result/01a0f9c4-f3ba-7018-abf3-5d0b642cf41d/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]138,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T23:20:35.842Z,https://urlscan.io/result/01a0f9c4-f3ba-7018-abf3-5d0b642cf41d/
+2026-10-02 01:41:41 UTC,domain,almhfwzh[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:20:09.829Z,https://urlscan.io/result/01a0f9c4-8ca2-70a1-beb3-ec6d812a2540/
+2026-10-02 01:41:41 UTC,ip,144.76.165[.]139,Injected Host IP,ASN: AS24940 Hetzner Online GmbH,2026-10-01T23:20:09.829Z,https://urlscan.io/result/01a0f9c4-8ca2-70a1-beb3-ec6d812a2540/
+2026-10-02 01:41:41 UTC,domain,agcity[.]com[.]br,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:19:31.321Z,https://urlscan.io/result/01a0f9c3-ef3d-773a-91d6-633eb618f947/
+2026-10-02 01:41:41 UTC,ip,108.179.193[.]139,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T23:19:31.321Z,https://urlscan.io/result/01a0f9c3-ef3d-773a-91d6-633eb618f947/
+2026-10-02 01:41:41 UTC,domain,www[.]drandrew[.]hk,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T23:11:47.715Z,https://urlscan.io/result/01a0f9bc-d8f5-706b-a7ad-6e643613e461/
+2026-10-02 01:41:41 UTC,ip,139.162.6[.]201,Injected Host IP,ASN: AS63949 Akamai Connected Cloud,2026-10-01T23:11:47.715Z,https://urlscan.io/result/01a0f9bc-d8f5-706b-a7ad-6e643613e461/
+2026-10-02 01:41:41 UTC,domain,www[.]sds-tech[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:50.364Z,https://urlscan.io/result/01a0f9b0-e93a-70a9-be2f-b086fb169d6e/
+2026-10-02 01:41:41 UTC,ip,80.74.140[.]2,Injected Host IP,ASN: AS21069 METANET AG,2026-10-01T22:58:50.364Z,https://urlscan.io/result/01a0f9b0-e93a-70a9-be2f-b086fb169d6e/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848258,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:58:50.364Z,www.sds-tech.com
+2026-10-02 01:41:41 UTC,domain,www[.]smartcard-nfc[.]de,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:34.093Z,https://urlscan.io/result/01a0f9b0-6455-732e-9880-6f19109f58cd/
+2026-10-02 01:41:41 UTC,ip,5.9.203[.]242,Injected Host IP,ASN: AS24940 Hetzner Online GmbH,2026-10-01T22:58:34.093Z,https://urlscan.io/result/01a0f9b0-6455-732e-9880-6f19109f58cd/
+2026-10-02 01:41:41 UTC,domain,sidero[.]com[.]pl,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:34.034Z,https://urlscan.io/result/01a0f9b0-c62a-7419-a630-ed1c78548db9/
+2026-10-02 01:41:41 UTC,ip,77.55.252[.]137,Injected Host IP,ASN: AS15967 Nazwa.pl Sp.z.o.o.,2026-10-01T22:58:34.034Z,https://urlscan.io/result/01a0f9b0-c62a-7419-a630-ed1c78548db9/
+2026-10-02 01:41:41 UTC,domain,shibuu[.]jp,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:30.177Z,https://urlscan.io/result/01a0f9b0-b70a-7710-a2de-1ba8d0772244/
+2026-10-02 01:41:41 UTC,ip,202.233.67[.]157,Injected Host IP,ASN: AS131965 XServer Cloud Inc.,2026-10-01T22:58:30.177Z,https://urlscan.io/result/01a0f9b0-b70a-7710-a2de-1ba8d0772244/
+2026-10-02 01:41:41 UTC,domain,sevelsc[.]com[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:27.834Z,https://urlscan.io/result/01a0f9b0-a532-77ee-9b75-75b156e662c6/
+2026-10-02 01:41:41 UTC,ip,108.179.193[.]44,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T22:58:27.834Z,https://urlscan.io/result/01a0f9b0-a532-77ee-9b75-75b156e662c6/
+2026-10-02 01:41:41 UTC,domain,www[.]thebest4d[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:24.292Z,https://urlscan.io/result/01a0f9b0-5693-742d-82be-8800866a51ff/
+2026-10-02 01:41:41 UTC,ip,69.163.238[.]64,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-01T22:58:24.292Z,https://urlscan.io/result/01a0f9b0-5693-742d-82be-8800866a51ff/
+2026-10-02 01:41:41 UTC,domain,www[.]shiningstarsacademypk[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:23.539Z,https://urlscan.io/result/01a0f9b0-9efc-73c3-a6d4-f2f78ee3175e/
+2026-10-02 01:41:41 UTC,ip,5.134.14[.]66,Injected Host IP,ASN: AS34282 Team Blue Carrier Limited,2026-10-01T22:58:23.539Z,https://urlscan.io/result/01a0f9b0-9efc-73c3-a6d4-f2f78ee3175e/
+2026-10-02 01:41:41 UTC,domain,sommerlawfirm[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:17.474Z,https://urlscan.io/result/01a0f9b0-7690-70c6-b2ff-b0adfe36b231/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]72,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T22:58:17.474Z,https://urlscan.io/result/01a0f9b0-7690-70c6-b2ff-b0adfe36b231/
+2026-10-02 01:41:41 UTC,domain,www[.]spd-schwalmtal[.]de,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:58:16.553Z,https://urlscan.io/result/01a0f9b0-7b55-771d-ac36-02074948efb5/
+2026-10-02 01:41:41 UTC,ip,2a01:238:20a:202:1074::,Injected Host IP,ASN: AS6724 Strato GmbH,2026-10-01T22:58:16.553Z,https://urlscan.io/result/01a0f9b0-7b55-771d-ac36-02074948efb5/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]spd-schwalmtal[.]de/wp-admin/admin-ajax.php,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:58:16.553Z,www.spd-schwalmtal.de
+2026-10-02 01:41:41 UTC,domain,tawatson[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:57.929Z,https://urlscan.io/result/01a0f9b0-2b7a-713d-87cc-85d0a7226abf/
+2026-10-02 01:41:41 UTC,ip,160.153.0[.]159,Injected Host IP,"ASN: AS209242 Cloudflare London, LLC",2026-10-01T22:57:57.929Z,https://urlscan.io/result/01a0f9b0-2b7a-713d-87cc-85d0a7226abf/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://tawatson[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:57.929Z,tawatson.com
+2026-10-02 01:41:41 UTC,domain,tapajossolar[.]com[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:53.875Z,https://urlscan.io/result/01a0f9b0-2563-75e1-a675-5a3d8a8d3b0e/
+2026-10-02 01:41:41 UTC,ip,192.185.211[.]176,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T22:57:53.875Z,https://urlscan.io/result/01a0f9b0-2563-75e1-a675-5a3d8a8d3b0e/
+2026-10-02 01:41:41 UTC,domain,sugarcloud-digital[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:51.450Z,https://urlscan.io/result/01a0f9b0-0ecf-7796-8f02-b9af697d9b26/
+2026-10-02 01:41:41 UTC,ip,192.185.96[.]228,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T22:57:51.450Z,https://urlscan.io/result/01a0f9b0-0ecf-7796-8f02-b9af697d9b26/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848257,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:51.450Z,sugarcloud-digital.com
+2026-10-02 01:41:41 UTC,domain,dreamziot[.]com,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T22:57:46.354Z,https://urlscan.io/result/01a0f9b0-0aa6-746b-bb8b-6824c08490c0/
+2026-10-02 01:41:41 UTC,ip,54.148.226[.]228,Injected Host IP,"ASN: AS16509 Amazon.com, Inc.",2026-10-01T22:57:46.354Z,https://urlscan.io/result/01a0f9b0-0aa6-746b-bb8b-6824c08490c0/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://dreamziot[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:46.354Z,dreamziot.com
+2026-10-02 01:41:41 UTC,domain,www[.]suministroelectrico[.]com[.]mx,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:46.014Z,https://urlscan.io/result/01a0f9b0-02da-7278-95b0-e5627996e94e/
+2026-10-02 01:41:41 UTC,ip,38.124.220[.]170,Injected Host IP,ASN: AS270179 PC ONLINE,2026-10-01T22:57:46.014Z,https://urlscan.io/result/01a0f9b0-02da-7278-95b0-e5627996e94e/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://www[.]suministroelectrico[.]com[.]mx:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:46.014Z,www.suministroelectrico.com.mx
+2026-10-02 01:41:41 UTC,domain,timelapsecafe[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:35.547Z,https://urlscan.io/result/01a0f9af-7f77-7653-ad5e-97a7544f83ef/
+2026-10-02 01:41:41 UTC,ip,91.234.52[.]42,Injected Host IP,ASN: AS51431 Rasaneh Avabarid Private Joint Stock Company,2026-10-01T22:57:35.547Z,https://urlscan.io/result/01a0f9af-7f77-7653-ad5e-97a7544f83ef/
+2026-10-02 01:41:41 UTC,domain,trilexsecurity[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:32.652Z,https://urlscan.io/result/01a0f9af-c7ea-72ab-818d-af2ee5594bf4/
+2026-10-02 01:41:41 UTC,ip,45.40.144[.]49,Injected Host IP,"ASN: AS398787 GoDaddy.com, LLC",2026-10-01T22:57:32.652Z,https://urlscan.io/result/01a0f9af-c7ea-72ab-818d-af2ee5594bf4/
+2026-10-02 01:41:41 UTC,domain,www[.]whiskies[.]hk,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:32.246Z,https://urlscan.io/result/01a0f9af-5412-724e-8bcd-63f3f5703578/
+2026-10-02 01:41:41 UTC,ip,183.178.182[.]198,Injected Host IP,ASN: AS10103 HK Broadband Network Ltd.,2026-10-01T22:57:32.246Z,https://urlscan.io/result/01a0f9af-5412-724e-8bcd-63f3f5703578/
+2026-10-02 01:41:41 UTC,domain,transportesbc[.]com[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:28.023Z,https://urlscan.io/result/01a0f9af-b05e-71eb-87c3-cc9a05b06c11/
+2026-10-02 01:41:41 UTC,ip,148.72.144[.]142,Injected Host IP,ASN: AS30083 velia.net,2026-10-01T22:57:28.023Z,https://urlscan.io/result/01a0f9af-b05e-71eb-87c3-cc9a05b06c11/
+2026-10-02 01:41:41 UTC,domain,travelista[.]it,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:27.830Z,https://urlscan.io/result/01a0f9af-c1d9-7290-a1b6-c7bbdb8886cc/
+2026-10-02 01:41:41 UTC,ip,136.243.160[.]57,Injected Host IP,ASN: AS24940 Hetzner Online GmbH,2026-10-01T22:57:27.830Z,https://urlscan.io/result/01a0f9af-c1d9-7290-a1b6-c7bbdb8886cc/
+2026-10-02 01:41:41 UTC,domain,www[.]tourisminbarcelona[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:27.306Z,https://urlscan.io/result/01a0f9af-a9d3-750e-870a-e87171dfae2a/
+2026-10-02 01:41:41 UTC,ip,82.223.123[.]164,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-01T22:57:27.306Z,https://urlscan.io/result/01a0f9af-a9d3-750e-870a-e87171dfae2a/
+2026-10-02 01:41:41 UTC,domain,ecogreengrant[.]co[.]uk,ClearFake / ClickFix Lure Page,urlscan telemetry,2026-10-01T22:57:21.582Z,https://urlscan.io/result/01a0f9af-9dab-76ba-8992-bfefe09e72b9/
+2026-10-02 01:41:41 UTC,ip,92.113.16[.]130,Injected Host IP,ASN: AS47583 Hostinger International Limited,2026-10-01T22:57:21.582Z,https://urlscan.io/result/01a0f9af-9dab-76ba-8992-bfefe09e72b9/
+2026-10-02 01:41:41 UTC,domain,www[.]tmrautofficina[.]it,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:19.029Z,https://urlscan.io/result/01a0f9af-7961-7723-9b97-02c8ddb7e4da/
+2026-10-02 01:41:41 UTC,ip,89.46.108[.]69,Injected Host IP,ASN: AS31034 Aruba S.p.A.,2026-10-01T22:57:19.029Z,https://urlscan.io/result/01a0f9af-7961-7723-9b97-02c8ddb7e4da/
+2026-10-02 01:41:41 UTC,domain,www[.]theozonecompany[.]co[.]za,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:10.201Z,https://urlscan.io/result/01a0f9af-65b9-72bd-a112-19d62f98fb8b/
+2026-10-02 01:41:41 UTC,ip,197.221.2[.]59,Injected Host IP,ASN: AS37153 Xneelo (Pty) Ltd,2026-10-01T22:57:10.201Z,https://urlscan.io/result/01a0f9af-65b9-72bd-a112-19d62f98fb8b/
+2026-10-02 01:41:41 UTC,domain,thewombstory[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:08.990Z,https://urlscan.io/result/01a0f9af-7434-73c2-82a8-e43c0765466d/
+2026-10-02 01:41:41 UTC,ip,162.4.73[.]5,Injected Host IP,ASN: AS154650 SKYAERO PRIVATE LIMITED,2026-10-01T22:57:08.990Z,https://urlscan.io/result/01a0f9af-7434-73c2-82a8-e43c0765466d/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://thewombstory[.]com:443,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:08.990Z,thewombstory.com
+2026-10-02 01:41:41 UTC,domain,www[.]waterplasticfree[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:04.891Z,https://urlscan.io/result/01a0f9af-4bcc-72a6-980b-d436a95e1747/
+2026-10-02 01:41:41 UTC,ip,185.18.232[.]77,Injected Host IP,ASN: AS209634 Explorer Servizi S.R.L,2026-10-01T22:57:04.891Z,https://urlscan.io/result/01a0f9af-4bcc-72a6-980b-d436a95e1747/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848256,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:04.891Z,www.waterplasticfree.com
+2026-10-02 01:41:41 UTC,domain,therightchairs[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:02.366Z,https://urlscan.io/result/01a0f9af-5eff-71c8-bf50-306826ad9975/
+2026-10-02 01:41:41 UTC,ip,172.67.172[.]170,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-01T22:57:02.366Z,https://urlscan.io/result/01a0f9af-5eff-71c8-bf50-306826ad9975/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_indigo.svg\,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:02.366Z,therightchairs.com
+2026-10-02 01:41:41 UTC,payload_url,hxxps://cdn-assets[.]affirm[.]com/upfunnel/assets/zero_percent_badge_icon_black.svg\,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:57:02.366Z,therightchairs.com
+2026-10-02 01:41:41 UTC,domain,villaluzeco[.]info,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:57:01.334Z,https://urlscan.io/result/01a0f9af-2ea6-70c6-9bf4-8915499b463e/
+2026-10-02 01:41:41 UTC,ip,37.27.67[.]172,Injected Host IP,ASN: AS24940 Hetzner Online GmbH,2026-10-01T22:57:01.334Z,https://urlscan.io/result/01a0f9af-2ea6-70c6-9bf4-8915499b463e/
+2026-10-02 01:41:41 UTC,domain,victormendoza[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:57.582Z,https://urlscan.io/result/01a0f9af-28e8-765a-bbc3-358700d08f82/
+2026-10-02 01:41:41 UTC,ip,192.254.232[.]149,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T22:56:57.582Z,https://urlscan.io/result/01a0f9af-28e8-765a-bbc3-358700d08f82/
+2026-10-02 01:41:41 UTC,domain,zagrebnews[.]hr,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:57.115Z,https://urlscan.io/result/01a0f9ae-d816-70f7-be41-db39d469e806/
+2026-10-02 01:41:41 UTC,ip,104.21.71[.]83,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-01T22:56:57.115Z,https://urlscan.io/result/01a0f9ae-d816-70f7-be41-db39d469e806/
+2026-10-02 01:41:41 UTC,domain,volantecars[.]pl,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:52.285Z,https://urlscan.io/result/01a0f9af-3aed-746b-8e3a-bb022c8c1ff5/
+2026-10-02 01:41:41 UTC,ip,185.242.133[.]68,Injected Host IP,ASN: AS50840 Marek Bajerski trading as HITME.PL,2026-10-01T22:56:52.285Z,https://urlscan.io/result/01a0f9af-3aed-746b-8e3a-bb022c8c1ff5/
+2026-10-02 01:41:41 UTC,domain,uno[.]arq[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:48.713Z,https://urlscan.io/result/01a0f9af-0feb-72bb-9fe2-42ae308a907e/
+2026-10-02 01:41:41 UTC,ip,2606:4700:3031::6815:2ca3,Injected Host IP,"ASN: AS13335 Cloudflare, Inc.",2026-10-01T22:56:48.713Z,https://urlscan.io/result/01a0f9af-0feb-72bb-9fe2-42ae308a907e/
+2026-10-02 01:41:41 UTC,domain,venim[.]it,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:45.493Z,https://urlscan.io/result/01a0f9af-14fb-7789-8d91-6c5e11e140bb/
+2026-10-02 01:41:41 UTC,ip,185.81.0[.]109,Injected Host IP,ASN: AS52030 Server Plan S.r.l.,2026-10-01T22:56:45.493Z,https://urlscan.io/result/01a0f9af-14fb-7789-8d91-6c5e11e140bb/
+2026-10-02 01:41:41 UTC,domain,vicentinadvogados[.]adv[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:45.208Z,https://urlscan.io/result/01a0f9af-1bf6-729e-9475-334a30089b8c/
+2026-10-02 01:41:41 UTC,domain,tubateria24h[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:44.011Z,https://urlscan.io/result/01a0f9ae-e483-742f-b8aa-6fb9fbd69474/
+2026-10-02 01:41:41 UTC,ip,217.160.0[.]189,Injected Host IP,ASN: AS8560 IONOS SE,2026-10-01T22:56:44.011Z,https://urlscan.io/result/01a0f9ae-e483-742f-b8aa-6fb9fbd69474/
+2026-10-02 01:41:41 UTC,domain,yunusemreotomotiv[.]com[.]tr,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:40.640Z,https://urlscan.io/result/01a0f9ae-ad1b-710a-ac02-38ba58934504/
+2026-10-02 01:41:41 UTC,ip,5.250.254[.]84,Injected Host IP,ASN: AS43260 DGN TEKNOLOJI A.S.,2026-10-01T22:56:40.640Z,https://urlscan.io/result/01a0f9ae-ad1b-710a-ac02-38ba58934504/
+2026-10-02 01:41:41 UTC,domain,ultratrijumfvijesti[.]info,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:38.878Z,https://urlscan.io/result/01a0f9ae-fb7a-75b2-a01d-d10102daea60/
+2026-10-02 01:41:41 UTC,ip,110.172.148[.]53,Injected Host IP,ASN: AS40994 Hohl IT e.U.,2026-10-01T22:56:38.878Z,https://urlscan.io/result/01a0f9ae-fb7a-75b2-a01d-d10102daea60/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://ultratrijumfvijesti[.]info/,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T22:56:38.878Z,ultratrijumfvijesti.info
+2026-10-02 01:41:41 UTC,domain,www[.]turismotravesiarukamanque[.]cl,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:35.196Z,https://urlscan.io/result/01a0f9ae-ea74-729b-b3cd-fbc8cf730bee/
+2026-10-02 01:41:41 UTC,ip,173.236.140[.]113,Injected Host IP,"ASN: AS26347 New Dream Network, LLC",2026-10-01T22:56:35.196Z,https://urlscan.io/result/01a0f9ae-ea74-729b-b3cd-fbc8cf730bee/
+2026-10-02 01:41:41 UTC,domain,zaeemtravels[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:34.295Z,https://urlscan.io/result/01a0f9ae-ba45-70ae-9f4c-7c884551a986/
+2026-10-02 01:41:41 UTC,ip,66.96.147[.]110,Injected Host IP,"ASN: BIZLAND-SD - Newfold Digital, Inc., US",2026-10-01T22:56:34.295Z,https://urlscan.io/result/01a0f9ae-ba45-70ae-9f4c-7c884551a986/
+2026-10-02 01:41:41 UTC,domain,yameneekhalta[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:26.981Z,https://urlscan.io/result/01a0f9ae-c4a7-7653-ba05-11de5fa9e026/
+2026-10-02 01:41:41 UTC,ip,104.21.56[.]49,Injected Host IP,"ASN: CLOUDFLARENET - Cloudflare, Inc., US",2026-10-01T22:56:26.981Z,https://urlscan.io/result/01a0f9ae-c4a7-7653-ba05-11de5fa9e026/
+2026-10-02 01:41:41 UTC,c2_url,hxxps://abcsgftr[.]cc,Resolved ClearFake C2,Blockchain eth_call extraction,2026-10-01T22:56:26.981Z,yameneekhalta.com
+2026-10-02 01:41:41 UTC,delivery_url,hxxps://abcsgftr[.]cc/api.php?s=531ce2f2fa18aeadcf7ac66309d8d94a2be425a1760df12d,TDS Staging Script,ClearFake Secret extraction,2026-10-01T22:56:26.981Z,yameneekhalta.com
+2026-10-02 01:41:41 UTC,domain,yegoyogarwanda[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:15.140Z,https://urlscan.io/result/01a0f9ae-a838-735a-a453-e4c6c459f978/
+2026-10-02 01:41:41 UTC,ip,198.71.233[.]238,Injected Host IP,"ASN: GO-DADDY-COM-LLC - GoDaddy.com, LLC, US",2026-10-01T22:56:15.140Z,https://urlscan.io/result/01a0f9ae-a838-735a-a453-e4c6c459f978/
+2026-10-02 01:41:41 UTC,domain,www[.]zahnarzt-baradaran[.]de,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:14.722Z,https://urlscan.io/result/01a0f9ae-a222-77ad-99ef-887d91a98159/
+2026-10-02 01:41:41 UTC,ip,46.243.95[.]187,Injected Host IP,"ASN: ONE-NETWORK dogado GmbH, DE",2026-10-01T22:56:14.722Z,https://urlscan.io/result/01a0f9ae-a222-77ad-99ef-887d91a98159/
+2026-10-02 01:41:41 UTC,domain,zumaya[.]mx,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:13.394Z,https://urlscan.io/result/01a0f9ae-822d-746c-a7d6-b0388ea22343/
+2026-10-02 01:41:41 UTC,ip,162.240.232[.]232,Injected Host IP,"ASN: ORACLE-BMC-31898 - Oracle Corporation, US",2026-10-01T22:56:13.394Z,https://urlscan.io/result/01a0f9ae-822d-746c-a7d6-b0388ea22343/
+2026-10-02 01:41:41 UTC,domain,www[.]ziemons-shk[.]de,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:11.033Z,https://urlscan.io/result/01a0f9ae-8f14-70fd-9e99-9ddf0bc90ec9/
+2026-10-02 01:41:41 UTC,ip,2a02:2350:5:10b:33:7672:5524:fc7b,Injected Host IP,ASN: AS51468 One.com A/S,2026-10-01T22:56:11.033Z,https://urlscan.io/result/01a0f9ae-8f14-70fd-9e99-9ddf0bc90ec9/
+2026-10-02 01:41:41 UTC,domain,znaktowarowy[.]com,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:56:07.113Z,https://urlscan.io/result/01a0f9ae-8873-70ce-ada7-bb6f62ffb3d0/
+2026-10-02 01:41:41 UTC,ip,185.208.164[.]145,Injected Host IP,ASN: AS41079 Cyber_Folks S.A.,2026-10-01T22:56:07.113Z,https://urlscan.io/result/01a0f9ae-8873-70ce-ada7-bb6f62ffb3d0/
+2026-10-02 01:41:41 UTC,domain,ramadatour[.]be,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T22:25:28.882Z,https://urlscan.io/result/01a0f992-4599-702f-9e7c-7336f3b88ec0/
+2026-10-02 01:41:41 UTC,ip,2a00:7ee0:8:0:3:3217:0:21c,Injected Host IP,ASN: AS210403 Groupe LWS SARL,2026-10-01T22:25:28.882Z,https://urlscan.io/result/01a0f992-4599-702f-9e7c-7336f3b88ec0/
+2026-10-02 01:41:41 UTC,domain,www[.]torpedine[.]it,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T21:37:37.135Z,https://urlscan.io/result/01a0f966-ab0d-7328-baab-8132caad46e7/
+2026-10-02 01:41:41 UTC,ip,2a00:6d40:4:1::c266:7,Injected Host IP,ASN: AS31034 Aruba S.p.A.,2026-10-01T21:37:37.135Z,https://urlscan.io/result/01a0f966-ab0d-7328-baab-8132caad46e7/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848177,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T21:37:37.135Z,www.torpedine.it
+2026-10-02 01:41:41 UTC,domain,tokfrioarcondicionado[.]com[.]br,ClickFix (Fake Microsoft Account Verification),Lure: Fake Microsoft Account Verification,2026-10-01T21:36:07.333Z,https://urlscan.io/result/01a0f965-3bd7-7213-8d54-528e85a7b4d2/
+2026-10-02 01:41:41 UTC,ip,192.185.223[.]135,Injected Host IP,ASN: AS31898 Oracle Corporation,2026-10-01T21:36:07.333Z,https://urlscan.io/result/01a0f965-3bd7-7213-8d54-528e85a7b4d2/
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848176,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T21:36:07.333Z,tokfrioarcondicionado.com.br
+2026-10-02 01:41:41 UTC,payload_url,hxxps://interseq[.]at/lom_p2/api?_v=29848175,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01T21:36:07.333Z,tokfrioarcondicionado.com.br
+2026-10-02 01:41:41 UTC,domain,185[.]166[.]153[.]194,"URLhaus: malware_download (6k,dropped-by-Stealc)",urlscan telemetry,2026-10-01 13:16:14,https://urlhaus.abuse.ch/url/3926322/
+2026-10-02 01:41:41 UTC,ip,185.166.153[.]194,Injected Host IP,ASN: AS212171 Local NCC Ltd.,2026-10-01 13:16:14,https://urlhaus.abuse.ch/url/3926322/
+2026-10-02 01:41:41 UTC,payload_url,hxxp://185[.]166[.]153[.]194/clip.exe,Second Stage Payload,Base64 / PowerShell decoding,2026-10-01 13:16:14,185.166.153.194

@@ -1,5 +1,5 @@
 # 📘 Detection Techniques & Pattern Catalog
-**Last Updated:** `2026-10-01 12:12:44 UTC`
+**Last Updated:** `2026-10-02 01:36:17 UTC`
 
 This catalog tracks every unique hunting query, obfuscation technique, C2 mechanism, and lure pattern observed by ClickFix-Tracker. Use this catalog to inspect newly evolving threat behaviors and write targeted decoders.
 
@@ -12,6 +12,8 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 | **Social Engineering** | macOS Spotlight + Terminal Installation Lure | `Command (⌘) + Space -> Terminal -> curl -s ... | bash` | `2026-09-25` | `fileonyxzone.com / filecobaltgate.com` |
 | **Blockchain C2** | Smart Contract Instance: 0xB6bC9e1D0b... | `Contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 (Method: 0xb68d1809)` | `2026-09-25` | `ucc-tr.com` |
 | **Blockchain C2** | Smart Contract Instance: 0xB6bC9e1D0b... | `Contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 (Method: None)` | `2026-09-25` | `uberrichinfatcity.com` |
+| **Social Engineering Lure** | ClickFix Lure: ClickFix Verification Dialog | `Framework: __cfmdCaptcha (WUA Token: None)` | `2026-10-02` | `grupoartek.com` |
+| **Social Engineering Lure** | ClickFix Lure: Fake Microsoft Account Verification | `Framework: __cfmdCaptcha (WUA Token: 22ab8f9767)` | `2026-10-02` | `cgageauthor.com` |
 
 ## 🔍 Technique Details
 
@@ -63,3 +65,17 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 * **First Observed:** 2026-09-25
 * **Sample Indicator:** `uberrichinfatcity.com`
 * **Description & Hunting Action:** Active Polygon smart contract observed resolving live C2 None.
+
+### ClickFix Lure: ClickFix Verification Dialog (`cfmd_clickfix_verification_dialog`)
+* **Category:** Social Engineering Lure
+* **Pattern / Signature:** `Framework: __cfmdCaptcha (WUA Token: None)`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `grupoartek.com`
+* **Description & Hunting Action:** PowerShell WUA Stager connecting to https://securityalertcaptchacheck.com.
+
+### ClickFix Lure: Fake Microsoft Account Verification (`cfmd_fake_microsoft_account_verification`)
+* **Category:** Social Engineering Lure
+* **Pattern / Signature:** `Framework: __cfmdCaptcha (WUA Token: 22ab8f9767)`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `cgageauthor.com`
+* **Description & Hunting Action:** PowerShell WUA Stager connecting to https://cloudeccentric.cc.
