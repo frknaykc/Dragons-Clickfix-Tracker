@@ -155,18 +155,21 @@ def run_pipeline():
         # Run decoders
         clearfake_res = PayloadDecoder.decode_clearfake_js(dom) if dom else {}
         cfmd_res = PayloadDecoder.decode_cfmd_captcha(dom) if dom else {}
+        mshta_res = PayloadDecoder.decode_mshta(dom) if dom else {}
         b64_urls = PayloadDecoder.decode_b64_urls(dom) if dom else []
         ps_urls = PayloadDecoder.decode_powershell(dom) if dom else []
 
-        extracted_urls = list(set(b64_urls + ps_urls + cfmd_res.get("staging_urls", [])))
+        extracted_urls = list(set(b64_urls + ps_urls + cfmd_res.get("staging_urls", []) + mshta_res.get("staging_urls", [])))
         # If candidate came from URLhaus, include its payload URL
         if c.get("source") == "abuse.ch (URLhaus)" and c.get("url"):
             extracted_urls.append(c["url"])
 
-        live_c2 = clearfake_res.get("live_c2_url") or cfmd_res.get("live_c2_url")
-        delivery_url = clearfake_res.get("delivery_url") or cfmd_res.get("delivery_url")
+        live_c2 = clearfake_res.get("live_c2_url") or cfmd_res.get("live_c2_url") or mshta_res.get("download_url")
+        delivery_url = clearfake_res.get("delivery_url") or cfmd_res.get("delivery_url") or mshta_res.get("download_url")
         threat_type = c.get("threat_type", "Compromised Host / Lure Page")
-        if cfmd_res.get("is_cfmd"):
+        if mshta_res.get("is_mshta"):
+            threat_type = "ClickFix (MSHTA / ActiveXObject Dropper)"
+        elif cfmd_res.get("is_cfmd"):
             threat_type = f"ClickFix ({cfmd_res.get('lure_type', 'Verification Dialog')})"
         elif clearfake_res.get("is_clearfake"):
             threat_type = "ClearFake / ClickFix Lure Page"
@@ -186,6 +189,7 @@ def run_pipeline():
             "first_seen": c.get("first_seen") or c.get("time"),
             "is_clearfake": clearfake_res.get("is_clearfake", False),
             "is_cfmd": cfmd_res.get("is_cfmd", False),
+            "is_mshta": mshta_res.get("is_mshta", False),
             "cfmd_lure": cfmd_res.get("lure_type"),
             "wua_token": cfmd_res.get("wua_token"),
             "smart_contract": clearfake_res.get("smart_contract"),
@@ -209,16 +213,26 @@ def run_pipeline():
                 description=f"Active Polygon smart contract observed resolving live C2 {clearfake_res.get('live_c2_url')}."
             )
 
+        if mshta_res.get("is_mshta"):
+            DetectionCatalog.register_technique(
+                tech_id="mshta_activex_dropper",
+                category="Execution Vector",
+                name="MSHTA / ActiveXObject Stream Dropper",
+                signature="mshta \"javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')...\"",
+                sample=domain,
+                description="Copies an mshta JavaScript one-liner into the Run box using MSXML2.XMLHTTP to download remote binaries, ADODB.Stream to save to %TEMP%\\verification.exe, and WScript.Shell to launch."
+            )
+
         if cfmd_res.get("is_cfmd"):
             lure = cfmd_res.get("lure_type", "Verification Dialog")
-            tech_id = f"cfmd_{lure.lower().replace(' ', '_')}"
+            tech_id = f"cfmd_{lure.lower().replace(' ', '_').replace('/', '_').replace('(', '').replace(')', '')}"
             DetectionCatalog.register_technique(
                 tech_id=tech_id,
                 category="Social Engineering Lure",
                 name=f"ClickFix Lure: {lure}",
                 signature=f"Framework: __cfmdCaptcha (WUA Token: {cfmd_res.get('wua_token')})",
                 sample=domain,
-                description=f"PowerShell WUA Stager connecting to {live_c2}."
+                description=f"Stager connecting to {live_c2}."
             )
 
         db[scan_id] = finding

@@ -79,5 +79,41 @@
     "first_observed": "2026-10-02",
     "sample_indicator": "cgageauthor.com",
     "description": "PowerShell WUA Stager connecting to https://cloudeccentric.cc."
+  },
+  {
+    "id": "mshta_activex_dropper",
+    "category": "Execution Vector",
+    "name": "MSHTA / ActiveXObject Stream Dropper",
+    "signature": "mshta \"javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')...\"",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "acmaturaky.cz",
+    "description": "Victim is instructed to execute an mshta command in the Run box which uses MSXML2.XMLHTTP to fetch remote binaries, ADODB.Stream to write to %TEMP%\\verification.exe, and WScript.Shell to execute."
+  },
+  {
+    "id": "batch_executionpolicy_bypass",
+    "category": "Execution Vector / Dropper",
+    "name": "PowerShell CurrentUser Policy Bypass & Batch Dropper",
+    "signature": "powershell -Command \"Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; Invoke-WebRequest -Uri '.../KL.bat'...\"",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "yundatabox.com",
+    "description": "Changes CurrentUser PowerShell execution policy, downloads KL.bat, which creates %TEMP%\\myapp, downloads KL.zip, extracts it, and executes KL.exe."
+  },
+  {
+    "id": "trojanized_electron_github_desktop",
+    "category": "Payload / Persistence",
+    "name": "Trojanized Electron App / GitHub Desktop Backdoor",
+    "signature": "resources/app/main.js backdoor (Stages: /r, /g.php)",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "claudedevz.net -> cocuktekstil.com",
+    "description": "ClickFix lure spoofing claude.com (Gateway Verification - Challenge Response ID) delivering a trojanized GitHub Desktop Electron application backdoored via resources/app/main.js communicating with multi-stage C2s."
+  },
+  {
+    "id": "macos_spotlight_secure_gateway",
+    "category": "Social Engineering Lure",
+    "name": "Fake Secure Gateway (macOS Spotlight / Terminal)",
+    "signature": "secure.gateway (Press Cmd+Space to open Spotlight, Type Terminal, Hit Cmd+V)",
+    "first_observed": "2026-10-02",
+    "sample_indicator": "secure.gateway",
+    "description": "Platform-aware ClickFix modal targeting macOS users instructing them to open Spotlight, launch Terminal, and execute obfuscated shell stagers."
   }
 ]

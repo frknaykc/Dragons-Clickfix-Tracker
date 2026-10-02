@@ -58,8 +58,12 @@ class PayloadDecoder:
             except Exception:
                 pass
 
-        # 2. Plain irm / iex / DownloadString
-        plain_urls = re.findall(r"(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|DownloadString|DownloadFile)\s*(?:['\"]|\(\s*['\"])(https?://[^'\"\s\)]+)", text, re.IGNORECASE)
+        # 2. Plain irm / iex / Invoke-WebRequest / DownloadString with flags like -Uri, -Url
+        plain_urls = re.findall(
+            r"(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|DownloadString|DownloadFile)\s*(?:-(?:Uri|Url|OutFile)\s+['\"]?[^'\"\s\)]+['\"]?\s+)*(?:-(?:Uri|Url)\s*)?(?:['\"]|\(\s*['\"])(https?://[^'\"\s\)]+)", 
+            text, 
+            re.IGNORECASE
+        )
         for u in plain_urls:
             u_clean = u.replace(r"\/", "/")
             if "." in u_clean.split("://")[-1]:
@@ -68,14 +72,52 @@ class PayloadDecoder:
         return list(set(found_urls))
 
     @classmethod
+    def decode_mshta(cls, text: str) -> dict:
+        """
+        Detects and extracts MSHTA / ActiveXObject (MSXML2.XMLHTTP, ADODB.Stream, WScript.Shell)
+        ClickFix execution vectors copying directly to the Run box:
+        mshta "javascript:var x=new ActiveXObject('MSXML2.XMLHTTP');x.open('GET','<URL>',false);...Run(p);"
+        """
+        result = {
+            "is_mshta": False,
+            "download_url": None,
+            "drop_filename": None,
+            "staging_urls": []
+        }
+        if not ("mshta" in text.lower() or "activexobject" in text.lower()):
+            return result
+
+        # Check for MSXML2.XMLHTTP or ADODB.Stream
+        if "MSXML2.XMLHTTP" in text or "ActiveXObject" in text:
+            result["is_mshta"] = True
+            urls = re.findall(r"open\s*\(\s*['\"]GET['\"]\s*,\s*['\"](https?://[^'\"]+)['\"]", text, re.IGNORECASE)
+            if not urls:
+                urls = re.findall(r"['\"](https?://[^'\"]+\.(?:exe|bat|zip|ps1|vbs|dll)[^'\"]*)['\"]", text, re.IGNORECASE)
+            
+            for u in urls:
+                u_c = u.replace(r"\/", "/")
+                result["staging_urls"].append(u_c)
+                if not result["download_url"]:
+                    result["download_url"] = u_c
+
+            fn_m = re.search(r"BuildPath\([^,]+,\s*['\"]([^'\"]+)['\"]\)", text)
+            if fn_m:
+                result["drop_filename"] = fn_m.group(1)
+
+        return result
+
+    @classmethod
     def decode_cfmd_captcha(cls, dom_or_js: str) -> dict:
         """
-        Detects and decodes the __cfmdCaptcha / ClickFix lure framework:
+        Detects and decodes ClickFix / ClearFake lure frameworks:
         1. Fake Microsoft Account / Cloudflare verification dialogs
-        2. In-line COMMANDS object: PowerShell (Windows) and curl/bash (macOS)
-        3. String concatenation & PowerShell -f format deobfuscation
-        4. Staging URLs with custom X-WUA headers and WUA/ user agents
-        5. Secondary batch/zip downloaders (KL.bat, KL.zip, KL.exe)
+        2. Fake Claude.com / Gateway Verification (Trojanized GitHub Desktop / Electron)
+        3. Fake Windows Security / MSHTA ActiveXObject execution
+        4. macOS Spotlight + Terminal verification lures (secure.gateway)
+        5. In-line COMMANDS object: PowerShell (Windows) and curl/bash (macOS)
+        6. String concatenation & PowerShell -f format deobfuscation
+        7. Staging URLs with custom X-WUA headers and WUA/ user agents
+        8. Secondary batch/zip downloaders (KL.bat, KL.zip, KL.exe)
         """
         result = {
             "is_cfmd": False,
@@ -91,17 +133,28 @@ class PayloadDecoder:
         has_wua = "X-WUA" in dom_or_js or "WUA/" in dom_or_js
         has_kl = "KL.bat" in dom_or_js or "KL.zip" in dom_or_js or "verify-page.js" in dom_or_js
         has_lom = "/lom/" in dom_or_js or "/lom_p2/" in dom_or_js or "/hex/lom/" in dom_or_js
+        has_mshta = "mshta" in dom_or_js.lower() and "activexobject" in dom_or_js.lower()
+        has_spotlight = "open Spotlight" in dom_or_js or "secure.gateway" in dom_or_js
+        has_claude_lure = "claudedevz" in dom_or_js or ("claude.com" in dom_or_js and "verification" in dom_or_js.lower()) or "cocuktekstil" in dom_or_js or "Challenge Response ID" in dom_or_js
+        has_win_sec = "Windows Security" in dom_or_js and "Human verification required" in dom_or_js
 
-        if not (has_cfmd or has_commands or has_wua or has_kl or has_lom):
+        if not (has_cfmd or has_commands or has_wua or has_kl or has_lom or has_mshta or has_spotlight or has_claude_lure or has_win_sec):
             return result
 
         result["is_cfmd"] = True
-        if "MICROSOFT ACCOUNT" in dom_or_js or "ms_verify_you" in dom_or_js or "Confirm this sign-in" in dom_or_js:
+
+        if has_claude_lure:
+            result["lure_type"] = "Fake Claude Verification (Trojanized Electron App / GitHub Desktop)"
+        elif has_win_sec or has_mshta:
+            result["lure_type"] = "Fake Windows Security (MSHTA / ActiveXObject Dropper)"
+        elif has_spotlight:
+            result["lure_type"] = "Fake Secure Gateway (macOS Spotlight / Terminal)"
+        elif "MICROSOFT ACCOUNT" in dom_or_js or "ms_verify_you" in dom_or_js or "Confirm this sign-in" in dom_or_js:
             result["lure_type"] = "Fake Microsoft Account Verification"
         elif "cf_verify_action" in dom_or_js or "Verify you are human" in dom_or_js or "cf_needs_review" in dom_or_js:
             result["lure_type"] = "Fake Cloudflare Verification"
         elif has_kl:
-            result["lure_type"] = "Fake Cloudflare / Batch Dropper"
+            result["lure_type"] = "Fake Cloudflare / Multi-Stage Batch Dropper"
         else:
             result["lure_type"] = "ClickFix Verification Dialog"
 
@@ -111,8 +164,8 @@ class PayloadDecoder:
 
         urls = set()
 
-        # Format A: Plain irm 'https://...'
-        plain_m = re.findall(r"irm\s+['\"](https?://[^'\"\s\)]+)['\"]", dom_or_js, re.IGNORECASE)
+        # Format A: Plain irm / iwr 'https://...'
+        plain_m = re.findall(r"(?:irm|iwr|Invoke-WebRequest|Invoke-RestMethod)\s+(?:-(?:Uri|Url)\s+)?['\"](https?://[^'\"\s\)]+)['\"]", dom_or_js, re.IGNORECASE)
         for u in plain_m:
             u_c = u.replace(r"\/", "/")
             if "." in u_c.split("://")[-1]:
@@ -159,6 +212,19 @@ class PayloadDecoder:
         # Format E: Direct /lom/ or /h/ or /hex/ URLs
         direct_lom = re.findall(r"https?://[a-zA-Z0-9.-]+/(?:lom|h|hex/lom)/[a-f0-9]+", dom_or_js)
         for u in direct_lom:
+            u_c = u.replace(r"\/", "/")
+            if "." in u_c.split("://")[-1]:
+                urls.add(u_c)
+
+        # Format F: MSHTA / ActiveXObject download URLs
+        mshta_res = cls.decode_mshta(dom_or_js)
+        if mshta_res["is_mshta"]:
+            for u in mshta_res["staging_urls"]:
+                urls.add(u)
+
+        # Format G: Trojanized Electron / GitHub Desktop staging endpoints (/r, /g.php)
+        electron_stagers = re.findall(r"https?://[a-zA-Z0-9.-]+/(?:r|g\.php|verify-page\.js|KL\.bat|KL\.zip)[^\s'\"<>]*", dom_or_js)
+        for u in electron_stagers:
             u_c = u.replace(r"\/", "/")
             if "." in u_c.split("://")[-1]:
                 urls.add(u_c)

@@ -15,7 +15,8 @@ HEADERS = {
 WHITELIST_DOMAINS = {
     "github.com", "apple.com", "microsoft.com", "google.com", 
     "brew.sh", "docker.com", "rustup.rs", "cloudflare.com",
-    "gitlab.com", "bitbucket.org", "mozilla.org", "stackoverflow.com"
+    "gitlab.com", "bitbucket.org", "mozilla.org", "stackoverflow.com",
+    "facebook.com", "facebook.net"
 }
 
 def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
@@ -27,7 +28,8 @@ def get_known_c2_domains(database_file: str = "data/iocs.json") -> list[str]:
         "idcool.codes", "entry-verifed-cdn.codes", "makeverizyjar.info", 
         "browscheck.codes", "browseid.codes", "cleanavcheskre.com", 
         "copiose.org", "securityalertcaptchacheck.com", "internetserchinkas.co", 
-        "interseq.at", "yundatabox.com", "escapeai.live"
+        "interseq.at", "yundatabox.com", "escapeai.live",
+        "claudedevz.net", "cocuktekstil.com", "acmaturaky.cz"
     }
     
     # 1. Check local database
@@ -94,7 +96,10 @@ def get_recent_candidates(time_window_minutes: int = 4320):
         f'{time_filter}(task.tags:"@clickfixhunter" OR task.tags:"clickfix" OR (task.tags:"threatfox" AND task.tags:"clickfix"))',
         f'{time_filter}(page.text:("Download for macOS" AND "Terminal") OR page.text:("Press Windows Key + R"))',
         f'{time_filter}(page.text:("To verify your request" AND "PowerShell") OR page.text:("Verify it\'s you" AND "PowerShell") OR page.text:("Confirm this sign-in"))',
-        f'{time_filter}(page.url:("/verify-page.js" OR "/KL.bat" OR "/KL.zip"))'
+        f'{time_filter}(page.text:("open Spotlight" AND "Terminal") OR page.text:("secure.gateway" AND "Verify your identity"))',
+        f'{time_filter}(page.text:("Windows Security" AND "Human verification required") OR page.text:("MSXML2.XMLHTTP" AND "ActiveXObject"))',
+        f'{time_filter}(page.text:("claude.com" AND "Performing security verification") OR page.text:("Gateway Verification" AND "Challenge Response ID"))',
+        f'{time_filter}(page.url:("/verify-page.js" OR "/KL.bat" OR "/KL.zip" OR "claudedevz.net" OR "cocuktekstil.com" OR "acmaturaky.cz"))'
     ]
 
     # Dynamically pivot on active C2 domains extracted from smart contracts / deobfuscation

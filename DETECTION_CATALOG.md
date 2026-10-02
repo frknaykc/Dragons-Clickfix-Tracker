@@ -1,5 +1,5 @@
 # 📘 Detection Techniques & Pattern Catalog
-**Last Updated:** `2026-10-02 01:36:17 UTC`
+**Last Updated:** `2026-10-02 01:45:23 UTC`
 
 This catalog tracks every unique hunting query, obfuscation technique, C2 mechanism, and lure pattern observed by ClickFix-Tracker. Use this catalog to inspect newly evolving threat behaviors and write targeted decoders.
 
@@ -14,6 +14,10 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 | **Blockchain C2** | Smart Contract Instance: 0xB6bC9e1D0b... | `Contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 (Method: None)` | `2026-09-25` | `uberrichinfatcity.com` |
 | **Social Engineering Lure** | ClickFix Lure: ClickFix Verification Dialog | `Framework: __cfmdCaptcha (WUA Token: None)` | `2026-10-02` | `grupoartek.com` |
 | **Social Engineering Lure** | ClickFix Lure: Fake Microsoft Account Verification | `Framework: __cfmdCaptcha (WUA Token: 22ab8f9767)` | `2026-10-02` | `cgageauthor.com` |
+| **Execution Vector** | MSHTA / ActiveXObject Stream Dropper | `mshta "javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')..."` | `2026-10-02` | `acmaturaky.cz` |
+| **Execution Vector / Dropper** | PowerShell CurrentUser Policy Bypass & Batch Dropper | `powershell -Command "Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; Invoke-WebRequest -Uri '.../KL.bat'..."` | `2026-10-02` | `yundatabox.com` |
+| **Payload / Persistence** | Trojanized Electron App / GitHub Desktop Backdoor | `resources/app/main.js backdoor (Stages: /r, /g.php)` | `2026-10-02` | `claudedevz.net -> cocuktekstil.com` |
+| **Social Engineering Lure** | Fake Secure Gateway (macOS Spotlight / Terminal) | `secure.gateway (Press Cmd+Space to open Spotlight, Type Terminal, Hit Cmd+V)` | `2026-10-02` | `secure.gateway` |
 
 ## 🔍 Technique Details
 
@@ -79,3 +83,31 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 * **First Observed:** 2026-10-02
 * **Sample Indicator:** `cgageauthor.com`
 * **Description & Hunting Action:** PowerShell WUA Stager connecting to https://cloudeccentric.cc.
+
+### MSHTA / ActiveXObject Stream Dropper (`mshta_activex_dropper`)
+* **Category:** Execution Vector
+* **Pattern / Signature:** `mshta "javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')..."`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `acmaturaky.cz`
+* **Description & Hunting Action:** Victim is instructed to execute an mshta command in the Run box which uses MSXML2.XMLHTTP to fetch remote binaries, ADODB.Stream to write to %TEMP%\verification.exe, and WScript.Shell to execute.
+
+### PowerShell CurrentUser Policy Bypass & Batch Dropper (`batch_executionpolicy_bypass`)
+* **Category:** Execution Vector / Dropper
+* **Pattern / Signature:** `powershell -Command "Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; Invoke-WebRequest -Uri '.../KL.bat'..."`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `yundatabox.com`
+* **Description & Hunting Action:** Changes CurrentUser PowerShell execution policy, downloads KL.bat, which creates %TEMP%\myapp, downloads KL.zip, extracts it, and executes KL.exe.
+
+### Trojanized Electron App / GitHub Desktop Backdoor (`trojanized_electron_github_desktop`)
+* **Category:** Payload / Persistence
+* **Pattern / Signature:** `resources/app/main.js backdoor (Stages: /r, /g.php)`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `claudedevz.net -> cocuktekstil.com`
+* **Description & Hunting Action:** ClickFix lure spoofing claude.com (Gateway Verification - Challenge Response ID) delivering a trojanized GitHub Desktop Electron application backdoored via resources/app/main.js communicating with multi-stage C2s.
+
+### Fake Secure Gateway (macOS Spotlight / Terminal) (`macos_spotlight_secure_gateway`)
+* **Category:** Social Engineering Lure
+* **Pattern / Signature:** `secure.gateway (Press Cmd+Space to open Spotlight, Type Terminal, Hit Cmd+V)`
+* **First Observed:** 2026-10-02
+* **Sample Indicator:** `secure.gateway`
+* **Description & Hunting Action:** Platform-aware ClickFix modal targeting macOS users instructing them to open Spotlight, launch Terminal, and execute obfuscated shell stagers.
