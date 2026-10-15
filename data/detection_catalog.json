@@ -115,5 +115,23 @@
     "first_observed": "2026-10-02",
     "sample_indicator": "secure.gateway",
     "description": "Platform-aware ClickFix modal targeting macOS users instructing them to open Spotlight, launch Terminal, and execute obfuscated shell stagers."
+  },
+  {
+    "id": "cfmd_fake_web_browser_update_lure",
+    "category": "Social Engineering Lure",
+    "name": "ClickFix Lure: Fake Web Browser Update Lure",
+    "signature": "Lure: Fake Web Browser Update Lure",
+    "first_observed": "2026-10-15",
+    "sample_indicator": "nazmidemirdoger.com.tr",
+    "description": "Observed lure with an extracted URL in the rendered scan."
+  },
+  {
+    "id": "cfmd_fake_online_meeting___audio_check_lure",
+    "category": "Social Engineering Lure",
+    "name": "ClickFix Lure: Fake Online Meeting / Audio Check Lure",
+    "signature": "Lure: Fake Online Meeting / Audio Check Lure",
+    "first_observed": "2026-10-15",
+    "sample_indicator": "1vv1sa837.life",
+    "description": "Observed lure with an extracted URL in the rendered scan."
   }
 ]

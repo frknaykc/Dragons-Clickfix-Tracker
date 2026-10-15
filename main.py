@@ -123,13 +123,25 @@ def register_techniques(finding):
             description="Observed lure with an extracted URL in the rendered scan.")
 
 
+def parse_window_argument(value: str) -> int:
+    """CLI accepts minutes for backwards compatibility or an explicit hour suffix."""
+    hours = value.endswith("h")
+    amount = value[:-1] if hours else value
+    if not amount.isdecimal() or int(amount) <= 0:
+        raise ValueError("Search window must be a positive integer in minutes or hours (e.g. 180 or 3h)")
+    return int(amount) * (60 if hours else 1)
+
+
 def run_pipeline(time_window_minutes: int = 1440):
+    if time_window_minutes <= 0:
+        raise ValueError("time_window_minutes must be positive")
     print(f"[*] Starting ClickFix Hunting Pipeline ({time_window_minutes}m search window)...")
     scans = load_database(SCANS_FILE)
     db = load_database(DATABASE_FILE)
     if db and not scans:
         raise RuntimeError("Legacy data detected. Run: python scripts/migrate_iocs.py")
-    candidates = get_recent_candidates(time_window_minutes=time_window_minutes) + fetch_urlhaus_recent(limit=150)
+    candidates = get_recent_candidates(time_window_minutes=time_window_minutes) + fetch_urlhaus_recent(
+        limit=150, time_window_minutes=time_window_minutes)
     candidates.sort(key=lambda x: str(x.get("time") or x.get("first_seen") or ""))
     pending = {c["scan_id"]: c for c in candidates if c["scan_id"] not in scans}
     print(f"[*] Analyzing {len(pending)} new scans with 8 workers...")
@@ -161,5 +173,10 @@ def run_pipeline(time_window_minutes: int = 1440):
 
 if __name__ == "__main__":
     import sys
-    window = int(sys.argv[1]) if len(sys.argv) > 1 else 1440
+    if len(sys.argv) > 2:
+        raise SystemExit("Usage: python main.py [MINUTES|HOURS_WITH_h_SUFFIX]")
+    try:
+        window = parse_window_argument(sys.argv[1]) if len(sys.argv) == 2 else 1440
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
     run_pipeline(time_window_minutes=window)

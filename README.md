@@ -24,12 +24,13 @@ Requires Python 3.11+.
 ```bash
 python -m pip install -r requirements.txt
 # Optional: put URLSCAN_API_KEY in .env or the environment for urlscan.io searches.
-python main.py             # 24-hour search window
-python main.py 360         # 6-hour window
+python main.py             # 24-hour window for both urlscan.io and URLhaus
+python main.py 3h          # manual 3-hour window (also: 6h, 12h, 24h)
+python main.py 360         # backwards-compatible: 360 minutes = 6 hours
 python -m unittest discover -s tests -v
 ```
 
-The URLhaus public CSV does not require an API key. GitHub Actions currently schedules a run every **20 minutes** (`.github/workflows/hunter.yml`), not three to five times daily; adjust the cron if that cadence is desired. No live scans or internet access are needed to inspect the archived JSON. The pipeline saves a scan only if it produces a concrete IOC; unsuccessful DOM fetches can be retried on the next run.
+The URLhaus public CSV does not require an API key. Both sources now use the same requested UTC window; URLhaus records with missing, invalid, future or older `date_added` timestamps are skipped before the 150-result cap. This only affects future runs: older entries already in the archive are not deleted. GitHub Actions currently schedules a run every **20 minutes** (`.github/workflows/hunter.yml`), not three to five times daily; adjust the cron if that cadence is desired. No live scans or internet access are needed to inspect the archived JSON. The pipeline saves a scan only if it produces a concrete IOC; unsuccessful DOM fetches can be retried on the next run.
 
 Historical scan-keyed `data/iocs.json` was migrated once to `data/scans.json` plus typed `data/iocs.json`; the original file remains in Git history. For an older checkout **before** migration run `python scripts/migrate_iocs.py` once. After adjusting classification rules, `python scripts/migrate_iocs.py --rebuild` regenerates the derived IOC JSON, DNS candidate list and latest report from the preserved scans without changing daily CSVs or catalog entries. Do not run the one-time migration on an already migrated archive.
 

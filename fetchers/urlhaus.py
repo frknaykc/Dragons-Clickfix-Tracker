@@ -1,7 +1,10 @@
 import requests
 import csv
 import io
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
+
+from core.iocs import observed_at
 
 URLHAUS_RECENT_CSV = "https://urlhaus.abuse.ch/downloads/csv_recent/"
 TARGET_TAGS = {
@@ -9,12 +12,12 @@ TARGET_TAGS = {
     "lumma", "amos", "macsync", "fakeupdate", "fake-update", "smartcontract"
 }
 
-def fetch_urlhaus_recent(limit: int = 150) -> list[dict]:
-    """
-    Fetches the public recent URLhaus feed (abuse.ch) and filters
-    for active ClickFix, ClearFake, EtherHiding, Lumma, and Stealc indicators.
-    Requires no API key.
-    """
+def fetch_urlhaus_recent(limit: int = 150, time_window_minutes: int = 1440) -> list[dict]:
+    """Fetch URLhaus listings added within the same UTC window as urlscan."""
+    if time_window_minutes <= 0:
+        raise ValueError("time_window_minutes must be positive")
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(minutes=time_window_minutes)
     candidates = []
     try:
         resp = requests.get(URLHAUS_RECENT_CSV, timeout=12)
@@ -30,6 +33,9 @@ def fetch_urlhaus_recent(limit: int = 150) -> list[dict]:
                 continue
 
             date_added = row[1]
+            observed = observed_at(date_added)
+            if observed is None or not cutoff <= observed <= now:
+                continue
             raw_url = row[2]
             status = row[3]
             threat = row[5]
