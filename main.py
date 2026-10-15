@@ -1,283 +1,163 @@
-import os
+import concurrent.futures
 import json
-import socket
-from datetime import datetime, timezone
-from fetchers.urlscan import get_recent_candidates, get_dom
-from fetchers.urlhaus import fetch_urlhaus_recent
-from enrichers.geoip import GeoIPEnricher
-from core.decoder import PayloadDecoder
+import os
+
 from core.catalog import DetectionCatalog
-from utils.defang import defang_url, defang_domain, defang_ip
+from core.decoder import PayloadDecoder
+from core.iocs import compact_scan, indicators_for_scan, merge_scan, observed_at, valid_url
+from fetchers.urlhaus import fetch_urlhaus_recent
+from fetchers.urlscan import get_dom, get_recent_candidates
 from utils.csv_exporter import export_to_daily_csv
+from utils.defang import defang_url
 
 DATABASE_FILE = "data/iocs.json"
+SCANS_FILE = "data/scans.json"
 DOMAINS_FILE = "data/domains.txt"
 REPORT_FILE = "LATEST_REPORT.md"
 
-def load_database():
-    if os.path.exists(DATABASE_FILE):
-        try:
-            with open(DATABASE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return {}
-    return {}
 
-def save_database(data):
-    with open(DATABASE_FILE, "w", encoding="utf-8") as f:
+def load_database(path):
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError(f"Invalid database: {path}")
+    return data
+
+
+def save_database(path, data):
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+
 def update_domains_list(db):
-    from fetchers.urlscan import WHITELIST_DOMAINS
-    domains = set()
-    for item in db.values():
-        has_hit = (
-            item.get("is_clearfake") or 
-            item.get("is_cfmd") or 
-            item.get("is_mshta") or 
-            bool(item.get("live_c2_url")) or 
-            bool(item.get("delivery_url")) or 
-            len(item.get("extracted_b64_urls", [])) > 0 or 
-            item.get("source") == "abuse.ch (URLhaus)"
-        )
-        if not has_hit:
-            continue
-        dom = item.get("domain")
-        if dom and not any(w in dom.lower() for w in WHITELIST_DOMAINS):
-            domains.add(dom)
-        c2 = item.get("live_c2_url")
-        if c2:
-            c2_dom = c2.replace("https://", "").replace("http://", "").split("/")[0].split(":")[0]
-            if c2_dom and not any(w in c2_dom.lower() for w in WHITELIST_DOMAINS):
-                domains.add(c2_dom)
+    # DNS cannot block a path. Only C2 hosts extracted from ClearFake evidence go here.
+    domains = sorted({item["value"] for item in db.values() if item.get("type") == "c2_host"})
     with open(DOMAINS_FILE, "w", encoding="utf-8") as f:
-        for d in sorted(domains):
-            f.write(f"{d}\n")
+        for domain in domains:
+            f.write(f"{domain}\n")
 
-def generate_markdown_report(new_findings):
-    if not new_findings:
+
+def generate_markdown_report(observed_iocs, observation_time=None):
+    if not observed_iocs:
         return
-
-    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    report = [
-        f"# 👀 ClickFix / ClearFake Intelligence Feed",
-        f"**Last Updated:** `{now_str}`\n",
-        "---",
-        "### [Compromised Injected Hosts (Initial Access)]"
-    ]
-
-    for item in new_findings:
-        defanged_dom = defang_domain(item.get("domain", ""))
-        defanged_ip_str = defang_ip(item.get("ip", ""))
-        location_parts = []
-        if item.get("city"):
-            location_parts.append(item["city"])
-        if item.get("country"):
-            location_parts.append(item["country"])
-        loc_str = ", ".join(location_parts) if location_parts else "Unknown"
-
-        report.append(f"* `{defanged_dom}` *(IP: {defanged_ip_str} | Loc: {loc_str} | ASN: {item.get('asn', 'Unknown')})*")
-
-    smart_contracts = set()
-    c2_urls = set()
-    delivery_urls = set()
-    b64_urls = set()
-
-    for item in new_findings:
-        if item.get("smart_contract"):
-            smart_contracts.add((item["smart_contract"], item.get("method_hash")))
-        if item.get("live_c2_url"):
-            c2_urls.add(item["live_c2_url"])
-        if item.get("delivery_url"):
-            delivery_urls.add(item["delivery_url"])
-        for u in item.get("extracted_b64_urls", []):
-            b64_urls.add(u)
-
-    if smart_contracts:
-        report.append("\n---")
-        report.append("### [Decentralized Blockchain C2 Infrastructure (Polygon MATIC)]")
-        for sc, m in smart_contracts:
-            report.append(f"* Smart Contract: `{sc}` (Method: `{m}`)")
-
-    if c2_urls:
-        report.append("\n---")
-        report.append("### [Resolved Live C2 / TDS Infrastructure]")
-        for c2 in c2_urls:
-            report.append(f"* `{defang_url(c2)}`")
-
-    if delivery_urls:
-        report.append("\n---")
-        report.append("### [Observed TDS / Staging Delivery URLs]")
-        for du in delivery_urls:
-            report.append(f"* `{defang_url(du)}`")
-
-    if b64_urls:
-        report.append("\n---")
-        report.append("### [Decoded Payload / Download URLs]")
-        for bu in b64_urls:
-            report.append(f"* `{defang_url(bu)}`")
-
-    report.append("\n---\n*Auto-generated by ClickFix-Tracker.*")
-
+    report = ["# ClickFix / ClearFake — Latest Observed Indicators",
+              f"**Latest scan:** `{observation_time or 'unknown'}`",
+              "Historical scan evidence; current availability is not guaranteed.",
+              "URLhaus-listed URLs are third-party reports, not independently verified file contents.\n"]
+    for kind in ("c2_host", "tds_delivery_url", "payload_url", "malware_download_url", "extracted_url", "smart_contract"):
+        items = [item for item in observed_iocs if item["type"] == kind]
+        if items:
+            report.append(f"\n## {kind}\n")
+            for item in sorted(items, key=lambda i: i["value"]):
+                ref = item["references"][-1] if item["references"] else None
+                citation = f"; [source]({ref})" if ref else ""
+                report.append(f"- `{defang_url(item['value'])}` — {', '.join(item['evidence'])}{citation}")
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(report))
+        f.write("\n".join(report) + "\n")
+
+
+def analyze_candidate(c: dict) -> dict | None:
+    """Only archive concrete extracted URLs or a matched ClearFake contract."""
+    try:
+        dom = get_dom(c["dom_url"]) if c.get("dom_url") else ""
+        clearfake = PayloadDecoder.decode_clearfake_js(dom) if dom else {}
+        cfmd = PayloadDecoder.decode_cfmd_captcha(dom) if dom else {}
+        mshta = PayloadDecoder.decode_mshta(dom) if dom else {}
+        url_evidence = {}
+        if dom:
+            for url in PayloadDecoder.decode_b64_urls(dom):
+                url_evidence[url] = "decoded_base64"
+            for url in PayloadDecoder.decode_powershell(dom):
+                url_evidence[url] = "powershell_command"
+            for url in cfmd.get("staging_urls", []):
+                url_evidence[url] = "staging_command"
+            for url in mshta.get("staging_urls", []):
+                url_evidence[url] = "mshta_download"
+        if c.get("source") != "abuse.ch (URLhaus)" and not (
+            any(valid_url(url) for url in url_evidence) or
+            (clearfake.get("is_clearfake") and (valid_url(clearfake.get("delivery_url")) or clearfake.get("smart_contract")))
+        ):
+            return None
+        finding = {
+            "scan_id": c["scan_id"], "domain": c.get("domain"), "url": c.get("url"),
+            "source": c.get("source", "urlscan.io"), "status": c.get("status"),
+            "report_url": c.get("report_url"), "first_seen": c.get("first_seen") or c.get("time"),
+            "is_clearfake": clearfake.get("is_clearfake", False),
+            "is_cfmd": cfmd.get("is_cfmd", False), "is_mshta": mshta.get("is_mshta", False),
+            "cfmd_lure": cfmd.get("lure_type"), "smart_contract": clearfake.get("smart_contract"),
+            "method_hash": clearfake.get("method_hash"),
+            "live_c2_url": clearfake.get("live_c2_url"), "delivery_url": clearfake.get("delivery_url"),
+            "url_evidence": url_evidence,
+        }
+        return finding if indicators_for_scan(finding) else None
+    except Exception as e:
+        print(f"[!] Analysis failed for {c.get('scan_id')}: {e}")
+        return None
+
+
+def register_techniques(finding):
+    domain = finding.get("domain")
+    if finding.get("smart_contract"):
+        sc = finding["smart_contract"]
+        method = finding.get("method_hash") or "unknown"
+        DetectionCatalog.register_technique(
+            tech_id=f"contract_{sc.lower()[:10]}_{method}", category="Blockchain C2",
+            name=f"Smart Contract Instance: {sc[:12]}...",
+            signature=f"Contract: {sc} (Method: {method})", sample=domain,
+            description=f"Observed ClearFake contract; resolved URL: {finding.get('live_c2_url')}.")
+    if finding.get("is_mshta"):
+        DetectionCatalog.register_technique(
+            tech_id="mshta_activex_dropper", category="Execution Vector",
+            name="MSHTA / ActiveXObject Stream Dropper",
+            signature="mshta \"javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')...\"",
+            sample=domain,
+            description="Uses MSXML2.XMLHTTP to download a remote file and ADODB.Stream to write it.")
+    if finding.get("is_cfmd"):
+        lure = finding.get("cfmd_lure") or "Verification Dialog"
+        tech_id = f"cfmd_{lure.lower().replace(' ', '_').replace('/', '_').replace('(', '').replace(')', '')}"
+        DetectionCatalog.register_technique(
+            tech_id=tech_id, category="Social Engineering Lure", name=f"ClickFix Lure: {lure}",
+            signature=f"Lure: {lure}", sample=domain,
+            description="Observed lure with an extracted URL in the rendered scan.")
+
 
 def run_pipeline(time_window_minutes: int = 1440):
-    print(f"[*] Starting ClickFix Hunting Pipeline (Fresh Window: {time_window_minutes}m / {time_window_minutes//60}h)...")
-    DetectionCatalog.save_catalog(DetectionCatalog.load_catalog())
-
-    db = load_database()
-    candidates = get_recent_candidates(time_window_minutes=time_window_minutes)
-    print(f"[+] URLScan fresh candidates fetched: {len(candidates)}")
-
-    # 1. Fetch from URLhaus (abuse.ch)
-    print("[*] Querying URLhaus (abuse.ch) recent feed...")
-    urlhaus_candidates = fetch_urlhaus_recent(limit=100)
-    print(f"[+] URLhaus candidates fetched: {len(urlhaus_candidates)}")
-
-    all_candidates = candidates + urlhaus_candidates
-    # Sort descending by timestamp so the freshest campaigns are processed first
-    all_candidates.sort(key=lambda x: str(x.get("time") or x.get("first_seen") or ""), reverse=True)
-    new_findings = []
-
-    for c in all_candidates:
-        scan_id = c["scan_id"]
-        domain = c["domain"]
-
-        if scan_id in db or (domain and any(item.get("domain") == domain for item in db.values())):
+    print(f"[*] Starting ClickFix Hunting Pipeline ({time_window_minutes}m search window)...")
+    scans = load_database(SCANS_FILE)
+    db = load_database(DATABASE_FILE)
+    if db and not scans:
+        raise RuntimeError("Legacy data detected. Run: python scripts/migrate_iocs.py")
+    candidates = get_recent_candidates(time_window_minutes=time_window_minutes) + fetch_urlhaus_recent(limit=150)
+    candidates.sort(key=lambda x: str(x.get("time") or x.get("first_seen") or ""))
+    pending = {c["scan_id"]: c for c in candidates if c["scan_id"] not in scans}
+    print(f"[*] Analyzing {len(pending)} new scans with 8 workers...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        findings = list(executor.map(analyze_candidate, pending.values()))
+    observed_keys = set()
+    new_iocs = []
+    times = []
+    for finding in findings:
+        if not finding:
             continue
+        scans[finding["scan_id"]] = compact_scan(finding)
+        new_iocs.extend(merge_scan(db, finding))
+        observed_keys.update(f"{kind}|{value}" for kind, value, _ in indicators_for_scan(finding))
+        when = observed_at(finding.get("first_seen"))
+        if when:
+            times.append(when)
+        register_techniques(finding)
+    if any(findings):
+        save_database(SCANS_FILE, scans)
+        save_database(DATABASE_FILE, db)
+        update_domains_list(db)
+        latest = max(times).isoformat().replace("+00:00", "Z") if times else "unknown"
+        observed = [db[key] for key in observed_keys]
+        generate_markdown_report(observed, latest)
+        export_to_daily_csv(observed)
+    print(f"[+] Done: {sum(bool(f) for f in findings)} scans, {len(new_iocs)} new IOCs.")
 
-        ip = c.get("ip")
-        # Resolve IP if missing
-        if not ip and domain:
-            try:
-                ip = socket.gethostbyname(domain)
-            except Exception:
-                pass
-
-        # Enrich with GeoIP (ip-api.com)
-        geo = GeoIPEnricher.enrich_ip(ip) if ip else {}
-        city = geo.get("city")
-        country = geo.get("country") or c.get("country")
-        isp = geo.get("isp")
-        asn = geo.get("as") or c.get("asn")
-
-        print(f"[*] Analyzing candidate: {domain} ({scan_id})...")
-        dom_url = c.get("dom_url")
-        dom = get_dom(dom_url) if dom_url else ""
-
-        # Run decoders
-        clearfake_res = PayloadDecoder.decode_clearfake_js(dom) if dom else {}
-        cfmd_res = PayloadDecoder.decode_cfmd_captcha(dom) if dom else {}
-        mshta_res = PayloadDecoder.decode_mshta(dom) if dom else {}
-        b64_urls = PayloadDecoder.decode_b64_urls(dom) if dom else []
-        ps_urls = PayloadDecoder.decode_powershell(dom) if dom else []
-
-        extracted_urls = list(set(b64_urls + ps_urls + cfmd_res.get("staging_urls", []) + mshta_res.get("staging_urls", [])))
-        # If candidate came from URLhaus, include its payload URL
-        if c.get("source") == "abuse.ch (URLhaus)" and c.get("url"):
-            extracted_urls.append(c["url"])
-
-        live_c2 = clearfake_res.get("live_c2_url") or cfmd_res.get("live_c2_url") or mshta_res.get("download_url")
-        delivery_url = clearfake_res.get("delivery_url") or cfmd_res.get("delivery_url") or mshta_res.get("download_url")
-        threat_type = c.get("threat_type", "Compromised Host / Lure Page")
-        if mshta_res.get("is_mshta"):
-            threat_type = "ClickFix (MSHTA / ActiveXObject Dropper)"
-        elif cfmd_res.get("is_cfmd"):
-            threat_type = f"ClickFix ({cfmd_res.get('lure_type', 'Verification Dialog')})"
-        elif clearfake_res.get("is_clearfake"):
-            threat_type = "ClearFake / ClickFix Lure Page"
-
-        has_hit = (
-            clearfake_res.get("is_clearfake") or 
-            cfmd_res.get("is_cfmd") or 
-            mshta_res.get("is_mshta") or 
-            bool(live_c2) or 
-            bool(delivery_url) or 
-            len(extracted_urls) > 0 or 
-            c.get("source") == "abuse.ch (URLhaus)"
-        )
-        if not has_hit:
-            continue
-
-        finding = {
-            "scan_id": scan_id,
-            "domain": domain,
-            "url": c.get("url"),
-            "ip": ip,
-            "city": city,
-            "country": country,
-            "isp": isp,
-            "asn": asn,
-            "source": c.get("source", "urlscan.io"),
-            "threat_type": threat_type,
-            "report_url": c.get("report_url"),
-            "first_seen": c.get("first_seen") or c.get("time"),
-            "is_clearfake": clearfake_res.get("is_clearfake", False),
-            "is_cfmd": cfmd_res.get("is_cfmd", False),
-            "is_mshta": mshta_res.get("is_mshta", False),
-            "cfmd_lure": cfmd_res.get("lure_type"),
-            "wua_token": cfmd_res.get("wua_token"),
-            "smart_contract": clearfake_res.get("smart_contract"),
-            "method_hash": clearfake_res.get("method_hash"),
-            "live_c2_url": live_c2,
-            "delivery_url": delivery_url,
-            "extracted_b64_urls": extracted_urls
-        }
-
-        # Check if finding reveals a new contract or technique to catalog
-        if clearfake_res.get("smart_contract"):
-            sc = clearfake_res["smart_contract"]
-            m = clearfake_res.get("method_hash", "unknown")
-            tech_id = f"contract_{sc.lower()[:10]}_{m}"
-            DetectionCatalog.register_technique(
-                tech_id=tech_id,
-                category="Blockchain C2",
-                name=f"Smart Contract Instance: {sc[:12]}...",
-                signature=f"Contract: {sc} (Method: {m})",
-                sample=domain,
-                description=f"Active Polygon smart contract observed resolving live C2 {clearfake_res.get('live_c2_url')}."
-            )
-
-        if mshta_res.get("is_mshta"):
-            DetectionCatalog.register_technique(
-                tech_id="mshta_activex_dropper",
-                category="Execution Vector",
-                name="MSHTA / ActiveXObject Stream Dropper",
-                signature="mshta \"javascript:var x=new ActiveXObject('MSXML2.XMLHTTP')...\"",
-                sample=domain,
-                description="Copies an mshta JavaScript one-liner into the Run box using MSXML2.XMLHTTP to download remote binaries, ADODB.Stream to save to %TEMP%\\verification.exe, and WScript.Shell to launch."
-            )
-
-        if cfmd_res.get("is_cfmd"):
-            lure = cfmd_res.get("lure_type", "Verification Dialog")
-            tech_id = f"cfmd_{lure.lower().replace(' ', '_').replace('/', '_').replace('(', '').replace(')', '')}"
-            DetectionCatalog.register_technique(
-                tech_id=tech_id,
-                category="Social Engineering Lure",
-                name=f"ClickFix Lure: {lure}",
-                signature=f"Framework: __cfmdCaptcha (WUA Token: {cfmd_res.get('wua_token')})",
-                sample=domain,
-                description=f"Stager connecting to {live_c2}."
-            )
-
-        db[scan_id] = finding
-        new_findings.append(finding)
-
-        if live_c2:
-            print(f"    [!] DEOBFUSCATED C2 FOUND: {live_c2}")
-        if cfmd_res.get("wua_token"):
-            print(f"    [!] WUA TOKEN CAPTURED: {cfmd_res['wua_token']}")
-
-    save_database(db)
-    update_domains_list(db)
-    generate_markdown_report(list(db.values()))
-
-    # Export newly discovered findings into daily CSV
-    if new_findings:
-        export_to_daily_csv(new_findings)
-
-    print(f"[+] Done! Processed {len(new_findings)} new findings. Daily CSV and Reports updated.")
 
 if __name__ == "__main__":
     import sys

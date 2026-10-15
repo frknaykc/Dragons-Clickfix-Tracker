@@ -1,149 +1,49 @@
-import os
+"""Daily append-only indicator export. Older CSV files keep their original schema/rows."""
+
 import csv
+import os
 from datetime import datetime, timezone
-from utils.defang import defang_domain, defang_url, defang_ip
+
+from utils.defang import defang_domain, defang_url
 
 DAILY_DIR = "data/daily"
+CSV_HEADERS = ["timestamp", "type", "indicator", "threat_type", "detection_method", "first_seen", "reference"]
 
-CSV_HEADERS = [
-    "timestamp",
-    "type",
-    "indicator",
-    "threat_type",
-    "detection_method",
-    "first_seen",
-    "reference"
-]
 
-def ensure_daily_dir():
-    os.makedirs(DAILY_DIR, exist_ok=True)
-
-def export_to_daily_csv(findings: list[dict]):
-    """
-    Appends newly observed indicators into daily CSV files (YYYY-MM-DD.csv).
-    Avoids duplicate entries within the file.
-    """
-    if not findings:
+def export_to_daily_csv(indicators: list[dict]):
+    if not indicators:
         return
-
-    ensure_daily_dir()
-    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    csv_file = os.path.join(DAILY_DIR, f"{today_str}.csv")
-
-    existing_indicators = set()
-    file_exists = os.path.exists(csv_file)
-
-    if file_exists:
-        try:
-            with open(csv_file, "r", encoding="utf-8") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    existing_indicators.add((row.get("type"), row.get("indicator")))
-        except Exception:
-            pass
-
-    rows_to_write = []
-    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-
-    for f in findings:
-        ref = f.get("report_url") or f.get("url")
-        first_seen = f.get("first_seen", now_str)
-
-        # 1. Compromised / Landing Domain
-        if f.get("domain"):
-            ind = defang_domain(f["domain"])
-            if ("domain", ind) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "domain",
-                    "indicator": ind,
-                    "threat_type": f.get("threat_type", "Compromised Host / Lure Page"),
-                    "detection_method": f"Lure: {f.get('cfmd_lure')}" if f.get('cfmd_lure') else "urlscan telemetry",
-                    "first_seen": first_seen,
-                    "reference": ref
-                })
-                existing_indicators.add(("domain", ind))
-
-        # 2. IP Address
-        if f.get("ip"):
-            ind_ip = defang_ip(f["ip"])
-            if ("ip", ind_ip) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "ip",
-                    "indicator": ind_ip,
-                    "threat_type": "Injected Host IP",
-                    "detection_method": f"ASN: {f.get('asn', 'Unknown')}",
-                    "first_seen": first_seen,
-                    "reference": ref
-                })
-                existing_indicators.add(("ip", ind_ip))
-
-        # 3. Smart Contract C2
-        if f.get("smart_contract"):
-            sc = f["smart_contract"]
-            method = f.get("method_hash", "N/A")
-            if ("smart_contract", sc) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "smart_contract",
-                    "indicator": sc,
-                    "threat_type": "Decentralized C2 (Polygon)",
-                    "detection_method": f"ClearFake Double-XOR (Method: {method})",
-                    "first_seen": first_seen,
-                    "reference": f.get("domain")
-                })
-                existing_indicators.add(("smart_contract", sc))
-
-        # 4. Resolved Live C2 URL / Domain
-        if f.get("live_c2_url"):
-            c2_url = defang_url(f["live_c2_url"])
-            if ("c2_url", c2_url) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "c2_url",
-                    "indicator": c2_url,
-                    "threat_type": "Resolved ClearFake C2",
-                    "detection_method": "Blockchain eth_call extraction",
-                    "first_seen": first_seen,
-                    "reference": f.get("domain")
-                })
-                existing_indicators.add(("c2_url", c2_url))
-
-        # 5. Delivery TDS URL
-        if f.get("delivery_url"):
-            del_url = defang_url(f["delivery_url"])
-            if ("delivery_url", del_url) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "delivery_url",
-                    "indicator": del_url,
-                    "threat_type": "TDS Staging Script",
-                    "detection_method": "ClearFake Secret extraction",
-                    "first_seen": first_seen,
-                    "reference": f.get("domain")
-                })
-                existing_indicators.add(("delivery_url", del_url))
-
-        # 6. Extracted Base64 / Payload URLs
-        for pu in f.get("extracted_b64_urls", []):
-            def_pu = defang_url(pu)
-            if ("payload_url", def_pu) not in existing_indicators:
-                rows_to_write.append({
-                    "timestamp": now_str,
-                    "type": "payload_url",
-                    "indicator": def_pu,
-                    "threat_type": "Second Stage Payload",
-                    "detection_method": "Base64 / PowerShell decoding",
-                    "first_seen": first_seen,
-                    "reference": f.get("domain")
-                })
-                existing_indicators.add(("payload_url", def_pu))
-
-    if rows_to_write:
+    os.makedirs(DAILY_DIR, exist_ok=True)
+    now = datetime.now(timezone.utc)
+    csv_file = os.path.join(DAILY_DIR, now.strftime("%Y-%m-%d.csv"))
+    # Never append new-schema rows under an older daily CSV header.
+    if os.path.exists(csv_file) and os.path.getsize(csv_file):
+        with open(csv_file, "r", encoding="utf-8", newline="") as f:
+            if next(csv.reader(f), []) != CSV_HEADERS:
+                csv_file = os.path.join(DAILY_DIR, now.strftime("%Y-%m-%d-iocs.csv"))
+    existing = set()
+    if os.path.exists(csv_file):
+        with open(csv_file, "r", encoding="utf-8", newline="") as f:
+            existing = {(row.get("type"), row.get("indicator")) for row in csv.DictReader(f)}
+    rows = []
+    for item in indicators:
+        kind = item["type"]
+        indicator = defang_domain(item["value"]) if kind == "c2_host" else defang_url(item["value"])
+        key = (kind, indicator)
+        if key in existing:
+            continue
+        existing.add(key)
+        rows.append({"timestamp": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+                     "type": kind, "indicator": indicator,
+                     "threat_type": ", ".join(item["sources"]),
+                     "detection_method": ", ".join(item["evidence"]),
+                     "first_seen": item.get("first_seen"),
+                     "reference": item["references"][-1] if item["references"] else ""})
+    if rows:
+        write_header = not os.path.exists(csv_file) or os.path.getsize(csv_file) == 0
         with open(csv_file, "a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=CSV_HEADERS)
-            if not file_exists or os.path.getsize(csv_file) == 0:
+            if write_header:
                 writer.writeheader()
-            writer.writerows(rows_to_write)
-        print(f"[+] Exported {len(rows_to_write)} IOCs to {csv_file}")
+            writer.writerows(rows)
+        print(f"[+] Exported {len(rows)} observed IOCs to {csv_file}")

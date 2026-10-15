@@ -4,9 +4,12 @@ import io
 from urllib.parse import urlparse
 
 URLHAUS_RECENT_CSV = "https://urlhaus.abuse.ch/downloads/csv_recent/"
-TARGET_TAGS = {"clickfix", "clearfake", "etherhiding", "stealc", "lumma"}
+TARGET_TAGS = {
+    "clickfix", "clearfake", "etherhiding", "stealc",
+    "lumma", "amos", "macsync", "fakeupdate", "fake-update", "smartcontract"
+}
 
-def fetch_urlhaus_recent(limit: int = 50) -> list[dict]:
+def fetch_urlhaus_recent(limit: int = 150) -> list[dict]:
     """
     Fetches the public recent URLhaus feed (abuse.ch) and filters
     for active ClickFix, ClearFake, EtherHiding, Lumma, and Stealc indicators.
@@ -48,8 +51,6 @@ def fetch_urlhaus_recent(limit: int = 50) -> list[dict]:
                     "scan_id": f"urlhaus_{row[0]}",
                     "domain": domain,
                     "url": raw_url,
-                    "ip": None, # Will be enriched by GeoIP
-                    "asn": None,
                     "threat_type": f"URLhaus: {threat} ({tags})",
                     "source": "abuse.ch (URLhaus)",
                     "first_seen": date_added,
